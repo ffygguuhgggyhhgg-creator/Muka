@@ -1,0 +1,8 @@
+{
+  "appId": "com.tdshikhabalova.flourradar",
+  "appName": "FlourRadar",
+  "webDir": "dist",
+  "server": {
+    "androidScheme": "https"
+  }
+}

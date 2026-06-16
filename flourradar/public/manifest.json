@@ -1,0 +1,12 @@
+{
+  "name": "FlourRadar — ТД Шихобалова",
+  "short_name": "FlourRadar",
+  "description": "Система поиска клиентов и продажи муки",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#fefce8",
+  "theme_color": "#92400e",
+  "icons": [
+    { "src": "/icon.svg", "sizes": "any", "type": "image/svg+xml" }
+  ]
+}

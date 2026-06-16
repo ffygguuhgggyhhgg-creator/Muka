@@ -1,0 +1,14 @@
+[Unit]
+Description=TG RADAR — Telegram lead monitoring service
+After=network.target
+
+[Service]
+Type=simple
+User=root
+WorkingDirectory=/opt/tg_radar
+ExecStart=/opt/tg_radar/.venv/bin/python3 main.py
+Restart=always
+RestartSec=10
+
+[Install]
+WantedBy=multi-user.target
