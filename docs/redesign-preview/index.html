@@ -1,0 +1,579 @@
+<!doctype html>
+<html lang="ru">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>ТД Шихобалова. Мукомольный завод в Самаре</title>
+<meta name="description" content="Мука пшеничная высшего и первого сорта, отруби, зернопродукт. 200 тонн в сутки, паспорт качества на каждую партию, отгрузка с собственного речного причала.">
+<style>
+  :root {
+    --paper:   #ecedE7;
+    --surface: #f7f7f3;
+    --ink:     #17191a;
+    --muted:   #676c68;
+    --rule:    #d3d5cd;
+    --rule-hi: #b9bcb2;
+    --surik:   #a24024;
+    --surik-hi:#8c3620;
+    --edge:    #7c8079;
+    --on-surik:#ffffff;
+    --inverse-bg: #191c19;
+    --inverse-ink:#e9eae4;
+    --inverse-muted:#969c95;
+    --inverse-rule:#2f342f;
+
+    --sans: ui-sans-serif, system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    --mono: ui-monospace, "SF Mono", "Cascadia Mono", "Roboto Mono", "DejaVu Sans Mono", Consolas, monospace;
+
+    --ease-out: cubic-bezier(0.23, 1, 0.32, 1);
+    --gut: clamp(20px, 4.5vw, 64px);
+    --max: 1240px;
+  }
+
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --paper:   #121412;
+      --surface: #1a1d1a;
+      --ink:     #e9eae4;
+      --muted:   #9aa099;
+      --rule:    #2c302c;
+      --rule-hi: #3d423d;
+      --surik:   #d2795a;
+      --surik-hi:#e08e70;
+      --edge:    #6b716b;
+      --on-surik:#121412;
+      --inverse-bg: #e9eae4;
+      --inverse-ink:#121412;
+      --inverse-muted:#5a5f5a;
+      --inverse-rule:#c6c8c0;
+    }
+  }
+  :root[data-theme="dark"] {
+    --paper:   #121412;
+    --surface: #1a1d1a;
+    --ink:     #e9eae4;
+    --muted:   #9aa099;
+    --rule:    #2c302c;
+    --rule-hi: #3d423d;
+    --surik:   #d2795a;
+    --surik-hi:#e08e70;
+    --edge:    #6b716b;
+    --on-surik:#121412;
+    --inverse-bg: #e9eae4;
+    --inverse-ink:#121412;
+    --inverse-muted:#5a5f5a;
+    --inverse-rule:#c6c8c0;
+  }
+  :root[data-theme="light"] {
+    --paper:   #ecedE7;
+    --surface: #f7f7f3;
+    --ink:     #17191a;
+    --muted:   #676c68;
+    --rule:    #d3d5cd;
+    --rule-hi: #b9bcb2;
+    --surik:   #a24024;
+    --surik-hi:#8c3620;
+    --edge:    #7c8079;
+    --on-surik:#ffffff;
+    --inverse-bg: #191c19;
+    --inverse-ink:#e9eae4;
+    --inverse-muted:#969c95;
+    --inverse-rule:#2f342f;
+  }
+
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+
+  html { scrollbar-gutter: stable; -webkit-text-size-adjust: 100%; }
+
+  body {
+    background: var(--paper);
+    color: var(--ink);
+    font-family: var(--sans);
+    font-size: 16px;
+    line-height: 1.55;
+    -webkit-font-smoothing: antialiased;
+    -webkit-tap-highlight-color: transparent;
+    overflow-x: hidden;
+  }
+
+  .wrap {
+    max-width: var(--max);
+    margin-inline: auto;
+    padding-inline: var(--gut);
+  }
+
+  /* ---------- type ---------- */
+  h1, h2, h3 { font-weight: 800; letter-spacing: -0.03em; line-height: 1.08; text-wrap: balance; }
+  h1 { font-size: clamp(32px, 4.6vw, 54px); }
+  h2 { font-size: clamp(26px, 3.4vw, 40px); }
+  h3 { font-size: clamp(17px, 1.6vw, 21px); letter-spacing: -0.02em; }
+  p  { text-wrap: pretty; }
+
+  .lede { font-size: clamp(16px, 1.4vw, 19px); color: var(--muted); max-width: 46ch; }
+
+  .label {
+    font-family: var(--mono);
+    font-size: 11px;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: var(--muted);
+  }
+
+  .num { font-family: var(--mono); font-variant-numeric: tabular-nums; letter-spacing: -0.01em; }
+
+  a { color: inherit; text-decoration: none; }
+
+  :focus-visible {
+    outline: 2px solid var(--surik);
+    outline-offset: 3px;
+    border-radius: 1px;
+  }
+
+  /* ---------- header ---------- */
+  .top {
+    position: sticky; top: 0; z-index: 100;
+    background: var(--paper);
+    border-bottom: 1px solid var(--rule);
+  }
+  .top-in {
+    height: 64px;
+    display: flex; align-items: center; gap: 32px;
+  }
+  .mark { display: flex; align-items: baseline; gap: 10px; margin-right: auto; }
+  .mark strong { font-weight: 800; letter-spacing: -0.02em; font-size: 17px; }
+  .mark span { font-family: var(--mono); font-size: 11px; color: var(--muted); letter-spacing: 0.08em; }
+  .nav { display: flex; gap: 26px; }
+  .nav a {
+    font-size: 14px; color: var(--muted);
+    transition: color 150ms var(--ease-out);
+  }
+  @media (hover: hover) { .nav a:hover { color: var(--ink); } }
+  .top .btn { padding: 9px 16px; font-size: 13px; }
+  @media (max-width: 860px) {
+    .top-in { height: auto; flex-wrap: wrap; gap: 0 16px; padding-block: 12px; }
+    .nav {
+      order: 3; width: 100%;
+      margin-top: 10px; padding-top: 10px;
+      border-top: 1px solid var(--rule);
+      gap: 20px; overflow-x: auto;
+      scrollbar-width: none;
+    }
+    .nav::-webkit-scrollbar { display: none; }
+    .nav a { white-space: nowrap; padding-block: 12px; }
+  }
+
+  /* ---------- buttons ---------- */
+  .btn {
+    display: inline-flex; align-items: center; justify-content: center;
+    min-height: 44px; padding: 12px 22px;
+    font-family: var(--sans); font-size: 15px; font-weight: 600;
+    border: 1px solid var(--ink); border-radius: 2px;
+    background: var(--ink); color: var(--paper);
+    cursor: pointer;
+    transition: background-color 150ms var(--ease-out),
+                color 150ms var(--ease-out),
+                border-color 150ms var(--ease-out),
+                transform 120ms var(--ease-out);
+  }
+  @media (hover: hover) {
+    .btn:hover { background: var(--surik); border-color: var(--surik); color: var(--on-surik); }
+  }
+  .btn:active { transform: scale(0.97); }
+
+  .btn-ghost { background: transparent; color: var(--ink); border-color: var(--edge); }
+  @media (hover: hover) {
+    .btn-ghost:hover { background: transparent; color: var(--surik); border-color: var(--surik); }
+  }
+
+  /* ---------- hero ---------- */
+  .hero { padding-block: clamp(44px, 7vw, 88px) clamp(40px, 6vw, 76px); }
+  .hero-grid {
+    display: grid;
+    grid-template-columns: minmax(0, 6fr) minmax(0, 5fr);
+    gap: clamp(32px, 4.5vw, 64px);
+    align-items: start;
+  }
+  @media (max-width: 940px) { .hero-grid { grid-template-columns: 1fr; } }
+
+  .hero h1 { margin-bottom: 20px; }
+  .hero h1 em { font-style: normal; color: var(--surik); }
+  .hero-actions { display: flex; flex-wrap: wrap; gap: 12px; margin-top: 32px; }
+  .hero-meta {
+    margin-top: 34px; padding-top: 18px;
+    border-top: 1px solid var(--rule);
+    display: flex; flex-wrap: wrap; gap: 8px 28px;
+  }
+  .hero-meta span { font-family: var(--mono); font-size: 12px; color: var(--muted); }
+
+  /* ---------- certificate ---------- */
+  .cert {
+    background: var(--surface);
+    border: 1px solid var(--rule);
+    border-radius: 2px;
+    padding: 22px 24px 18px;
+  }
+  .cert-head {
+    display: flex; align-items: baseline; justify-content: space-between; gap: 16px;
+    padding-bottom: 14px; border-bottom: 1px solid var(--rule-hi);
+  }
+  .cert-head h3 { font-size: 16px; }
+  .cert-rows { display: grid; }
+  .cert-row {
+    display: grid; grid-template-columns: 1fr auto;
+    gap: 16px; align-items: baseline;
+    padding: 11px 0;
+    border-bottom: 1px solid var(--rule);
+  }
+  .cert-row:last-child { border-bottom: 0; }
+  .cert-row dt { font-size: 14px; color: var(--muted); }
+  .cert-row dd { font-family: var(--mono); font-variant-numeric: tabular-nums; font-size: 14px; font-weight: 500; }
+  .cert-foot { padding-top: 14px; font-size: 12.5px; color: var(--muted); line-height: 1.45; }
+
+  /* ---------- capacity band ---------- */
+  .band {
+    background: var(--inverse-bg);
+    color: var(--inverse-ink);
+    padding-block: clamp(36px, 5vw, 64px);
+  }
+  .band .label { color: var(--inverse-muted); }
+  .ledger { margin-top: 22px; border-top: 1px solid var(--inverse-rule); }
+  .ledger-row {
+    display: grid;
+    grid-template-columns: minmax(0, 4fr) minmax(0, 3fr) minmax(0, 6fr);
+    gap: clamp(14px, 3vw, 40px);
+    align-items: baseline;
+    padding: 20px 0;
+    border-bottom: 1px solid var(--inverse-rule);
+  }
+  @media (max-width: 820px) {
+    .ledger-row { grid-template-columns: 1fr auto; row-gap: 8px; }
+    .ledger-row p { grid-column: 1 / -1; }
+  }
+  .ledger-row dt { font-size: 15px; font-weight: 600; letter-spacing: -0.01em; }
+  .ledger-row dd {
+    font-family: var(--mono); font-variant-numeric: tabular-nums;
+    font-size: clamp(24px, 2.8vw, 34px); font-weight: 600; letter-spacing: -0.04em;
+    line-height: 1;
+  }
+  .ledger-row dd i { font-style: normal; font-size: 13px; font-weight: 500; color: var(--inverse-muted); margin-left: 7px; letter-spacing: 0; }
+  .ledger-row p { font-size: 14px; color: var(--inverse-muted); max-width: 46ch; }
+
+  /* ---------- sections ---------- */
+  section.slab { padding-block: clamp(48px, 7vw, 92px); }
+  section.slab + section.slab { padding-top: clamp(40px, 5vw, 68px); }
+  .slab-head { display: grid; gap: 14px; max-width: 62ch; margin-bottom: clamp(28px, 4vw, 44px); }
+
+  /* ---------- products ---------- */
+  .prod { border-top: 1px solid var(--rule-hi); }
+  .prod-row {
+    display: grid;
+    grid-template-columns: minmax(0, 1fr) minmax(0, 1.05fr) auto;
+    gap: clamp(16px, 3vw, 40px);
+    align-items: start;
+    padding: 26px 8px 26px 0;
+    border-bottom: 1px solid var(--rule);
+    transition: background-color 140ms var(--ease-out);
+  }
+  @media (hover: hover) { .prod-row:hover { background: var(--surface); } }
+  @media (max-width: 820px) {
+    .prod-row { grid-template-columns: 1fr; gap: 16px; }
+  }
+  .prod-name h3 { margin-bottom: 7px; }
+  .prod-name p { font-size: 14px; color: var(--muted); max-width: 34ch; }
+  .prod-gost {
+    display: inline-block; margin-top: 10px;
+    font-family: var(--mono); font-size: 11.5px; color: var(--muted);
+    border: 1px solid var(--edge); border-radius: 2px; padding: 3px 7px;
+  }
+  .spec { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 16px 28px; }
+  .spec div { display: grid; gap: 3px; }
+  .spec dt { font-size: 12px; color: var(--muted); }
+  .spec dd { font-family: var(--mono); font-variant-numeric: tabular-nums; font-size: 14.5px; font-weight: 500; }
+  .prod-price { text-align: right; min-width: 140px; }
+  .prod-price b {
+    font-family: var(--mono); font-variant-numeric: tabular-nums;
+    font-size: 19px; font-weight: 600; letter-spacing: -0.02em; display: block;
+  }
+  .prod-price i { font-style: normal; font-size: 12px; color: var(--muted); display: block; margin-top: 4px; }
+  @media (max-width: 820px) { .prod-price { text-align: left; } }
+  .prod-foot { margin-top: 20px; font-size: 13px; color: var(--muted); }
+
+  /* ---------- logistics ---------- */
+  .ship-grid {
+    display: grid; grid-template-columns: minmax(0, 5fr) minmax(0, 7fr);
+    gap: clamp(28px, 5vw, 64px); align-items: start;
+  }
+  @media (max-width: 940px) { .ship-grid { grid-template-columns: 1fr; } }
+  .ship-list { border-top: 1px solid var(--rule-hi); }
+  @media (min-width: 941px) {
+    .ship-grid > .slab-head { position: sticky; top: 92px; }
+  }
+  .ship-item { padding: 20px 0; border-bottom: 1px solid var(--rule); }
+  .ship-item h3 { margin-bottom: 5px; }
+  .ship-item p { font-size: 14.5px; color: var(--muted); max-width: 52ch; }
+
+  /* ---------- cta ---------- */
+  .cta {
+    border: 1px solid var(--rule-hi); border-radius: 2px;
+    background: var(--surface);
+    padding: clamp(26px, 4vw, 44px);
+    display: grid; grid-template-columns: minmax(0, 1fr) auto;
+    gap: clamp(24px, 4vw, 48px); align-items: center;
+  }
+  @media (max-width: 820px) { .cta { grid-template-columns: 1fr; } }
+  .cta h2 { margin-bottom: 12px; }
+  .cta p { color: var(--muted); max-width: 52ch; font-size: 15px; }
+  .contact { display: grid; gap: 10px; }
+  .contact a, .contact span { font-family: var(--mono); font-size: 14px; }
+  .contact a { color: var(--ink); border-bottom: 1px solid var(--edge); padding: 8px 0 4px; width: fit-content;
+               transition: color 150ms var(--ease-out), border-color 150ms var(--ease-out); }
+  @media (hover: hover) { .contact a:hover { color: var(--surik); border-color: var(--surik); } }
+  .contact span { color: var(--muted); }
+
+  /* ---------- footer ---------- */
+  footer { border-top: 1px solid var(--rule); padding-block: 34px 44px; margin-top: clamp(48px, 7vw, 88px); }
+  .foot-in { display: flex; flex-wrap: wrap; gap: 16px 36px; align-items: baseline; }
+  .foot-in p { font-size: 13px; color: var(--muted); }
+  .foot-in .mark { margin-right: auto; }
+
+  /* ---------- motion ---------- */
+  .js .rise { opacity: 0; transform: translateY(10px); }
+  .js .rise.in {
+    opacity: 1; transform: none;
+    transition: opacity 340ms var(--ease-out), transform 340ms var(--ease-out);
+    transition-delay: var(--d, 0ms);
+  }
+
+  @media (prefers-reduced-motion: reduce) {
+    *, *::before, *::after {
+      animation-duration: 0.01ms !important;
+      transition-duration: 0.01ms !important;
+      transition-delay: 0ms !important;
+    }
+    .js .rise { opacity: 1; transform: none; }
+  }
+</style>
+</head>
+<script>document.documentElement.classList.add('js');</script>
+<body>
+
+<header class="top">
+  <div class="wrap top-in">
+    <a class="mark" href="#">
+      <strong>ТД Шихобалова</strong>
+      <span>САМАРА</span>
+    </a>
+    <nav class="nav">
+      <a href="#produkciya">Продукция</a>
+      <a href="#moshchnost">Производство</a>
+      <a href="#otgruzka">Отгрузка</a>
+      <a href="#kontakty">Контакты</a>
+    </nav>
+    <a class="btn" href="#kontakty">Запросить цену</a>
+  </div>
+</header>
+
+<main>
+
+  <section class="hero wrap">
+    <div class="hero-grid">
+      <div>
+        <h1>200 тонн муки в сутки. <em>Паспорт качества</em> на каждую партию.</h1>
+        <p class="lede">Мелем пшеницу 3 класса в Самаре с 2004 года. Отгружаем муковозами, биг-бэгами и с собственного речного причала.</p>
+        <div class="hero-actions">
+          <a class="btn" href="#produkciya">Смотреть продукцию</a>
+          <a class="btn btn-ghost" href="#kontakty">Стать партнёром</a>
+        </div>
+        <div class="hero-meta">
+          <span>ГОСТ Р 26574-2017</span>
+          <span>ГОСТ 7169-2017</span>
+          <span>Хранение 50 000 т</span>
+          <span>Работаем с 2004</span>
+        </div>
+      </div>
+
+      <div class="cert" aria-labelledby="cert-title">
+        <div class="cert-head">
+          <h3 id="cert-title">Мука пшеничная, высший сорт</h3>
+          <span class="label">Партия</span>
+        </div>
+        <dl class="cert-rows">
+          <div class="cert-row"><dt>Клейковина</dt><dd>28-30 %</dd></div>
+          <div class="cert-row"><dt>Влажность</dt><dd>≤ 14,5 %</dd></div>
+          <div class="cert-row"><dt>Зольность</dt><dd>0,55 %</dd></div>
+          <div class="cert-row"><dt>Белизна</dt><dd>58-62 ед.</dd></div>
+          <div class="cert-row"><dt>Число падения</dt><dd>≥ 200 с</dd></div>
+        </dl>
+        <p class="cert-foot">Показатели подтверждаем лабораторным анализом перед отгрузкой. Протокол прикладываем к документам на партию.</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="band" id="moshchnost">
+    <div class="wrap">
+      <p class="label rise">Мощность завода</p>
+      <dl class="ledger">
+        <div class="ledger-row rise">
+          <dt>Помол муки</dt>
+          <dd>200<i>т/сутки</i></dd>
+          <p>Пшеница 3 класса. Высший и первый сорт в постоянном производстве.</p>
+        </div>
+        <div class="ledger-row rise" style="--d:60ms">
+          <dt>Выход отрубей</dt>
+          <dd>70<i>т/сутки</i></dd>
+          <p>Кормовые отруби по ГОСТ 7169-2017, мешками и россыпью.</p>
+        </div>
+        <div class="ledger-row rise" style="--d:120ms">
+          <dt>Хранение зерна</dt>
+          <dd>50 000<i>тонн</i></dd>
+          <p>Единовременный объём на собственном элеваторе, поэтому помол не зависит от сезона закупки.</p>
+        </div>
+        <div class="ledger-row rise" style="--d:180ms">
+          <dt>План на 2026 год</dt>
+          <dd>9 000<i>т/месяц</i></dd>
+          <p>Свободные мощности резервируем под годовые контракты.</p>
+        </div>
+      </dl>
+    </div>
+  </section>
+
+  <section class="slab wrap" id="produkciya">
+    <div class="slab-head">
+      <h2 class="rise">Продукция</h2>
+      <p class="lede rise" style="--d:60ms">Четыре позиции, все с действующими сертификатами. Минимальная партия от 1 тонны.</p>
+    </div>
+
+    <div class="prod">
+      <article class="prod-row rise">
+        <div class="prod-name">
+          <h3>Мука пшеничная высшего сорта</h3>
+          <p>Хлебобулочные и кондитерские изделия, пельмени, премиальная выпечка.</p>
+          <span class="prod-gost">ГОСТ Р 26574-2017</span>
+        </div>
+        <dl class="spec">
+          <div><dt>Клейковина</dt><dd>28-30 %</dd></div>
+          <div><dt>Зольность</dt><dd>0,55 %</dd></div>
+          <div><dt>Белизна</dt><dd>58-62 ед.</dd></div>
+          <div><dt>Влажность</dt><dd>≤ 14,5 %</dd></div>
+        </dl>
+        <div class="prod-price"><b>30 000 ₽</b><i>за тонну</i></div>
+      </article>
+
+      <article class="prod-row rise" style="--d:60ms">
+        <div class="prod-name">
+          <h3>Мука пшеничная первого сорта</h3>
+          <p>Массовый хлеб, макаронные и пищевые производства.</p>
+          <span class="prod-gost">ГОСТ Р 26574-2017</span>
+        </div>
+        <dl class="spec">
+          <div><dt>Клейковина</dt><dd>25-27 %</dd></div>
+          <div><dt>Зольность</dt><dd>0,75 %</dd></div>
+          <div><dt>Белизна</dt><dd>48-52 ед.</dd></div>
+          <div><dt>Влажность</dt><dd>≤ 14,5 %</dd></div>
+        </dl>
+        <div class="prod-price"><b>26 500 ₽</b><i>за тонну</i></div>
+      </article>
+
+      <article class="prod-row rise" style="--d:120ms">
+        <div class="prod-name">
+          <h3>Отруби пшеничные</h3>
+          <p>Кормовая база для КРС, свиней и птицы. Пищевая промышленность.</p>
+          <span class="prod-gost">ГОСТ 7169-2017</span>
+        </div>
+        <dl class="spec">
+          <div><dt>Протеин</dt><dd>14-16 %</dd></div>
+          <div><dt>Клетчатка</dt><dd>8-10 %</dd></div>
+          <div><dt>Влажность</dt><dd>≤ 14,5 %</dd></div>
+        </dl>
+        <div class="prod-price"><b>8 500 ₽</b><i>за тонну</i></div>
+      </article>
+
+      <article class="prod-row rise" style="--d:180ms">
+        <div class="prod-name">
+          <h3>Зернопродукт</h3>
+          <p>Отгрузка мешками по 50 кг и биг-бэгами до 1 тонны.</p>
+          <span class="prod-gost">ТУ 9295-001-00933855-04</span>
+        </div>
+        <dl class="spec">
+          <div><dt>Влажность</dt><dd>≤ 14 %</dd></div>
+          <div><dt>Сорная примесь</dt><dd>≤ 1 %</dd></div>
+        </dl>
+        <div class="prod-price"><b>По запросу</b><i>зависит от объёма</i></div>
+      </article>
+    </div>
+    <p class="prod-foot rise">Цены указаны без НДС и доставки, действуют на дату публикации. Актуальный прайс менеджер присылает в день обращения.</p>
+  </section>
+
+  <section class="slab wrap" id="otgruzka">
+    <div class="ship-grid">
+      <div class="slab-head" style="margin-bottom:0">
+        <h2 class="rise">Отгрузка</h2>
+        <p class="lede rise" style="--d:60ms">Логистика своя, поэтому дату отгрузки называем сразу и не зависим от стороннего перевозчика.</p>
+      </div>
+      <div class="ship-list">
+        <div class="ship-item rise">
+            <h3>Речной причал</h3>
+            <p>Собственный причал на Волге. Отгружаем баржами в период навигации, это самая низкая ставка за тонну на дальние плечи.</p>
+        </div>
+        <div class="ship-item rise" style="--d:60ms">
+            <h3>Муковозы насыпью</h3>
+            <p>Парк техники под бестарную перевозку. Подача под налив в течение суток по Самарской области.</p>
+        </div>
+        <div class="ship-item rise" style="--d:120ms">
+            <h3>Мешки и биг-бэги</h3>
+            <p>Мешки 50 кг, бумажные или полипропиленовые. Биг-бэги до 1 тонны под паллетную отгрузку.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="slab wrap" id="kontakty" style="padding-top:0">
+    <div class="cta rise">
+      <div>
+        <h2>Посчитаем вашу заявку</h2>
+        <p>Напишите объём и сорт. Менеджер вернётся с ценой, сроком отгрузки и паспортом качества на текущую партию в течение рабочего дня.</p>
+      </div>
+      <div class="contact">
+        <span>Владимир Борисов, отдел продаж</span>
+        <a href="tel:+78461234568">+7 (846) 123-45-68</a>
+        <a href="mailto:sales@dov-muka.ru">sales@dov-muka.ru</a>
+        <span>Самара, ООО «ТД Шихобалова»</span>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<footer>
+  <div class="wrap foot-in">
+    <a class="mark" href="#">
+      <strong>ТД Шихобалова</strong>
+      <span>САМАРА</span>
+    </a>
+    <p>Мукомольное производство с 2004 года</p>
+    <p>ООО «ТД Шихобалова», Самара</p>
+  </div>
+</footer>
+
+<script>
+  (function () {
+    var items = document.querySelectorAll('.rise');
+    if (!('IntersectionObserver' in window) ||
+        window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
+      items.forEach(function (el) { el.classList.add('in'); });
+      return;
+    }
+    var io = new IntersectionObserver(function (entries) {
+      entries.forEach(function (entry) {
+        if (entry.isIntersecting) {
+          entry.target.classList.add('in');
+          io.unobserve(entry.target);
+        }
+      });
+    }, { rootMargin: '0px 0px -8% 0px', threshold: 0.1 });
+    items.forEach(function (el) { io.observe(el); });
+  })();
+</script>
+
+</body>
+</html>
