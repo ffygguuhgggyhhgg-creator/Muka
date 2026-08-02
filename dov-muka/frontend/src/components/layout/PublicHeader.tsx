@@ -1,53 +1,46 @@
-import { Link } from 'react-router-dom'
-import { Layout, Menu, Button } from 'antd'
-import { PhoneOutlined } from '@ant-design/icons'
+import { NavLink, Link } from 'react-router-dom'
 
-const { Header } = Layout
-
-const menuItems = [
-  { key: '/', label: <Link to="/">Главная</Link> },
-  { key: '/catalog', label: <Link to="/catalog">Каталог</Link> },
-  { key: '/about', label: <Link to="/about">О компании</Link> },
-  { key: '/contacts', label: <Link to="/contacts">Контакты</Link> },
+const menu = [
+  { to: '/', label: 'Главная', end: true },
+  { to: '/catalog', label: 'Каталог', end: false },
+  { to: '/about', label: 'О компании', end: false },
+  { to: '/contacts', label: 'Контакты', end: false },
 ]
+
+export const PHONE = '+7 (846) 123-45-67'
+export const PHONE_HREF = 'tel:+78461234567'
+export const EMAIL = 'info@dov-muka.ru'
 
 export default function PublicHeader() {
   return (
-    <Header style={{
-      background: '#fff',
-      display: 'flex',
-      alignItems: 'center',
-      justifyContent: 'space-between',
-      borderBottom: '1px solid #f0f0f0',
-      height: 72,
-      padding: '0 40px',
-    }}>
-      <div style={{ display: 'flex', alignItems: 'center', gap: 8 }}>
-        <img src="/logo.svg" alt="ТД Шихобалова" height={40} />
-        <div>
-          <div style={{ fontWeight: 700, fontSize: 16, color: '#D4A843' }}>
-            ТД Шихобалова
-          </div>
-          <div style={{ fontSize: 11, color: '#999' }}>
-            Мукомольный завод
-          </div>
+    <header className="pub-top">
+      <div className="wrap pub-top-in">
+        <Link className="pub-mark" to="/">
+          <img src="/logo.svg" alt="" width={40} height={40} />
+          <span>
+            <b>ТД Шихобалова</b>
+            <span className="sub">Мукомольный завод</span>
+          </span>
+        </Link>
+
+        <nav className="pub-nav" aria-label="Разделы сайта">
+          {menu.map((item) => (
+            <NavLink
+              key={item.to}
+              to={item.to}
+              end={item.end}
+              className={({ isActive }) => (isActive ? 'is-active' : undefined)}
+            >
+              {item.label}
+            </NavLink>
+          ))}
+        </nav>
+
+        <div className="pub-top-side">
+          <a className="pub-tel" href={PHONE_HREF}>{PHONE}</a>
+          <Link className="pub-btn pub-btn--line pub-btn--sm" to="/login">Войти</Link>
         </div>
       </div>
-
-      <Menu
-        mode="horizontal"
-        items={menuItems}
-        style={{ border: 'none', flex: 1, justifyContent: 'center', minWidth: 400 }}
-      />
-
-      <div style={{ display: 'flex', alignItems: 'center', gap: 16 }}>
-        <span style={{ color: '#D4A843', fontWeight: 600 }}>
-          <PhoneOutlined /> +7 (846) 123-45-67
-        </span>
-        <Link to="/login">
-          <Button type="primary" ghost>Войти</Button>
-        </Link>
-      </div>
-    </Header>
+    </header>
   )
 }

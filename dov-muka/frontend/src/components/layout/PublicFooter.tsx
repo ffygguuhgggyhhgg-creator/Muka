@@ -1,54 +1,36 @@
-import { Layout, Typography, Space } from 'antd'
-
-const { Footer } = Layout
-const { Text, Link } = Typography
+import { Link } from 'react-router-dom'
+import { PHONE, PHONE_HREF, EMAIL } from './PublicHeader'
 
 export default function PublicFooter() {
   return (
-    <Footer style={{
-      background: '#1a1a2e',
-      color: '#fff',
-      padding: '40px 40px 24px',
-    }}>
-      <div style={{
-        maxWidth: 1200,
-        margin: '0 auto',
-        display: 'flex',
-        justifyContent: 'space-between',
-        flexWrap: 'wrap',
-        gap: 24,
-      }}>
-        <div>
-          <Text strong style={{ color: '#D4A843', fontSize: 18 }}>ТД Шихобалова</Text>
-          <br />
-          <Text style={{ color: '#ccc' }}>Крупнейший мукомольный завод</Text>
-          <br />
-          <Text style={{ color: '#ccc' }}>Самарской области</Text>
+    <footer className="pub-foot on-navy">
+      <div className="wrap">
+        <div className="pub-foot-grid">
+          <div className="pub-foot-col brand">
+            <b>ТД Шихобалова</b>
+            <p>Крупнейший мукомольный завод</p>
+            <p>Самарской области</p>
+          </div>
+
+          <div className="pub-foot-col">
+            <b>Контакты</b>
+            <a href={PHONE_HREF}>{PHONE}</a>
+            <a href={`mailto:${EMAIL}`}>{EMAIL}</a>
+            <p>г. Самара, ул. Заводская, 1</p>
+          </div>
+
+          <div className="pub-foot-col">
+            <b>Продукция</b>
+            <Link to="/catalog">Мука в/с</Link>
+            <Link to="/catalog">Мука 1 сорт</Link>
+            <Link to="/catalog">Отруби</Link>
+          </div>
         </div>
-        <div>
-          <Text strong style={{ color: '#fff' }}>Контакты</Text>
-          <br />
-          <Text style={{ color: '#ccc' }}>+7 (846) 123-45-67</Text>
-          <br />
-          <Text style={{ color: '#ccc' }}>info@dov-muka.ru</Text>
-          <br />
-          <Text style={{ color: '#ccc' }}>г. Самара, ул. Заводская, 1</Text>
-        </div>
-        <div>
-          <Text strong style={{ color: '#fff' }}>Продукция</Text>
-          <br />
-          <Link href="/catalog" style={{ color: '#ccc' }}>Мука в/с</Link>
-          <br />
-          <Link href="/catalog" style={{ color: '#ccc' }}>Мука 1 сорт</Link>
-          <br />
-          <Link href="/catalog" style={{ color: '#ccc' }}>Отруби</Link>
-        </div>
+
+        <p className="pub-foot-bottom">
+          © {new Date().getFullYear()} ООО «ТД Шихобалова». Все права защищены.
+        </p>
       </div>
-      <div style={{ textAlign: 'center', marginTop: 32, borderTop: '1px solid #333', paddingTop: 16 }}>
-        <Text style={{ color: '#666' }}>
-          © {new Date().getFullYear()} ООО "ТД Шихобалова". Все права защищены.
-        </Text>
-      </div>
-    </Footer>
+    </footer>
   )
 }

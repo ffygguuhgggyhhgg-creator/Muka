@@ -1,18 +1,15 @@
 import { Outlet } from 'react-router-dom'
-import { Layout } from 'antd'
 import PublicHeader from './PublicHeader'
 import PublicFooter from './PublicFooter'
 
-const { Content } = Layout
-
 export default function PublicLayout() {
   return (
-    <Layout style={{ minHeight: '100vh' }}>
+    <div className="pub">
       <PublicHeader />
-      <Content>
+      <main className="pub-main">
         <Outlet />
-      </Content>
+      </main>
       <PublicFooter />
-    </Layout>
+    </div>
   )
 }

@@ -1,125 +1,157 @@
-import { Typography, Button, Card, Row, Col, Statistic, Space } from 'antd'
+import { useState } from 'react'
 import { Link } from 'react-router-dom'
-import {
-  ShoppingCartOutlined,
-  SafetyOutlined,
-  CarOutlined,
-  TeamOutlined,
-} from '@ant-design/icons'
+import Photo, { type Shot } from '../../components/Photo'
+import { useReveal } from '../../hooks/useReveal'
+import { PHONE, PHONE_HREF } from '../../components/layout/PublicHeader'
 
-const { Title, Paragraph } = Typography
+const products = [
+  'Мука высшего сорта',
+  'Мука первого сорта',
+  'Отруби пшеничные',
+  'Зернопродукт',
+]
 
 const advantages = [
   {
-    icon: <SafetyOutlined style={{ fontSize: 36, color: '#D4A843' }} />,
     title: 'Качество ГОСТ',
     desc: 'Вся продукция сертифицирована и соответствует ГОСТ',
   },
   {
-    icon: <CarOutlined style={{ fontSize: 36, color: '#D4A843' }} />,
     title: 'Собственная логистика',
     desc: 'Парк техники и речной причал для отгрузки',
   },
   {
-    icon: <TeamOutlined style={{ fontSize: 36, color: '#D4A843' }} />,
     title: 'Более 20 лет на рынке',
     desc: 'Надёжный поставщик муки в Поволжье',
   },
 ]
 
+const stats = [
+  { label: 'Производство муки', value: '200', unit: 'т/сут' },
+  { label: 'Производство отрубей', value: '70', unit: 'т/сут' },
+  { label: 'Хранение зерна', value: '50', unit: 'тыс. т' },
+  { label: 'Лет на рынке', value: '20', unit: 'и больше' },
+]
+
+/**
+ * Снимки производства. Положите файлы в frontend/public/photo/
+ * с этими именами, и раздел появится сам. Пока файлов нет,
+ * раздел не отображается: пустых рамок и битых картинок на сайте не будет.
+ */
+const productionShots: Shot[] = [
+  {
+    src: '/photo/melnitsa.jpg',
+    alt: 'Размольный цех мукомольного завода',
+    caption: 'Размольный цех',
+  },
+  {
+    src: '/photo/elevator.jpg',
+    alt: 'Элеватор для хранения зерна',
+    caption: 'Элеватор на 50 000 тонн',
+  },
+  {
+    src: '/photo/otgruzka.jpg',
+    alt: 'Погрузка муки в муковоз',
+    caption: 'Отгрузка муковозом',
+  },
+]
+
 export default function HomePage() {
+  const reveal = useReveal<HTMLDivElement>()
+  const [shots, setShots] = useState(productionShots)
+
   return (
-    <div>
-      <div style={{
-        background: 'linear-gradient(135deg, #D4A843 0%, #F5E6C8 100%)',
-        padding: '80px 40px',
-        textAlign: 'center',
-      }}>
-        <Title style={{ fontSize: 48, margin: 0, color: '#1a1a2e' }}>
-          Крупнейший мукомольный завод Самарской области
-        </Title>
-        <Paragraph style={{ fontSize: 18, color: '#333', marginTop: 16, maxWidth: 600, margin: '16px auto' }}>
-          Производим до 200 тонн муки и 70 тонн отрубей в сутки.
-          Работаем с 2004 года.
-        </Paragraph>
-        <Space size="large" style={{ marginTop: 32 }}>
-          <Link to="/catalog">
-            <Button type="primary" size="large" icon={<ShoppingCartOutlined />}>
-              Каталог продукции
-            </Button>
-          </Link>
-          <Link to="/contacts">
-            <Button size="large">Стать партнёром</Button>
-          </Link>
-        </Space>
-      </div>
+    <div ref={reveal}>
+      <section className="pub-hero on-gold">
+        <div className="wrap pub-hero-in">
+          <h1>Крупнейший мукомольный завод Самарской области</h1>
+          <p>
+            Производим до 200 тонн муки и 70 тонн отрубей в сутки.
+            Работаем с 2004 года.
+          </p>
+          <div className="pub-hero-actions">
+            <Link className="pub-btn" to="/catalog">Каталог продукции</Link>
+            <Link className="pub-btn pub-btn--line" to="/contacts">Стать партнёром</Link>
+          </div>
+        </div>
+        <div className="pub-strip">
+          {products.map((name) => <span key={name}>{name}</span>)}
+        </div>
+      </section>
 
-      <div style={{ padding: '60px 40px', background: '#fff' }}>
-        <Row gutter={[48, 32]} justify="center">
-          {advantages.map((adv) => (
-            <Col xs={24} sm={12} md={8} key={adv.title}>
-              <Card style={{ textAlign: 'center', border: 'none' }}>
-                {adv.icon}
-                <Title level={4} style={{ marginTop: 16 }}>{adv.title}</Title>
-                <Paragraph style={{ color: '#666' }}>{adv.desc}</Paragraph>
-              </Card>
-            </Col>
+      <section className="pub-adv">
+        <div className="wrap pub-adv-grid">
+          {advantages.map((item, i) => (
+            <div
+              className="pub-adv-item"
+              key={item.title}
+              data-reveal
+              style={{ '--d': `${i * 70}ms` } as React.CSSProperties}
+            >
+              <span className="bar" />
+              <h3>{item.title}</h3>
+              <p>{item.desc}</p>
+            </div>
           ))}
-        </Row>
-      </div>
+        </div>
+      </section>
 
-      <div style={{
-        background: '#1a1a2e',
-        padding: '60px 40px',
-        color: '#fff',
-        textAlign: 'center',
-      }}>
-        <Title style={{ color: '#D4A843' }}>Наши показатели</Title>
-        <Row gutter={[32, 24]} justify="center" style={{ marginTop: 32 }}>
-          <Col xs={12} md={6}>
-            <Statistic
-              title={<span style={{ color: '#ccc' }}>Производство муки</span>}
-              value={200}
-              suffix="т/сут"
-              valueStyle={{ color: '#D4A843', fontSize: 32 }}
-            />
-          </Col>
-          <Col xs={12} md={6}>
-            <Statistic
-              title={<span style={{ color: '#ccc' }}>Производство отрубей</span>}
-              value={70}
-              suffix="т/сут"
-              valueStyle={{ color: '#D4A843', fontSize: 32 }}
-            />
-          </Col>
-          <Col xs={12} md={6}>
-            <Statistic
-              title={<span style={{ color: '#ccc' }}>Хранение зерна</span>}
-              value={50}
-              suffix="тыс. т"
-              valueStyle={{ color: '#D4A843', fontSize: 32 }}
-            />
-          </Col>
-          <Col xs={12} md={6}>
-            <Statistic
-              title={<span style={{ color: '#ccc' }}>Лет на рынке</span>}
-              value={20}
-              suffix="+"
-              valueStyle={{ color: '#D4A843', fontSize: 32 }}
-            />
-          </Col>
-        </Row>
-      </div>
+      {shots.length > 0 && (
+        <section className="pub-shots">
+          <div className="wrap pub-shots-grid">
+            {shots.map((shot, i) => (
+              <div
+                key={shot.src}
+                data-reveal
+                style={{ '--d': `${i * 70}ms` } as React.CSSProperties}
+              >
+                <Photo
+                  {...shot}
+                  onMissing={() =>
+                    setShots((rest) => rest.filter((s) => s.src !== shot.src))
+                  }
+                />
+              </div>
+            ))}
+          </div>
+        </section>
+      )}
 
-      <div style={{ padding: '60px 40px', textAlign: 'center', background: '#fff' }}>
-        <Title level={2}>Готовы начать сотрудничество?</Title>
-        <Paragraph style={{ fontSize: 16, color: '#666' }}>
-          Оставьте заявку, и наш менеджер свяжется с вами в течение часа
-        </Paragraph>
-        <Link to="/contacts">
-          <Button type="primary" size="large">Связаться с нами</Button>
-        </Link>
-      </div>
+      <section className="pub-stats on-navy">
+        <div className="wrap">
+          <h2 data-reveal>Наши показатели</h2>
+          <p className="pub-stats-lede" data-reveal style={{ '--d': '60ms' } as React.CSSProperties}>
+            Мощности загружены круглый год: собственное хранение зерна снимает
+            зависимость от сезона закупки.
+          </p>
+          <dl className="pub-stats-grid">
+            {stats.map((stat, i) => (
+              <div
+                className="pub-stat"
+                key={stat.label}
+                data-reveal
+                style={{ '--d': `${60 + i * 60}ms` } as React.CSSProperties}
+              >
+                <dt>{stat.label}</dt>
+                <dd>{stat.value}<i>{stat.unit}</i></dd>
+              </div>
+            ))}
+          </dl>
+        </div>
+      </section>
+
+      <section className="pub-cta">
+        <div className="wrap pub-cta-in">
+          <div data-reveal>
+            <h2>Готовы начать сотрудничество?</h2>
+            <p>Оставьте заявку, и наш менеджер свяжется с вами в течение часа.</p>
+          </div>
+          <div className="pub-cta-side" data-reveal style={{ '--d': '70ms' } as React.CSSProperties}>
+            <a className="pub-tel" href={PHONE_HREF}>{PHONE}</a>
+            <Link className="pub-btn" to="/contacts">Связаться с нами</Link>
+          </div>
+        </div>
+      </section>
     </div>
   )
 }

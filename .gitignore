@@ -57,3 +57,6 @@ docker-compose.override.yml
 C:/AI-Agents/.env
 C:/AI-Agents/result*.md
 C:/AI-Agents/fable_*.md
+
+# Артефакты сборки TypeScript
+*.tsbuildinfo
