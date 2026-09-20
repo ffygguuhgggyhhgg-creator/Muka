@@ -14,7 +14,7 @@ end;
 if T1LatchCalCloseTime4.Value = 0 then
 begin
 AddMessage(Now, mkAlarm, 'Произведите калибровку закрытия задвижки Транспортера 1 маршрут Т1-Т7! Время открытия равно нулю!', True, True);
-end;                
+end;
 if T1BlockSelectStatus.AsBool = True then
 begin
 AddMessage(Now, mkAlarm, 'Активна блокировка пуска! Дождитесь выполнение операции или отмените блокировку!', True, True);

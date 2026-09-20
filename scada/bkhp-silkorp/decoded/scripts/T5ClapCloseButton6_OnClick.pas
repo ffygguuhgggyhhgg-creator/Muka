@@ -10,7 +10,7 @@ T5ClapBlockSelectStatus.Value := True;
 AddMessage(Now, mkWarning , 'Начало переброса клапана Транспортера 5 в Силос 38!', True, True);
 end;
 end;
-end;                        
+end;
 if T5ClapLatchCalCloseTime6.Value = 0 then
 begin
 AddMessage(Now, mkAlarm, 'Произведите калибровку переброса клапана Транспортера 5  Силос 28-38! Время переброса равно нулю!', True, True);

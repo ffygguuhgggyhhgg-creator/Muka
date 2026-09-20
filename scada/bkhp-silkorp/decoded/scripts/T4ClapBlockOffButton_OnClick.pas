@@ -1,5 +1,6 @@
 begin
 T4ClapBlockSelectStatus.Value := False;
+
 T4ClapOpenStatus1.Value := False; // Останавливаем выполнение скрипта
 T4ClapOpenStatus2.Value := False; // Останавливаем выполнение скрипта
 T4ClapOpenStatus3.Value := False; // Останавливаем выполнение скрипта
@@ -10,8 +11,10 @@ T4ClapOpenStatus7.Value := False; // Останавливаем выполнен
 T4ClapOpenStatus8.Value := False; // Останавливаем выполнение скрипта
 T4ClapOpenStatus9.Value := False; // Останавливаем выполнение скрипта
 T4ClapOpenStatus10.Value := False; // Останавливаем выполнение скрипта
+
 T4ClapLatchRunOpen.Value := False;   // Дискретный выход управления задвижкой
-                 
+
+
 T4ClapCloseStatus1.Value := False; // Останавливаем выполнение скрипта
 T4ClapCloseStatus2.Value := False; // Останавливаем выполнение скрипта
 T4ClapCloseStatus3.Value := False; // Останавливаем выполнение скрипта
@@ -22,7 +25,9 @@ T4ClapCloseStatus7.Value := False; // Останавливаем выполне�
 T4ClapCloseStatus8.Value := False; // Останавливаем выполнение скрипта
 T4ClapCloseStatus9.Value := False; // Останавливаем выполнение скрипта
 T4ClapCloseStatus10.Value := False; // Останавливаем выполнение скрипта
+
 T4ClapLatchRunClose.Value := False;   // Дискретный выход управления задвижкой
+
 T4ClapOpenTimer1.Value := 0;
 T4ClapOpenTimer2.Value := 0;
 T4ClapOpenTimer3.Value := 0;
@@ -33,6 +38,7 @@ T4ClapOpenTimer7.Value := 0;
 T4ClapOpenTimer8.Value := 0;
 T4ClapOpenTimer9.Value := 0;
 T4ClapOpenTimer10.Value := 0;
+
 T4ClapCloseTimer1.Value := 0;
 T4ClapCloseTimer2.Value := 0;
 T4ClapCloseTimer3.Value := 0;
@@ -43,6 +49,7 @@ T4ClapCloseTimer7.Value := 0;
 T4ClapCloseTimer8.Value := 0;
 T4ClapCloseTimer9.Value := 0;
 T4ClapCloseTimer10.Value := 0;
+
 T4ClapCalStatus1.Value := False; // Останавливаем выполнение скрипта
 T4ClapCalStatus2.Value := False; // Останавливаем выполнение скрипта
 T4ClapCalStatus3.Value := False; // Останавливаем выполнение скрипта
@@ -53,9 +60,10 @@ T4ClapCalStatus7.Value := False; // Останавливаем выполнен�
 T4ClapCalStatus8.Value := False; // Останавливаем выполнение скрипта
 T4ClapCalStatus9.Value := False; // Останавливаем выполнение скрипта
 T4ClapCalStatus10.Value := False; // Останавливаем выполнение скрипта
+
 T4ClapCalTimer1.Value := 0;
-T4ClapCalTimer2.Value := 0;                   
-T4ClapCalTimer3.Value := 0;                             
+T4ClapCalTimer2.Value := 0;
+T4ClapCalTimer3.Value := 0;
 T4ClapCalTimer4.Value := 0;
 T4ClapCalTimer5.Value := 0;
 T4ClapCalTimer6.Value := 0;
@@ -63,6 +71,7 @@ T4ClapCalTimer7.Value := 0;
 T4ClapCalTimer8.Value := 0;
 T4ClapCalTimer9.Value := 0;
 T4ClapCalTimer10.Value := 0;
+
 T4ClapLatchSelect1.Value := False;
 T4ClapLatchSelect2.Value := False;
 T4ClapLatchSelect3.Value := False;

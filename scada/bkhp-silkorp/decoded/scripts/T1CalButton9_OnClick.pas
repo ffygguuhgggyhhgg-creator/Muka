@@ -2,7 +2,7 @@ begin
 if T1BlockSelectStatus.AsBool = False then  // Условие пуска алгоритма по блокировке
 begin
 if T1LatchStatusByte9.Value < 5 then // Условие пуска алгоритма по аварии
-begin                     
+begin
 T1CalStatus9.Value := True;
 T1BlockSelectStatus.Value := True;
 AddMessage(Now, mkWarning , 'Начало калибровки задвижки Транспортера 3 маршрут Т3-Т5!', True, True);

@@ -1,5 +1,5 @@
 begin
-AddMessage(Now, mkAlarm, 'Нажата кнопка остановки (Нория 1)!', True, True); 
+AddMessage(Now, mkAlarm, 'Нажата кнопка остановки (Нория 1)!', True, True);
 // команда на выключение механизма
 if RelayOutN1.AsBool = True then // проверка механизм включен через компьютер управления
    begin

@@ -56,6 +56,7 @@ end;
 end
 else
 StatusT1.Value := 10;
+
 if StatusAlarmT1.AsBool = False then
 begin
 if RelayInForwardT1.AsBool = True then
@@ -162,6 +163,7 @@ end;
 end
 else
 StatusT2.Value := 10;
+
 if StatusAlarmT2.AsBool = False then
 begin
 if RelayInForwardT2.AsBool = False then
@@ -264,6 +266,7 @@ end;
 end
 else
 StatusT3.Value := 10;
+
 if StatusAlarmT3.AsBool = False then
 begin
 if RelayInForwardT3.AsBool = False then
@@ -295,7 +298,7 @@ end;
    StartTimeT3.Value := StartTimeT3.Value + 1;
    if StartTimeC1.Value > 3 then
    begin
-   RelayOutReversT3.Value := False;              
+   RelayOutReversT3.Value := False;
    StartTimeT3.Value := 0;
    StatusStartForwardT3.Value := 6;
    StatusT3.Value := 3;
@@ -373,6 +376,7 @@ end;
 end
 else
 StatusT4.Value := 10;
+
 if StatusAlarmT4.AsBool = False then
 begin
 if RelayInForwardT4.AsBool = True then
@@ -490,6 +494,7 @@ end;
 end
 else
 StatusT5.Value := 10;
+
 if StatusAlarmT5.AsBool = False then
 begin
 if RelayInForwardT5.AsBool = True then
@@ -603,6 +608,7 @@ end;
 end
 else
 StatusT6.Value := 10;
+
 if StatusAlarmT6.AsBool = False then
 begin
 if RelayInForwardT6.AsBool = True then
@@ -712,6 +718,7 @@ end;
 end
 else
 StatusT7.Value := 10;
+
 if StatusAlarmT7.AsBool = False then
 begin
 if RelayInForwardT7.AsBool = True then
@@ -756,7 +763,7 @@ begin
  if RelayOutReversT7.AsBool = False then
      if RelayInReversT7.AsBool = False then
    begin
-   LineForwardT7.Color := clRed;    
+   LineForwardT7.Color := clRed;
    LineReversT7.Color := clRed;
    ImageT7.Color := clRed;
    StatusT7.Value := 4;
@@ -822,6 +829,7 @@ end;
 end
 else
 StatusT8.Value := 10;
+
 if StatusAlarmT8.AsBool = False then
 begin
 if RelayInForwardT8.AsBool = False then
@@ -831,7 +839,7 @@ begin
    begin
    LineForwardT8.Color := clRed;
    LineReversT8.Color := clGreen;
-   ImageT8_1.Color := clGreen;                     
+   ImageT8_1.Color := clGreen;
    ImageT8_2.Color := clGreen;
    StatusT8.Value := 11;
    StartTimeT8.Value := 0;
@@ -932,6 +940,7 @@ end;
 end
 else
 StatusT9.Value := 10;
+
 if StatusAlarmT9.AsBool = False then
 begin
 if RelayInForwardT9.AsBool = False then
@@ -983,7 +992,7 @@ begin
    StartTimeT9.Value := 0;
    end;
 end;
-end                                    
+end
 else
 StatusT9.Value := 10;
 //Транспортер номер 9 конец
@@ -1038,6 +1047,7 @@ end;
 end
 else
 StatusT10.Value := 10;
+
 if StatusAlarmT10.AsBool = False then
 begin
 if RelayInForwardT10.AsBool = False then
@@ -1140,6 +1150,7 @@ end;
 end
 else
 StatusT11.Value := 10;
+
 if StatusAlarmT11.AsBool = False then
 begin
 if RelayInForwardT11.AsBool = False then
@@ -1238,6 +1249,7 @@ end;
 end
 else
 StatusT12.Value := 10;
+
 if StatusAlarmT12.AsBool = False then
 begin
 if RelayInForwardT12.AsBool = False then
@@ -1332,6 +1344,7 @@ end;
 end
 else
 StatusT13.Value := 10;
+
 if StatusAlarmT13.AsBool = False then
 begin
 if RelayInForwardT13.AsBool = False then
@@ -1426,6 +1439,7 @@ end;
 end
 else
 StatusT14.Value := 10;
+
 if StatusAlarmT14.AsBool = False then
 begin
 if RelayInForwardT14.AsBool = False then
@@ -1520,6 +1534,7 @@ end;
 end
 else
 StatusT15.Value := 10;
+
 if StatusAlarmT15.AsBool = False then
 begin
 if RelayInForwardT15.AsBool = False then
@@ -1614,6 +1629,7 @@ end;
 end
 else
 StatusT16.Value := 10;
+
 if StatusAlarmT16.AsBool = False then
 begin
 if RelayInForwardT16.AsBool = False then
@@ -1708,6 +1724,7 @@ end;
 end
 else
 StatusT17.Value := 10;
+
 if StatusAlarmT17.AsBool = False then
 begin
 if RelayInForwardT17.AsBool = False then
@@ -1748,7 +1765,7 @@ begin
    T24OutLine.Color := clRed;
    ImageT17.Color := clRed;
    StatusT17.Value := 4;
-   StartTimeT17.Value := 0;                   
+   StartTimeT17.Value := 0;
    end;
 end;
 end
@@ -1802,6 +1819,7 @@ end;
 end
 else
 StatusT18.Value := 10;
+
 if StatusAlarmT18.AsBool = False then
 begin
 if RelayInForwardT18.AsBool = False then
@@ -1835,7 +1853,7 @@ begin
    StatusStartForwardT18.Value := 6;
    StatusT18.Value := 3;
    end;
-   end;                                                                                   
+   end;
  if RelayOutReversT18.AsBool = False then
      if RelayInReversT18.AsBool = False then
    begin
@@ -1851,6 +1869,7 @@ StatusT18.Value := 10;
 //Транспортер номер 18 конец
 end;
 //Мембранные датчики транспортеров начало
+
 if MembSensorAT1.AsBool = True then
 begin
 MembSensAT1Image.Color := clRed;
@@ -1859,6 +1878,7 @@ if MembSensorAT1.AsBool = False then
 begin
 MembSensAT1Image.Color := clGreen;
 end;
+
 if MembSensorAT2.AsBool = True then
 begin
 MembSensAT2Image.Color := clRed;
@@ -1867,6 +1887,7 @@ if MembSensorAT2.AsBool = False then
 begin
 MembSensAT2Image.Color := clGreen;
 end;
+
 if MembSensorAT3.AsBool = True then
 begin
 MembSensAT3Image.Color := clRed;
@@ -1875,6 +1896,7 @@ if MembSensorAT3.AsBool = False then
 begin
 MembSensAT3Image.Color := clGreen;
 end;
+
 if MembSensorAT4.AsBool = True then
 begin
 MembSensAT4Image.Color := clGreen;
@@ -1891,6 +1913,7 @@ if MembSensorBT4.AsBool = False then
 begin
 MembSensBT4Image.Color := clRed;
 end;
+
 if MembSensorAT5.AsBool = True then
 begin
 MembSensAT5Image.Color := clGreen;
@@ -1907,6 +1930,7 @@ if MembSensorBT5.AsBool = False then
 begin
 MembSensBT5Image.Color := clRed;
 end;
+
 if MembSensorAT6.AsBool = True then
 begin
 MembSensAT6Image.Color := clGreen;
@@ -1923,13 +1947,14 @@ if MembSensorBT6.AsBool = False then
 begin
 MembSensBT6Image.Color := clRed;
 end;
+
 if MembSensorAT7.AsBool = True then
 begin
 MembSensAT7Image.Color := clGreen;
 end;
 if MembSensorAT7.AsBool = False then
 begin
-MembSensAT7Image.Color := clRed;             
+MembSensAT7Image.Color := clRed;
 end;
 if MembSensorBT7.AsBool = True then
 begin

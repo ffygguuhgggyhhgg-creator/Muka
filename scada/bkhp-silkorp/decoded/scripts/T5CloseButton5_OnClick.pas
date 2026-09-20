@@ -10,7 +10,7 @@ T5BlockSelectStatus.Value := True;
 AddMessage(Now, mkWarning , 'Начало закрытия задвижки Транспортера 5 Силос 27-37!', True, True);
 end;
 end;
-end;                                                                                   
+end;
 if T5LatchCalCloseTime5.Value = 0 then
 begin
 AddMessage(Now, mkAlarm, 'Произведите калибровку закрытия задвижки Транспортера 5 Силос 27-37! Время открытия равно нулю!', True, True);

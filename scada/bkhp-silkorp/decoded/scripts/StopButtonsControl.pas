@@ -202,7 +202,7 @@ begin
    begin
    RelayOutC11.Value := False;
    StatusStartC11.Value := 16;
-   end;                                  
+   end;
 end;
 //Аспирация 11 конец
 //Аспирация 12 начало
@@ -395,7 +395,7 @@ begin
 end;
 //Транспортер 16 конец
 //Транспортер 17 начало
-begin                                                           
+begin
  if RelayStopInT17.AsBool = False then
    begin
    RelayOutForwardT17.Value := False;

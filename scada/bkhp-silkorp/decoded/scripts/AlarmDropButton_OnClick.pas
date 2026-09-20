@@ -33,70 +33,87 @@ AlarmStatusT1.Value := False;
 StatusStartForwardT1.Value := 1;
 StatusStartReversT1.Value := 1;
 StatusT1.Value := 4;
+
 AlarmStatusT2.Value := False;
 StatusStartForwardT2.Value := 1;
 StatusStartReversT2.Value := 1;
 StatusT2.Value := 4;
+
 AlarmStatusT3.Value := False;
 StatusStartForwardT3.Value := 1;
 StatusStartReversT3.Value := 1;
 StatusT3.Value := 4;
+
 AlarmStatusT4.Value := False;
 StatusStartForwardT4.Value := 1;
 StatusStartReversT4.Value := 1;
 StatusT4.Value := 4;
+
 AlarmStatusT5.Value := False;
 StatusStartForwardT5.Value := 1;
 StatusStartReversT5.Value := 1;
 StatusT5.Value := 4;
+
 AlarmStatusT6.Value := False;
 StatusStartForwardT6.Value := 1;
 StatusStartReversT6.Value := 1;
 StatusT6.Value := 4;
+
 AlarmStatusT7.Value := False;
 StatusStartForwardT7.Value := 1;
 StatusStartReversT7.Value := 1;
 StatusT7.Value := 4;
+
 AlarmStatusT8.Value := False;
 StatusStartForwardT8.Value := 1;
 StatusStartReversT8.Value := 1;
 StatusT8.Value := 4;
+
 AlarmStatusT9.Value := False;
 StatusStartForwardT9.Value := 1;
 StatusStartReversT9.Value := 1;
 StatusT9.Value := 4;
+
 AlarmStatusT10.Value := False;
 StatusStartForwardT10.Value := 1;
 StatusStartReversT10.Value := 1;
 StatusT10.Value := 4;
+
 AlarmStatusT11.Value := False;
 StatusStartForwardT11.Value := 1;
 StatusStartReversT11.Value := 1;
 StatusT11.Value := 4;
+
 AlarmStatusT12.Value := False;
 StatusStartForwardT12.Value := 1;
 StatusStartReversT12.Value := 1;
 StatusT12.Value := 4;
+
 AlarmStatusT13.Value := False;
 StatusStartForwardT13.Value := 1;
-StatusStartReversT13.Value := 1;       
+StatusStartReversT13.Value := 1;
 StatusT13.Value := 4;
+
 AlarmStatusT14.Value := False;
 StatusStartForwardT14.Value := 1;
 StatusStartReversT14.Value := 1;
 StatusT14.Value := 4;
+
 AlarmStatusT15.Value := False;
 StatusStartForwardT15.Value := 1;
 StatusStartReversT15.Value := 1;
 StatusT15.Value := 4;
+
 AlarmStatusT16.Value := False;
 StatusStartForwardT16.Value := 1;
 StatusStartReversT16.Value := 1;
 StatusT16.Value := 4;
+
 AlarmStatusT17.Value := False;
 StatusStartForwardT17.Value := 1;
 StatusStartReversT17.Value := 1;
 StatusT17.Value := 4;
+
 AlarmStatusT18.Value := False;
 StatusStartForwardT18.Value := 1;
 StatusStartReversT18.Value := 1;

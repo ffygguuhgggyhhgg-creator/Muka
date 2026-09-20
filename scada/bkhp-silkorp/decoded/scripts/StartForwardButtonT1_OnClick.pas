@@ -1,5 +1,5 @@
 begin
-AddMessage(Now, mkAlarm, 'Нажата кнопка пуска прямой (А) (Транспортер 1)!', True, True);  
+AddMessage(Now, mkAlarm, 'Нажата кнопка пуска прямой (А) (Транспортер 1)!', True, True);
 // команда на включение механизма
 if RelayOutReversT1.AsBool = False then // проверка неактивности выхода контроллера
     if StatusT1.AsInt = 4 then // проверка отсутствия местного включения механизма

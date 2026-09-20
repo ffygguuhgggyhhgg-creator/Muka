@@ -2,11 +2,12 @@ begin
 if T6CalStatus6.AsBool = True then //Если выполнен скрипт по нажатии на кнопку управления
 begin
 T6CalTimer6.Value := T6CalTimer6.Value + 1; //Запускаем счетчик выполнения алгоритма
+
 if T6CalTimer6.Value > 2 then  // Условие пуска звукового оповещения
 if T6CalTimer6.Value < 4 then  // Условие пуска звукового оповещения
- begin                                    
+ begin
  if T6LatchStatusByte6.Value = 3 then
- begin                                        
+ begin
  T6LatchCalOpenTime6.Value := 0;
  T6LatchCalCloseTime6.Value := 0;
  T6BlockSelectStatus.Value := True; // Блокируем управление задвижкой
@@ -22,23 +23,26 @@ T6CalStatus6.Value := False; // Останавливаем алгоритм ка
 T6CalTimer6.Value := 0; //Останавливаем счетчик выполнения алгоритма
  end;
  end;
+
 if T6CalTimer6.Value > 5 then // Условие пуска исполнительного механизма
 if T6CalTimer6.Value < 7 then
 begin
 T6LatchRunOpen.Value := True; // Дискретный выход управления задвижкой
 T6LatchCalOpenTime6.Value := T6LatchCalOpenTime6.Value + 1; // Начинаем счет времени открытия задвижки
 end;
-                                       
+
 if T6CalTimer6.Value > 5 then // Условие счета времени открытия
 if T6LatchRunOpen.AsBool = True then
 begin
 T6LatchCalOpenTime6.Value := T6LatchCalOpenTime6.Value + 1; // Начинаем счет времени открытия задвижки
 end;
+
 if T6CalTimer6.Value > 5 then
 if T6LatchOpen6.AsBool = True then // Условие остановки выполнения алгоритма по концевику
 begin
 T6LatchRunOpen.Value := False;     // Дискретный выход управления задвижкой
-end;                               
+end;
+
 if T6CalTimer6.Value > 5 + T6LatchCalOpenTime6.Value then // Условие пуска исполнительного механизма
 if T6CalTimer6.Value < 7 + T6LatchCalOpenTime6.Value then
 begin
@@ -48,11 +52,13 @@ T6LatchRunClose.Value := True;     // Дискретный выход управ
 AddMessage(Now, mkWarning , 'Задвижка Транспортера 6 Силос 46 успешно открыта при калибровке! Переход к расчету времени закрытия', True, True);
 end;
 end;
+
 if T6CalTimer6.Value > 5 + T6LatchCalOpenTime6.Value then // Условие счета времени открытия
 if T6LatchRunClose.AsBool = True then
 begin
 T6LatchCalCloseTime6.Value := T6LatchCalCloseTime6.Value + 1; // Начинаем счет времени закрытия задвижки
 end;
+
 if T6CalTimer6.Value > 5 + T6LatchCalOpenTime6.Value then
 if T6LatchClose6.AsBool = True then // Условие остановки выполнения алгоритма по концевику
 begin
@@ -64,5 +70,7 @@ T6LatchSelect6.Value := False; // Снимаем выбор задвижки
 T6CalTimer6.Value := 0; //Останавливаем счетчик выполнения алгоритма
 AddMessage(Now, mkWarning , 'Задвижка Транспортера 6 Силос 46 успешно закрыта при калибровке! Калибровка выполнена!', True, True);
 end;
+
+
 end;
 end.

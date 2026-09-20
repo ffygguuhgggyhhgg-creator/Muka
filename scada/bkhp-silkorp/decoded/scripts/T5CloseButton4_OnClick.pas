@@ -14,7 +14,7 @@ end;
 if T5LatchCalCloseTime4.Value = 0 then
 begin
 AddMessage(Now, mkAlarm, 'Произведите калибровку закрытия задвижки Транспортера 5 Силос 26-36! Время открытия равно нулю!', True, True);
-end;                
+end;
 if T5BlockSelectStatus.AsBool = True then
 begin
 AddMessage(Now, mkAlarm, 'Активна блокировка пуска! Дождитесь выполнение операции или отмените блокировку!', True, True);

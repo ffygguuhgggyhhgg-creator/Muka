@@ -7,14 +7,16 @@ begin
       begin
       StartImage.Color := ClGray;
       end;
+
       if L1_D1_S_Stop.AsBool = True then
-      begin                                              
+      begin
       StopImage.Color := ClRed;
       end;
       if L1_D1_S_Stop.AsBool = False then
       begin
       StopImage.Color := ClGray;
       end;
+
       if L1_D1_S_Pause.AsBool = True then
       begin
       PauseImage.Color := ClYellow;
@@ -23,6 +25,7 @@ begin
       begin
       PauseImage.Color := ClGray;
       end;
+
       if L1_D1_S_Error.AsBool = True then
       begin
       ErrorImage.Color := ClRed;
@@ -31,19 +34,21 @@ begin
       begin
       ErrorImage.Color := ClGray;
       end;
+
       if LatchHighStatus.AsBool = True then
       begin
       LatchHighImage.Color := ClRed;
       LatchHighText.Text := "Закрыта";
-      end;                    
+      end;
       if LatchHighStatus.AsBool = False then
       begin
-      LatchHighImage.Color := ClGreen;                       
+      LatchHighImage.Color := ClGreen;
       LatchHighText.Text := "Открыта";
       end;
+
       if LatchBottomStatus.AsBool = True then
       begin
-      LatchBottomImage.Color := ClRed;             
+      LatchBottomImage.Color := ClRed;
       LatchBottomText.Text := "Закрыта";
       end;
       if LatchBottomStatus.AsBool = False then

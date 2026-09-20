@@ -1,0 +1,5269 @@
+======================================================================
+FILE: project/Pages.spg   (5266 strings)
+======================================================================
+Page2
+Управление
+ǿ
+Subpage2
+Подстраница 1
+MessageViewer
+㾀
+AlarmTestButton
+Отпущена
+Тест звук. опов.
+Нажата
+Оповещение вкл.
+CheckBox2
+Связь с контроллером
+ObTable1
+Нории
+⣿
+Номер
+Номер
+1
+2
+3
+4
+5
+6
+1а
+2а
+11
+Пуск
+Пуск упр.
+Стоп
+Стоп упр.
+Статус
+Статус
+StartButtonN1
+Отпущена
+Пуск
+Нажата
+Пуск
+StartButtonN2
+Отпущена
+Пуск
+Нажата
+Пуск
+StartButtonN3
+Отпущена
+Пуск
+Нажата
+Пуск
+StartButtonN4
+Отпущена
+Пуск
+Нажата
+Пуск
+StartButtonN5
+Отпущена
+Пуск
+Нажата
+Пуск
+StartButtonN6
+Отпущена
+Пуск
+Нажата
+Пуск
+StartButtonN7
+Отпущена
+Пуск
+Нажата
+Пуск
+StartButtonN8
+Отпущена
+Пуск
+Нажата
+Пуск
+TextStatusN1
+TextStatusN2
+TextStatusN3
+TextStatusN4
+TextStatusN5
+TextStatusN6
+TextStatusN7
+TextStatusN8
+AlarmDropButton
+Отпущена
+Сброс аварии механизмов
+Нажата
+Сброс аварии механизмов
+StartButtonN9
+Отпущена
+Пуск
+Нажата
+Пуск
+StopButtonN1
+Отпущена
+Стоп
+Нажата
+Стоп
+StopButtonN2
+Отпущена
+Стоп
+Нажата
+Стоп
+StopButtonN3
+Отпущена
+Стоп
+Нажата
+Стоп
+StopButtonN4
+Отпущена
+Стоп
+Нажата
+Стоп
+StopButtonN5
+Отпущена
+Стоп
+Нажата
+Стоп
+StopButtonN6
+Отпущена
+Стоп
+Нажата
+Стоп
+StopButtonN7
+Отпущена
+Стоп
+Нажата
+Стоп
+StopButtonN8
+Отпущена
+Стоп
+Нажата
+Стоп
+StopButtonN9
+Отпущена
+Стоп
+Нажата
+Стоп
+TextStatusN9
+ConfirmButton
+ÿ
+Отпущена
+Подтвердить
+Нажата
+Подтверждено
+ConfirmAllButton
+Отпущена
+Подтвердить все
+Нажата
+Подтверждено все
+ObTable2
+Аспирация
+⣿
+Номер
+Номер
+1
+2
+3
+4
+1а
+2а
+7
+8
+9
+10
+11
+12
+Пуск
+Пуск упр.
+Стоп
+Стоп упр.
+Статус
+Статус
+StartButtonC1
+Отпущена
+Пуск
+Нажата
+Пуск
+StartButtonC2
+Отпущена
+Пуск
+Нажата
+Пуск
+StartButtonC3
+Отпущена
+Пуск
+Нажата
+Пуск
+StartButtonC4
+Отпущена
+Пуск
+Нажата
+Пуск
+StartButtonC5
+Отпущена
+Пуск
+Нажата
+Пуск
+StartButtonC6
+Отпущена
+Пуск
+Нажата
+Пуск
+StartButtonC7
+Отпущена
+Пуск
+Нажата
+Пуск
+StartButtonC8
+Отпущена
+Пуск
+Нажата
+Пуск
+TextStatusC1
+TextStatusC2
+TextStatusC3
+TextStatusC4
+TextStatusC5
+TextStatusC6
+TextStatusC7
+TextStatusC8
+StartButtonC9
+Отпущена
+Пуск
+Нажата
+Пуск
+StopButtonC1
+Отпущена
+Стоп
+Нажата
+Стоп
+StopButtonC2
+Отпущена
+Стоп
+Нажата
+Стоп
+StopButtonC3
+Отпущена
+Стоп
+Нажата
+Стоп
+StopButtonC4
+Отпущена
+Стоп
+Нажата
+Стоп
+StopButtonC5
+Отпущена
+Стоп
+Нажата
+Стоп
+StopButtonC6
+Отпущена
+Стоп
+Нажата
+Стоп
+StopButtonC7
+Отпущена
+Стоп
+Нажата
+Стоп
+StopButtonC8
+Отпущена
+Стоп
+Нажата
+Стоп
+StopButtonC9
+Отпущена
+Стоп
+Нажата
+Стоп
+TextStatusC9
+StartButtonC10
+Отпущена
+Пуск
+Нажата
+Пуск
+StartButtonC11
+Отпущена
+Пуск
+Нажата
+Пуск
+StartButtonC12
+Отпущена
+Пуск
+Нажата
+Пуск
+StopButtonC10
+Отпущена
+Стоп
+Нажата
+Стоп
+StopButtonC11
+Отпущена
+Стоп
+Нажата
+Стоп
+StopButtonC12
+Отпущена
+Стоп
+Нажата
+Стоп
+TextStatusC10
+TextStatusC11
+TextStatusC12
+ObTable3
+Транспортеры
+⣿
+Номер
+Номер
+1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+8а
+17
+9а
+17а
+25
+24
+22
+Пуск прямой
+Б
+Пуск реверс
+А
+Стоп
+Стоп
+Статус
+Статус
+Частота
+Частота
+Потребление
+Потребление
+StartForwardButtonT1
+Отпущена
+Пуск Б
+Нажата
+Пуск Б
+StartForwardButtonT2
+Отпущена
+Пуск Б
+Нажата
+Пуск Б
+StartForwardButtonT3
+Отпущена
+Пуск Б
+Нажата
+Пуск Б
+StartForwardButtonT4
+Отпущена
+Пуск Б
+Нажата
+Пуск Б
+StartForwardButtonT5
+Отпущена
+Пуск Б
+Нажата
+Пуск Б
+StartForwardButtonT6
+Отпущена
+Пуск Б
+Нажата
+Пуск Б
+StartForwardButtonT7
+Отпущена
+Пуск Б
+Нажата
+Пуск Б
+StartForwardButtonT8
+Отпущена
+Пуск Б
+Нажата
+Пуск Б
+TextStatusT1
+TextStatusT2
+TextStatusT3
+TextStatusT4
+TextStatusT5
+TextStatusT6
+TextStatusT7
+TextStatusT8
+StartForwardButtonT9
+Отпущена
+Пуск Б
+Нажата
+Пуск Б
+StartReversButtonT1
+Отпущена
+Пуск А
+Нажата
+Пуск А
+StartReversButtonT2
+Отпущена
+Пуск А
+Нажата
+Пуск А
+StartReversButtonT3
+Отпущена
+Пуск А
+Нажата
+Пуск А
+StartReversButtonT4
+Отпущена
+Пуск А
+Нажата
+Пуск А
+StartReversButtonT5
+Отпущена
+Пуск А
+Нажата
+Пуск А
+StartReversButtonT6
+Отпущена
+Пуск А
+Нажата
+Пуск А
+StartReversButtonT7
+Отпущена
+Пуск А
+Нажата
+Пуск А
+StartReversButtonT8
+Отпущена
+Пуск А
+Нажата
+Пуск А
+StartReversButtonT9
+Отпущена
+Пуск А
+Нажата
+Пуск А
+TextStatusT9
+StopButtonT1
+Отпущена
+Стоп
+Нажата
+Стоп
+StopButtonT2
+Отпущена
+Стоп
+Нажата
+Стоп
+StopButtonT3
+Отпущена
+Стоп
+Нажата
+Стоп
+StopButtonT4
+Отпущена
+Стоп
+Нажата
+Стоп
+StopButtonT5
+Отпущена
+Стоп
+Нажата
+Стоп
+StopButtonT6
+Отпущена
+Стоп
+Нажата
+Стоп
+StopButtonT7
+Отпущена
+Стоп
+Нажата
+Стоп
+StopButtonT8
+Отпущена
+Стоп
+Нажата
+Стоп
+StopButtonT9
+Отпущена
+Стоп
+Нажата
+Стоп
+StartForwardButtonT10
+Отпущена
+Пуск Б
+Нажата
+Пуск Б
+StartForwardButtonT11
+Отпущена
+Пуск Б
+Нажата
+Пуск Б
+StartForwardButtonT12
+Отпущена
+Пуск Б
+Нажата
+Пуск Б
+StartForwardButtonT13
+Отпущена
+Пуск Б
+Нажата
+Пуск Б
+StartForwardButtonT14
+Отпущена
+Пуск Б
+Нажата
+Пуск Б
+StartForwardButtonT15
+Отпущена
+Пуск Б
+Нажата
+Пуск Б
+StartForwardButtonT16
+Отпущена
+Пуск Б
+Нажата
+Пуск Б
+StartForwardButtonT17
+Отпущена
+Пуск Б
+Нажата
+Пуск Б
+StartForwardButtonT18
+Отпущена
+Пуск Б
+Нажата
+Пуск Б
+StartReversButtonT10
+Отпущена
+Пуск А
+Нажата
+Пуск А
+StartReversButtonT11
+Отпущена
+Пуск А
+Нажата
+Пуск А
+StartReversButtonT12
+Отпущена
+Пуск А
+Нажата
+Пуск А
+StartReversButtonT13
+Отпущена
+Пуск А
+Нажата
+Пуск А
+StartReversButtonT14
+Отпущена
+Пуск А
+Нажата
+Пуск А
+StartReversButtonT15
+Отпущена
+Пуск А
+Нажата
+Пуск А
+StartReversButtonT16
+Отпущена
+Пуск А
+Нажата
+Пуск А
+StartReversButtonT17
+Отпущена
+Пуск А
+Нажата
+Пуск А
+StartReversButtonT18
+Отпущена
+Пуск А
+Нажата
+Пуск А
+StopButtonT10
+Отпущена
+Стоп
+Нажата
+Стоп
+StopButtonT11
+Отпущена
+Стоп
+Нажата
+Стоп
+StopButtonT12
+Отпущена
+Стоп
+Нажата
+Стоп
+StopButtonT13
+Отпущена
+Стоп
+Нажата
+Стоп
+StopButtonT14
+Отпущена
+Стоп
+Нажата
+Стоп
+StopButtonT15
+Отпущена
+Стоп
+Нажата
+Стоп
+StopButtonT16
+Отпущена
+Стоп
+Нажата
+Стоп
+StopButtonT17
+Отпущена
+Стоп
+Нажата
+Стоп
+StopButtonT18
+Отпущена
+Стоп
+Нажата
+Стоп
+TextStatusT10
+TextStatusT11
+TextStatusT12
+TextStatusT13
+TextStatusT14
+TextStatusT15
+TextStatusT16
+TextStatusT17
+TextStatusT18
+AlarmBox
+Оповещение
+AlarmStopButton
+Отпущена
+Аварийная остановка
+Нажата
+Аварийная остановка
+Field1
+0
+Text173
+Текущий вес, кг
+Text174
+Старт
+Text175
+Стоп
+Text176
+Счетчик весов, кг
+Text183
+Авария
+TrendViewer1
+㾀
+Scale
+0.##
+Поток
+Field9
+0
+Field13
+0
+Text184
+Поток, т/ч
+ErrorImage
+Light_2.sbm
+Световые приборы\Лампочка 1 (96px)
+StopImage
+Light_2.sbm
+Световые приборы\Лампочка 1 (96px)
+StartImage
+Light_2.sbm
+Световые приборы\Лампочка 1 (96px)
+Text185
+Пауза
+PauseImage
+Light_2.sbm
+Световые приборы\Лампочка 1 (96px)
+Text186
+Задвижка верхняя
+Text187
+Задвижка нижняя
+LatchBottomImage
+Light_2.sbm
+Световые приборы\Лампочка 1 (96px)
+LatchHighImage
+Light_2.sbm
+Световые приборы\Лампочка 1 (96px)
+Field14
+0
+Text189
+Счетчик оператора, кг
+ClearLocalCounterButton
+ÿ
+Отпущена
+Обнулить
+Нажата
+Обнулить
+Field19
+0
+Field20
+0
+Field21
+0
+Field22
+0
+Field23
+0
+Field24
+0
+Field25
+0
+Text478
+Весы поточные
+LatchHighText
+Открыта
+LatchBottomText
+Открыта
+Field26
+0
+Field27
+0
+Field28
+0
+Field29
+0
+Field30
+0
+Field31
+0
+Field32
+0
+Button312
+ÿ
+Отпущена
+Ввод частоты
+Нажата
+Ввод частоты
+VesThrue
+Отпущена
+Весы на проход
+Нажата
+Весы на проход
+VesInWork
+Отпущена
+Весы в работу
+Нажата
+Весы в работу
+VesWrite
+Отпущена
+Записать
+Нажата
+Записать
+VesRead
+Отпущена
+Прочитать
+Нажата
+Прочитать
+Field15
+0
+VesStopCircle
+Отпущена
+Стоп цикла
+Нажата
+Стоп цикла
+Field7
+0
+Text188
+Вес дозы
+Text191
+Команда
+VesErrorOff
+Отпущена
+Сброс аварии
+Нажата
+Сброс аварии
+Calendar1
+Calendar2
+VesRepValueButton
+Отпущена
+Отчет по каждому отвесу
+Нажата
+Отчет по каждому отвесу
+Text192
+Начало
+Text193
+Конец
+VesRepIntervalButton
+Отпущена
+Отчет почасовой
+Нажата
+Отчет почасовой
+BlockControlButton
+Отпущена
+Защитные блокировки
+Нажата
+Защитные блокировки
+BlockControlBox
+Защитные блокировки
+Text197
+Высокая подача
+ErrorCapacityImage
+Light_2.sbm
+Световые приборы\Лампочка 1 (96px)
+Page1
+Мнемосхема
+ǿ
+Subpage1
+Подстраница 1
+ImageC1
+Ductwork_4.sbm
+Вентиляция\Воздуховод 2
+ImageTopN1
+НорияR
+Text1
+С - 1
+Text2
+Н - 1
+ImageT1
+Conveyor_14.sbm
+Конвейеры\Элеватор 1 (512px)
+Text3
+Т - 1
+N1OutLine
+㠀
+ᘀ
+Tank1
+Ḁ
+Tank2
+Ḁ
+Tank3
+Ḁ
+Tank4
+Ḁ
+Tank5
+Ḁ
+Tank6
+Ḁ
+Tank7
+Ḁ
+Tank8
+Ḁ
+Tank9
+Ḁ
+Tank10
+Ḁ
+Tank11
+Ḁ
+Tank12
+Ḁ
+Tank13
+Ḁ
+Tank14
+Ḁ
+Tank15
+Ḁ
+Tank16
+Ḁ
+Tank17
+Ḁ
+Tank18
+Ḁ
+Tank19
+Ḁ
+Tank20
+Ḁ
+Tank21
+Ḁ
+Tank22
+Ḁ
+Tank23
+Ḁ
+Tank24
+Ḁ
+Tank25
+Ḁ
+Tank26
+Ḁ
+Tank27
+Ḁ
+Tank28
+Ḁ
+Tank29
+Ḁ
+Tank30
+Ḁ
+Tank31
+Ḁ
+Tank32
+Ḁ
+Tank33
+Ḁ
+Tank34
+Ḁ
+Tank35
+Ḁ
+Tank36
+Ḁ
+Tank37
+Ḁ
+Tank38
+Ḁ
+Tank39
+Ḁ
+Tank40
+Ḁ
+Tank41
+Ḁ
+Tank42
+Ḁ
+Tank43
+Ḁ
+Tank44
+Ḁ
+Tank45
+Ḁ
+Tank46
+Ḁ
+Tank47
+Ḁ
+Tank48
+Ḁ
+Tank49
+Ḁ
+Tank50
+Ḁ
+Tank51
+Ḁ
+Tank52
+Ḁ
+Tank53
+Ḁ
+Tank54
+Ḁ
+Tank55
+Ḁ
+Tank56
+Ḁ
+Tank57
+Ḁ
+Tank58
+Ḁ
+Tank59
+Ḁ
+ImageT4_1
+Conveyor_14.sbm
+Конвейеры\Элеватор 1 (512px)
+ImageC2
+Ductwork_4.sbm
+Вентиляция\Воздуховод 2
+ImageTopN2
+НорияR
+Text4
+С - 2
+Text5
+Н - 2
+ImageT2
+Conveyor_14.sbm
+Конвейеры\Элеватор 1 (512px)
+Text6
+Т - 2
+N2OutLine
+㠀
+ᘀ
+ImageC3
+Ductwork_4.sbm
+Вентиляция\Воздуховод 2
+ImageTopN3
+НорияR
+Text7
+С - 3
+Text8
+Н - 3
+ImageT3
+Conveyor_14.sbm
+Конвейеры\Элеватор 1 (512px)
+Text9
+Т - 3
+N3OutLine
+㠀
+ᘀ
+ImageC4
+Ductwork_4.sbm
+Вентиляция\Воздуховод 2
+ImageTopN4
+НорияR
+Text10
+С - 4
+Text11
+Н - 4
+ImageTopN5
+НорияR
+Text12
+Н - 5
+N5ToT7Line
+ڮ
+븀
+ImageTopN6
+НорияR
+Text13
+Н - 6
+N6OutLine
+頀
+ImageTopN9
+НорияR
+Text14
+Н - 11
+N11OutLine
+㠀
+ᘀ
+ImageT18
+Conveyor_12.sbm
+Конвейеры\Элеватор 1 (192px)
+T22OutLine
+㠀
+ᘀ
+ImageT17
+Conveyor_12.sbm
+Конвейеры\Элеватор 1 (192px)
+T24OutLine
+㠀
+ᘀ
+ImageT16
+Conveyor_12.sbm
+Конвейеры\Элеватор 1 (192px)
+ImageBottomN1
+НорияR
+Text15
+Н - 1
+ImageBottomN2
+НорияR
+Text16
+Н - 2
+ImageBottomN3
+НорияR
+Text17
+Н - 3
+ImageBottomN4
+НорияR
+Text18
+Н - 4
+ImageBottomN5
+НорияR
+Text19
+Н - 5
+ImageBottomN6
+НорияR
+Text20
+Н - 6
+ImageC10
+Ductwork_4.sbm
+Вентиляция\Воздуховод 2
+Text21
+С - 10
+ImageT6
+Conveyor_14.sbm
+Конвейеры\Элеватор 1 (512px)
+ImageT7
+Conveyor_14.sbm
+Конвейеры\Элеватор 1 (512px)
+ImageT5_1
+Conveyor_14.sbm
+Конвейеры\Элеватор 1 (512px)
+ImageT5_2
+Conveyor_13.sbm
+Конвейеры\Элеватор 1 (352px)
+ImageT8_1
+Conveyor_14.sbm
+Конвейеры\Элеватор 1 (512px)
+ImageT10
+Conveyor_14.sbm
+Конвейеры\Элеватор 1 (512px)
+ImageT11
+Conveyor_14.sbm
+Конвейеры\Элеватор 1 (512px)
+ImageT9_1
+Conveyor_14.sbm
+Конвейеры\Элеватор 1 (512px)
+ImageT9_2
+Conveyor_13.sbm
+Конвейеры\Элеватор 1 (352px)
+ImageT13
+Conveyor_12.sbm
+Конвейеры\Элеватор 1 (192px)
+ImageBottomN8
+НорияR
+Text22
+Н - 2а
+ImageTopN8
+НорияR
+Text23
+Н - 2а
+ImageT12
+Conveyor_12.sbm
+Конвейеры\Элеватор 1 (192px)
+ImageC6
+Ductwork_4.sbm
+Вентиляция\Воздуховод 2
+Text24
+С - 2а
+ImageC9
+Ductwork_4.sbm
+Вентиляция\Воздуховод 2
+Text25
+С - 9
+ImageT15
+Conveyor_12.sbm
+Конвейеры\Элеватор 1 (192px)
+ImageBottomN7
+НорияR
+Text26
+Н - 1а
+ImageTopN7
+НорияR
+ImageT14
+Conveyor_12.sbm
+Конвейеры\Элеватор 1 (192px)
+ImageC5
+Ductwork_4.sbm
+Вентиляция\Воздуховод 2
+Text27
+С - 1а
+Text28
+Н - 1а
+ImageC8
+Ductwork_4.sbm
+Вентиляция\Воздуховод 2
+Text29
+С - 8
+ImageC7
+Ductwork_4.sbm
+Вентиляция\Воздуховод 2
+Text30
+С - 7
+ImageC11
+Ductwork_4.sbm
+Вентиляция\Воздуховод 2
+Text31
+С - 11
+ImageBottomN9
+НорияR
+Text32
+Н - 11
+ImageC12
+Ductwork_4.sbm
+Вентиляция\Воздуховод 2
+Text33
+С - 12
+Text34
+Т - 4
+Text35
+Т - 5
+Text36
+Т - 6
+Text37
+Т - 7
+Text38
+Т - 22
+Text39
+Т - 24
+Text40
+Т - 25
+T25OutLine
+ 
+ᘀ
+Text41
+㾀
+Нория в комбицех
+Text42
+㾀
+Конвейер в складе соли и мела
+Line11
+ހ
+Text43
+㾀
+Транспортер для подачи зернового сырья в комбицех
+Text44
+㾀
+Транспортер для подачи мучнистого сырья в комбицех
+Text45
+㾀
+Транспортер для подачи шрота в комбицех
+N4ToT6Line
+ֶ
+츀
+LineT1Latch8
+´
+Ď
+Z
+LineT1Latch7
+䠀
+ᘀ
+LineT1Latch6
+䠀
+ᘀ
+LineT1Latch4
+´
+Ď
+Z
+LineT1Latch3
+´
+Ď
+Z
+LineT1Latch2
+´
+Ď
+Z
+LineT1Latch5
+´
+à
+Ď
+Z
+LineT1Latch1
+䠀
+ᘀ
+Tank60
+Ḁ
+ImageT4_2
+Conveyor_14.sbm
+Конвейеры\Элеватор 1 (512px)
+LineT4Klap1_1
+᠀
+ᘀ
+LineT4Klap1_2
+᠀
+ᘀ
+LineT4Klap2_1
+᠀
+ᘀ
+LineT4Klap2_2
+᠀
+ᘀ
+LineT4Klap3_1
+᠀
+ᘀ
+LineT4Klap3_2
+᠀
+ᘀ
+LineT4Klap4_1
+᠀
+ᘀ
+LineT4Klap4_2
+᠀
+ᘀ
+LineT4Klap5_1
+᠀
+ᘀ
+LineT4Klap5_2
+᠀
+ᘀ
+LineT4Klap6_1
+᠀
+ᘀ
+LineT4Klap6_2
+᠀
+ᘀ
+LineT4Klap7_1
+᠀
+ᘀ
+LineT4Klap7_2
+᠀
+ᘀ
+LineT4Klap8_1
+᠀
+ᘀ
+LineT4Klap8_2
+᠀
+ᘀ
+LineT4Klap9_1
+᠀
+ᘀ
+LineT4Klap9_2
+᠀
+ᘀ
+LineT4Klap10_1
+᠀
+ᘀ
+LineT4Klap10_2
+᠀
+ᘀ
+LineT4Latch1
+᠀
+ᘀ
+LineT4Latch2
+᠀
+ᘀ
+LineT4Latch3
+᠀
+ᘀ
+LineT4Latch4
+᠀
+ᘀ
+LineT4Latch5
+᠀
+ᘀ
+LineT4Latch6
+᠀
+ᘀ
+LineT4Latch7
+᠀
+ᘀ
+LineT4Latch8
+᠀
+ᘀ
+LineT4Latch9
+᠀
+ᘀ
+LineT4Latch10
+᠀
+ᘀ
+LineT5Klap1_1
+᠀
+ᘀ
+LineT5Klap1_2
+᠀
+ᘀ
+LineT5Klap2_1
+᠀
+ᘀ
+LineT5Klap2_2
+᠀
+ᘀ
+LineT5Klap3_1
+᠀
+ᘀ
+LineT5Klap3_2
+᠀
+ᘀ
+LineT5Klap4_1
+᠀
+ᘀ
+LineT5Klap4_2
+᠀
+ᘀ
+LineT5Klap5_1
+᠀
+ᘀ
+LineT5Klap5_2
+᠀
+ᘀ
+LineT5Klap6_1
+᠀
+ᘀ
+LineT5Klap6_2
+᠀
+ᘀ
+LineT5Klap7_1
+᠀
+ᘀ
+LineT5Klap7_2
+᠀
+ᘀ
+LineT5Klap8_1
+᠀
+ᘀ
+LineT5Klap8_2
+᠀
+ᘀ
+LineT5Latch1
+᠀
+ᘀ
+LineT5Latch2
+᠀
+ᘀ
+LineT5Latch3
+᠀
+ᘀ
+LineT5Latch4
+᠀
+ᘀ
+LineT5Latch5
+᠀
+ᘀ
+LineT5Latch6
+᠀
+ᘀ
+LineT5Latch7
+᠀
+ᘀ
+LineT5Latch8
+᠀
+ᘀ
+LineT6Latch1
+䀀
+ᘀ
+LineT6Latch2
+䀀
+ᘀ
+LineT6Latch3
+䀀
+ᘀ
+LineT6Latch4
+䀀
+ᘀ
+LineT6Latch5
+䀀
+ᘀ
+LineT6Latch6
+䀀
+ᘀ
+LineT6Latch7
+䀀
+ᘀ
+LineT6Latch8
+䀀
+ᘀ
+LineT6Latch9
+䀀
+ᘀ
+LineT6Latch10
+䀀
+ᘀ
+LineT7Latch1
+䀀
+ᘀ
+LineT7Latch2
+䀀
+ᘀ
+LineT7Latch3
+䀀
+ᘀ
+LineT7Latch4
+䀀
+ᘀ
+LineT7Latch5
+䀀
+ᘀ
+LineT7Latch6
+䀀
+ᘀ
+LineT7Latch7
+䀀
+ᘀ
+LineT7Latch8
+䀀
+ᘀ
+LineT7Latch9
+䀀
+ᘀ
+LineT7Latch10
+䀀
+ᘀ
+ImageT8_2
+Conveyor_14.sbm
+Конвейеры\Элеватор 1 (512px)
+Text46
+1
+Text47
+11
+Text48
+2
+Text49
+3
+Text50
+4
+Text51
+5
+Text52
+6
+Text53
+7
+Text54
+8
+Text55
+9
+Text56
+10
+Text57
+12
+Text58
+13
+Text59
+14
+Text60
+15
+Text61
+16
+Text62
+17
+Text63
+18
+Text64
+19
+Text65
+20
+Text66
+Л  е  с  т  н  и  ц  а
+Text67
+22
+Text68
+23
+Text69
+33
+Text70
+24
+Text71
+34
+Text72
+25
+Text73
+35
+Text74
+26
+Text75
+36
+Text76
+27
+Text77
+37
+Text78
+28
+Text79
+38
+Text80
+29
+Text81
+39
+Text82
+30
+Text83
+40
+Text84
+Л  е  с  т  н  и  ц  а
+Text85
+Л  и  ф  т
+Text86
+41
+Text87
+42
+Text90
+43
+Text91
+44
+Text92
+45
+Text93
+46
+Text94
+47
+Text95
+48
+Text96
+49
+Text97
+50
+Text98
+51
+Text99
+52
+Text100
+53
+Text101
+54
+Text102
+55
+Text103
+56
+Text104
+57
+Text105
+58
+Text106
+59
+Text107
+60
+LineReversT4
+䀁
+鐀
+LineForwardT4
+䀁
+LineReversT5
+䠁
+LineForwardT5
+䠁
+LineReversT6
+䀁
+밀
+LineForwardT6
+䀁
+LineForwardT7
+䀁
+LineReversT7
+䀁
+Ѐ
+LineT8Latch1
+　
+ᘀ
+LineT8Latch2
+　
+ᘀ
+LineT8Latch3
+　
+ᘀ
+LineT8Latch4
+　
+ᘀ
+LineT8Latch5
+　
+ᘀ
+LineT8Latch6
+　
+ᘀ
+LineT8Latch7
+　
+ᘀ
+LineT8Latch8
+　
+ᘀ
+LineT8Latch9
+　
+ᘀ
+LineT8Latch10
+　
+ᘀ
+LineT8Latch11
+　
+ᘀ
+LineT8Latch12
+　
+ᘀ
+LineT8Latch13
+　
+ᘀ
+LineT8Latch14
+　
+ᘀ
+LineT8Latch15
+　
+ᘀ
+LineT8Latch16
+　
+ᘀ
+LineT8Latch17
+　
+ᘀ
+LineT8Latch18
+　
+ᘀ
+LineT8Latch19
+　
+ᘀ
+LineT8Latch20
+　
+ᘀ
+LineT9Latch1
+　
+ᘀ
+LineT9Latch2
+　
+ᘀ
+LineT9Latch3
+　
+ᘀ
+LineT9Latch4
+　
+ᘀ
+LineT9Latch5
+　
+ᘀ
+LineT9Latch6
+　
+ᘀ
+LineT9Latch7
+　
+ᘀ
+LineT9Latch8
+　
+ᘀ
+LineT9Latch9
+　
+ᘀ
+LineT9Latch10
+　
+ᘀ
+LineT9Latch11
+　
+ᘀ
+LineT9Latch12
+　
+ᘀ
+LineT9Latch13
+　
+ᘀ
+LineT9Latch14
+　
+ᘀ
+LineT9Latch15
+　
+ᘀ
+LineT9Latch16
+　
+ᘀ
+LineT10Latch1
+　
+ᘀ
+LineT10Latch2
+　
+ᘀ
+LineT10Latch3
+　
+ᘀ
+LineT10Latch4
+　
+ᘀ
+LineT10Latch5
+　
+ᘀ
+LineT10Latch6
+　
+ᘀ
+LineT10Latch7
+　
+ᘀ
+LineT10Latch8
+　
+ᘀ
+LineT10Latch9
+　
+ᘀ
+LineT10Latch10
+　
+ᘀ
+LineT11Latch1
+　
+ᘀ
+LineT11Latch2
+　
+ᘀ
+LineT11Latch3
+　
+ᘀ
+LineT11Latch4
+　
+ᘀ
+LineT11Latch5
+　
+ᘀ
+LineT11Latch6
+　
+ᘀ
+LineT11Latch7
+　
+ᘀ
+LineT11Latch8
+　
+ᘀ
+LineT11Latch9
+　
+ᘀ
+LineT11Latch10
+　
+ᘀ
+T17OutLine
+ 
+ᘀ
+N2aOutLine
+က
+ᘀ
+T8aOutLine
+ 
+ᘀ
+Line162
+က
+ᘀ
+Text88
+㾀
+Автомобильный разгрузчик
+Text89
+Т - 17
+Text108
+Т - 8а
+Line163
+က
+ᘀ
+Text109
+㾀
+Автомобильный разгрузчик
+N1aOutLine
+က
+ᘀ
+T17aOutLine
+ 
+ᘀ
+T9aOutLine
+ 
+ᘀ
+Text110
+Т - 17а
+Text111
+Т - 9а
+T10OutLine
+က
+T11OutLine
+ۈ
+T8OutLine
+㠀
+T9OutLine
+倀
+LineForwardT11
+䀁
+LineReversT11
+䀁
+Ѐ
+LineForwardT10
+䀁
+LineReversT10
+䀁
+밀
+LineForwardT9
+䠁
+LineReversT9
+䠁
+저
+LineForwardT8
+䀁
+LineReversT8
+䀁
+鐀
+N4KlapOutLine
+᠀
+ᨀ
+N4ToKombiLine
+´
+Ď
+㰀
+N5KlapOutLine
+᠀
+ᨀ
+N5ToKombiLine
+LineReversT1
+䀁
+저
+LineForwardT1
+䀁
+LineForwardT2
+䀁
+LineReversT2
+䀁
+耀
+LineReversT3
+䀁
+LineForwardT3
+䀁
+Text112
+Т - 8
+Text113
+Т - 9
+Text114
+Т - 10
+Text115
+Т - 11
+Text116
+1
+Text117
+11
+Text118
+2
+Text119
+12
+Text120
+3
+Text121
+13
+Text122
+4
+Text123
+14
+Text124
+5
+Text125
+15
+Text126
+6
+Text127
+16
+Text128
+7
+Text129
+17
+Text130
+8
+Text131
+18
+Text132
+9
+Text133
+19
+Text134
+10
+Text135
+20
+Text136
+22
+Text137
+23
+Text138
+33
+Text139
+24
+Text140
+34
+Text141
+25
+Text142
+35
+Text143
+26
+Text144
+36
+Text145
+27
+Text146
+37
+Text147
+28
+Text148
+38
+Text149
+29
+Text150
+39
+Text151
+30
+Text152
+40
+Text153
+41
+Text154
+42
+Text155
+43
+Text156
+44
+Text157
+45
+Text158
+46
+Text159
+47
+Text160
+48
+Text161
+49
+Text162
+50
+Text163
+51
+Text164
+52
+Text165
+53
+Text166
+54
+Text167
+55
+Text168
+56
+Text169
+57
+Text170
+58
+Text171
+59
+Text172
+60
+LineT9Latch17
+　
+ᘀ
+Text285
+А
+Text286
+А
+Text287
+А
+Text288
+А
+Text289
+А
+Text290
+А
+Text291
+Б
+Text292
+Б
+Text293
+Б
+Text294
+Б
+Text295
+Б
+Text296
+Б
+Text297
+Б
+Text298
+А
+LineT1Latch9
+䠀
+ᘀ
+MembSensAT1Image
+Light_2.sbm
+Световые приборы\Лампочка 1 (96px)
+MembSensAT4Image
+Light_2.sbm
+Световые приборы\Лампочка 1 (96px)
+MembSensBT4Image
+Light_2.sbm
+Световые приборы\Лампочка 1 (96px)
+MembSensAT2Image
+Light_2.sbm
+Световые приборы\Лампочка 1 (96px)
+MembSensAT3Image
+Light_2.sbm
+Световые приборы\Лампочка 1 (96px)
+MembSensAT5Image
+Light_2.sbm
+Световые приборы\Лампочка 1 (96px)
+MembSensBT5Image
+Light_2.sbm
+Световые приборы\Лампочка 1 (96px)
+MembSensAT6Image
+Light_2.sbm
+Световые приборы\Лампочка 1 (96px)
+MembSensBT6Image
+Light_2.sbm
+Световые приборы\Лампочка 1 (96px)
+MembSensAT7Image
+Light_2.sbm
+Световые приборы\Лампочка 1 (96px)
+MembSensBT7Image
+Light_2.sbm
+Световые приборы\Лампочка 1 (96px)
+Text194
+Подпор
+Text195
+Подпор
+Text196
+Подпор
+Page7
+Задв. трансп. 1-3
+ǿ
+Subpage7
+Подстраница 1
+Table13
+Ȁ
+⣿
+Номер
+Маршрут
+Т1-Т4
+Т1-Т5
+Т1-Т6
+Т1-Т7
+Т2-Т4
+Открыть
+Закрыть
+Статус
+Статус
+Калибровка
+Калибровка
+Время калиб. отк.
+Время откр.
+Время калиб. закр.
+Время закр.
+T1OpenButton1
+Отпущена
+Открыть
+Нажата
+Открыть
+T1OpenButton2
+Отпущена
+Открыть
+Нажата
+Открыть
+T1OpenButton3
+Отпущена
+Открыть
+Нажата
+Открыть
+T1OpenButton4
+Отпущена
+Открыть
+Нажата
+Открыть
+T1OpenButton5
+Отпущена
+Открыть
+Нажата
+Открыть
+T1CloseButton1
+Отпущена
+Закрыть
+Нажата
+Закрыть
+T1CloseButton2
+Отпущена
+Закрыть
+Нажата
+Закрыть
+T1CloseButton3
+Отпущена
+Закрыть
+Нажата
+Закрыть
+T1CloseButton4
+Отпущена
+Закрыть
+Нажата
+Закрыть
+T1CloseButton5
+Отпущена
+Закрыть
+Нажата
+Закрыть
+T1StatusTextLatch1
+Статус
+T1StatusTextLatch2
+Статус
+T1StatusTextLatch3
+Статус
+T1StatusTextLatch4
+Статус
+T1StatusTextLatch5
+Статус
+T1CalButton1
+Отпущена
+Калибровка
+Нажата
+Калибровка
+T1CalButton2
+Отпущена
+Калибровка
+Нажата
+Калибровка
+T1CalButton3
+Отпущена
+Калибровка
+Нажата
+Калибровка
+T1CalButton4
+Отпущена
+Калибровка
+Нажата
+Калибровка
+T1CalButton5
+Отпущена
+Калибровка
+Нажата
+Калибровка
+T1CalOpenText1
+Время откр.
+T1CalOpenText2
+Время откр.
+T1CalOpenText3
+Время откр.
+T1CalOpenText4
+Время откр.
+T1CalOpenText5
+Время откр.
+T1CalCloseText1
+Время закр.
+T1CalCloseText2
+Время закр.
+T1CalCloseText3
+Время закр.
+T1CalCloseText4
+Время закр.
+T1CalCloseText5
+Время закр.
+Table14
+Ȁ
+⣿
+Номер
+Маршрут
+Т2-Т5
+Т3-Т5
+Т3-Т6
+Т3-Т7
+Открыть
+Закрыть
+Статус
+Статус
+Калибровка
+Калибровка
+Время калиб. отк.
+Время откр.
+Время калиб. закр.
+Время закр.
+T1OpenButton6
+Отпущена
+Открыть
+Нажата
+Открыть
+T1OpenButton8
+Отпущена
+Открыть
+Нажата
+Открыть
+T1OpenButton9
+Отпущена
+Открыть
+Нажата
+Открыть
+T1CloseButton6
+Отпущена
+Закрыть
+Нажата
+Закрыть
+T1CloseButton8
+Отпущена
+Закрыть
+Нажата
+Закрыть
+T1CloseButton9
+Отпущена
+Закрыть
+Нажата
+Закрыть
+T1StatusTextLatch6
+Статус
+T1StatusTextLatch8
+Статус
+T1StatusTextLatch9
+Статус
+T1CalButton6
+Отпущена
+Калибровка
+Нажата
+Калибровка
+T1CalButton8
+Отпущена
+Калибровка
+Нажата
+Калибровка
+T1CalButton9
+Отпущена
+Калибровка
+Нажата
+Калибровка
+T1CalOpenText6
+Время откр.
+T1CalOpenText8
+Время откр.
+T1CalOpenText9
+Время откр.
+T1CalCloseText6
+Время закр.
+T1CalCloseText8
+Время закр.
+T1CalCloseText9
+Время закр.
+T1ErrorOffButton
+Отпущена
+Сброс Аварии
+Нажата
+Сброс Аварии
+T1BlockOffButton
+Отпущена
+Стоп/Сброс
+Нажата
+Стоп/Сброс
+T1BlockText
+Блокировка
+Text190
+Задвижки транспортеров номер 1-3
+T1LightOpen_1
+Light_1.sbm
+Световые приборы\Лампочка 1 (24px)
+T1LightClose_1
+Light_1.sbm
+Световые приборы\Лампочка 1 (24px)
+T1LightOpen_2
+Light_1.sbm
+Световые приборы\Лампочка 1 (24px)
+T1LightClose_2
+Light_1.sbm
+Световые приборы\Лампочка 1 (24px)
+Text315
+Открывается
+Text316
+Закрывается
+Text317
+Открывается
+Text318
+Закрывается
+T1OpenButton7
+Отпущена
+Открыть
+Нажата
+Открыть
+T1CloseButton7
+Отпущена
+Закрыть
+Нажата
+Закрыть
+T1StatusTextLatch7
+Статус
+T1CalButton7
+Отпущена
+Калибровка
+Нажата
+Калибровка
+T1CalOpenText7
+Время откр.
+T1CalCloseText7
+Время закр.
+Page6
+Задв. трансп. 4
+ǿ
+Subpage6
+Подстраница 1
+Table5
+㾀
+Ȁ
+⣿
+Номер
+Силос
+1-11
+2-12
+3-13
+4-14
+5-15
+Открыть
+Закрыть
+Статус
+Статус
+Калибровка
+Калибровка
+Время калиб. отк.
+Время откр.
+Время калиб. закр.
+Время закр.
+T4OpenButton1
+Отпущена
+Открыть
+Нажата
+Открыть
+T4OpenButton2
+Отпущена
+Открыть
+Нажата
+Открыть
+T4OpenButton3
+Отпущена
+Открыть
+Нажата
+Открыть
+T4OpenButton4
+Отпущена
+Открыть
+Нажата
+Открыть
+T4OpenButton5
+Отпущена
+Открыть
+Нажата
+Открыть
+T4CloseButton1
+Отпущена
+Закрыть
+Нажата
+Закрыть
+T4CloseButton2
+Отпущена
+Закрыть
+Нажата
+Закрыть
+T4CloseButton3
+Отпущена
+Закрыть
+Нажата
+Закрыть
+T4CloseButton4
+Отпущена
+Закрыть
+Нажата
+Закрыть
+T4CloseButton5
+Отпущена
+Закрыть
+Нажата
+Закрыть
+T4StatusTextLatch1
+Статус
+T4StatusTextLatch2
+Статус
+T4StatusTextLatch3
+Статус
+T4StatusTextLatch4
+Статус
+T4StatusTextLatch5
+Статус
+T4CalButton1
+Отпущена
+Калибровка
+Нажата
+Калибровка
+T4CalButton2
+Отпущена
+Калибровка
+Нажата
+Калибровка
+T4CalButton3
+Отпущена
+Калибровка
+Нажата
+Калибровка
+T4CalButton4
+Отпущена
+Калибровка
+Нажата
+Калибровка
+T4CalButton5
+Отпущена
+Калибровка
+Нажата
+Калибровка
+T4CalOpenText1
+Время откр.
+T4CalOpenText2
+Время откр.
+T4CalOpenText3
+Время откр.
+T4CalOpenText4
+Время откр.
+T4CalOpenText5
+Время откр.
+T4CalCloseText1
+Время закр.
+T4CalCloseText2
+Время закр.
+T4CalCloseText3
+Время закр.
+T4CalCloseText4
+Время закр.
+T4CalCloseText5
+Время закр.
+Table6
+㾀
+Ȁ
+⣿
+Номер
+Силос
+6-16
+7-17
+8-18
+9-19
+10-20
+Открыть
+Закрыть
+Статус
+Статус
+Калибровка
+Калибровка
+Время калиб. отк.
+Время откр.
+Время калиб. закр.
+Время закр.
+T4OpenButton6
+Отпущена
+Открыть
+Нажата
+Открыть
+T4OpenButton7
+Отпущена
+Открыть
+Нажата
+Открыть
+T4OpenButton8
+Отпущена
+Открыть
+Нажата
+Открыть
+T4OpenButton9
+Отпущена
+Открыть
+Нажата
+Открыть
+T4OpenButton10
+Отпущена
+Открыть
+Нажата
+Открыть
+T4CloseButton6
+Отпущена
+Закрыть
+Нажата
+Закрыть
+T4CloseButton7
+Отпущена
+Закрыть
+Нажата
+Закрыть
+T4CloseButton8
+Отпущена
+Закрыть
+Нажата
+Закрыть
+T4CloseButton9
+Отпущена
+Закрыть
+Нажата
+Закрыть
+T4CloseButton10
+Отпущена
+Закрыть
+Нажата
+Закрыть
+T4StatusTextLatch6
+Статус
+T4StatusTextLatch7
+Статус
+T4StatusTextLatch8
+Статус
+T4StatusTextLatch9
+Статус
+T4StatusTextLatch10
+Статус
+T6CalButton16
+Отпущена
+Калибровка
+Нажата
+Калибровка
+T4CalButton7
+Отпущена
+Калибровка
+Нажата
+Калибровка
+T4CalButton8
+Отпущена
+Калибровка
+Нажата
+Калибровка
+T4CalButton9
+Отпущена
+Калибровка
+Нажата
+Калибровка
+T4CalButton10
+Отпущена
+Калибровка
+Нажата
+Калибровка
+T4CalOpenText6
+Время откр.
+T4CalOpenText7
+Время откр.
+T4CalOpenText8
+Время откр.
+T4CalOpenText9
+Время откр.
+T4CalOpenText10
+Время откр.
+T4CalCloseText6
+Время закр.
+T4CalCloseText7
+Время закр.
+T4CalCloseText8
+Время закр.
+T4CalCloseText9
+Время закр.
+T4CalCloseText10
+Время закр.
+T4ErrorOffButton
+Отпущена
+Сброс Аварии
+Нажата
+Сброс Аварии
+T4BlockOffButton
+Отпущена
+Стоп/Сброс
+Нажата
+Стоп/Сброс
+T4BlockText
+Блокировка
+Text179
+Задвижки транспортера номер 4
+T4LightOpen_1
+Light_1.sbm
+Световые приборы\Лампочка 1 (24px)
+T4LightClose_1
+Light_1.sbm
+Световые приборы\Лампочка 1 (24px)
+T4LightOpen_2
+Light_1.sbm
+Световые приборы\Лампочка 1 (24px)
+T4LightClose_2
+Light_1.sbm
+Световые приборы\Лампочка 1 (24px)
+Text299
+Открывается
+Text300
+Закрывается
+Text301
+Открывается
+Text302
+Закрывается
+Table7
+㾀
+Ȁ
+⣿
+Открыть
+Закрыть
+Статус
+Статус
+Калибровка
+Калибровка
+Время калиб. отк.
+Время откр.
+Время калиб. закр.
+Время закр.
+T4ClapOpenButton1
+Отпущена
+1
+Нажата
+1
+T4ClapOpenButton2
+Отпущена
+2
+Нажата
+2
+T4ClapOpenButton3
+Отпущена
+3
+Нажата
+3
+T4ClapOpenButton4
+Отпущена
+4
+Нажата
+4
+T4ClapOpenButton5
+Отпущена
+5
+Нажата
+5
+T4ClapCloseButton1
+Отпущена
+11
+Нажата
+11
+T4ClapCloseButton2
+Отпущена
+12
+Нажата
+12
+T4ClapCloseButton3
+Отпущена
+13
+Нажата
+13
+T4ClapCloseButton4
+Отпущена
+14
+Нажата
+14
+T4ClapCloseButton5
+Отпущена
+15
+Нажата
+15
+T4ClapStatusTextLatch1
+Статус
+T4ClapStatusTextLatch2
+Статус
+T4ClapStatusTextLatch3
+Статус
+T4ClapStatusTextLatch4
+Статус
+T4ClapStatusTextLatch5
+Статус
+T4ClapCalButton1
+Отпущена
+Калибровка
+Нажата
+Калибровка
+T4ClapCalButton2
+Отпущена
+Калибровка
+Нажата
+Калибровка
+T4ClapCalButton3
+Отпущена
+Калибровка
+Нажата
+Калибровка
+T4ClapCalButton4
+Отпущена
+Калибровка
+Нажата
+Калибровка
+T4ClapCalButton5
+Отпущена
+Калибровка
+Нажата
+Калибровка
+T4ClapCalOpenText1
+Время откр.
+T4ClapCalOpenText2
+Время откр.
+T4ClapCalOpenText3
+Время откр.
+T4ClapCalOpenText4
+Время откр.
+T4ClapCalOpenText5
+Время откр.
+T4ClapCalCloseText1
+Время закр.
+T4ClapCalCloseText2
+Время закр.
+T4ClapCalCloseText3
+Время закр.
+T4ClapCalCloseText4
+Время закр.
+T4ClapCalCloseText5
+Время закр.
+Table8
+㾀
+Ȁ
+⣿
+Открыть
+Закрыть
+Статус
+Статус
+Калибровка
+Калибровка
+Время калиб. отк.
+Время откр.
+Время калиб. закр.
+Время закр.
+T4ClapOpenButton6
+Отпущена
+6
+Нажата
+6
+T4ClapOpenButton7
+Отпущена
+7
+Нажата
+7
+T4ClapOpenButton8
+Отпущена
+8
+Нажата
+8
+T4ClapOpenButton9
+Отпущена
+9
+Нажата
+9
+T4ClapOpenButton10
+Отпущена
+10
+Нажата
+10
+T4ClapCloseButton6
+Отпущена
+16
+Нажата
+16
+T4ClapCloseButton7
+Отпущена
+17
+Нажата
+17
+T4ClapCloseButton8
+Отпущена
+18
+Нажата
+18
+T4ClapCloseButton9
+Отпущена
+19
+Нажата
+19
+T4ClapCloseButton10
+Отпущена
+20
+Нажата
+20
+T4ClapStatusTextLatch6
+Статус
+T4ClapStatusTextLatch7
+Статус
+T4ClapStatusTextLatch8
+Статус
+T4ClapStatusTextLatch9
+Статус
+T4ClapStatusTextLatch10
+Статус
+T4ClapCalButton6
+Отпущена
+Калибровка
+Нажата
+Калибровка
+T4ClapCalButton7
+Отпущена
+Калибровка
+Нажата
+Калибровка
+T4ClapCalButton8
+Отпущена
+Калибровка
+Нажата
+Калибровка
+T4ClapCalButton9
+Отпущена
+Калибровка
+Нажата
+Калибровка
+T4ClapCalButton10
+Отпущена
+Калибровка
+Нажата
+Калибровка
+T4ClapCalOpenText6
+Время откр.
+T4ClapCalOpenText7
+Время откр.
+T4ClapCalOpenText8
+Время откр.
+T4ClapCalOpenText9
+Время откр.
+T4ClapCalOpenText10
+Время откр.
+T4ClapCalCloseText6
+Время закр.
+T4ClapCalCloseText7
+Время закр.
+T4ClapCalCloseText8
+Время закр.
+T4ClapCalCloseText9
+Время закр.
+T4ClapCalCloseText10
+Время закр.
+Text180
+Перекидные клапаны транспортера номер 4
+T4ClapLightOpen_1
+Light_1.sbm
+Световые приборы\Лампочка 1 (24px)
+T4ClapLightClose_1
+Light_1.sbm
+Световые приборы\Лампочка 1 (24px)
+T4ClapLightOpen_2
+Light_1.sbm
+Световые приборы\Лампочка 1 (24px)
+T4ClapLightClose_2
+Light_1.sbm
+Световые приборы\Лампочка 1 (24px)
+Text303
+Движение
+Text304
+Движение
+Text305
+Движение
+Text306
+Движение
+T4ClapErrorOffButton
+Отпущена
+Сброс Аварии
+Нажата
+Сброс Аварии
+T4ClapBlockOffButton
+Отпущена
+Стоп/Сброс
+Нажата
+Стоп/Сброс
+T4ClapBlockText
+Блокировка
+Page5
+Задв. трансп. 5
+ǿ
+Subpage5
+Подстраница 1
+Table9
+㾀
+Ȁ
+⣿
+Номер
+Силос
+23-33
+24-34
+25-35
+26-36
+27-37
+Открыть
+Закрыть
+Статус
+Статус
+Калибровка
+Калибровка
+Время калиб. отк.
+Время откр.
+Время калиб. закр.
+Время закр.
+T5OpenButton1
+Отпущена
+Открыть
+Нажата
+Открыть
+T5OpenButton2
+Отпущена
+Открыть
+Нажата
+Открыть
+T5OpenButton3
+Отпущена
+Открыть
+Нажата
+Открыть
+T5OpenButton4
+Отпущена
+Открыть
+Нажата
+Открыть
+T5OpenButton5
+Отпущена
+Открыть
+Нажата
+Открыть
+T5CloseButton1
+Отпущена
+Закрыть
+Нажата
+Закрыть
+T5CloseButton2
+Отпущена
+Закрыть
+Нажата
+Закрыть
+T5CloseButton3
+Отпущена
+Закрыть
+Нажата
+Закрыть
+T5CloseButton4
+Отпущена
+Закрыть
+Нажата
+Закрыть
+T5CloseButton5
+Отпущена
+Закрыть
+Нажата
+Закрыть
+T5StatusTextLatch1
+Статус
+T5StatusTextLatch2
+Статус
+T5StatusTextLatch3
+Статус
+T5StatusTextLatch4
+Статус
+T5StatusTextLatch5
+Статус
+T5CalButton1
+Отпущена
+Калибровка
+Нажата
+Калибровка
+T5CalButton2
+Отпущена
+Калибровка
+Нажата
+Калибровка
+T5CalButton3
+Отпущена
+Калибровка
+Нажата
+Калибровка
+T5CalButton4
+Отпущена
+Калибровка
+Нажата
+Калибровка
+T5CalButton5
+Отпущена
+Калибровка
+Нажата
+Калибровка
+T5CalOpenText1
+Время откр.
+T5CalOpenText2
+Время откр.
+T5CalOpenText3
+Время откр.
+T5CalOpenText4
+Время откр.
+T5CalOpenText5
+Время откр.
+T5CalCloseText1
+Время закр.
+T5CalCloseText2
+Время закр.
+T5CalCloseText3
+Время закр.
+T5CalCloseText4
+Время закр.
+T5CalCloseText5
+Время закр.
+Table10
+㾀
+Ȁ
+⣿
+Номер
+Силос
+28-38
+29-39
+30-40
+Открыть
+Закрыть
+Статус
+Статус
+Калибровка
+Калибровка
+Время калиб. отк.
+Время откр.
+Время калиб. закр.
+Время закр.
+T5OpenButton6
+Отпущена
+Открыть
+Нажата
+Открыть
+T5OpenButton7
+Отпущена
+Открыть
+Нажата
+Открыть
+T5OpenButton8
+Отпущена
+Открыть
+Нажата
+Открыть
+T5CloseButton6
+Отпущена
+Закрыть
+Нажата
+Закрыть
+T5CloseButton7
+Отпущена
+Закрыть
+Нажата
+Закрыть
+T5CloseButton8
+Отпущена
+Закрыть
+Нажата
+Закрыть
+T5StatusTextLatch6
+Статус
+T5StatusTextLatch7
+Статус
+T5StatusTextLatch8
+Статус
+T5CalButton6
+Отпущена
+Калибровка
+Нажата
+Калибровка
+T5CalButton7
+Отпущена
+Калибровка
+Нажата
+Калибровка
+T5CalButton8
+Отпущена
+Калибровка
+Нажата
+Калибровка
+T5CalOpenText6
+Время откр.
+T5CalOpenText7
+Время откр.
+T5CalOpenText8
+Время откр.
+T5CalCloseText6
+Время закр.
+T5CalCloseText7
+Время закр.
+T5CalCloseText8
+Время закр.
+T5ErrorOffButton
+Отпущена
+Сброс Аварии
+Нажата
+Сброс Аварии
+T5BlockOffButton
+Отпущена
+Стоп/Сброс
+Нажата
+Стоп/Сброс
+T5BlockText
+Блокировка
+Text181
+Задвижки транспортера номер 5
+T5LightOpen_1
+Light_1.sbm
+Световые приборы\Лампочка 1 (24px)
+T5LightClose_1
+Light_1.sbm
+Световые приборы\Лампочка 1 (24px)
+T5LightOpen_2
+Light_1.sbm
+Световые приборы\Лампочка 1 (24px)
+T5LightClose_2
+Light_1.sbm
+Световые приборы\Лампочка 1 (24px)
+Text307
+Открывается
+Text308
+Закрывается
+Text309
+Открывается
+Text310
+Закрывается
+Table11
+㾀
+Ȁ
+⣿
+Открыть
+Закрыть
+Статус
+Статус
+Калибровка
+Калибровка
+Время калиб. отк.
+Время откр.
+Время калиб. закр.
+Время закр.
+T5ClapOpenButton1
+Отпущена
+22
+Нажата
+22
+T5ClapOpenButton2
+Отпущена
+24
+Нажата
+24
+T5ClapOpenButton3
+Отпущена
+25
+Нажата
+25
+T5ClapOpenButton4
+Отпущена
+26
+Нажата
+26
+T5ClapOpenButton5
+Отпущена
+27
+Нажата
+27
+T5ClapCloseButton1
+Отпущена
+33
+Нажата
+33
+T5ClapCloseButton2
+Отпущена
+34
+Нажата
+34
+T5ClapCloseButton3
+Отпущена
+35
+Нажата
+35
+T5ClapCloseButton4
+Отпущена
+36
+Нажата
+36
+T5ClapCloseButton5
+Отпущена
+37
+Нажата
+37
+T5ClapStatusTextLatch1
+Статус
+T5ClapStatusTextLatch2
+Статус
+T5ClapStatusTextLatch3
+Статус
+T5ClapStatusTextLatch4
+Статус
+T5ClapStatusTextLatch5
+Статус
+T5ClapCalButton1
+Отпущена
+Калибровка
+Нажата
+Калибровка
+T5ClapCalButton2
+Отпущена
+Калибровка
+Нажата
+Калибровка
+T5ClapCalButton3
+Отпущена
+Калибровка
+Нажата
+Калибровка
+T5ClapCalButton4
+Отпущена
+Калибровка
+Нажата
+Калибровка
+T5ClapCalButton5
+Отпущена
+Калибровка
+Нажата
+Калибровка
+T5ClapCalOpenText1
+Время откр.
+T5ClapCalOpenText2
+Время откр.
+T5ClapCalOpenText3
+Время откр.
+T5ClapCalOpenText4
+Время откр.
+T5ClapCalOpenText5
+Время откр.
+T5ClapCalCloseText1
+Время закр.
+T5ClapCalCloseText2
+Время закр.
+T5ClapCalCloseText3
+Время закр.
+T5ClapCalCloseText4
+Время закр.
+T5ClapCalCloseText5
+Время закр.
+Table12
+㾀
+Ȁ
+⣿
+Открыть
+Закрыть
+Статус
+Статус
+Калибровка
+Калибровка
+Время калиб. отк.
+Время откр.
+Время калиб. закр.
+Время закр.
+T5ClapOpenButton6
+Отпущена
+28
+Нажата
+28
+T5ClapOpenButton7
+Отпущена
+29
+Нажата
+29
+T5ClapOpenButton8
+Отпущена
+30
+Нажата
+30
+T5ClapCloseButton6
+Отпущена
+38
+Нажата
+38
+T5ClapCloseButton7
+Отпущена
+39
+Нажата
+39
+T5ClapCloseButton8
+Отпущена
+40
+Нажата
+40
+T5ClapStatusTextLatch6
+Статус
+T5ClapStatusTextLatch7
+Статус
+T5ClapStatusTextLatch8
+Статус
+T5ClapCalButton6
+Отпущена
+Калибровка
+Нажата
+Калибровка
+T5ClapCalButton7
+Отпущена
+Калибровка
+Нажата
+Калибровка
+T5ClapCalButton8
+Отпущена
+Калибровка
+Нажата
+Калибровка
+T5ClapCalOpenText6
+Время откр.
+T5ClapCalOpenText7
+Время откр.
+T5ClapCalOpenText8
+Время откр.
+T5ClapCalCloseText6
+Время закр.
+T5ClapCalCloseText7
+Время закр.
+T5ClapCalCloseText8
+Время закр.
+Text182
+Перекидные клапаны транспортера номер 5
+T5ClapLightOpen_1
+Light_1.sbm
+Световые приборы\Лампочка 1 (24px)
+T5ClapLightClose_1
+Light_1.sbm
+Световые приборы\Лампочка 1 (24px)
+T5ClapLightOpen_2
+Light_1.sbm
+Световые приборы\Лампочка 1 (24px)
+T5ClapLightClose_2
+Light_1.sbm
+Световые приборы\Лампочка 1 (24px)
+Text311
+Движение
+Text312
+Движение
+Text313
+Движение
+Text314
+Движение
+T5ClapErrorOffButton
+Отпущена
+Сброс Аварии
+Нажата
+Сброс Аварии
+T5ClapBlockOffButton
+Отпущена
+Стоп/Сброс
+Нажата
+Стоп/Сброс
+T5ClapBlockText
+Блокировка
+Page3
+Задв. трансп. 6
+ǿ
+Subpage3
+Подстраница 1
+Table1
+Ȁ
+⣿
+Номер
+Силос
+41
+42
+43
+44
+45
+Открыть
+Закрыть
+Статус
+Статус
+Калибровка
+Калибровка
+Время калиб. отк.
+Время откр.
+Время калиб. закр.
+Время закр.
+T6OpenButton1
+Отпущена
+Открыть
+Нажата
+Открыть
+T6OpenButton2
+Отпущена
+Открыть
+Нажата
+Открыть
+T6OpenButton3
+Отпущена
+Открыть
+Нажата
+Открыть
+T6OpenButton4
+Отпущена
+Открыть
+Нажата
+Открыть
+T6OpenButton5
+Отпущена
+Открыть
+Нажата
+Открыть
+T6CloseButton1
+Отпущена
+Закрыть
+Нажата
+Закрыть
+T6CloseButton2
+Отпущена
+Закрыть
+Нажата
+Закрыть
+T6CloseButton3
+Отпущена
+Закрыть
+Нажата
+Закрыть
+T6CloseButton4
+Отпущена
+Закрыть
+Нажата
+Закрыть
+T6CloseButton5
+Отпущена
+Закрыть
+Нажата
+Закрыть
+T6StatusTextLatch1
+Статус
+T6StatusTextLatch2
+Статус
+T6StatusTextLatch3
+Статус
+T6StatusTextLatch4
+Статус
+T6StatusTextLatch5
+Статус
+T6CalButton1
+Отпущена
+Калибровка
+Нажата
+Калибровка
+T6CalButton2
+Отпущена
+Калибровка
+Нажата
+Калибровка
+T6CalButton3
+Отпущена
+Калибровка
+Нажата
+Калибровка
+T6CalButton4
+Отпущена
+Калибровка
+Нажата
+Калибровка
+T6CalButton5
+Отпущена
+Калибровка
+Нажата
+Калибровка
+T6CalOpenText1
+Время откр.
+T6CalOpenText2
+Время откр.
+T6CalOpenText3
+Время откр.
+T6CalOpenText4
+Время откр.
+T6CalOpenText5
+Время откр.
+T6CalCloseText1
+Время закр.
+T6CalCloseText2
+Время закр.
+T6CalCloseText3
+Время закр.
+T6CalCloseText4
+Время закр.
+T6CalCloseText5
+Время закр.
+Table2
+Ȁ
+⣿
+Номер
+Силос
+46
+47
+48
+49
+50
+Открыть
+Закрыть
+Статус
+Статус
+Калибровка
+Калибровка
+Время калиб. отк.
+Время откр.
+Время калиб. закр.
+Время закр.
+T6OpenButton6
+Отпущена
+Открыть
+Нажата
+Открыть
+T6OpenButton7
+Отпущена
+Открыть
+Нажата
+Открыть
+T6OpenButton8
+Отпущена
+Открыть
+Нажата
+Открыть
+T6OpenButton9
+Отпущена
+Открыть
+Нажата
+Открыть
+T6OpenButton10
+Отпущена
+Открыть
+Нажата
+Открыть
+T6CloseButton6
+Отпущена
+Закрыть
+Нажата
+Закрыть
+T6CloseButton7
+Отпущена
+Закрыть
+Нажата
+Закрыть
+T6CloseButton8
+Отпущена
+Закрыть
+Нажата
+Закрыть
+T6CloseButton9
+Отпущена
+Закрыть
+Нажата
+Закрыть
+T6CloseButton10
+Отпущена
+Закрыть
+Нажата
+Закрыть
+T6StatusTextLatch6
+Статус
+T6StatusTextLatch7
+Статус
+T6StatusTextLatch8
+Статус
+T6StatusTextLatch9
+Статус
+T6StatusTextLatch10
+Статус
+T6CalButton6
+Отпущена
+Калибровка
+Нажата
+Калибровка
+T6CalButton7
+Отпущена
+Калибровка
+Нажата
+Калибровка
+T6CalButton8
+Отпущена
+Калибровка
+Нажата
+Калибровка
+T6CalButton9
+Отпущена
+Калибровка
+Нажата
+Калибровка
+T6CalButton10
+Отпущена
+Калибровка
+Нажата
+Калибровка
+T6CalOpenText6
+Время откр.
+T6CalOpenText7
+Время откр.
+T6CalOpenText8
+Время откр.
+T6CalOpenText9
+Время откр.
+T6CalOpenText10
+Время откр.
+T6CalCloseText6
+Время закр.
+T6CalCloseText7
+Время закр.
+T6CalCloseText8
+Время закр.
+T6CalCloseText9
+Время закр.
+T6CalCloseText10
+Время закр.
+T6ErrorOffButton
+Отпущена
+Сброс Аварии
+Нажата
+Сброс Аварии
+T6BlockOffButton
+Отпущена
+Стоп/Сброс
+Нажата
+Стоп/Сброс
+T6BlockText
+Блокировка
+Text177
+Задвижки транспортера номер 6
+T6LightOpen_1
+Light_1.sbm
+Световые приборы\Лампочка 1 (24px)
+T6LightClose_1
+Light_1.sbm
+Световые приборы\Лампочка 1 (24px)
+T6LightOpen_2
+Light_1.sbm
+Световые приборы\Лампочка 1 (24px)
+T6LightClose_2
+Light_1.sbm
+Световые приборы\Лампочка 1 (24px)
+Text277
+Открывается
+Text278
+Закрывается
+Text279
+Открывается
+Text280
+Закрывается
+Page4
+Задв. трансп. 7
+ǿ
+Subpage4
+Подстраница 1
+Table3
+Ȁ
+⣿
+Номер
+Силос
+51
+52
+53
+54
+55
+Открыть
+Закрыть
+Статус
+Статус
+Калибровка
+Калибровка
+Время калиб. отк.
+Время откр.
+Время калиб. закр.
+Время закр.
+T7OpenButton1
+Отпущена
+Открыть
+Нажата
+Открыть
+T7OpenButton2
+Отпущена
+Открыть
+Нажата
+Открыть
+T7OpenButton3
+Отпущена
+Открыть
+Нажата
+Открыть
+T7OpenButton4
+Отпущена
+Открыть
+Нажата
+Открыть
+T7OpenButton5
+Отпущена
+Открыть
+Нажата
+Открыть
+T7CloseButton1
+Отпущена
+Закрыть
+Нажата
+Закрыть
+T7CloseButton2
+Отпущена
+Закрыть
+Нажата
+Закрыть
+T7CloseButton3
+Отпущена
+Закрыть
+Нажата
+Закрыть
+T7CloseButton4
+Отпущена
+Закрыть
+Нажата
+Закрыть
+T7CloseButton5
+Отпущена
+Закрыть
+Нажата
+Закрыть
+T7StatusTextLatch1
+Статус
+T7StatusTextLatch2
+Статус
+T7StatusTextLatch3
+Статус
+T7StatusTextLatch4
+Статус
+T7StatusTextLatch5
+Статус
+T7CalButton1
+Отпущена
+Калибровка
+Нажата
+Калибровка
+T7CalButton2
+Отпущена
+Калибровка
+Нажата
+Калибровка
+T7CalButton3
+Отпущена
+Калибровка
+Нажата
+Калибровка
+T7CalButton4
+Отпущена
+Калибровка
+Нажата
+Калибровка
+T7CalButton5
+Отпущена
+Калибровка
+Нажата
+Калибровка
+T7CalOpenText1
+Время откр.
+T7CalOpenText2
+Время откр.
+T7CalOpenText3
+Время откр.
+T7CalOpenText4
+Время откр.
+T7CalOpenText5
+Время откр.
+T7CalCloseText1
+Время закр.
+T7CalCloseText2
+Время закр.
+T7CalCloseText3
+Время закр.
+T7CalCloseText4
+Время закр.
+T7CalCloseText5
+Время закр.
+Table4
+Ȁ
+⣿
+Номер
+Силос
+56
+57
+58
+59
+60
+Открыть
+Закрыть
+Статус
+Статус
+Калибровка
+Калибровка
+Время калиб. отк.
+Время откр.
+Время калиб. закр.
+Время закр.
+T7OpenButton6
+Отпущена
+Открыть
+Нажата
+Открыть
+T7OpenButton7
+Отпущена
+Открыть
+Нажата
+Открыть
+T7OpenButton8
+Отпущена
+Открыть
+Нажата
+Открыть
+T7OpenButton9
+Отпущена
+Открыть
+Нажата
+Открыть
+T7OpenButton10
+Отпущена
+Открыть
+Нажата
+Открыть
+T7CloseButton6
+Отпущена
+Закрыть
+Нажата
+Закрыть
+T7CloseButton7
+Отпущена
+Закрыть
+Нажата
+Закрыть
+T7CloseButton8
+Отпущена
+Закрыть
+Нажата
+Закрыть
+T7CloseButton9
+Отпущена
+Закрыть
+Нажата
+Закрыть
+T7CloseButton10
+Отпущена
+Закрыть
+Нажата
+Закрыть
+T7StatusTextLatch6
+Статус
+T7StatusTextLatch7
+Статус
+T7StatusTextLatch8
+Статус
+T7StatusTextLatch9
+Статус
+T7StatusTextLatch10
+Статус
+T7CalButton6
+Отпущена
+Калибровка
+Нажата
+Калибровка
+T7CalButton7
+Отпущена
+Калибровка
+Нажата
+Калибровка
+T7CalButton8
+Отпущена
+Калибровка
+Нажата
+Калибровка
+T7CalButton9
+Отпущена
+Калибровка
+Нажата
+Калибровка
+T7CalButton10
+Отпущена
+Калибровка
+Нажата
+Калибровка
+T7CalOpenText6
+Время откр.
+T7CalOpenText7
+Время откр.
+T7CalOpenText8
+Время откр.
+T7CalOpenText9
+Время откр.
+T7CalOpenText10
+Время откр.
+T7CalCloseText6
+Время закр.
+T7CalCloseText7
+Время закр.
+T7CalCloseText8
+Время закр.
+T7CalCloseText9
+Время закр.
+T7CalCloseText10
+Время закр.
+T7ErrorOffButton
+Отпущена
+Сброс Аварии
+Нажата
+Сброс Аварии
+T7BlockOffButton
+Отпущена
+Стоп/Сброс
+Нажата
+Стоп/Сброс
+T7BlockText
+Блокировка
+Text178
+Задвижки транспортера номер 7
+T7LightOpen_1
+Light_1.sbm
+Световые приборы\Лампочка 1 (24px)
+T7LightClose_1
+Light_1.sbm
+Световые приборы\Лампочка 1 (24px)
+T7LightOpen_2
+Light_1.sbm
+Световые приборы\Лампочка 1 (24px)
+T7LightClose_2
+Light_1.sbm
+Световые приборы\Лампочка 1 (24px)
+Text281
+Открывается
+Text282
+Закрывается
+Text283
+Открывается
+Text284
+Закрывается
+Page8
+Тестирование задвижки
+ǿ
+Subpage8
+Подстраница 1
+Text479
+Транспортер 1-3
+Text480
+Транспортер 4
+Text481
+Транспортер 5
+Text482
+Транспортер 6
+Text483
+Транспортер 7
+Field33
+0
+Field34
+0
+Text484
+Открыть
+Text485
+Закрыть
+Field35
+0
+Field36
+0
+Text486
+Т1-Т4
+Text487
+Т1-Т5
+Field37
+0
+Field38
+0
+Text488
+Т1-Т6
+Text489
+Т1-Т7
+Field39
+0
+Field40
+0
+Text490
+Т2-Т4
+Text491
+Т2-Т5
+Field41
+0
+Field42
+0
+Text492
+Т3-Т5
+Text493
+Т3-Т6
+Field43
+0
+Text494
+Т3-Т7
+Field45
+0
+Field46
+0
+Text496
+Открыть
+Text497
+Закрыть
+Field47
+0
+Field48
+0
+Text498
+1-11
+Text499
+2-12
+Field49
+0
+Field50
+0
+Text500
+3-13
+Text501
+4-14
+Field51
+0
+Field52
+0
+Text502
+5-15
+Text503
+6-16
+Field53
+0
+Field54
+0
+Text504
+7-17
+Text505
+8-18
+Field55
+0
+Field56
+0
+Text506
+9-19
+Text507
+10-20
+Field57
+0
+Field58
+0
+Text508
+Открыть
+Text509
+Закрыть
+Field69
+0
+Field70
+0
+Text520
+Открыть
+Text521
+Закрыть
+Field71
+0
+Field72
+0
+Text522
+41
+Text523
+42
+Field73
+0
+Field74
+0
+Text524
+43
+Text525
+44
+Field75
+0
+Field76
+0
+Text526
+45
+Text527
+46
+Field77
+0
+Field78
+0
+Text528
+47
+Text529
+48
+Field79
+0
+Field80
+0
+Text530
+49
+Text531
+50
+Field81
+0
+Field82
+0
+Text532
+Открыть
+Text533
+Закрыть
+Field83
+0
+Field84
+0
+Text534
+51
+Text535
+52
+Field85
+0
+Field86
+0
+Text536
+53
+Text537
+54
+Field87
+0
+Field88
+0
+Text538
+55
+Text539
+56
+Field89
+0
+Field90
+0
+Text540
+57
+Text541
+58
+Field91
+0
+Field92
+0
+Text542
+59
+Text543
+60
+Field93
+0
+Field94
+0
+Text544
+Открыть
+Text545
+Закрыть
+Field105
+0
+Field106
+0
+Text556
+Открыть
+Text557
+Закрыть
+Field107
+0
+Field108
+0
+Text558
+23-33
+Text559
+24-34
+Field109
+0
+Field110
+0
+Text560
+25-35
+Text561
+26-36
+Field111
+0
+Field112
+0
+Text562
+27-37
+Text563
+28-38
+Field113
+0
+Field114
+0
+Text564
+29-39
+Text565
+30-40
+Field95
+0
+Field96
+0
+Text546
+1-11
+Text547
+2-12
+Field97
+0
+Field98
+0
+Text548
+3-13
+Text549
+4-14
+Field99
+0
+Field100
+0
+Text550
+5-15
+Text551
+6-16
+Field101
+0
+Field102
+0
+Text552
+7-17
+Text553
+8-18
+Field103
+0
+Field104
+0
+Text554
+9-19
+Text555
+10-20
+Field115
+0
+Field116
+0
+Text566
+23-33
+Text567
+24-34
+Field117
+0
+Field118
+0
+Text568
+25-35
+Text569
+26-36
+Field119
+0
+Field120
+0
+Text570
+27-37
+Text571
+28-38
+Field121
+0
+Field122
+0
+Text572
+29-39
+Text573
+30-40
+Line190
+저
+Line191
+저
+Line192
+저
+Line193
+저
+Line194
+저
+Line195
+저
+Field182
+0
+Field183
+0
+Field184
+0
+Field185
+0
+Field186
+0
+Field187
+0
+Field188
+0
+Field189
+0
+Field190
+0
+Field191
+0
+Field192
+0
+Field193
+0
+Field194
+0
+Field195
+0
+Field196
+0
+Field197
+0
+Field198
+0
+Field199
+0
+Field200
+0
+Field201
+0
+Field202
+0
+Field203
+0
+Field204
+0
+Field205
+0
+Field206
+0
+Field207
+0
+Field208
+0
+Field209
+0
+Field210
+0
+Field211
+0
+Field212
+0
+Field213
+0
+Field214
+0
+Field215
+0
+Field216
+0
+Field217
+0
+Field218
+0
+Field219
+0
+Field220
+0
+Field221
+0
+Field222
+0
+Field223
+0
+Field224
+0
+Field225
+0
+Field226
+0
+Field227
+0
+Field228
+0
+Field229
+0
+Field230
+0
+Field231
+0
+Field232
+0
+Field233
+0
+Field234
+0
+Field235
+0
+Field236
+0
+Field237
+0
+Field238
+0
+Field239
+0
+Field240
+0
+Field241
+0
+Field242
+0
+Field243
+0
+Field244
+0
+Field245
+0
+Field246
+0
+Field247
+0
+Field248
+0
+Field249
+0
+Field250
+0
+Field251
+0
+Field252
+0
+Field253
+0
+Field254
+0
+Field255
+0
+Field256
+0
+Field257
+0
+Field258
+0
+Field259
+0
+Field260
+0
+Field261
+0
+Field262
+0
+Field263
+0
+Field264
+0
+Field265
+0
+Field266
+0
+Field267
+0
+Field268
+0
+Field269
+0
+Field270
+0
+Field271
+0
+Field272
+0
+Field273
+0
+Field274
+0
+Field275
+0
+Field276
+0
+Field277
+0
+Field278
+0
+Field279
+0
+Field280
+0
+Field281
+0
+Field282
+0
+Field283
+0
+Field284
+0
+Field285
+0
+Field286
+0
+Field287
+0
+Field288
+0
+Field289
+0
+Field290
+0
+Field291
+0
+Field292
+0
+Field293
+0
+Field294
+0
+Field295
+0
+Field296
+0
+Field297
+0
+Field298
+0
+Field299
+0
+Field300
+0
+Field301
+0
+Field302
+0
+Field303
+0
+Field304
+0
+Field305
+0
+Field306
+0
+Field307
+0
+Field308
+0
+Field309
+0
+Field310
+0
+Field311
+0
+Page9
+Тестирование механизмы
+ǿ
+Subpage9
+Подстраница 1
+Field123
+0
+Field124
+0
+Text581
+ Т1 упр прямой
+Text582
+ Т1 упр реверс
+Field125
+0
+Field126
+0
+Text583
+ Т1 отв прямой
+Text584
+ Т1 отв реверс
+Field127
+0
+Text585
+ Т1 стоп кнопка
+Line196
+´
+´
+Ď
+Z
+Field128
+0
+Field129
+0
+Text586
+ Т2 упр прямой
+Text587
+ Т2 упр реверс
+Field130
+0
+Field131
+0
+Text588
+ Т2 отв прямой
+Text589
+ Т2 отв реверс
+Field132
+0
+Text590
+ Т2 стоп кнопка
+Line197
+È
+´
+´
+Ď
+Z
+Field133
+0
+Field134
+0
+Text591
+ Т3 упр прямой
+Text592
+ Т3 упр реверс
+Field135
+0
+Field136
+0
+Text593
+ Т3 отв прямой
+Text594
+ Т3 отв реверс
+Field137
+0
+Text595
+ Т3 стоп кнопка
+Line198
+ƈ
+´
+´
+Ď
+Z
+Field138
+0
+Field139
+0
+Text596
+ Т4 упр прямой
+Text597
+ Т4 упр реверс
+Field140
+0
+Field141
+0
+Text598
+ Т4 отв прямой
+Text599
+ Т4 отв реверс
+Field142
+0
+Text600
+ Т4 стоп кнопка
+Line199
+´뀁
+Ď
+Z
+´뀁
+렀
+Field143
+0
+Field144
+0
+Text601
+ Т5 упр прямой
+Text602
+ Т5 упр реверс
+Field145
+0
+Field146
+0
+Text603
+ Т5 отв прямой
+Text604
+ Т5 отв реверс
+Field147
+0
+Text605
+ Т5 стоп кнопка
+Line200
+È
+´뀁
+Ď
+Z
+´뀁
+砀
+Field148
+0
+Field149
+0
+Text606
+ Т6 упр прямой
+Text607
+ Т6 упр реверс
+Field150
+0
+Field151
+0
+Text608
+ Т6 отв прямой
+Text609
+ Т6 отв реверс
+Field152
+0
+Text610
+ Т6 стоп кнопка
+Line201
+ƈ
+´뀁
+Ď
+Z
+´뀁
+㠀
+Field153
+0
+Field154
+0
+Text611
+ Т7 упр прямой
+Text612
+ Т7 упр реверс
+Field155
+0
+Field156
+0
+Text613
+ Т7 отв прямой
+Text614
+ Т7 отв реверс
+Field157
+0
+Text615
+ Т7 стоп кнопка
+Line202
+Zက
+렀
+Field158
+0
+Text616
+ Н1 упр
+Field160
+0
+Text618
+Н1 отв
+Field162
+0
+Text620
+Н1 стоп кнопка
+Line203
+Ј
+´
+´
+Ď
+Z
+Field176
+0
+Text634
+Н1 ркс
+Field159
+0
+Text617
+ Н2 упр
+Field161
+0
+Text619
+Н2 отв
+Field163
+0
+Text621
+Н2 стоп кнопка
+Line204
+Ѹ
+´
+´
+Ď
+Z
+Field177
+0
+Text635
+Н2 ркс
+Field164
+0
+Text622
+ Н3 упр
+Field165
+0
+Text623
+Н3 отв
+Field166
+0
+Text624
+Н3 стоп кнопка
+Line205
+Ө
+´
+´
+Ď
+Z
+Field178
+0
+Text636
+Н3 ркс
+Field167
+0
+Text625
+ Н4 упр
+Field168
+0
+Text626
+Н4 отв
+Field169
+0
+Text627
+Н4 стоп кнопка
+Line206
+X
+´
+´
+Ď
+Z
+Field179
+0
+Text637
+Н4 ркс
+Field170
+0
+Text628
+ Н5 упр
+Field171
+0
+Text629
+Н5 отв
+Field172
+0
+Text630
+Н5 стоп кнопка
+Line207
+´
+´
+Ď
+Z
+Field180
+0
+Text638
+Н5 ркс
+Field173
+0
+Text631
+ Н5 упр
+Field174
+0
+Text632
+Н5 отв
+Field175
+0
+Text633
+Н5 стоп кнопка
+Line208
+ظ
+´
+´
+Ď
+Z
+Field181
+0
+Text639
+Н5 ркс
+Field312
+0
+Field313
+0
+Text645
+Звук 16 эт
+Text646
+Звук 1 эт
+Line215
+ˈ
+´
+´
+Ď
+Z
+Page10
+Калибровки задвижек
+ǿ
+Subpage10
+Подстраница 1
+Text495
+Транспортер 1-3
+Text510
+Транспортер 4
+Text511
+Транспортер 5
+Text512
+Транспортер 6
+Text513
+Транспортер 7
+Text516
+Т1-Т4
+Text517
+Т1-Т5
+Text518
+Т1-Т6
+Text519
+Т1-Т7
+Text640
+Т2-Т4
+Text641
+Т2-Т5
+Text642
+Т3-Т5
+Text643
+Т3-Т6
+Text644
+Т3-Т7
+Text647
+1-11
+Text648
+2-12
+Text649
+3-13
+Text650
+4-14
+Text651
+5-15
+Text652
+6-16
+Text653
+7-17
+Text654
+8-18
+Text655
+9-19
+Text656
+10-20
+Text661
+41
+Text662
+42
+Text663
+43
+Text664
+44
+Text665
+45
+Text666
+46
+Text667
+47
+Text668
+48
+Text669
+49
+Text670
+50
+Text673
+51
+Text674
+52
+Text675
+53
+Text676
+54
+Text677
+55
+Text678
+56
+Text679
+57
+Text680
+58
+Text681
+59
+Text682
+60
+Text687
+23-33
+Text688
+24-34
+Text689
+25-35
+Text690
+26-36
+Text691
+27-37
+Text692
+28-38
+Text693
+29-39
+Text694
+30-40
+Text695
+1-11
+Text696
+2-12
+Text697
+3-13
+Text698
+4-14
+Text699
+5-15
+Text700
+6-16
+Text701
+7-17
+Text702
+8-18
+Text703
+9-19
+Text704
+10-20
+Text705
+23-33
+Text706
+24-34
+Text707
+25-35
+Text708
+26-36
+Text709
+27-37
+Text710
+28-38
+Text711
+29-39
+Text712
+30-40
+Line209
+저
+Line210
+저
+Line211
+저
+Line212
+저
+Line213
+저
+Line214
+저
+Field387
+0
+Field388
+0
+Field389
+0
+Field390
+0
+Field391
+0
+Field392
+0
+Field393
+0
+Field394
+0
+Field395
+0
+Field396
+0
+Field397
+0
+Field398
+0
+Field399
+0
+Field400
+0
+Field401
+0
+Field402
+0
+Field403
+0
+Field404
+0
+Field405
+0
+Field406
+0
+Field407
+0
+Field408
+0
+Field409
+0
+Field410
+0
+Field411
+0
+Field412
+0
+Field413
+0
+Field414
+0
+Field415
+0
+Field416
+0
+Field417
+0
+Field418
+0
+Field419
+0
+Field420
+0
+Field421
+0
+Field422
+0
+Field423
+0
+Field424
+0
+Field425
+0
+Field426
+0
+Field427
+0
+Field428
+0
+Field429
+0
+Field430
+0
+Field431
+0
+Field432
+0
+Field433
+0
+Field434
+0
+Field435
+0
+Field436
+0
+Field437
+0
+Field438
+0
+Field439
+0
+Field440
+0
+Field441
+0
+Field442
+0
+Field443
+0
+Field444
+0
+Field445
+0
+Field446
+0
+Field447
+0
+Field448
+0
+Field449
+0
+Field450
+0
+Field451
+0
+Field452
+0
+Field453
+0
+Field454
+0
+Field455
+0
+Field456
+0
+Field457
+0
+Field458
+0
+Field459
+0
+Field460
+0
+Field461
+0
+Field462
+0
+Field463
+0
+Field464
+0
+Field465
+0
+Field466
+0
+Field467
+0
+Field468
+0
+Field469
+0
+Field470
+0
+Field471
+0
+Field472
+0
+Field473
+0
+Field474
+0
+Field475
+0
+Field476
+0
+Field477
+0
+Field478
+0
+Field479
+0
+Field480
+0
+Field481
+0
+Field482
+0
+Field483
+0
+Field484
+0
+Field485
+0
+Field486
+0
+Field487
+0
+Field488
+0
+Field489
+0
+Field490
+0
+Field491
+0
+Field492
+0
+Field493
+0
+Field494
+0
+Field495
+0
+Field496
+0
+Field497
+0
+Field498
+0
+Field499
+0
+Field500
+0
+Field501
+0
+Field502
+0
+Field503
+0
+Field504
+0
+Field505
+0
+Field506
+0
+Field507
+0
+Field508
+0
+Field509
+0
+Field510
+0
+Field511
+0
+Field512
+0
+Field513
+0
+Field514
+0
+Field515
+0
+Field516
+0

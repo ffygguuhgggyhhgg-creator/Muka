@@ -12,7 +12,7 @@ end;
 end;
 end;
 if T5ClapLatchCalOpenTime4.Value = 0 then
-begin                 
+begin
 AddMessage(Now, mkAlarm, 'Произведите калибровку переброса клапана Транспортера 5  Силос 26-36! Время переброса равно нулю!', True, True);
 end;
 if T5ClapBlockSelectStatus.AsBool = True then

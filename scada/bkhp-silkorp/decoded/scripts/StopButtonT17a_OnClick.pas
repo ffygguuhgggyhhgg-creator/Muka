@@ -11,6 +11,7 @@ AddMessage(Now, mkAlarm, 'Нажата кнопка остановки (Тран
    StatusStartReversT15.Value := 1;
    RelayOutReversT15.Value := False; // деактивация выхода контроллера
    end;
+
 if StatusStartForwardT15.AsInt = 5 then // проверка наличия комманды на включение механизма
 begin
 StatusStartForwardT15.Value := 6;  // если комманда на включение активна, то производится отмена запуска

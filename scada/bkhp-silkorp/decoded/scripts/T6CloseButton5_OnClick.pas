@@ -10,7 +10,7 @@ T6BlockSelectStatus.Value := True;
 AddMessage(Now, mkWarning , 'Начало закрытия задвижки Транспортера 6 Силос 45!', True, True);
 end;
 end;
-end;                                                                                   
+end;
 if T6LatchCalCloseTime5.Value = 0 then
 begin
 AddMessage(Now, mkAlarm, 'Произведите калибровку закрытия задвижки Транспортера 6 Силос 45! Время открытия равно нулю!', True, True);

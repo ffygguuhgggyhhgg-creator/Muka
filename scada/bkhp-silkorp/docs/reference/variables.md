@@ -1,0 +1,1695 @@
+# Таблица переменных (теги)
+
+Всего 1419 тегов в 64 группах. Дерево групп — как в редакторе Simple-Scada.
+
+`Привязка` — символ в ПЛК210 (CODESYS) либо позиция OPC DA весового терминала; пусто = внутренняя переменная SCADA.
+
+
+## Системные переменные
+
+| Тег | Тип | Привязка | Описание |
+|---|---|---|---|
+| `SysCurrentTime` | DateTime |  | Текущее время |
+| `SysServerStartTimestamp` | DateTime |  | Время запуска сервера Simple-Scada |
+| `SysProjectStartTimestamp` | DateTime |  | Время запуска проекта |
+| `SysProjectEditTimestamp` | DateTime |  | Время последнего редактирования проекта |
+| `SysProjectVersionAsInt` | Double |  | Номер версии Simple-Scada (в которой был создан проект) в виде целого числа. Например, если проект был создан в версии 2.6.12.3, то возвращаемое значение будет равно 2612003 (последнее число в версии представлено тремя знаками, а предпоследнее - двумя). |
+| `SysProjectVersionAsStr` | Word |  | Номер версии Simple-Scada (в которой был создан проект) в виде строки. Например: 2.6.12.3 |
+| `SysLicenseType` | Integer |  | Код версии Simple-Scada. 0 - демо с ограничением на 64 тега; 1 - демо с ограничением по времени; 2 - minimal; 3 - standard; 4 - professional |
+| `SysClientsCount` | Integer |  | Количество клиентов, которые сейчас подключены к серверу. |
+| `SysTagLimit` | Integer |  | Ограничение по количеству тегов. -1, если количество тегов не ограничено. |
+| `SysKeyID` | Double |  | Уникальный идентификатор HASP-USB ключа. |
+| `SysDatabaseState` | Integer |  | Состояние БД. 1 если БД подключена и 0 в ином случае |
+| `SysDatabaseName` | Word |  | Имя БД в которую сейчас выполняется архивация |
+| `SysDatabaseType` | Integer |  | 0 если в качестве СУБД используется MySQL, 1 если используется Microsoft SQL Server, 2 для PostgreSQL. |
+| `SysIsMaster` | Boolean |  | True если проект запущен на основном сервере, False в ином случае |
+| `SysMasterState` | Boolean |  | True если основной сервер запущен и готов к подключению клиентов, False в ином случае |
+| `SysSlaveState` | Boolean |  | True если резервный сервер запущен и готов к подключению клиентов, False в ином случае |
+| `SysDayName` | Word |  | Название дня недели, например: Вторник |
+| `SysDayNameShort` | Word |  | Сокращённое название дня недели, например: ВТ |
+| `SysRamCurrentUsage` | Double |  | Текущий объем оперативной памяти, используемый основным процессом SCADA-сервера (Кб) |
+| `SysRamMaxUsage` | Double |  | Максимальный объем оперативной памяти, использованный основным процессом SCADA-сервера (Кб) |
+
+## ..\
+
+| Тег | Тип | Привязка | Описание |
+|---|---|---|---|
+| `mi0DI1` | Boolean | `|var|PLC210 (Arm32bit + Linux ).Application.PLC_PRG.mi0DI1` |  |
+
+## СилКорпус / Статусы механизмов / Нории
+
+| Тег | Тип | Привязка | Описание |
+|---|---|---|---|
+| `StatusN1` | Byte |  | Контроль состояния нории во время работы |
+| `StatusN2` | Byte |  | Контроль состояния нории во время работы |
+| `StatusN3` | Byte |  | Контроль состояния нории во время работы |
+| `StatusN4` | Byte |  | Контроль состояния нории во время работы |
+| `StatusN5` | Byte |  | Контроль состояния нории во время работы |
+| `StatusN6` | Byte |  | Контроль состояния нории во время работы |
+| `StatusN7` | Byte |  | Контроль состояния нории во время работы |
+| `StatusN8` | Byte |  | Контроль состояния нории во время работы |
+| `StatusN9` | Byte |  | Контроль состояния нории во время работы |
+| `StatusN10` | Byte |  | Контроль состояния нории во время работы |
+| `StatusStartN1` | Byte |  | Контроль алгоритма запуска нории |
+| `StatusStartN2` | Byte |  | Контроль алгоритма запуска нории |
+| `StatusStartN3` | Byte |  | Контроль алгоритма запуска нории |
+| `StatusStartN4` | Byte |  | Контроль алгоритма запуска нории |
+| `StatusStartN5` | Byte |  | Контроль алгоритма запуска нории |
+| `StatusStartN6` | Byte |  | Контроль алгоритма запуска нории |
+| `StatusStartN7` | Byte |  | Контроль алгоритма запуска нории |
+| `StatusStartN8` | Byte |  | Контроль алгоритма запуска нории |
+| `StatusStartN9` | Byte |  | Контроль алгоритма запуска нории |
+| `StatusStartN10` | Byte |  | Контроль алгоритма запуска нории |
+| `AlarmStatusN1` | Boolean |  | Состояние аварии нории |
+| `AlarmStatusN2` | Boolean |  | Состояние аварии нории |
+| `AlarmStatusN3` | Boolean |  | Состояние аварии нории |
+| `AlarmStatusN4` | Boolean |  | Состояние аварии нории |
+| `AlarmStatusN5` | Boolean |  | Состояние аварии нории |
+| `AlarmStatusN6` | Boolean |  | Состояние аварии нории |
+| `AlarmStatusN7` | Boolean |  | Состояние аварии нории |
+| `AlarmStatusN8` | Boolean |  | Состояние аварии нории |
+| `AlarmStatusN9` | Boolean |  | Состояние аварии нории |
+| `AlarmStatusN10` | Boolean |  | Состояние аварии нории |
+
+## СилКорпус / Статусы механизмов / Аспирация
+
+| Тег | Тип | Привязка | Описание |
+|---|---|---|---|
+| `StatusC1` | Byte |  | Контроль состояния аспирации во время работы |
+| `StatusC2` | Byte |  | Контроль состояния аспирации во время работы |
+| `StatusC3` | Byte |  | Контроль состояния аспирации во время работы |
+| `StatusC4` | Byte |  | Контроль состояния аспирации во время работы |
+| `StatusC5` | Byte |  | Контроль состояния аспирации во время работы |
+| `StatusC6` | Byte |  | Контроль состояния аспирации во время работы |
+| `StatusC7` | Byte |  | Контроль состояния аспирации во время работы |
+| `StatusC8` | Byte |  | Контроль состояния аспирации во время работы |
+| `StatusC9` | Byte |  | Контроль состояния аспирации во время работы |
+| `StatusC10` | Byte |  | Контроль состояния аспирации во время работы |
+| `StatusC11` | Byte |  | Контроль состояния аспирации во время работы |
+| `StatusC12` | Byte |  | Контроль состояния аспирации во время работы |
+| `StatusC13` | Byte |  | Контроль состояния аспирации во время работы |
+| `StatusC14` | Byte |  | Контроль состояния аспирации во время работы |
+| `StatusStartC1` | Byte |  | Контроль алгоритма запуска аспирации |
+| `StatusStartC2` | Byte |  | Контроль алгоритма запуска аспирации |
+| `StatusStartC3` | Byte |  | Контроль алгоритма запуска аспирации |
+| `StatusStartC4` | Byte |  | Контроль алгоритма запуска аспирации |
+| `StatusStartC5` | Byte |  | Контроль алгоритма запуска аспирации |
+| `StatusStartC6` | Byte |  | Контроль алгоритма запуска аспирации |
+| `StatusStartC7` | Byte |  | Контроль алгоритма запуска аспирации |
+| `StatusStartC8` | Byte |  | Контроль алгоритма запуска аспирации |
+| `StatusStartC9` | Byte |  | Контроль алгоритма запуска аспирации |
+| `StatusStartC10` | Byte |  | Контроль алгоритма запуска аспирации |
+| `StatusStartC11` | Byte |  | Контроль алгоритма запуска аспирации |
+| `StatusStartC12` | Byte |  | Контроль алгоритма запуска аспирации |
+| `StatusStartC13` | Byte |  | Контроль алгоритма запуска аспирации |
+| `StatusStartC14` | Byte |  | Контроль алгоритма запуска аспирации |
+
+## СилКорпус / Статусы механизмов / Транспортеры
+
+| Тег | Тип | Привязка | Описание |
+|---|---|---|---|
+| `StatusT1` | Byte |  | Контроль состояния транспортера во время работы |
+| `StatusT2` | Byte |  | Контроль состояния транспортера во время работы |
+| `StatusT3` | Byte |  | Контроль состояния транспортера во время работы |
+| `StatusT4` | Byte |  | Контроль состояния транспортера во время работы |
+| `StatusT5` | Byte |  | Контроль состояния транспортера во время работы |
+| `StatusT6` | Byte |  | Контроль состояния транспортера во время работы |
+| `StatusT7` | Byte |  | Контроль состояния транспортера во время работы |
+| `StatusT8` | Byte |  | Контроль состояния транспортера во время работы |
+| `StatusT9` | Byte |  | Контроль состояния транспортера во время работы |
+| `StatusT10` | Byte |  | Контроль состояния транспортера во время работы |
+| `StatusT11` | Byte |  | Контроль состояния транспортера во время работы |
+| `StatusT12` | Byte |  | Контроль состояния транспортера во время работы |
+| `StatusT13` | Byte |  | Контроль состояния транспортера во время работы |
+| `StatusT14` | Byte |  | Контроль состояния транспортера во время работы |
+| `StatusT15` | Byte |  | Контроль состояния транспортера во время работы |
+| `StatusT16` | Byte |  | Контроль состояния транспортера во время работы |
+| `StatusT17` | Byte |  | Контроль состояния транспортера во время работы |
+| `StatusT18` | Byte |  | Контроль состояния транспортера во время работы |
+| `StatusT19` | Byte |  | Контроль состояния транспортера во время работы |
+| `StatusT20` | Byte |  | Контроль состояния транспортера во время работы |
+| `StatusStartForwardT1` | Byte |  | Контроль алгоритма запуска транспортера |
+| `StatusStartForwardT2` | Byte |  | Контроль алгоритма запуска транспортера |
+| `StatusStartForwardT3` | Byte |  | Контроль алгоритма запуска транспортера |
+| `StatusStartForwardT4` | Byte |  | Контроль алгоритма запуска транспортера |
+| `StatusStartForwardT5` | Byte |  | Контроль алгоритма запуска транспортера |
+| `StatusStartForwardT6` | Byte |  | Контроль алгоритма запуска транспортера |
+| `StatusStartForwardT7` | Byte |  | Контроль алгоритма запуска транспортера |
+| `StatusStartForwardT8` | Byte |  | Контроль алгоритма запуска транспортера |
+| `StatusStartForwardT9` | Byte |  | Контроль алгоритма запуска транспортера |
+| `StatusStartForwardT10` | Byte |  | Контроль алгоритма запуска транспортера |
+| `StatusStartForwardT11` | Byte |  | Контроль алгоритма запуска транспортера |
+| `StatusStartForwardT12` | Byte |  | Контроль алгоритма запуска транспортера |
+| `StatusStartForwardT13` | Byte |  | Контроль алгоритма запуска транспортера |
+| `StatusStartForwardT14` | Byte |  | Контроль алгоритма запуска транспортера |
+| `StatusStartForwardT15` | Byte |  | Контроль алгоритма запуска транспортера |
+| `StatusStartForwardT16` | Byte |  | Контроль алгоритма запуска транспортера |
+| `StatusStartForwardT17` | Byte |  | Контроль алгоритма запуска транспортера |
+| `StatusStartForwardT18` | Byte |  | Контроль алгоритма запуска транспортера |
+| `StatusStartForwardT19` | Byte |  | Контроль алгоритма запуска транспортера |
+| `StatusStartForwardT20` | Byte |  | Контроль алгоритма запуска транспортера |
+| `AlarmStatusT1` | Boolean |  | Состояние аварии транспортера |
+| `AlarmStatusT2` | Boolean |  | Состояние аварии транспортера |
+| `AlarmStatusT3` | Boolean |  | Состояние аварии транспортера |
+| `AlarmStatusT4` | Boolean |  | Состояние аварии транспортера |
+| `AlarmStatusT5` | Boolean |  | Состояние аварии транспортера |
+| `AlarmStatusT6` | Boolean |  | Состояние аварии транспортера |
+| `AlarmStatusT7` | Boolean |  | Состояние аварии транспортера |
+| `AlarmStatusT8` | Boolean |  | Состояние аварии транспортера |
+| `AlarmStatusT9` | Boolean |  | Состояние аварии транспортера |
+| `AlarmStatusT10` | Boolean |  | Состояние аварии транспортера |
+| `AlarmStatusT11` | Boolean |  | Состояние аварии транспортера |
+| `AlarmStatusT12` | Boolean |  | Состояние аварии транспортера |
+| `AlarmStatusT13` | Boolean |  | Состояние аварии транспортера |
+| `AlarmStatusT14` | Boolean |  | Состояние аварии транспортера |
+| `AlarmStatusT15` | Boolean |  | Состояние аварии транспортера |
+| `AlarmStatusT16` | Boolean |  | Состояние аварии транспортера |
+| `AlarmStatusT17` | Boolean |  | Состояние аварии транспортера |
+| `AlarmStatusT18` | Boolean |  | Состояние аварии транспортера |
+| `AlarmStatusT19` | Boolean |  | Состояние аварии транспортера |
+| `AlarmStatusT20` | Boolean |  | Состояние аварии транспортера |
+| `StatusStartReversT1` | Byte |  | Контроль алгоритма запуска транспортера |
+| `StatusStartReversT2` | Byte |  | Контроль алгоритма запуска транспортера |
+| `StatusStartReversT3` | Byte |  | Контроль алгоритма запуска транспортера |
+| `StatusStartReversT4` | Byte |  | Контроль алгоритма запуска транспортера |
+| `StatusStartReversT5` | Byte |  | Контроль алгоритма запуска транспортера |
+| `StatusStartReversT6` | Byte |  | Контроль алгоритма запуска транспортера |
+| `StatusStartReversT7` | Byte |  | Контроль алгоритма запуска транспортера |
+| `StatusStartReversT8` | Byte |  | Контроль алгоритма запуска транспортера |
+| `StatusStartReversT9` | Byte |  | Контроль алгоритма запуска транспортера |
+| `StatusStartReversT10` | Byte |  | Контроль алгоритма запуска транспортера |
+| `StatusStartReversT11` | Byte |  | Контроль алгоритма запуска транспортера |
+| `StatusStartReversT12` | Byte |  | Контроль алгоритма запуска транспортера |
+| `StatusStartReversT13` | Byte |  | Контроль алгоритма запуска транспортера |
+| `StatusStartReversT14` | Byte |  | Контроль алгоритма запуска транспортера |
+| `StatusStartReversT15` | Byte |  | Контроль алгоритма запуска транспортера |
+| `StatusStartReversT16` | Byte |  | Контроль алгоритма запуска транспортера |
+| `StatusStartReversT17` | Byte |  | Контроль алгоритма запуска транспортера |
+| `StatusStartReversT18` | Byte |  | Контроль алгоритма запуска транспортера |
+| `StatusStartReversT19` | Byte |  | Контроль алгоритма запуска транспортера |
+| `StatusStartReversT20` | Byte |  | Контроль алгоритма запуска транспортера |
+
+## СилКорпус / Статусы механизмов / Заслонки транспортера номер 6
+
+| Тег | Тип | Привязка | Описание |
+|---|---|---|---|
+| `T6LatchStatus1` | Word |  | Статус заслонки транспортера |
+| `T6LatchStatus2` | Word |  | Статус заслонки транспортера |
+| `T6LatchStatus3` | Word |  | Статус заслонки транспортера |
+| `T6LatchStatus4` | Word |  | Статус заслонки транспортера |
+| `T6LatchStatus5` | Word |  | Статус заслонки транспортера |
+| `T6LatchStatus6` | Word |  | Статус заслонки транспортера |
+| `T6LatchStatus7` | Word |  | Статус заслонки транспортера |
+| `T6LatchStatus8` | Word |  | Статус заслонки транспортера |
+| `T6LatchStatus9` | Word |  | Статус заслонки транспортера |
+| `T6LatchStatus10` | Word |  | Статус заслонки транспортера |
+| `T6LatchStatusByte1` | Byte |  | Статус заслонки транспортера в битах для формирования сообщений |
+| `T6LatchStatusByte2` | Byte |  | Статус заслонки транспортера в битах для формирования сообщений |
+| `T6LatchStatusByte3` | Byte |  | Статус заслонки транспортера в битах для формирования сообщений |
+| `T6LatchStatusByte4` | Byte |  | Статус заслонки транспортера в битах для формирования сообщений |
+| `T6LatchStatusByte5` | Byte |  | Статус заслонки транспортера в битах для формирования сообщений |
+| `T6LatchStatusByte6` | Byte |  | Статус заслонки транспортера в битах для формирования сообщений |
+| `T6LatchStatusByte7` | Byte |  | Статус заслонки транспортера в битах для формирования сообщений |
+| `T6LatchStatusByte8` | Byte |  | Статус заслонки транспортера в битах для формирования сообщений |
+| `T6LatchStatusByte9` | Byte |  | Статус заслонки транспортера в битах для формирования сообщений |
+| `T6LatchStatusByte10` | Byte |  | Статус заслонки транспортера в битах для формирования сообщений |
+
+## СилКорпус / Статусы механизмов / Заслонки транспортера номер 7
+
+| Тег | Тип | Привязка | Описание |
+|---|---|---|---|
+| `T7LatchStatus1` | Word |  | Статус заслонки транспортера |
+| `T7LatchStatus2` | Word |  | Статус заслонки транспортера |
+| `T7LatchStatus3` | Word |  | Статус заслонки транспортера |
+| `T7LatchStatus4` | Word |  | Статус заслонки транспортера |
+| `T7LatchStatus5` | Word |  | Статус заслонки транспортера |
+| `T7LatchStatus6` | Word |  | Статус заслонки транспортера |
+| `T7LatchStatus7` | Word |  | Статус заслонки транспортера |
+| `T7LatchStatus8` | Word |  | Статус заслонки транспортера |
+| `T7LatchStatus9` | Word |  | Статус заслонки транспортера |
+| `T7LatchStatus10` | Word |  | Статус заслонки транспортера |
+| `T7LatchStatusByte1` | Byte |  | Статус заслонки транспортера в битах для формирования сообщений |
+| `T7LatchStatusByte2` | Byte |  | Статус заслонки транспортера в битах для формирования сообщений |
+| `T7LatchStatusByte3` | Byte |  | Статус заслонки транспортера в битах для формирования сообщений |
+| `T7LatchStatusByte4` | Byte |  | Статус заслонки транспортера в битах для формирования сообщений |
+| `T7LatchStatusByte5` | Byte |  | Статус заслонки транспортера в битах для формирования сообщений |
+| `T7LatchStatusByte6` | Byte |  | Статус заслонки транспортера в битах для формирования сообщений |
+| `T7LatchStatusByte7` | Byte |  | Статус заслонки транспортера в битах для формирования сообщений |
+| `T7LatchStatusByte8` | Byte |  | Статус заслонки транспортера в битах для формирования сообщений |
+| `T7LatchStatusByte9` | Byte |  | Статус заслонки транспортера в битах для формирования сообщений |
+| `T7LatchStatusByte10` | Byte |  | Статус заслонки транспортера в битах для формирования сообщений |
+
+## СилКорпус / Статусы механизмов / Заслонки транспортера номер 4
+
+| Тег | Тип | Привязка | Описание |
+|---|---|---|---|
+| `T4LatchStatus1` | Word |  | Статус заслонки транспортера |
+| `T4LatchStatus2` | Word |  | Статус заслонки транспортера |
+| `T4LatchStatus3` | Word |  | Статус заслонки транспортера |
+| `T4LatchStatus4` | Word |  | Статус заслонки транспортера |
+| `T4LatchStatus5` | Word |  | Статус заслонки транспортера |
+| `T4LatchStatus6` | Word |  | Статус заслонки транспортера |
+| `T4LatchStatus7` | Word |  | Статус заслонки транспортера |
+| `T4LatchStatus8` | Word |  | Статус заслонки транспортера |
+| `T4LatchStatus9` | Word |  | Статус заслонки транспортера |
+| `T4LatchStatus10` | Word |  | Статус заслонки транспортера |
+| `T4LatchStatusByte1` | Byte |  | Статус заслонки транспортера в битах для формирования сообщений |
+| `T4LatchStatusByte2` | Byte |  | Статус заслонки транспортера в битах для формирования сообщений |
+| `T4LatchStatusByte3` | Byte |  | Статус заслонки транспортера в битах для формирования сообщений |
+| `T4LatchStatusByte4` | Byte |  | Статус заслонки транспортера в битах для формирования сообщений |
+| `T4LatchStatusByte5` | Byte |  | Статус заслонки транспортера в битах для формирования сообщений |
+| `T4LatchStatusByte6` | Byte |  | Статус заслонки транспортера в битах для формирования сообщений |
+| `T4LatchStatusByte7` | Byte |  | Статус заслонки транспортера в битах для формирования сообщений |
+| `T4LatchStatusByte8` | Byte |  | Статус заслонки транспортера в битах для формирования сообщений |
+| `T4LatchStatusByte9` | Byte |  | Статус заслонки транспортера в битах для формирования сообщений |
+| `T4LatchStatusByte10` | Byte |  | Статус заслонки транспортера в битах для формирования сообщений |
+| `T4ClapLatchStatus1` | Word |  | Статус заслонки транспортера |
+| `T4ClapLatchStatus2` | Word |  | Статус заслонки транспортера |
+| `T4ClapLatchStatus3` | Word |  | Статус заслонки транспортера |
+| `T4ClapLatchStatus4` | Word |  | Статус заслонки транспортера |
+| `T4ClapLatchStatus5` | Word |  | Статус заслонки транспортера |
+| `T4ClapLatchStatus6` | Word |  | Статус заслонки транспортера |
+| `T4ClapLatchStatus7` | Word |  | Статус заслонки транспортера |
+| `T4ClapLatchStatus8` | Word |  | Статус заслонки транспортера |
+| `T4ClapLatchStatus9` | Word |  | Статус заслонки транспортера |
+| `T4ClapLatchStatus10` | Word |  | Статус заслонки транспортера |
+| `T4ClapLatchStatusByte1` | Byte |  | Статус заслонки транспортера в битах для формирования сообщений |
+| `T4ClapLatchStatusByte2` | Byte |  | Статус заслонки транспортера в битах для формирования сообщений |
+| `T4ClapLatchStatusByte3` | Byte |  | Статус заслонки транспортера в битах для формирования сообщений |
+| `T4ClapLatchStatusByte4` | Byte |  | Статус заслонки транспортера в битах для формирования сообщений |
+| `T4ClapLatchStatusByte5` | Byte |  | Статус заслонки транспортера в битах для формирования сообщений |
+| `T4ClapLatchStatusByte6` | Byte |  | Статус заслонки транспортера в битах для формирования сообщений |
+| `T4ClapLatchStatusByte7` | Byte |  | Статус заслонки транспортера в битах для формирования сообщений |
+| `T4ClapLatchStatusByte8` | Byte |  | Статус заслонки транспортера в битах для формирования сообщений |
+| `T4ClapLatchStatusByte9` | Byte |  | Статус заслонки транспортера в битах для формирования сообщений |
+| `T4ClapLatchStatusByte10` | Byte |  | Статус заслонки транспортера в битах для формирования сообщений |
+
+## СилКорпус / Статусы механизмов / Заслонки транспортера номер 5
+
+| Тег | Тип | Привязка | Описание |
+|---|---|---|---|
+| `T5LatchStatus1` | Word |  | Статус заслонки транспортера |
+| `T5LatchStatus2` | Word |  | Статус заслонки транспортера |
+| `T5LatchStatus3` | Word |  | Статус заслонки транспортера |
+| `T5LatchStatus4` | Word |  | Статус заслонки транспортера |
+| `T5LatchStatus5` | Word |  | Статус заслонки транспортера |
+| `T5LatchStatus6` | Word |  | Статус заслонки транспортера |
+| `T5LatchStatus7` | Word |  | Статус заслонки транспортера |
+| `T5LatchStatus8` | Word |  | Статус заслонки транспортера |
+| `T5LatchStatusByte1` | Byte |  | Статус заслонки транспортера в битах для формирования сообщений |
+| `T5LatchStatusByte2` | Byte |  | Статус заслонки транспортера в битах для формирования сообщений |
+| `T5LatchStatusByte3` | Byte |  | Статус заслонки транспортера в битах для формирования сообщений |
+| `T5LatchStatusByte4` | Byte |  | Статус заслонки транспортера в битах для формирования сообщений |
+| `T5LatchStatusByte5` | Byte |  | Статус заслонки транспортера в битах для формирования сообщений |
+| `T5LatchStatusByte6` | Byte |  | Статус заслонки транспортера в битах для формирования сообщений |
+| `T5LatchStatusByte7` | Byte |  | Статус заслонки транспортера в битах для формирования сообщений |
+| `T5LatchStatusByte8` | Byte |  | Статус заслонки транспортера в битах для формирования сообщений |
+| `T5ClapLatchStatus1` | Word |  | Статус заслонки транспортера |
+| `T5ClapLatchStatus2` | Word |  | Статус заслонки транспортера |
+| `T5ClapLatchStatus3` | Word |  | Статус заслонки транспортера |
+| `T5ClapLatchStatus4` | Word |  | Статус заслонки транспортера |
+| `T5ClapLatchStatus5` | Word |  | Статус заслонки транспортера |
+| `T5ClapLatchStatus6` | Word |  | Статус заслонки транспортера |
+| `T5ClapLatchStatus7` | Word |  | Статус заслонки транспортера |
+| `T5ClapLatchStatus8` | Word |  | Статус заслонки транспортера |
+| `T5ClapLatchStatusByte1` | Byte |  | Статус заслонки транспортера в битах для формирования сообщений |
+| `T5ClapLatchStatusByte2` | Byte |  | Статус заслонки транспортера в битах для формирования сообщений |
+| `T5ClapLatchStatusByte3` | Byte |  | Статус заслонки транспортера в битах для формирования сообщений |
+| `T5ClapLatchStatusByte4` | Byte |  | Статус заслонки транспортера в битах для формирования сообщений |
+| `T5ClapLatchStatusByte5` | Byte |  | Статус заслонки транспортера в битах для формирования сообщений |
+| `T5ClapLatchStatusByte6` | Byte |  | Статус заслонки транспортера в битах для формирования сообщений |
+| `T5ClapLatchStatusByte7` | Byte |  | Статус заслонки транспортера в битах для формирования сообщений |
+| `T5ClapLatchStatusByte8` | Byte |  | Статус заслонки транспортера в битах для формирования сообщений |
+
+## СилКорпус / Статусы механизмов / Заслонки транспортера номер 1-3
+
+| Тег | Тип | Привязка | Описание |
+|---|---|---|---|
+| `T1LatchStatus1` | Word |  | Статус заслонки транспортера |
+| `T1LatchStatus2` | Word |  | Статус заслонки транспортера |
+| `T1LatchStatus3` | Word |  | Статус заслонки транспортера |
+| `T1LatchStatus4` | Word |  | Статус заслонки транспортера |
+| `T1LatchStatus5` | Word |  | Статус заслонки транспортера |
+| `T1LatchStatus6` | Word |  | Статус заслонки транспортера |
+| `T1LatchStatus7` | Word |  | Статус заслонки транспортера |
+| `T1LatchStatus8` | Word |  | Статус заслонки транспортера |
+| `T1LatchStatusByte1` | Byte |  | Статус заслонки транспортера в битах для формирования сообщений |
+| `T1LatchStatusByte2` | Byte |  | Статус заслонки транспортера в битах для формирования сообщений |
+| `T1LatchStatusByte3` | Byte |  | Статус заслонки транспортера в битах для формирования сообщений |
+| `T1LatchStatusByte4` | Byte |  | Статус заслонки транспортера в битах для формирования сообщений |
+| `T1LatchStatusByte5` | Byte |  | Статус заслонки транспортера в битах для формирования сообщений |
+| `T1LatchStatusByte6` | Byte |  | Статус заслонки транспортера в битах для формирования сообщений |
+| `T1LatchStatusByte7` | Byte |  | Статус заслонки транспортера в битах для формирования сообщений |
+| `T1LatchStatusByte8` | Byte |  | Статус заслонки транспортера в битах для формирования сообщений |
+| `T1LatchStatus9` | Word |  | Статус заслонки транспортера |
+| `T1LatchStatusByte9` | Byte |  | Статус заслонки транспортера в битах для формирования сообщений |
+
+## СилКорпус / Выходные переменные / Нории
+
+| Тег | Тип | Привязка | Описание |
+|---|---|---|---|
+| `RelayOutN1` | Boolean | `|var|PLC210 (Arm32bit + Linux ).Application.PLC_PRG.mo1DO17` | Выходное реле управления нории |
+| `RelayOutN2` | Boolean | `|var|PLC210 (Arm32bit + Linux ).Application.PLC_PRG.mo1DO18` | Выходное реле управления нории |
+| `RelayOutN3` | Boolean | `|var|PLC210 (Arm32bit + Linux ).Application.PLC_PRG.mo1DO19` | Выходное реле управления нории |
+| `RelayOutN4` | Boolean | `|var|PLC210 (Arm32bit + Linux ).Application.PLC_PRG.mo1DO20` | Выходное реле управления нории |
+| `RelayOutN5` | Boolean | `|var|PLC210 (Arm32bit + Linux ).Application.PLC_PRG.mo1DO21` | Выходное реле управления нории |
+| `RelayOutN6` | Boolean | `|var|PLC210 (Arm32bit + Linux ).Application.PLC_PRG.mo1DO22` | Выходное реле управления нории |
+| `RelayOutN7` | Boolean |  | Выходное реле управления нории |
+| `RelayOutN8` | Boolean |  | Выходное реле управления нории |
+| `RelayOutN9` | Boolean |  | Выходное реле управления нории |
+| `RelayOutN10` | Boolean |  | Выходное реле управления нории |
+
+## СилКорпус / Выходные переменные / Аспирация
+
+| Тег | Тип | Привязка | Описание |
+|---|---|---|---|
+| `RelayOutC1` | Boolean |  | Выходное реле управления аспирации |
+| `RelayOutC2` | Boolean |  | Выходное реле управления аспирации |
+| `RelayOutC3` | Boolean |  | Выходное реле управления аспирации |
+| `RelayOutC4` | Boolean |  | Выходное реле управления аспирации |
+| `RelayOutC5` | Boolean |  | Выходное реле управления аспирации |
+| `RelayOutC6` | Boolean |  | Выходное реле управления аспирации |
+| `RelayOutC7` | Boolean |  | Выходное реле управления аспирации |
+| `RelayOutC8` | Boolean |  | Выходное реле управления аспирации |
+| `RelayOutC9` | Boolean |  | Выходное реле управления аспирации |
+| `RelayOutC10` | Boolean |  | Выходное реле управления аспирации |
+| `RelayOutC11` | Boolean |  | Выходное реле управления аспирации |
+| `RelayOutC12` | Boolean |  | Выходное реле управления аспирации |
+| `RelayOutC13` | Boolean |  | Выходное реле управления аспирации |
+| `RelayOutC14` | Boolean |  | Выходное реле управления аспирации |
+
+## СилКорпус / Выходные переменные / Транспортеры
+
+| Тег | Тип | Привязка | Описание |
+|---|---|---|---|
+| `RelayOutForwardT1` | Boolean | `|var|PLC210 (Arm32bit + Linux ).Application.PLC_PRG.mo1DO1` | Выходное реле управления транспортера в прямом направлении |
+| `RelayOutForwardT2` | Boolean | `|var|PLC210 (Arm32bit + Linux ).Application.PLC_PRG.mo1DO11` | Выходное реле управления транспортера в прямом направлении |
+| `RelayOutForwardT3` | Boolean | `|var|PLC210 (Arm32bit + Linux ).Application.PLC_PRG.mo1DO12` | Выходное реле управления транспортера в прямом направлении |
+| `RelayOutForwardT4` | Boolean | `|var|PLC210 (Arm32bit + Linux ).Application.PLC_PRG.mo1DO3` | Выходное реле управления транспортера в прямом направлении |
+| `RelayOutForwardT5` | Boolean | `|var|PLC210 (Arm32bit + Linux ).Application.PLC_PRG.mo1DO5` | Выходное реле управления транспортера в прямом направлении |
+| `RelayOutForwardT6` | Boolean | `|var|PLC210 (Arm32bit + Linux ).Application.PLC_PRG.mo1DO7` | Выходное реле управления транспортера в прямом направлении |
+| `RelayOutForwardT7` | Boolean | `|var|PLC210 (Arm32bit + Linux ).Application.PLC_PRG.mo1DO9` | Выходное реле управления транспортера в прямом направлении |
+| `RelayOutForwardT8` | Boolean |  | Выходное реле управления транспортера в прямом направлении |
+| `RelayOutForwardT9` | Boolean |  | Выходное реле управления транспортера в прямом направлении |
+| `RelayOutForwardT10` | Boolean |  | Выходное реле управления транспортера в прямом направлении |
+| `RelayOutForwardT11` | Boolean |  | Выходное реле управления транспортера в прямом направлении |
+| `RelayOutForwardT12` | Boolean |  | Выходное реле управления транспортера в прямом направлении |
+| `RelayOutForwardT13` | Boolean |  | Выходное реле управления транспортера в прямом направлении |
+| `RelayOutForwardT14` | Boolean |  | Выходное реле управления транспортера в прямом направлении |
+| `RelayOutForwardT15` | Boolean |  | Выходное реле управления транспортера в прямом направлении |
+| `RelayOutForwardT16` | Boolean |  | Выходное реле управления транспортера в прямом направлении |
+| `RelayOutForwardT17` | Boolean |  | Выходное реле управления транспортера в прямом направлении |
+| `RelayOutForwardT18` | Boolean |  | Выходное реле управления транспортера в прямом направлении |
+| `RelayOutForwardT19` | Boolean |  | Выходное реле управления транспортера в прямом направлении |
+| `RelayOutForwardT20` | Boolean |  | Выходное реле управления транспортера в прямом направлении |
+| `RelayOutReversT1` | Boolean | `|var|PLC210 (Arm32bit + Linux ).Application.PLC_PRG.mo1DO2` | Выходное реле управления транспортера в обратном направлении |
+| `RelayOutReversT2` | Boolean |  | Выходное реле управления транспортера в обратном направлении |
+| `RelayOutReversT3` | Boolean |  | Выходное реле управления транспортера в обратном направлении |
+| `RelayOutReversT4` | Boolean | `|var|PLC210 (Arm32bit + Linux ).Application.PLC_PRG.mo1DO4` | Выходное реле управления транспортера в обратном направлении |
+| `RelayOutReversT5` | Boolean | `|var|PLC210 (Arm32bit + Linux ).Application.PLC_PRG.mo1DO6` | Выходное реле управления транспортера в обратном направлении |
+| `RelayOutReversT6` | Boolean | `|var|PLC210 (Arm32bit + Linux ).Application.PLC_PRG.mo1DO8` | Выходное реле управления транспортера в обратном направлении |
+| `RelayOutReversT7` | Boolean | `|var|PLC210 (Arm32bit + Linux ).Application.PLC_PRG.mo1DO10` | Выходное реле управления транспортера в обратном направлении |
+| `RelayOutReversT8` | Boolean |  | Выходное реле управления транспортера в обратном направлении |
+| `RelayOutReversT9` | Boolean |  | Выходное реле управления транспортера в обратном направлении |
+| `RelayOutReversT10` | Boolean |  | Выходное реле управления транспортера в обратном направлении |
+| `RelayOutReversT11` | Boolean |  | Выходное реле управления транспортера в обратном направлении |
+| `RelayOutReversT12` | Boolean |  | Выходное реле управления транспортера в обратном направлении |
+| `RelayOutReversT13` | Boolean |  | Выходное реле управления транспортера в обратном направлении |
+| `RelayOutReversT14` | Boolean |  | Выходное реле управления транспортера в обратном направлении |
+| `RelayOutReversT15` | Boolean |  | Выходное реле управления транспортера в обратном направлении |
+| `RelayOutReversT16` | Boolean |  | Выходное реле управления транспортера в обратном направлении |
+| `RelayOutReversT17` | Boolean |  | Выходное реле управления транспортера в обратном направлении |
+| `RelayOutReversT18` | Boolean |  | Выходное реле управления транспортера в обратном направлении |
+| `RelayOutReversT19` | Boolean |  | Выходное реле управления транспортера в обратном направлении |
+| `RelayOutReversT20` | Boolean |  | Выходное реле управления транспортера в обратном направлении |
+
+## СилКорпус / Выходные переменные / Заслонки транспортера номер 6
+
+| Тег | Тип | Привязка | Описание |
+|---|---|---|---|
+| `T6LatchSelect1` | Boolean | `|var|PLC210 (Arm32bit + Linux ).Application.PLC_PRG.t6DO5` | Выходное реле выбора заслонки для управления |
+| `T6LatchSelect2` | Boolean | `|var|PLC210 (Arm32bit + Linux ).Application.PLC_PRG.t6DO6` | Выходное реле выбора заслонки для управления |
+| `T6LatchSelect3` | Boolean | `|var|PLC210 (Arm32bit + Linux ).Application.PLC_PRG.t6DO7` | Выходное реле выбора заслонки для управления |
+| `T6LatchSelect4` | Boolean | `|var|PLC210 (Arm32bit + Linux ).Application.PLC_PRG.t6DO8` | Выходное реле выбора заслонки для управления |
+| `T6LatchSelect5` | Boolean | `|var|PLC210 (Arm32bit + Linux ).Application.PLC_PRG.t6DO9` | Выходное реле выбора заслонки для управления |
+| `T6LatchSelect6` | Boolean | `|var|PLC210 (Arm32bit + Linux ).Application.PLC_PRG.t6DO10` | Выходное реле выбора заслонки для управления |
+| `T6LatchSelect7` | Boolean | `|var|PLC210 (Arm32bit + Linux ).Application.PLC_PRG.t6DO11` | Выходное реле выбора заслонки для управления |
+| `T6LatchSelect8` | Boolean | `|var|PLC210 (Arm32bit + Linux ).Application.PLC_PRG.t6DO12` | Выходное реле выбора заслонки для управления |
+| `T6LatchSelect9` | Boolean | `|var|PLC210 (Arm32bit + Linux ).Application.PLC_PRG.t6DO13` | Выходное реле выбора заслонки для управления |
+| `T6LatchSelect10` | Boolean | `|var|PLC210 (Arm32bit + Linux ).Application.PLC_PRG.t6DO14` | Выходное реле выбора заслонки для управления |
+| `T6LatchRunOpen` | Boolean | `|var|PLC210 (Arm32bit + Linux ).Application.PLC_PRG.t6DO15` | Выходное реле для открытия выбранной заслонки |
+| `T6LatchRunClose` | Boolean | `|var|PLC210 (Arm32bit + Linux ).Application.PLC_PRG.t6DO16` | Выходное реле для закрытия выбранной заслонки |
+
+## СилКорпус / Выходные переменные / Заслонки транспортера номер 7
+
+| Тег | Тип | Привязка | Описание |
+|---|---|---|---|
+| `T7LatchRunOpen` | Boolean | `|var|PLC210 (Arm32bit + Linux ).Application.PLC_PRG.t7DO15` | Выходное реле для открытия выбранной заслонки |
+| `T7LatchRunClose` | Boolean | `|var|PLC210 (Arm32bit + Linux ).Application.PLC_PRG.t7DO16` | Выходное реле для закрытия выбранной заслонки |
+| `T7LatchSelect1` | Boolean | `|var|PLC210 (Arm32bit + Linux ).Application.PLC_PRG.t7DO5` | Выходное реле выбора заслонки для управления |
+| `T7LatchSelect2` | Boolean | `|var|PLC210 (Arm32bit + Linux ).Application.PLC_PRG.t7DO6` | Выходное реле выбора заслонки для управления |
+| `T7LatchSelect3` | Boolean | `|var|PLC210 (Arm32bit + Linux ).Application.PLC_PRG.t7DO7` | Выходное реле выбора заслонки для управления |
+| `T7LatchSelect4` | Boolean | `|var|PLC210 (Arm32bit + Linux ).Application.PLC_PRG.t7DO8` | Выходное реле выбора заслонки для управления |
+| `T7LatchSelect5` | Boolean | `|var|PLC210 (Arm32bit + Linux ).Application.PLC_PRG.t7DO9` | Выходное реле выбора заслонки для управления |
+| `T7LatchSelect6` | Boolean | `|var|PLC210 (Arm32bit + Linux ).Application.PLC_PRG.t7DO10` | Выходное реле выбора заслонки для управления |
+| `T7LatchSelect7` | Boolean | `|var|PLC210 (Arm32bit + Linux ).Application.PLC_PRG.t7DO11` | Выходное реле выбора заслонки для управления |
+| `T7LatchSelect8` | Boolean | `|var|PLC210 (Arm32bit + Linux ).Application.PLC_PRG.t7DO12` | Выходное реле выбора заслонки для управления |
+| `T7LatchSelect9` | Boolean | `|var|PLC210 (Arm32bit + Linux ).Application.PLC_PRG.t7DO13` | Выходное реле выбора заслонки для управления |
+| `T7LatchSelect10` | Boolean | `|var|PLC210 (Arm32bit + Linux ).Application.PLC_PRG.t7DO14` | Выходное реле выбора заслонки для управления |
+
+## СилКорпус / Выходные переменные / Служебные
+
+| Тег | Тип | Привязка | Описание |
+|---|---|---|---|
+| `Alarm16Level` | Boolean | `|var|PLC210 (Arm32bit + Linux ).Application.PLC_PRG.mo1DO32` | Выходное реле запуска звукового оповещения 16 этажа |
+| `Alarm1Level` | Integer | `|var|PLC210 (Arm32bit + Linux ).Application.PLC_PRG.mo1DO32` | Выходное реле запуска звукового оповещения первого этажа |
+
+## СилКорпус / Выходные переменные / Заслонки транспортера номер 4
+
+| Тег | Тип | Привязка | Описание |
+|---|---|---|---|
+| `T4LatchSelect1` | Boolean | `|var|PLC210 (Arm32bit + Linux ).Application.PLC_PRG.t4DO1` | Выходное реле выбора заслонки для управления |
+| `T4LatchSelect2` | Boolean | `|var|PLC210 (Arm32bit + Linux ).Application.PLC_PRG.t4DO2` | Выходное реле выбора заслонки для управления |
+| `T4LatchSelect3` | Boolean | `|var|PLC210 (Arm32bit + Linux ).Application.PLC_PRG.t4DO3` | Выходное реле выбора заслонки для управления |
+| `T4LatchSelect4` | Boolean | `|var|PLC210 (Arm32bit + Linux ).Application.PLC_PRG.t4DO4` | Выходное реле выбора заслонки для управления |
+| `T4LatchSelect5` | Boolean | `|var|PLC210 (Arm32bit + Linux ).Application.PLC_PRG.t4DO5` | Выходное реле выбора заслонки для управления |
+| `T4LatchSelect6` | Boolean | `|var|PLC210 (Arm32bit + Linux ).Application.PLC_PRG.t4DO6` | Выходное реле выбора заслонки для управления |
+| `T4LatchSelect7` | Boolean | `|var|PLC210 (Arm32bit + Linux ).Application.PLC_PRG.t4DO7` | Выходное реле выбора заслонки для управления |
+| `T4LatchSelect8` | Boolean | `|var|PLC210 (Arm32bit + Linux ).Application.PLC_PRG.t4DO8` | Выходное реле выбора заслонки для управления |
+| `T4LatchSelect9` | Boolean | `|var|PLC210 (Arm32bit + Linux ).Application.PLC_PRG.t4DO9` | Выходное реле выбора заслонки для управления |
+| `T4LatchSelect10` | Boolean | `|var|PLC210 (Arm32bit + Linux ).Application.PLC_PRG.t4DO10` | Выходное реле выбора заслонки для управления |
+| `T4LatchRunOpen` | Boolean | `|var|PLC210 (Arm32bit + Linux ).Application.PLC_PRG.t4DO11` | Выходное реле для открытия выбранной заслонки |
+| `T4LatchRunClose` | Boolean | `|var|PLC210 (Arm32bit + Linux ).Application.PLC_PRG.t4DO12` | Выходное реле для закрытия выбранной заслонки |
+| `T4ClapLatchSelect1` | Boolean | `|var|PLC210 (Arm32bit + Linux ).Application.PLC_PRG.t41DO1` | Выходное реле выбора заслонки для управления |
+| `T4ClapLatchSelect2` | Boolean | `|var|PLC210 (Arm32bit + Linux ).Application.PLC_PRG.t41DO2` | Выходное реле выбора заслонки для управления |
+| `T4ClapLatchSelect3` | Boolean | `|var|PLC210 (Arm32bit + Linux ).Application.PLC_PRG.t41DO3` | Выходное реле выбора заслонки для управления |
+| `T4ClapLatchSelect4` | Boolean | `|var|PLC210 (Arm32bit + Linux ).Application.PLC_PRG.t41DO4` | Выходное реле выбора заслонки для управления |
+| `T4ClapLatchSelect5` | Boolean | `|var|PLC210 (Arm32bit + Linux ).Application.PLC_PRG.t41DO5` | Выходное реле выбора заслонки для управления |
+| `T4ClapLatchSelect6` | Boolean | `|var|PLC210 (Arm32bit + Linux ).Application.PLC_PRG.t41DO6` | Выходное реле выбора заслонки для управления |
+| `T4ClapLatchSelect7` | Boolean | `|var|PLC210 (Arm32bit + Linux ).Application.PLC_PRG.t41DO7` | Выходное реле выбора заслонки для управления |
+| `T4ClapLatchSelect8` | Boolean | `|var|PLC210 (Arm32bit + Linux ).Application.PLC_PRG.t41DO8` | Выходное реле выбора заслонки для управления |
+| `T4ClapLatchSelect9` | Boolean | `|var|PLC210 (Arm32bit + Linux ).Application.PLC_PRG.t41DO9` | Выходное реле выбора заслонки для управления |
+| `T4ClapLatchSelect10` | Boolean | `|var|PLC210 (Arm32bit + Linux ).Application.PLC_PRG.t41DO10` | Выходное реле выбора заслонки для управления |
+| `T4ClapLatchRunOpen` | Boolean | `|var|PLC210 (Arm32bit + Linux ).Application.PLC_PRG.t41DO11` | Выходное реле для открытия выбранной заслонки |
+| `T4ClapLatchRunClose` | Boolean | `|var|PLC210 (Arm32bit + Linux ).Application.PLC_PRG.t41DO12` | Выходное реле для закрытия выбранной заслонки |
+
+## СилКорпус / Выходные переменные / Заслонки транспортера номер 5
+
+| Тег | Тип | Привязка | Описание |
+|---|---|---|---|
+| `T5LatchSelect1` | Boolean | `|var|PLC210 (Arm32bit + Linux ).Application.PLC_PRG.t5DO1` | Выходное реле выбора заслонки для управления |
+| `T5LatchSelect2` | Boolean | `|var|PLC210 (Arm32bit + Linux ).Application.PLC_PRG.t5DO2` | Выходное реле выбора заслонки для управления |
+| `T5LatchSelect3` | Boolean | `|var|PLC210 (Arm32bit + Linux ).Application.PLC_PRG.t5DO3` | Выходное реле выбора заслонки для управления |
+| `T5LatchSelect4` | Boolean | `|var|PLC210 (Arm32bit + Linux ).Application.PLC_PRG.t5DO4` | Выходное реле выбора заслонки для управления |
+| `T5LatchSelect5` | Boolean | `|var|PLC210 (Arm32bit + Linux ).Application.PLC_PRG.t5DO5` | Выходное реле выбора заслонки для управления |
+| `T5LatchSelect6` | Boolean | `|var|PLC210 (Arm32bit + Linux ).Application.PLC_PRG.t5DO6` | Выходное реле выбора заслонки для управления |
+| `T5LatchSelect7` | Boolean | `|var|PLC210 (Arm32bit + Linux ).Application.PLC_PRG.t5DO7` | Выходное реле выбора заслонки для управления |
+| `T5LatchSelect8` | Boolean | `|var|PLC210 (Arm32bit + Linux ).Application.PLC_PRG.t5DO8` | Выходное реле выбора заслонки для управления |
+| `T5LatchRunOpen` | Boolean | `|var|PLC210 (Arm32bit + Linux ).Application.PLC_PRG.t5DO11` | Выходное реле для открытия выбранной заслонки |
+| `T5LatchRunClose` | Boolean | `|var|PLC210 (Arm32bit + Linux ).Application.PLC_PRG.t5DO12` | Выходное реле для закрытия выбранной заслонки |
+| `T5ClapLatchSelect1` | Boolean | `|var|PLC210 (Arm32bit + Linux ).Application.PLC_PRG.t51DO1` | Выходное реле выбора заслонки для управления |
+| `T5ClapLatchSelect2` | Boolean | `|var|PLC210 (Arm32bit + Linux ).Application.PLC_PRG.t51DO2` | Выходное реле выбора заслонки для управления |
+| `T5ClapLatchSelect3` | Boolean | `|var|PLC210 (Arm32bit + Linux ).Application.PLC_PRG.t51DO3` | Выходное реле выбора заслонки для управления |
+| `T5ClapLatchSelect4` | Boolean | `|var|PLC210 (Arm32bit + Linux ).Application.PLC_PRG.t51DO4` | Выходное реле выбора заслонки для управления |
+| `T5ClapLatchSelect5` | Boolean | `|var|PLC210 (Arm32bit + Linux ).Application.PLC_PRG.t51DO5` | Выходное реле выбора заслонки для управления |
+| `T5ClapLatchSelect6` | Boolean | `|var|PLC210 (Arm32bit + Linux ).Application.PLC_PRG.t51DO6` | Выходное реле выбора заслонки для управления |
+| `T5ClapLatchSelect7` | Boolean | `|var|PLC210 (Arm32bit + Linux ).Application.PLC_PRG.t51DO7` | Выходное реле выбора заслонки для управления |
+| `T5ClapLatchSelect8` | Boolean | `|var|PLC210 (Arm32bit + Linux ).Application.PLC_PRG.t51DO8` | Выходное реле выбора заслонки для управления |
+| `T5ClapLatchRunOpen` | Boolean | `|var|PLC210 (Arm32bit + Linux ).Application.PLC_PRG.t51DO11` | Выходное реле для открытия выбранной заслонки |
+| `T5ClapLatchRunClose` | Boolean | `|var|PLC210 (Arm32bit + Linux ).Application.PLC_PRG.t51DO12` | Выходное реле для закрытия выбранной заслонки |
+
+## СилКорпус / Выходные переменные / Заслонки транспортера номер 1-3
+
+| Тег | Тип | Привязка | Описание |
+|---|---|---|---|
+| `T1LatchSelect1` | Boolean | `|var|PLC210 (Arm32bit + Linux ).Application.PLC_PRG.t1DO1` | Выходное реле выбора заслонки для управления |
+| `T1LatchSelect2` | Boolean | `|var|PLC210 (Arm32bit + Linux ).Application.PLC_PRG.t1DO2` | Выходное реле выбора заслонки для управления |
+| `T1LatchSelect3` | Boolean | `|var|PLC210 (Arm32bit + Linux ).Application.PLC_PRG.t1DO3` | Выходное реле выбора заслонки для управления |
+| `T1LatchSelect4` | Boolean | `|var|PLC210 (Arm32bit + Linux ).Application.PLC_PRG.t1DO4` | Выходное реле выбора заслонки для управления |
+| `T1LatchSelect5` | Boolean | `|var|PLC210 (Arm32bit + Linux ).Application.PLC_PRG.t1DO5` | Выходное реле выбора заслонки для управления |
+| `T1LatchSelect6` | Boolean | `|var|PLC210 (Arm32bit + Linux ).Application.PLC_PRG.t1DO6` | Выходное реле выбора заслонки для управления |
+| `T1LatchSelect7` | Boolean | `|var|PLC210 (Arm32bit + Linux ).Application.PLC_PRG.t1DO7` | Выходное реле выбора заслонки для управления |
+| `T1LatchSelect8` | Boolean | `|var|PLC210 (Arm32bit + Linux ).Application.PLC_PRG.t1DO8` | Выходное реле выбора заслонки для управления |
+| `T1LatchRunOpen` | Boolean | `|var|PLC210 (Arm32bit + Linux ).Application.PLC_PRG.t1DO11` | Выходное реле для открытия выбранной заслонки |
+| `T1LatchRunClose` | Boolean | `|var|PLC210 (Arm32bit + Linux ).Application.PLC_PRG.t1DO12` | Выходное реле для закрытия выбранной заслонки |
+| `T1LatchSelect9` | Boolean | `|var|PLC210 (Arm32bit + Linux ).Application.PLC_PRG.t1DO9` | Выходное реле выбора заслонки для управления |
+
+## СилКорпус / Выходные переменные / Задание частоты ЧП транспортеров
+
+| Тег | Тип | Привязка | Описание |
+|---|---|---|---|
+| `T1TargerFreq` | Single |  |  |
+| `T2TargerFreq` | Single |  |  |
+| `T3TargerFreq` | Single |  |  |
+| `T4TargerFreq` | Single |  |  |
+| `T5TargerFreq` | Single |  |  |
+| `T6TargerFreq` | Single |  |  |
+| `T7TargerFreq` | Single |  |  |
+| `T1FreqToPLC` | Single | `|var|PLC210 (Arm32bit + Linux ).Application.PLC_PRG.t1Freq` |  |
+| `T2FreqToPLC` | Single | `|var|PLC210 (Arm32bit + Linux ).Application.PLC_PRG.t2Freq` |  |
+| `T3FreqToPLC` | Single | `|var|PLC210 (Arm32bit + Linux ).Application.PLC_PRG.t3Freq` |  |
+| `T4FreqToPLC` | Single | `|var|PLC210 (Arm32bit + Linux ).Application.PLC_PRG.t4Freq` |  |
+| `T5FreqToPLC` | Single | `|var|PLC210 (Arm32bit + Linux ).Application.PLC_PRG.t5Freq` |  |
+| `T6FreqToPLC` | Single | `|var|PLC210 (Arm32bit + Linux ).Application.PLC_PRG.t6Freq` |  |
+| `T7FreqToPLC` | Single | `|var|PLC210 (Arm32bit + Linux ).Application.PLC_PRG.t7Freq` |  |
+
+## СилКорпус / Входные переменные / Нории
+
+| Тег | Тип | Привязка | Описание |
+|---|---|---|---|
+| `RelayInN1` | Boolean | `|var|PLC210 (Arm32bit + Linux ).Application.PLC_PRG.mi1DI17` | Входное реле ответа пускателя нории |
+| `RelayInN2` | Boolean | `|var|PLC210 (Arm32bit + Linux ).Application.PLC_PRG.mi1DI18` | Входное реле ответа пускателя нории |
+| `RelayInN3` | Boolean | `|var|PLC210 (Arm32bit + Linux ).Application.PLC_PRG.mi1DI19` | Входное реле ответа пускателя нории |
+| `RelayInN4` | Boolean | `|var|PLC210 (Arm32bit + Linux ).Application.PLC_PRG.mi1DI20` | Входное реле ответа пускателя нории |
+| `RelayInN5` | Boolean | `|var|PLC210 (Arm32bit + Linux ).Application.PLC_PRG.mi1DI21` | Входное реле ответа пускателя нории |
+| `RelayInN6` | Boolean | `|var|PLC210 (Arm32bit + Linux ).Application.PLC_PRG.mi1DI22` | Входное реле ответа пускателя нории |
+| `RelayInN7` | Boolean |  | Входное реле ответа пускателя нории |
+| `RelayInN8` | Boolean |  | Входное реле ответа пускателя нории |
+| `RelayInN9` | Boolean |  | Входное реле ответа пускателя нории |
+| `RelayInN10` | Boolean |  | Входное реле ответа пускателя нории |
+| `RelayAlarmN1` | Boolean | `|var|PLC210 (Arm32bit + Linux ).Application.PLC_PRG.mi3DI14` | Входное реле аварии нории |
+| `RelayAlarmN2` | Boolean |  | Входное реле аварии нории |
+| `RelayAlarmN3` | Boolean |  | Входное реле аварии нории |
+| `RelayAlarmN4` | Boolean | `|var|PLC210 (Arm32bit + Linux ).Application.PLC_PRG.mi3DI13` | Входное реле аварии нории |
+| `RelayAlarmN5` | Boolean |  | Входное реле аварии нории |
+| `RelayAlarmN6` | Boolean | `|var|PLC210 (Arm32bit + Linux ).Application.PLC_PRG.mi3DI15` | Входное реле аварии нории |
+| `RelayAlarmN7` | Boolean |  | Входное реле аварии нории |
+| `RelayAlarmN8` | Boolean |  | Входное реле аварии нории |
+| `RelayAlarmN9` | Boolean |  | Входное реле аварии нории |
+| `RelayAlarmN10` | Boolean |  | Входное реле аварии нории |
+| `RelayStopInN1` | Boolean | `|var|PLC210 (Arm32bit + Linux ).Application.PLC_PRG.mi1DI30` | Входное реле стоповой кнопки пускателя |
+| `RelayStopInN2` | Boolean | `|var|PLC210 (Arm32bit + Linux ).Application.PLC_PRG.mi1DI31` | Входное реле стоповой кнопки пускателя |
+| `RelayStopInN3` | Boolean | `|var|PLC210 (Arm32bit + Linux ).Application.PLC_PRG.mi1DI32` | Входное реле стоповой кнопки пускателя |
+| `RelayStopInN4` | Boolean | `|var|PLC210 (Arm32bit + Linux ).Application.PLC_PRG.mi3DI2` | Входное реле стоповой кнопки пускателя |
+| `RelayStopInN5` | Boolean | `|var|PLC210 (Arm32bit + Linux ).Application.PLC_PRG.mi3DI3` | Входное реле стоповой кнопки пускателя |
+| `RelayStopInN6` | Boolean | `|var|PLC210 (Arm32bit + Linux ).Application.PLC_PRG.mi3DI1` | Входное реле стоповой кнопки пускателя |
+| `RelayStopInN7` | Boolean |  | Входное реле стоповой кнопки пускателя |
+| `RelayStopInN8` | Boolean |  | Входное реле стоповой кнопки пускателя |
+| `RelayStopInN9` | Boolean |  | Входное реле стоповой кнопки пускателя |
+| `RelayStopInN10` | Boolean |  | Входное реле стоповой кнопки пускателя |
+
+## СилКорпус / Входные переменные / Аспирация
+
+| Тег | Тип | Привязка | Описание |
+|---|---|---|---|
+| `RelayInC1` | Boolean |  | Входное реле ответа пускателя аспирации |
+| `RelayInC2` | Boolean |  | Входное реле ответа пускателя аспирации |
+| `RelayInC3` | Boolean |  | Входное реле ответа пускателя аспирации |
+| `RelayInC4` | Boolean |  | Входное реле ответа пускателя аспирации |
+| `RelayInC5` | Boolean |  | Входное реле ответа пускателя аспирации |
+| `RelayInC6` | Boolean |  | Входное реле ответа пускателя аспирации |
+| `RelayInC7` | Boolean |  | Входное реле ответа пускателя аспирации |
+| `RelayInC8` | Boolean |  | Входное реле ответа пускателя аспирации |
+| `RelayInC9` | Boolean |  | Входное реле ответа пускателя аспирации |
+| `RelayInC10` | Boolean |  | Входное реле ответа пускателя аспирации |
+| `RelayInC11` | Boolean |  | Входное реле ответа пускателя аспирации |
+| `RelayInC12` | Boolean |  | Входное реле ответа пускателя аспирации |
+| `RelayInC13` | Boolean |  | Входное реле ответа пускателя аспирации |
+| `RelayInC14` | Boolean |  | Входное реле ответа пускателя аспирации |
+| `RelayStopInC1` | Boolean |  | Входное реле стоповой кнопки пускателя |
+| `RelayStopInC2` | Boolean |  | Входное реле стоповой кнопки пускателя |
+| `RelayStopInC3` | Boolean |  | Входное реле стоповой кнопки пускателя |
+| `RelayStopInC4` | Boolean |  | Входное реле стоповой кнопки пускателя |
+| `RelayStopInC5` | Boolean |  | Входное реле стоповой кнопки пускателя |
+| `RelayStopInC6` | Boolean |  | Входное реле стоповой кнопки пускателя |
+| `RelayStopInC7` | Boolean |  | Входное реле стоповой кнопки пускателя |
+| `RelayStopInC8` | Boolean |  | Входное реле стоповой кнопки пускателя |
+| `RelayStopInC9` | Boolean |  | Входное реле стоповой кнопки пускателя |
+| `RelayStopInC10` | Boolean |  | Входное реле стоповой кнопки пускателя |
+| `RelayStopInC11` | Boolean |  | Входное реле стоповой кнопки пускателя |
+| `RelayStopInC12` | Boolean |  | Входное реле стоповой кнопки пускателя |
+| `RelayStopInC13` | Boolean |  | Входное реле стоповой кнопки пускателя |
+| `RelayStopInC14` | Boolean |  | Входное реле стоповой кнопки пускателя |
+
+## СилКорпус / Входные переменные / Транспортеры
+
+| Тег | Тип | Привязка | Описание |
+|---|---|---|---|
+| `RelayInForwardT1` | Boolean | `|var|PLC210 (Arm32bit + Linux ).Application.PLC_PRG.mi1DI1` | Входное реле ответа пускателя транспортера в прямом направлении |
+| `RelayInForwardT2` | Boolean | `|var|PLC210 (Arm32bit + Linux ).Application.PLC_PRG.mi1DI11` | Входное реле ответа пускателя транспортера в прямом направлении |
+| `RelayInForwardT3` | Boolean | `|var|PLC210 (Arm32bit + Linux ).Application.PLC_PRG.mi1DI12` | Входное реле ответа пускателя транспортера в прямом направлении |
+| `RelayInForwardT4` | Boolean | `|var|PLC210 (Arm32bit + Linux ).Application.PLC_PRG.mi1DI3` | Входное реле ответа пускателя транспортера в прямом направлении |
+| `RelayInForwardT5` | Boolean | `|var|PLC210 (Arm32bit + Linux ).Application.PLC_PRG.mi1DI5` | Входное реле ответа пускателя транспортера в прямом направлении |
+| `RelayInForwardT6` | Boolean | `|var|PLC210 (Arm32bit + Linux ).Application.PLC_PRG.mi1DI7` | Входное реле ответа пускателя транспортера в прямом направлении |
+| `RelayInForwardT7` | Boolean | `|var|PLC210 (Arm32bit + Linux ).Application.PLC_PRG.mi1DI9` | Входное реле ответа пускателя транспортера в прямом направлении |
+| `RelayInForwardT8` | Boolean |  | Входное реле ответа пускателя транспортера в прямом направлении |
+| `RelayInForwardT9` | Boolean |  | Входное реле ответа пускателя транспортера в прямом направлении |
+| `RelayInForwardT10` | Boolean |  | Входное реле ответа пускателя транспортера в прямом направлении |
+| `RelayInForwardT11` | Boolean |  | Входное реле ответа пускателя транспортера в прямом направлении |
+| `RelayInForwardT12` | Boolean |  | Входное реле ответа пускателя транспортера в прямом направлении |
+| `RelayInForwardT13` | Boolean |  | Входное реле ответа пускателя транспортера в прямом направлении |
+| `RelayInForwardT14` | Boolean |  | Входное реле ответа пускателя транспортера в прямом направлении |
+| `RelayInForwardT15` | Boolean |  | Входное реле ответа пускателя транспортера в прямом направлении |
+| `RelayInForwardT16` | Boolean |  | Входное реле ответа пускателя транспортера в прямом направлении |
+| `RelayInForwardT17` | Boolean |  | Входное реле ответа пускателя транспортера в прямом направлении |
+| `RelayInForwardT18` | Boolean |  | Входное реле ответа пускателя транспортера в прямом направлении |
+| `RelayInForwardT19` | Boolean |  | Входное реле ответа пускателя транспортера в прямом направлении |
+| `RelayInForwardT20` | Boolean |  | Входное реле ответа пускателя транспортера в прямом направлении |
+| `RelayInReversT1` | Boolean | `|var|PLC210 (Arm32bit + Linux ).Application.PLC_PRG.mi1DI2` | Входное реле ответа пускателя транспортера в обратном направлении |
+| `RelayInReversT2` | Boolean | `|var|PLC210 (Arm32bit + Linux ).Application.PLC_PRG.mi1DI4` | Входное реле ответа пускателя транспортера в обратном направлении |
+| `RelayInReversT3` | Boolean | `|var|PLC210 (Arm32bit + Linux ).Application.PLC_PRG.mi1DI6` | Входное реле ответа пускателя транспортера в обратном направлении |
+| `RelayInReversT4` | Boolean | `|var|PLC210 (Arm32bit + Linux ).Application.PLC_PRG.mi3DI4` | Входное реле ответа пускателя транспортера в обратном направлении |
+| `RelayInReversT5` | Boolean | `|var|PLC210 (Arm32bit + Linux ).Application.PLC_PRG.mi1DI6` | Входное реле ответа пускателя транспортера в обратном направлении |
+| `RelayInReversT6` | Boolean | `|var|PLC210 (Arm32bit + Linux ).Application.PLC_PRG.mi1DI8` | Входное реле ответа пускателя транспортера в обратном направлении |
+| `RelayInReversT7` | Boolean | `|var|PLC210 (Arm32bit + Linux ).Application.PLC_PRG.mi1DI10` | Входное реле ответа пускателя транспортера в обратном направлении |
+| `RelayInReversT8` | Boolean |  | Входное реле ответа пускателя транспортера в обратном направлении |
+| `RelayInReversT9` | Boolean |  | Входное реле ответа пускателя транспортера в обратном направлении |
+| `RelayInReversT10` | Boolean |  | Входное реле ответа пускателя транспортера в обратном направлении |
+| `RelayInReversT11` | Boolean |  | Входное реле ответа пускателя транспортера в обратном направлении |
+| `RelayInReversT12` | Boolean |  | Входное реле ответа пускателя транспортера в обратном направлении |
+| `RelayInReversT13` | Boolean |  | Входное реле ответа пускателя транспортера в обратном направлении |
+| `RelayInReversT14` | Boolean |  | Входное реле ответа пускателя транспортера в обратном направлении |
+| `RelayInReversT15` | Boolean |  | Входное реле ответа пускателя транспортера в обратном направлении |
+| `RelayInReversT16` | Boolean |  | Входное реле ответа пускателя транспортера в обратном направлении |
+| `RelayInReversT17` | Boolean |  | Входное реле ответа пускателя транспортера в обратном направлении |
+| `RelayInReversT18` | Boolean |  | Входное реле ответа пускателя транспортера в обратном направлении |
+| `RelayInReversT19` | Boolean |  | Входное реле ответа пускателя транспортера в обратном направлении |
+| `RelayInReversT20` | Boolean |  | Входное реле ответа пускателя транспортера в обратном направлении |
+| `RelayStopInT1` | Boolean | `|var|PLC210 (Arm32bit + Linux ).Application.PLC_PRG.mi1DI23` | Входное реле стоповой кнопки пускателя |
+| `RelayStopInT2` | Boolean | `|var|PLC210 (Arm32bit + Linux ).Application.PLC_PRG.mi1DI28` | Входное реле стоповой кнопки пускателя |
+| `RelayStopInT3` | Boolean | `|var|PLC210 (Arm32bit + Linux ).Application.PLC_PRG.mi1DI29` | Входное реле стоповой кнопки пускателя |
+| `RelayStopInT4` | Boolean | `|var|PLC210 (Arm32bit + Linux ).Application.PLC_PRG.mi1DI24` | Входное реле стоповой кнопки пускателя |
+| `RelayStopInT5` | Boolean | `|var|PLC210 (Arm32bit + Linux ).Application.PLC_PRG.mi1DI25` | Входное реле стоповой кнопки пускателя |
+| `RelayStopInT6` | Boolean | `|var|PLC210 (Arm32bit + Linux ).Application.PLC_PRG.mi1DI26` | Входное реле стоповой кнопки пускателя |
+| `RelayStopInT7` | Boolean | `|var|PLC210 (Arm32bit + Linux ).Application.PLC_PRG.mi1DI27` | Входное реле стоповой кнопки пускателя |
+| `RelayStopInT8` | Boolean |  | Входное реле стоповой кнопки пускателя |
+| `RelayStopInT9` | Boolean |  | Входное реле стоповой кнопки пускателя |
+| `RelayStopInT10` | Boolean |  | Входное реле стоповой кнопки пускателя |
+| `RelayStopInT11` | Boolean |  | Входное реле стоповой кнопки пускателя |
+| `RelayStopInT12` | Boolean |  | Входное реле стоповой кнопки пускателя |
+| `RelayStopInT13` | Boolean |  | Входное реле стоповой кнопки пускателя |
+| `RelayStopInT14` | Boolean |  | Входное реле стоповой кнопки пускателя |
+| `RelayStopInT15` | Boolean |  | Входное реле стоповой кнопки пускателя |
+| `RelayStopInT16` | Boolean |  | Входное реле стоповой кнопки пускателя |
+| `RelayStopInT17` | Boolean |  | Входное реле стоповой кнопки пускателя |
+| `RelayStopInT18` | Boolean |  | Входное реле стоповой кнопки пускателя |
+| `RelayStopInT19` | Boolean |  | Входное реле стоповой кнопки пускателя |
+| `RelayStopInT20` | Boolean |  | Входное реле стоповой кнопки пускателя |
+| `MembSensorAT1` | Boolean | `|var|PLC210 (Arm32bit + Linux ).Application.PLC_PRG.t1DI21` | Сигнал мембранного датчика транспортера |
+| `MembSensorAT2` | Boolean | `|var|PLC210 (Arm32bit + Linux ).Application.PLC_PRG.t1DI22` | Сигнал мембранного датчика транспортера |
+| `MembSensorAT3` | Boolean | `|var|PLC210 (Arm32bit + Linux ).Application.PLC_PRG.t1DI22` | Сигнал мембранного датчика транспортера |
+| `MembSensorAT4` | Boolean | `|var|PLC210 (Arm32bit + Linux ).Application.PLC_PRG.t4DI21` | Сигнал мембранного датчика транспортера |
+| `MembSensorAT5` | Boolean | `|var|PLC210 (Arm32bit + Linux ).Application.PLC_PRG.t5DI21` | Сигнал мембранного датчика транспортера |
+| `MembSensorAT6` | Boolean | `|var|PLC210 (Arm32bit + Linux ).Application.PLC_PRG.t6DI32` | Сигнал мембранного датчика транспортера |
+| `MembSensorAT7` | Boolean | `|var|PLC210 (Arm32bit + Linux ).Application.PLC_PRG.t7DI32` | Сигнал мембранного датчика транспортера |
+| `MembSensorBT1` | Boolean |  | Сигнал мембранного датчика транспортера |
+| `MembSensorBT2` | Boolean |  | Сигнал мембранного датчика транспортера |
+| `MembSensorBT3` | Boolean |  | Сигнал мембранного датчика транспортера |
+| `MembSensorBT4` | Boolean | `|var|PLC210 (Arm32bit + Linux ).Application.PLC_PRG.t4DI22` | Сигнал мембранного датчика транспортера |
+| `MembSensorBT5` | Boolean | `|var|PLC210 (Arm32bit + Linux ).Application.PLC_PRG.t5DI22` | Сигнал мембранного датчика транспортера |
+| `MembSensorBT6` | Boolean | `|var|PLC210 (Arm32bit + Linux ).Application.PLC_PRG.t6DI1` | Сигнал мембранного датчика транспортера |
+| `MembSensorBT7` | Boolean | `|var|PLC210 (Arm32bit + Linux ).Application.PLC_PRG.t7DI1` | Сигнал мембранного датчика транспортера |
+
+## СилКорпус / Входные переменные / Заслонки транспортера номер 6
+
+| Тег | Тип | Привязка | Описание |
+|---|---|---|---|
+| `T6LatchOpen1` | Boolean | `|var|PLC210 (Arm32bit + Linux ).Application.PLC_PRG.t6DI11` | Входое реле концевика открытого состояния задвижки |
+| `T6LatchOpen2` | Boolean | `|var|PLC210 (Arm32bit + Linux ).Application.PLC_PRG.t6DI13` | Входое реле концевика открытого состояния задвижки |
+| `T6LatchOpen3` | Boolean | `|var|PLC210 (Arm32bit + Linux ).Application.PLC_PRG.t6DI15` | Входое реле концевика открытого состояния задвижки |
+| `T6LatchOpen4` | Boolean | `|var|PLC210 (Arm32bit + Linux ).Application.PLC_PRG.t6DI17` | Входое реле концевика открытого состояния задвижки |
+| `T6LatchOpen5` | Boolean | `|var|PLC210 (Arm32bit + Linux ).Application.PLC_PRG.t6DI19` | Входое реле концевика открытого состояния задвижки |
+| `T6LatchOpen6` | Boolean | `|var|PLC210 (Arm32bit + Linux ).Application.PLC_PRG.t6DI21` | Входое реле концевика открытого состояния задвижки |
+| `T6LatchOpen7` | Boolean | `|var|PLC210 (Arm32bit + Linux ).Application.PLC_PRG.t6DI23` | Входое реле концевика открытого состояния задвижки |
+| `T6LatchOpen8` | Boolean | `|var|PLC210 (Arm32bit + Linux ).Application.PLC_PRG.t6DI25` | Входое реле концевика открытого состояния задвижки |
+| `T6LatchOpen9` | Boolean | `|var|PLC210 (Arm32bit + Linux ).Application.PLC_PRG.t6DI27` | Входое реле концевика открытого состояния задвижки |
+| `T6LatchOpen10` | Boolean | `|var|PLC210 (Arm32bit + Linux ).Application.PLC_PRG.t6DI29` | Входое реле концевика открытого состояния задвижки |
+| `T6LatchClose1` | Boolean | `|var|PLC210 (Arm32bit + Linux ).Application.PLC_PRG.t6DI12` | Входое реле концевика закрытого состояния задвижки |
+| `T6LatchClose2` | Boolean | `|var|PLC210 (Arm32bit + Linux ).Application.PLC_PRG.t6DI14` | Входое реле концевика закрытого состояния задвижки |
+| `T6LatchClose3` | Boolean | `|var|PLC210 (Arm32bit + Linux ).Application.PLC_PRG.t6DI16` | Входое реле концевика закрытого состояния задвижки |
+| `T6LatchClose4` | Boolean | `|var|PLC210 (Arm32bit + Linux ).Application.PLC_PRG.t6DI18` | Входое реле концевика закрытого состояния задвижки |
+| `T6LatchClose5` | Boolean | `|var|PLC210 (Arm32bit + Linux ).Application.PLC_PRG.t6DI20` | Входое реле концевика закрытого состояния задвижки |
+| `T6LatchClose6` | Boolean | `|var|PLC210 (Arm32bit + Linux ).Application.PLC_PRG.t6DI22` | Входое реле концевика закрытого состояния задвижки |
+| `T6LatchClose7` | Boolean | `|var|PLC210 (Arm32bit + Linux ).Application.PLC_PRG.t6DI24` | Входое реле концевика закрытого состояния задвижки |
+| `T6LatchClose8` | Boolean | `|var|PLC210 (Arm32bit + Linux ).Application.PLC_PRG.t6DI26` | Входое реле концевика закрытого состояния задвижки |
+| `T6LatchClose9` | Boolean | `|var|PLC210 (Arm32bit + Linux ).Application.PLC_PRG.t6DI28` | Входое реле концевика закрытого состояния задвижки |
+| `T6LatchClose10` | Boolean | `|var|PLC210 (Arm32bit + Linux ).Application.PLC_PRG.t6DI30` | Входое реле концевика закрытого состояния задвижки |
+
+## СилКорпус / Входные переменные / Заслонки транспортера номер 7
+
+| Тег | Тип | Привязка | Описание |
+|---|---|---|---|
+| `T7LatchOpen1` | Boolean | `|var|PLC210 (Arm32bit + Linux ).Application.PLC_PRG.t7DI11` | Входое реле концевика открытого состояния задвижки |
+| `T7LatchOpen2` | Boolean | `|var|PLC210 (Arm32bit + Linux ).Application.PLC_PRG.t7DI13` | Входое реле концевика открытого состояния задвижки |
+| `T7LatchOpen3` | Boolean | `|var|PLC210 (Arm32bit + Linux ).Application.PLC_PRG.t7DI15` | Входое реле концевика открытого состояния задвижки |
+| `T7LatchOpen4` | Boolean | `|var|PLC210 (Arm32bit + Linux ).Application.PLC_PRG.t7DI17` | Входое реле концевика открытого состояния задвижки |
+| `T7LatchOpen5` | Boolean | `|var|PLC210 (Arm32bit + Linux ).Application.PLC_PRG.t7DI19` | Входое реле концевика открытого состояния задвижки |
+| `T7LatchOpen6` | Boolean | `|var|PLC210 (Arm32bit + Linux ).Application.PLC_PRG.t7DI21` | Входое реле концевика открытого состояния задвижки |
+| `T7LatchOpen7` | Boolean | `|var|PLC210 (Arm32bit + Linux ).Application.PLC_PRG.t7DI23` | Входое реле концевика открытого состояния задвижки |
+| `T7LatchOpen8` | Boolean | `|var|PLC210 (Arm32bit + Linux ).Application.PLC_PRG.t7DI25` | Входое реле концевика открытого состояния задвижки |
+| `T7LatchOpen9` | Boolean | `|var|PLC210 (Arm32bit + Linux ).Application.PLC_PRG.t7DI27` | Входое реле концевика открытого состояния задвижки |
+| `T7LatchOpen10` | Boolean | `|var|PLC210 (Arm32bit + Linux ).Application.PLC_PRG.t7DI29` | Входое реле концевика открытого состояния задвижки |
+| `T7LatchClose1` | Boolean | `|var|PLC210 (Arm32bit + Linux ).Application.PLC_PRG.t7DI12` | Входое реле концевика закрытого состояния задвижки |
+| `T7LatchClose2` | Boolean | `|var|PLC210 (Arm32bit + Linux ).Application.PLC_PRG.t7DI14` | Входое реле концевика закрытого состояния задвижки |
+| `T7LatchClose3` | Boolean | `|var|PLC210 (Arm32bit + Linux ).Application.PLC_PRG.t7DI16` | Входое реле концевика закрытого состояния задвижки |
+| `T7LatchClose4` | Boolean | `|var|PLC210 (Arm32bit + Linux ).Application.PLC_PRG.t7DI18` | Входое реле концевика закрытого состояния задвижки |
+| `T7LatchClose5` | Boolean | `|var|PLC210 (Arm32bit + Linux ).Application.PLC_PRG.t7DI20` | Входое реле концевика закрытого состояния задвижки |
+| `T7LatchClose6` | Boolean | `|var|PLC210 (Arm32bit + Linux ).Application.PLC_PRG.t7DI22` | Входое реле концевика закрытого состояния задвижки |
+| `T7LatchClose7` | Boolean | `|var|PLC210 (Arm32bit + Linux ).Application.PLC_PRG.t7DI24` | Входое реле концевика закрытого состояния задвижки |
+| `T7LatchClose8` | Boolean | `|var|PLC210 (Arm32bit + Linux ).Application.PLC_PRG.t7DI26` | Входое реле концевика закрытого состояния задвижки |
+| `T7LatchClose9` | Boolean | `|var|PLC210 (Arm32bit + Linux ).Application.PLC_PRG.t7DI28` | Входое реле концевика закрытого состояния задвижки |
+| `T7LatchClose10` | Boolean | `|var|PLC210 (Arm32bit + Linux ).Application.PLC_PRG.t7DI30` | Входое реле концевика закрытого состояния задвижки |
+
+## СилКорпус / Входные переменные / Заслонки транспортера номер 4
+
+| Тег | Тип | Привязка | Описание |
+|---|---|---|---|
+| `T4LatchOpen1` | Boolean | `|var|PLC210 (Arm32bit + Linux ).Application.PLC_PRG.t4DI1` | Входое реле концевика открытого состояния задвижки |
+| `T4LatchOpen2` | Boolean | `|var|PLC210 (Arm32bit + Linux ).Application.PLC_PRG.t4DI3` | Входое реле концевика открытого состояния задвижки |
+| `T4LatchOpen3` | Boolean | `|var|PLC210 (Arm32bit + Linux ).Application.PLC_PRG.t4DI5` | Входое реле концевика открытого состояния задвижки |
+| `T4LatchOpen4` | Boolean | `|var|PLC210 (Arm32bit + Linux ).Application.PLC_PRG.t4DI7` | Входое реле концевика открытого состояния задвижки |
+| `T4LatchOpen5` | Boolean | `|var|PLC210 (Arm32bit + Linux ).Application.PLC_PRG.t4DI9` | Входое реле концевика открытого состояния задвижки |
+| `T4LatchOpen6` | Boolean | `|var|PLC210 (Arm32bit + Linux ).Application.PLC_PRG.t4DI11` | Входое реле концевика открытого состояния задвижки |
+| `T4LatchOpen7` | Boolean | `|var|PLC210 (Arm32bit + Linux ).Application.PLC_PRG.t4DI13` | Входое реле концевика открытого состояния задвижки |
+| `T4LatchOpen8` | Boolean | `|var|PLC210 (Arm32bit + Linux ).Application.PLC_PRG.t4DI15` | Входое реле концевика открытого состояния задвижки |
+| `T4LatchOpen9` | Boolean | `|var|PLC210 (Arm32bit + Linux ).Application.PLC_PRG.t4DI17` | Входое реле концевика открытого состояния задвижки |
+| `T4LatchOpen10` | Boolean | `|var|PLC210 (Arm32bit + Linux ).Application.PLC_PRG.t4DI19` | Входое реле концевика открытого состояния задвижки |
+| `T4LatchClose1` | Boolean | `|var|PLC210 (Arm32bit + Linux ).Application.PLC_PRG.t4DI2` | Входое реле концевика закрытого состояния задвижки |
+| `T4LatchClose2` | Boolean | `|var|PLC210 (Arm32bit + Linux ).Application.PLC_PRG.t4DI4` | Входое реле концевика закрытого состояния задвижки |
+| `T4LatchClose3` | Boolean | `|var|PLC210 (Arm32bit + Linux ).Application.PLC_PRG.t4DI6` | Входое реле концевика закрытого состояния задвижки |
+| `T4LatchClose4` | Boolean | `|var|PLC210 (Arm32bit + Linux ).Application.PLC_PRG.t4DI8` | Входое реле концевика закрытого состояния задвижки |
+| `T4LatchClose5` | Boolean | `|var|PLC210 (Arm32bit + Linux ).Application.PLC_PRG.t4DI10` | Входое реле концевика закрытого состояния задвижки |
+| `T4LatchClose6` | Boolean | `|var|PLC210 (Arm32bit + Linux ).Application.PLC_PRG.t4DI12` | Входое реле концевика закрытого состояния задвижки |
+| `T4LatchClose7` | Boolean | `|var|PLC210 (Arm32bit + Linux ).Application.PLC_PRG.t4DI14` | Входое реле концевика закрытого состояния задвижки |
+| `T4LatchClose8` | Boolean | `|var|PLC210 (Arm32bit + Linux ).Application.PLC_PRG.t4DI16` | Входое реле концевика закрытого состояния задвижки |
+| `T4LatchClose9` | Boolean | `|var|PLC210 (Arm32bit + Linux ).Application.PLC_PRG.t4DI18` | Входое реле концевика закрытого состояния задвижки |
+| `T4LatchClose10` | Boolean | `|var|PLC210 (Arm32bit + Linux ).Application.PLC_PRG.t4DI20` | Входое реле концевика закрытого состояния задвижки |
+| `T4ClapLatchOpen1` | Boolean | `|var|PLC210 (Arm32bit + Linux ).Application.PLC_PRG.t41DI1` | Входое реле концевика открытого состояния задвижки |
+| `T4ClapLatchOpen2` | Boolean | `|var|PLC210 (Arm32bit + Linux ).Application.PLC_PRG.t41DI3` | Входое реле концевика открытого состояния задвижки |
+| `T4ClapLatchOpen3` | Boolean | `|var|PLC210 (Arm32bit + Linux ).Application.PLC_PRG.t41DI5` | Входое реле концевика открытого состояния задвижки |
+| `T4ClapLatchOpen4` | Boolean | `|var|PLC210 (Arm32bit + Linux ).Application.PLC_PRG.t41DI7` | Входое реле концевика открытого состояния задвижки |
+| `T4ClapLatchOpen5` | Boolean | `|var|PLC210 (Arm32bit + Linux ).Application.PLC_PRG.t41DI9` | Входое реле концевика открытого состояния задвижки |
+| `T4ClapLatchOpen6` | Boolean | `|var|PLC210 (Arm32bit + Linux ).Application.PLC_PRG.t41DI11` | Входое реле концевика открытого состояния задвижки |
+| `T4ClapLatchOpen7` | Boolean | `|var|PLC210 (Arm32bit + Linux ).Application.PLC_PRG.t41DI13` | Входое реле концевика открытого состояния задвижки |
+| `T4ClapLatchOpen8` | Boolean | `|var|PLC210 (Arm32bit + Linux ).Application.PLC_PRG.t41DI15` | Входое реле концевика открытого состояния задвижки |
+| `T4ClapLatchOpen9` | Boolean | `|var|PLC210 (Arm32bit + Linux ).Application.PLC_PRG.t41DI17` | Входое реле концевика открытого состояния задвижки |
+| `T4ClapLatchOpen10` | Boolean | `|var|PLC210 (Arm32bit + Linux ).Application.PLC_PRG.t41DI19` | Входое реле концевика открытого состояния задвижки |
+| `T4ClapLatchClose1` | Boolean | `|var|PLC210 (Arm32bit + Linux ).Application.PLC_PRG.t41DI2` | Входое реле концевика закрытого состояния задвижки |
+| `T4ClapLatchClose2` | Boolean | `|var|PLC210 (Arm32bit + Linux ).Application.PLC_PRG.t41DI4` | Входое реле концевика закрытого состояния задвижки |
+| `T4ClapLatchClose3` | Boolean | `|var|PLC210 (Arm32bit + Linux ).Application.PLC_PRG.t41DI6` | Входое реле концевика закрытого состояния задвижки |
+| `T4ClapLatchClose4` | Boolean | `|var|PLC210 (Arm32bit + Linux ).Application.PLC_PRG.t41DI8` | Входое реле концевика закрытого состояния задвижки |
+| `T4ClapLatchClose5` | Boolean | `|var|PLC210 (Arm32bit + Linux ).Application.PLC_PRG.t41DI10` | Входое реле концевика закрытого состояния задвижки |
+| `T4ClapLatchClose6` | Boolean | `|var|PLC210 (Arm32bit + Linux ).Application.PLC_PRG.t41DI12` | Входое реле концевика закрытого состояния задвижки |
+| `T4ClapLatchClose7` | Boolean | `|var|PLC210 (Arm32bit + Linux ).Application.PLC_PRG.t41DI14` | Входое реле концевика закрытого состояния задвижки |
+| `T4ClapLatchClose8` | Boolean | `|var|PLC210 (Arm32bit + Linux ).Application.PLC_PRG.t41DI16` | Входое реле концевика закрытого состояния задвижки |
+| `T4ClapLatchClose9` | Boolean | `|var|PLC210 (Arm32bit + Linux ).Application.PLC_PRG.t41DI18` | Входое реле концевика закрытого состояния задвижки |
+| `T4ClapLatchClose10` | Boolean | `|var|PLC210 (Arm32bit + Linux ).Application.PLC_PRG.t41DI20` | Входое реле концевика закрытого состояния задвижки |
+
+## СилКорпус / Входные переменные / Заслонки транспортера номер 5
+
+| Тег | Тип | Привязка | Описание |
+|---|---|---|---|
+| `T5LatchOpen1` | Boolean | `|var|PLC210 (Arm32bit + Linux ).Application.PLC_PRG.t5DI1` | Входое реле концевика открытого состояния задвижки |
+| `T5LatchOpen2` | Boolean | `|var|PLC210 (Arm32bit + Linux ).Application.PLC_PRG.t5DI3` | Входое реле концевика открытого состояния задвижки |
+| `T5LatchOpen3` | Boolean | `|var|PLC210 (Arm32bit + Linux ).Application.PLC_PRG.t5DI5` | Входое реле концевика открытого состояния задвижки |
+| `T5LatchOpen4` | Boolean | `|var|PLC210 (Arm32bit + Linux ).Application.PLC_PRG.t5DI7` | Входое реле концевика открытого состояния задвижки |
+| `T5LatchOpen5` | Boolean | `|var|PLC210 (Arm32bit + Linux ).Application.PLC_PRG.t5DI9` | Входое реле концевика открытого состояния задвижки |
+| `T5LatchOpen6` | Boolean | `|var|PLC210 (Arm32bit + Linux ).Application.PLC_PRG.t5DI11` | Входое реле концевика открытого состояния задвижки |
+| `T5LatchOpen7` | Boolean | `|var|PLC210 (Arm32bit + Linux ).Application.PLC_PRG.t5DI13` | Входое реле концевика открытого состояния задвижки |
+| `T5LatchOpen8` | Boolean | `|var|PLC210 (Arm32bit + Linux ).Application.PLC_PRG.t5DI15` | Входое реле концевика открытого состояния задвижки |
+| `T5LatchClose1` | Boolean | `|var|PLC210 (Arm32bit + Linux ).Application.PLC_PRG.t5DI2` | Входое реле концевика закрытого состояния задвижки |
+| `T5LatchClose2` | Boolean | `|var|PLC210 (Arm32bit + Linux ).Application.PLC_PRG.t5DI4` | Входое реле концевика закрытого состояния задвижки |
+| `T5LatchClose3` | Boolean | `|var|PLC210 (Arm32bit + Linux ).Application.PLC_PRG.t5DI6` | Входое реле концевика закрытого состояния задвижки |
+| `T5LatchClose4` | Boolean | `|var|PLC210 (Arm32bit + Linux ).Application.PLC_PRG.t5DI8` | Входое реле концевика закрытого состояния задвижки |
+| `T5LatchClose5` | Boolean | `|var|PLC210 (Arm32bit + Linux ).Application.PLC_PRG.t5DI10` | Входое реле концевика закрытого состояния задвижки |
+| `T5LatchClose6` | Boolean | `|var|PLC210 (Arm32bit + Linux ).Application.PLC_PRG.t5DI12` | Входое реле концевика закрытого состояния задвижки |
+| `T5LatchClose7` | Boolean | `|var|PLC210 (Arm32bit + Linux ).Application.PLC_PRG.t5DI14` | Входое реле концевика закрытого состояния задвижки |
+| `T5LatchClose8` | Boolean | `|var|PLC210 (Arm32bit + Linux ).Application.PLC_PRG.t5DI16` | Входое реле концевика закрытого состояния задвижки |
+| `T5ClapLatchOpen1` | Boolean | `|var|PLC210 (Arm32bit + Linux ).Application.PLC_PRG.t51DI1` | Входое реле концевика открытого состояния задвижки |
+| `T5ClapLatchOpen2` | Boolean | `|var|PLC210 (Arm32bit + Linux ).Application.PLC_PRG.t51DI3` | Входое реле концевика открытого состояния задвижки |
+| `T5ClapLatchOpen3` | Boolean | `|var|PLC210 (Arm32bit + Linux ).Application.PLC_PRG.t51DI5` | Входое реле концевика открытого состояния задвижки |
+| `T5ClapLatchOpen4` | Boolean | `|var|PLC210 (Arm32bit + Linux ).Application.PLC_PRG.t51DI7` | Входое реле концевика открытого состояния задвижки |
+| `T5ClapLatchOpen5` | Boolean | `|var|PLC210 (Arm32bit + Linux ).Application.PLC_PRG.t51DI9` | Входое реле концевика открытого состояния задвижки |
+| `T5ClapLatchOpen6` | Boolean | `|var|PLC210 (Arm32bit + Linux ).Application.PLC_PRG.t51DI11` | Входое реле концевика открытого состояния задвижки |
+| `T5ClapLatchOpen7` | Boolean | `|var|PLC210 (Arm32bit + Linux ).Application.PLC_PRG.t51DI13` | Входое реле концевика открытого состояния задвижки |
+| `T5ClapLatchOpen8` | Boolean | `|var|PLC210 (Arm32bit + Linux ).Application.PLC_PRG.t51DI15` | Входое реле концевика открытого состояния задвижки |
+| `T5ClapLatchClose1` | Boolean | `|var|PLC210 (Arm32bit + Linux ).Application.PLC_PRG.t51DI2` | Входое реле концевика закрытого состояния задвижки |
+| `T5ClapLatchClose2` | Boolean | `|var|PLC210 (Arm32bit + Linux ).Application.PLC_PRG.t51DI4` | Входое реле концевика закрытого состояния задвижки |
+| `T5ClapLatchClose3` | Boolean | `|var|PLC210 (Arm32bit + Linux ).Application.PLC_PRG.t51DI6` | Входое реле концевика закрытого состояния задвижки |
+| `T5ClapLatchClose4` | Boolean | `|var|PLC210 (Arm32bit + Linux ).Application.PLC_PRG.t51DI8` | Входое реле концевика закрытого состояния задвижки |
+| `T5ClapLatchClose5` | Boolean | `|var|PLC210 (Arm32bit + Linux ).Application.PLC_PRG.t51DI10` | Входое реле концевика закрытого состояния задвижки |
+| `T5ClapLatchClose6` | Boolean | `|var|PLC210 (Arm32bit + Linux ).Application.PLC_PRG.t51DI12` | Входое реле концевика закрытого состояния задвижки |
+| `T5ClapLatchClose7` | Boolean | `|var|PLC210 (Arm32bit + Linux ).Application.PLC_PRG.t51DI14` | Входое реле концевика закрытого состояния задвижки |
+| `T5ClapLatchClose8` | Boolean | `|var|PLC210 (Arm32bit + Linux ).Application.PLC_PRG.t51DI16` | Входое реле концевика закрытого состояния задвижки |
+
+## СилКорпус / Входные переменные / Заслонки транспортера номер 1-3
+
+| Тег | Тип | Привязка | Описание |
+|---|---|---|---|
+| `T1LatchOpen1` | Boolean | `|var|PLC210 (Arm32bit + Linux ).Application.PLC_PRG.t1DI1` | Входое реле концевика открытого состояния задвижки |
+| `T1LatchOpen2` | Boolean | `|var|PLC210 (Arm32bit + Linux ).Application.PLC_PRG.t1DI3` | Входое реле концевика открытого состояния задвижки |
+| `T1LatchOpen3` | Boolean | `|var|PLC210 (Arm32bit + Linux ).Application.PLC_PRG.t1DI5` | Входое реле концевика открытого состояния задвижки |
+| `T1LatchOpen4` | Boolean | `|var|PLC210 (Arm32bit + Linux ).Application.PLC_PRG.t1DI7` | Входое реле концевика открытого состояния задвижки |
+| `T1LatchOpen5` | Boolean | `|var|PLC210 (Arm32bit + Linux ).Application.PLC_PRG.t1DI9` | Входое реле концевика открытого состояния задвижки |
+| `T1LatchOpen6` | Boolean | `|var|PLC210 (Arm32bit + Linux ).Application.PLC_PRG.t1DI11` | Входое реле концевика открытого состояния задвижки |
+| `T1LatchOpen7` | Boolean | `|var|PLC210 (Arm32bit + Linux ).Application.PLC_PRG.t1DI13` | Входое реле концевика открытого состояния задвижки |
+| `T1LatchOpen8` | Boolean | `|var|PLC210 (Arm32bit + Linux ).Application.PLC_PRG.t1DI15` | Входое реле концевика открытого состояния задвижки |
+| `T1LatchClose1` | Boolean | `|var|PLC210 (Arm32bit + Linux ).Application.PLC_PRG.t1DI2` | Входое реле концевика закрытого состояния задвижки |
+| `T1LatchClose2` | Boolean | `|var|PLC210 (Arm32bit + Linux ).Application.PLC_PRG.t1DI4` | Входое реле концевика закрытого состояния задвижки |
+| `T1LatchClose3` | Boolean | `|var|PLC210 (Arm32bit + Linux ).Application.PLC_PRG.t1DI6` | Входое реле концевика закрытого состояния задвижки |
+| `T1LatchClose4` | Boolean | `|var|PLC210 (Arm32bit + Linux ).Application.PLC_PRG.t1DI8` | Входое реле концевика закрытого состояния задвижки |
+| `T1LatchClose5` | Boolean | `|var|PLC210 (Arm32bit + Linux ).Application.PLC_PRG.t1DI10` | Входое реле концевика закрытого состояния задвижки |
+| `T1LatchClose6` | Boolean | `|var|PLC210 (Arm32bit + Linux ).Application.PLC_PRG.t1DI12` | Входое реле концевика закрытого состояния задвижки |
+| `T1LatchClose7` | Boolean | `|var|PLC210 (Arm32bit + Linux ).Application.PLC_PRG.t1DI14` | Входое реле концевика закрытого состояния задвижки |
+| `T1LatchClose8` | Boolean | `|var|PLC210 (Arm32bit + Linux ).Application.PLC_PRG.t1DI16` | Входое реле концевика закрытого состояния задвижки |
+| `T1LatchOpen9` | Boolean | `|var|PLC210 (Arm32bit + Linux ).Application.PLC_PRG.t1DI17` | Входое реле концевика открытого состояния задвижки |
+| `T1LatchClose9` | Boolean | `|var|PLC210 (Arm32bit + Linux ).Application.PLC_PRG.t1DI18` | Входое реле концевика закрытого состояния задвижки |
+
+## СилКорпус / Входные переменные / Переменные телеметрии Частотных преобразователей
+
+| Тег | Тип | Привязка | Описание |
+|---|---|---|---|
+| `T1Power` | Single | `|var|PLC210 (Arm32bit + Linux ).Application.PLC_PRG.t1Power` | Значение потребляемой мощности транспортера |
+| `T2Power` | Single | `|var|PLC210 (Arm32bit + Linux ).Application.PLC_PRG.t2Power` | Значение потребляемой мощности транспортера |
+| `T3Power` | Single | `|var|PLC210 (Arm32bit + Linux ).Application.PLC_PRG.t3Power` | Значение потребляемой мощности транспортера |
+| `T4Power` | Single | `|var|PLC210 (Arm32bit + Linux ).Application.PLC_PRG.t4Power` | Значение потребляемой мощности транспортера |
+| `T5Power` | Single | `|var|PLC210 (Arm32bit + Linux ).Application.PLC_PRG.t5Power` | Значение потребляемой мощности транспортера |
+| `T6Power` | Single | `|var|PLC210 (Arm32bit + Linux ).Application.PLC_PRG.t6Power` | Значение потребляемой мощности транспортера |
+| `T7Power` | Single | `|var|PLC210 (Arm32bit + Linux ).Application.PLC_PRG.t7Power` | Значение потребляемой мощности транспортера |
+| `T1Freq` | Single | `|var|PLC210 (Arm32bit + Linux ).Application.PLC_PRG.t1FreqMonitoring` | Задание частоты для частотного преобразователя транспортера |
+| `T2Freq` | Single | `|var|PLC210 (Arm32bit + Linux ).Application.PLC_PRG.t2FreqMonitoring` | Задание частоты для частотного преобразователя транспортера |
+| `T3Freq` | Single | `|var|PLC210 (Arm32bit + Linux ).Application.PLC_PRG.t3FreqMonitoring` | Задание частоты для частотного преобразователя транспортера |
+| `T4Freq` | Single | `|var|PLC210 (Arm32bit + Linux ).Application.PLC_PRG.t4FreqMonitoring` | Задание частоты для частотного преобразователя транспортера |
+| `T5Freq` | Single | `|var|PLC210 (Arm32bit + Linux ).Application.PLC_PRG.t5FreqMonitoring` | Задание частоты для частотного преобразователя транспортера |
+| `T6Freq` | Single | `|var|PLC210 (Arm32bit + Linux ).Application.PLC_PRG.t6FreqMonitoring` | Задание частоты для частотного преобразователя транспортера |
+| `T7Freq` | Single | `|var|PLC210 (Arm32bit + Linux ).Application.PLC_PRG.t7FreqMonitoring` | Задание частоты для частотного преобразователя транспортера |
+
+## СилКорпус / Таймеры / Нории / Таймеры старта
+
+| Тег | Тип | Привязка | Описание |
+|---|---|---|---|
+| `StartTimeN1` | Integer |  | Таймер старта нории |
+| `StartTimeN2` | Integer |  | Таймер старта нории |
+| `StartTimeN3` | Integer |  | Таймер старта нории |
+| `StartTimeN4` | Integer |  | Таймер старта нории |
+| `StartTimeN5` | Integer |  | Таймер старта нории |
+| `StartTimeN6` | Integer |  | Таймер старта нории |
+| `StartTimeN7` | Integer |  | Таймер старта нории |
+| `StartTimeN8` | Integer |  | Таймер старта нории |
+| `StartTimeN9` | Integer |  | Таймер старта нории |
+| `StartTimeN10` | Integer |  | Таймер старта нории |
+
+## СилКорпус / Таймеры / Нории / Таймеры аварий
+
+| Тег | Тип | Привязка | Описание |
+|---|---|---|---|
+| `AlarmTimeN1` | Integer |  | Таймер аварии нории |
+| `AlarmTimeN2` | Integer |  | Таймер аварии нории |
+| `AlarmTimeN3` | Integer |  | Таймер аварии нории |
+| `AlarmTimeN4` | Integer |  | Таймер аварии нории |
+| `AlarmTimeN5` | Integer |  | Таймер аварии нории |
+| `AlarmTimeN6` | Integer |  | Таймер аварии нории |
+| `AlarmTimeN7` | Integer |  | Таймер аварии нории |
+| `AlarmTimeN8` | Integer |  | Таймер аварии нории |
+| `AlarmTimeN9` | Integer |  | Таймер аварии нории |
+| `AlarmTimeN10` | Integer |  | Таймер аварии нории |
+| `StatusAlarmN1` | Boolean |  | Служебный статус для контроля аварии нории |
+| `StatusAlarmN2` | Boolean |  | Служебный статус для контроля аварии нории |
+| `StatusAlarmN3` | Boolean |  | Служебный статус для контроля аварии нории |
+| `StatusAlarmN4` | Boolean |  | Служебный статус для контроля аварии нории |
+| `StatusAlarmN5` | Boolean |  | Служебный статус для контроля аварии нории |
+| `StatusAlarmN6` | Boolean |  | Служебный статус для контроля аварии нории |
+| `StatusAlarmN7` | Boolean |  | Служебный статус для контроля аварии нории |
+| `StatusAlarmN8` | Boolean |  | Служебный статус для контроля аварии нории |
+| `StatusAlarmN9` | Boolean |  | Служебный статус для контроля аварии нории |
+| `StatusAlarmN10` | Boolean |  | Служебный статус для контроля аварии нории |
+
+## СилКорпус / Таймеры / Аспирация / Таймеры старта
+
+| Тег | Тип | Привязка | Описание |
+|---|---|---|---|
+| `StartTimeC1` | Integer |  | Таймер старта аспирации |
+| `StartTimeC2` | Integer |  | Таймер старта аспирации |
+| `StartTimeC3` | Integer |  | Таймер старта аспирации |
+| `StartTimeC4` | Integer |  | Таймер старта аспирации |
+| `StartTimeC5` | Integer |  | Таймер старта аспирации |
+| `StartTimeC6` | Integer |  | Таймер старта аспирации |
+| `StartTimeC7` | Integer |  | Таймер старта аспирации |
+| `StartTimeC8` | Integer |  | Таймер старта аспирации |
+| `StartTimeC9` | Integer |  | Таймер старта аспирации |
+| `StartTimeC10` | Integer |  | Таймер старта аспирации |
+| `StartTimeC11` | Integer |  | Таймер старта аспирации |
+| `StartTimeC12` | Integer |  | Таймер старта аспирации |
+| `StartTimeC13` | Integer |  | Таймер старта аспирации |
+| `StartTimeC14` | Integer |  | Таймер старта аспирации |
+
+## СилКорпус / Таймеры / Транспортеры / Таймеры старта
+
+| Тег | Тип | Привязка | Описание |
+|---|---|---|---|
+| `StartTimeT1` | Integer |  | Таймер старта транспортера |
+| `StartTimeT2` | Integer |  | Таймер старта транспортера |
+| `StartTimeT3` | Integer |  | Таймер старта транспортера |
+| `StartTimeT4` | Integer |  | Таймер старта транспортера |
+| `StartTimeT5` | Integer |  | Таймер старта транспортера |
+| `StartTimeT6` | Integer |  | Таймер старта транспортера |
+| `StartTimeT7` | Integer |  | Таймер старта транспортера |
+| `StartTimeT8` | Integer |  | Таймер старта транспортера |
+| `StartTimeT9` | Integer |  | Таймер старта транспортера |
+| `StartTimeT10` | Integer |  | Таймер старта транспортера |
+| `StartTimeT11` | Integer |  | Таймер старта транспортера |
+| `StartTimeT12` | Integer |  | Таймер старта транспортера |
+| `StartTimeT13` | Integer |  | Таймер старта транспортера |
+| `StartTimeT14` | Integer |  | Таймер старта транспортера |
+| `StartTimeT15` | Integer |  | Таймер старта транспортера |
+| `StartTimeT16` | Integer |  | Таймер старта транспортера |
+| `StartTimeT17` | Integer |  | Таймер старта транспортера |
+| `StartTimeT18` | Integer |  | Таймер старта транспортера |
+| `StartTimeT19` | Integer |  | Таймер старта транспортера |
+| `StartTimeT20` | Integer |  | Таймер старта транспортера |
+
+## СилКорпус / Таймеры / Транспортеры / Таймеры аварий
+
+| Тег | Тип | Привязка | Описание |
+|---|---|---|---|
+| `AlarmTimeT1` | Integer |  | Таймер аварии транспортера |
+| `AlarmTimeT2` | Integer |  | Таймер аварии транспортера |
+| `AlarmTimeT3` | Integer |  | Таймер аварии транспортера |
+| `AlarmTimeT4` | Integer |  | Таймер аварии транспортера |
+| `AlarmTimeT5` | Integer |  | Таймер аварии транспортера |
+| `AlarmTimeT6` | Integer |  | Таймер аварии транспортера |
+| `AlarmTimeT7` | Integer |  | Таймер аварии транспортера |
+| `AlarmTimeT8` | Integer |  | Таймер аварии транспортера |
+| `AlarmTimeT9` | Integer |  | Таймер аварии транспортера |
+| `AlarmTimeT10` | Integer |  | Таймер аварии транспортера |
+| `AlarmTimeT11` | Integer |  | Таймер аварии транспортера |
+| `AlarmTimeT12` | Integer |  | Таймер аварии транспортера |
+| `AlarmTimeT13` | Integer |  | Таймер аварии транспортера |
+| `AlarmTimeT14` | Integer |  | Таймер аварии транспортера |
+| `AlarmTimeT15` | Integer |  | Таймер аварии транспортера |
+| `AlarmTimeT16` | Integer |  | Таймер аварии транспортера |
+| `AlarmTimeT17` | Integer |  | Таймер аварии транспортера |
+| `AlarmTimeT18` | Integer |  | Таймер аварии транспортера |
+| `AlarmTimeT19` | Integer |  | Таймер аварии транспортера |
+| `AlarmTimeT20` | Integer |  | Таймер аварии транспортера |
+| `StatusAlarmT1` | Boolean |  | Служебный статус для контроля аварии транспортера |
+| `StatusAlarmT2` | Boolean |  | Служебный статус для контроля аварии транспортера |
+| `StatusAlarmT3` | Boolean |  | Служебный статус для контроля аварии транспортера |
+| `StatusAlarmT4` | Boolean |  | Служебный статус для контроля аварии транспортера |
+| `StatusAlarmT5` | Boolean |  | Служебный статус для контроля аварии транспортера |
+| `StatusAlarmT6` | Boolean |  | Служебный статус для контроля аварии транспортера |
+| `StatusAlarmT7` | Boolean |  | Служебный статус для контроля аварии транспортера |
+| `StatusAlarmT8` | Boolean |  | Служебный статус для контроля аварии транспортера |
+| `StatusAlarmT9` | Boolean |  | Служебный статус для контроля аварии транспортера |
+| `StatusAlarmT10` | Boolean |  | Служебный статус для контроля аварии транспортера |
+| `StatusAlarmT11` | Boolean |  | Служебный статус для контроля аварии транспортера |
+| `StatusAlarmT12` | Boolean |  | Служебный статус для контроля аварии транспортера |
+| `StatusAlarmT13` | Boolean |  | Служебный статус для контроля аварии транспортера |
+| `StatusAlarmT14` | Boolean |  | Служебный статус для контроля аварии транспортера |
+| `StatusAlarmT15` | Boolean |  | Служебный статус для контроля аварии транспортера |
+| `StatusAlarmT16` | Boolean |  | Служебный статус для контроля аварии транспортера |
+| `StatusAlarmT17` | Boolean |  | Служебный статус для контроля аварии транспортера |
+| `StatusAlarmT18` | Boolean |  | Служебный статус для контроля аварии транспортера |
+| `StatusAlarmT19` | Boolean |  | Служебный статус для контроля аварии транспортера |
+| `StatusAlarmT20` | Boolean |  | Служебный статус для контроля аварии транспортера |
+
+## СилКорпус / Таймеры / Транспортеры / Таймеры контроля оборотов валов
+
+| Тег | Тип | Привязка | Описание |
+|---|---|---|---|
+| `RPMTimerT1` | Integer |  |  |
+| `RPMTimerT2` | Integer |  |  |
+| `RPMTimerT3` | Integer |  |  |
+| `RPMTimerT4` | Integer |  |  |
+| `RPMTimerT5` | Integer |  |  |
+| `RPMTimerT6` | Integer |  |  |
+| `RPMTimerT7` | Integer |  |  |
+| `RPMTimerT8` | Integer |  |  |
+| `RPMTimerT9` | Integer |  |  |
+| `RPMTimerT10` | Integer |  |  |
+| `RPMTimerT11` | Integer |  |  |
+| `RPMTimerT12` | Integer |  |  |
+| `RPMTimerT13` | Integer |  |  |
+| `RPMTimerT14` | Integer |  |  |
+| `RPMTimerT15` | Integer |  |  |
+| `RPMTimerT16` | Integer |  |  |
+| `RPMTimerT17` | Integer |  |  |
+| `RPMTimerT18` | Integer |  |  |
+
+## СилКорпус / Таймеры / Заслонки транспортера номер 6
+
+| Тег | Тип | Привязка | Описание |
+|---|---|---|---|
+| `T6OpenTimer1` | Integer |  | Таймер алгоритма открытия заслонки |
+| `T6CloseTimer1` | Integer |  | Таймер алгоритма закрытия заслонки |
+| `T6CalTimer1` | Integer |  | Таймер алгоритма калибровки заслонки |
+| `T6OpenTimer2` | Integer |  | Таймер алгоритма открытия заслонки |
+| `T6CloseTimer2` | Integer |  | Таймер алгоритма закрытия заслонки |
+| `T6CalTimer2` | Integer |  | Таймер алгоритма калибровки заслонки |
+| `T6OpenTimer3` | Integer |  | Таймер алгоритма открытия заслонки |
+| `T6CloseTimer3` | Integer |  | Таймер алгоритма закрытия заслонки |
+| `T6CalTimer3` | Integer |  | Таймер алгоритма калибровки заслонки |
+| `T6OpenTimer4` | Integer |  | Таймер алгоритма открытия заслонки |
+| `T6CloseTimer4` | Integer |  | Таймер алгоритма закрытия заслонки |
+| `T6CalTimer4` | Integer |  | Таймер алгоритма калибровки заслонки |
+| `T6OpenTimer5` | Integer |  | Таймер алгоритма открытия заслонки |
+| `T6CloseTimer5` | Integer |  | Таймер алгоритма закрытия заслонки |
+| `T6CalTimer5` | Integer |  | Таймер алгоритма калибровки заслонки |
+| `T6OpenTimer6` | Integer |  | Таймер алгоритма открытия заслонки |
+| `T6CloseTimer6` | Integer |  | Таймер алгоритма закрытия заслонки |
+| `T6CalTimer6` | Integer |  | Таймер алгоритма калибровки заслонки |
+| `T6OpenTimer7` | Integer |  | Таймер алгоритма открытия заслонки |
+| `T6CloseTimer7` | Integer |  | Таймер алгоритма закрытия заслонки |
+| `T6CalTimer7` | Integer |  | Таймер алгоритма калибровки заслонки |
+| `T6OpenTimer8` | Integer |  | Таймер алгоритма открытия заслонки |
+| `T6CloseTimer8` | Integer |  | Таймер алгоритма закрытия заслонки |
+| `T6CalTimer8` | Integer |  | Таймер алгоритма калибровки заслонки |
+| `T6OpenTimer9` | Integer |  | Таймер алгоритма открытия заслонки |
+| `T6CloseTimer9` | Integer |  | Таймер алгоритма закрытия заслонки |
+| `T6CalTimer9` | Integer |  | Таймер алгоритма калибровки заслонки |
+| `T6OpenTimer10` | Integer |  | Таймер алгоритма открытия заслонки |
+| `T6CloseTimer10` | Integer |  | Таймер алгоритма закрытия заслонки |
+| `T6CalTimer10` | Integer |  | Таймер алгоритма калибровки заслонки |
+
+## СилКорпус / Таймеры / Заслонки транспортера номер 7
+
+| Тег | Тип | Привязка | Описание |
+|---|---|---|---|
+| `T7OpenTimer1` | Integer |  | Таймер алгоритма открытия заслонки |
+| `T7CloseTimer1` | Integer |  | Таймер алгоритма закрытия заслонки |
+| `T7CalTimer1` | Integer |  | Таймер алгоритма калибровки заслонки |
+| `T7OpenTimer2` | Integer |  | Таймер алгоритма открытия заслонки |
+| `T7CloseTimer2` | Integer |  | Таймер алгоритма закрытия заслонки |
+| `T7CalTimer2` | Integer |  | Таймер алгоритма калибровки заслонки |
+| `T7OpenTimer3` | Integer |  | Таймер алгоритма открытия заслонки |
+| `T7CloseTimer3` | Integer |  | Таймер алгоритма закрытия заслонки |
+| `T7CalTimer3` | Integer |  | Таймер алгоритма калибровки заслонки |
+| `T7OpenTimer4` | Integer |  | Таймер алгоритма открытия заслонки |
+| `T7CloseTimer4` | Integer |  | Таймер алгоритма закрытия заслонки |
+| `T7CalTimer4` | Integer |  | Таймер алгоритма калибровки заслонки |
+| `T7OpenTimer5` | Integer |  | Таймер алгоритма открытия заслонки |
+| `T7CloseTimer5` | Integer |  | Таймер алгоритма закрытия заслонки |
+| `T7CalTimer5` | Integer |  | Таймер алгоритма калибровки заслонки |
+| `T7OpenTimer6` | Integer |  | Таймер алгоритма открытия заслонки |
+| `T7CloseTimer6` | Integer |  | Таймер алгоритма закрытия заслонки |
+| `T7CalTimer6` | Integer |  | Таймер алгоритма калибровки заслонки |
+| `T7OpenTimer7` | Integer |  | Таймер алгоритма открытия заслонки |
+| `T7CloseTimer7` | Integer |  | Таймер алгоритма закрытия заслонки |
+| `T7CalTimer7` | Integer |  | Таймер алгоритма калибровки заслонки |
+| `T7OpenTimer8` | Integer |  | Таймер алгоритма открытия заслонки |
+| `T7CloseTimer8` | Integer |  | Таймер алгоритма закрытия заслонки |
+| `T7CalTimer8` | Integer |  | Таймер алгоритма калибровки заслонки |
+| `T7OpenTimer9` | Integer |  | Таймер алгоритма открытия заслонки |
+| `T7CloseTimer9` | Integer |  | Таймер алгоритма закрытия заслонки |
+| `T7CalTimer9` | Integer |  | Таймер алгоритма калибровки заслонки |
+| `T7OpenTimer10` | Integer |  | Таймер алгоритма открытия заслонки |
+| `T7CloseTimer10` | Integer |  | Таймер алгоритма закрытия заслонки |
+| `T7CalTimer10` | Integer |  | Таймер алгоритма калибровки заслонки |
+
+## СилКорпус / Таймеры / Служебные таймеры
+
+| Тег | Тип | Привязка | Описание |
+|---|---|---|---|
+| `AlarmStartTimer` | Integer |  | Таймер контроля аварийного звукового оповещения |
+| `ManualTimer` | Integer |  | Таймер контроля алгоритма пуска механизмов |
+| `ManualTimerAlarm` | Integer |  | Таймер контроля алгоритма пуска механизмов |
+| `ManualTimerDelay` | Integer |  | Таймер контроля алгоритма пуска механизмов |
+
+## СилКорпус / Таймеры / Заслонки транспортера номер 4
+
+| Тег | Тип | Привязка | Описание |
+|---|---|---|---|
+| `T4OpenTimer1` | Integer |  | Таймер алгоритма открытия заслонки |
+| `T4CloseTimer1` | Integer |  | Таймер алгоритма закрытия заслонки |
+| `T4CalTimer1` | Integer |  | Таймер алгоритма калибровки заслонки |
+| `T4OpenTimer2` | Integer |  | Таймер алгоритма открытия заслонки |
+| `T4CloseTimer2` | Integer |  | Таймер алгоритма закрытия заслонки |
+| `T4CalTimer2` | Integer |  | Таймер алгоритма калибровки заслонки |
+| `T4OpenTimer3` | Integer |  | Таймер алгоритма открытия заслонки |
+| `T4CloseTimer3` | Integer |  | Таймер алгоритма закрытия заслонки |
+| `T4CalTimer3` | Integer |  | Таймер алгоритма калибровки заслонки |
+| `T4OpenTimer4` | Integer |  | Таймер алгоритма открытия заслонки |
+| `T4CloseTimer4` | Integer |  | Таймер алгоритма закрытия заслонки |
+| `T4CalTimer4` | Integer |  | Таймер алгоритма калибровки заслонки |
+| `T4OpenTimer5` | Integer |  | Таймер алгоритма открытия заслонки |
+| `T4CloseTimer5` | Integer |  | Таймер алгоритма закрытия заслонки |
+| `T4CalTimer5` | Integer |  | Таймер алгоритма калибровки заслонки |
+| `T4OpenTimer6` | Integer |  | Таймер алгоритма открытия заслонки |
+| `T4CloseTimer6` | Integer |  | Таймер алгоритма закрытия заслонки |
+| `T4CalTimer6` | Integer |  | Таймер алгоритма калибровки заслонки |
+| `T4OpenTimer7` | Integer |  | Таймер алгоритма открытия заслонки |
+| `T4CloseTimer7` | Integer |  | Таймер алгоритма закрытия заслонки |
+| `T4CalTimer7` | Integer |  | Таймер алгоритма калибровки заслонки |
+| `T4OpenTimer8` | Integer |  | Таймер алгоритма открытия заслонки |
+| `T4CloseTimer8` | Integer |  | Таймер алгоритма закрытия заслонки |
+| `T4CalTimer8` | Integer |  | Таймер алгоритма калибровки заслонки |
+| `T4OpenTimer9` | Integer |  | Таймер алгоритма открытия заслонки |
+| `T4CloseTimer9` | Integer |  | Таймер алгоритма закрытия заслонки |
+| `T4CalTimer9` | Integer |  | Таймер алгоритма калибровки заслонки |
+| `T4OpenTimer10` | Integer |  | Таймер алгоритма открытия заслонки |
+| `T4CloseTimer10` | Integer |  | Таймер алгоритма закрытия заслонки |
+| `T4CalTimer10` | Integer |  | Таймер алгоритма калибровки заслонки |
+| `T4ClapOpenTimer1` | Integer |  | Таймер алгоритма открытия заслонки |
+| `T4ClapCloseTimer1` | Integer |  | Таймер алгоритма закрытия заслонки |
+| `T4ClapCalTimer1` | Integer |  | Таймер алгоритма калибровки заслонки |
+| `T4ClapOpenTimer2` | Integer |  | Таймер алгоритма открытия заслонки |
+| `T4ClapCloseTimer2` | Integer |  | Таймер алгоритма закрытия заслонки |
+| `T4ClapCalTimer2` | Integer |  | Таймер алгоритма калибровки заслонки |
+| `T4ClapOpenTimer3` | Integer |  | Таймер алгоритма открытия заслонки |
+| `T4ClapCloseTimer3` | Integer |  | Таймер алгоритма закрытия заслонки |
+| `T4ClapCalTimer3` | Integer |  | Таймер алгоритма калибровки заслонки |
+| `T4ClapOpenTimer4` | Integer |  | Таймер алгоритма открытия заслонки |
+| `T4ClapCloseTimer4` | Integer |  | Таймер алгоритма закрытия заслонки |
+| `T4ClapCalTimer4` | Integer |  | Таймер алгоритма калибровки заслонки |
+| `T4ClapOpenTimer5` | Integer |  | Таймер алгоритма открытия заслонки |
+| `T4ClapCloseTimer5` | Integer |  | Таймер алгоритма закрытия заслонки |
+| `T4ClapCalTimer5` | Integer |  | Таймер алгоритма калибровки заслонки |
+| `T4ClapOpenTimer6` | Integer |  | Таймер алгоритма открытия заслонки |
+| `T4ClapCloseTimer6` | Integer |  | Таймер алгоритма закрытия заслонки |
+| `T4ClapCalTimer6` | Integer |  | Таймер алгоритма калибровки заслонки |
+| `T4ClapOpenTimer7` | Integer |  | Таймер алгоритма открытия заслонки |
+| `T4ClapCloseTimer7` | Integer |  | Таймер алгоритма закрытия заслонки |
+| `T4ClapCalTimer7` | Integer |  | Таймер алгоритма калибровки заслонки |
+| `T4ClapOpenTimer8` | Integer |  | Таймер алгоритма открытия заслонки |
+| `T4ClapCloseTimer8` | Integer |  | Таймер алгоритма закрытия заслонки |
+| `T4ClapCalTimer8` | Integer |  | Таймер алгоритма калибровки заслонки |
+| `T4ClapOpenTimer9` | Integer |  | Таймер алгоритма открытия заслонки |
+| `T4ClapCloseTimer9` | Integer |  | Таймер алгоритма закрытия заслонки |
+| `T4ClapCalTimer9` | Integer |  | Таймер алгоритма калибровки заслонки |
+| `T4ClapOpenTimer10` | Integer |  | Таймер алгоритма открытия заслонки |
+| `T4ClapCloseTimer10` | Integer |  | Таймер алгоритма закрытия заслонки |
+| `T4ClapCalTimer10` | Integer |  | Таймер алгоритма калибровки заслонки |
+
+## СилКорпус / Таймеры / Заслонки транспортера номер 5
+
+| Тег | Тип | Привязка | Описание |
+|---|---|---|---|
+| `T5OpenTimer1` | Integer |  | Таймер алгоритма открытия заслонки |
+| `T5CloseTimer1` | Integer |  | Таймер алгоритма закрытия заслонки |
+| `T5CalTimer1` | Integer |  | Таймер алгоритма калибровки заслонки |
+| `T5OpenTimer2` | Integer |  | Таймер алгоритма открытия заслонки |
+| `T5CloseTimer2` | Integer |  | Таймер алгоритма закрытия заслонки |
+| `T5CalTimer2` | Integer |  | Таймер алгоритма калибровки заслонки |
+| `T5OpenTimer3` | Integer |  | Таймер алгоритма открытия заслонки |
+| `T5CloseTimer3` | Integer |  | Таймер алгоритма закрытия заслонки |
+| `T5CalTimer3` | Integer |  | Таймер алгоритма калибровки заслонки |
+| `T5OpenTimer4` | Integer |  | Таймер алгоритма открытия заслонки |
+| `T5CloseTimer4` | Integer |  | Таймер алгоритма закрытия заслонки |
+| `T5CalTimer4` | Integer |  | Таймер алгоритма калибровки заслонки |
+| `T5OpenTimer5` | Integer |  | Таймер алгоритма открытия заслонки |
+| `T5CloseTimer5` | Integer |  | Таймер алгоритма закрытия заслонки |
+| `T5CalTimer5` | Integer |  | Таймер алгоритма калибровки заслонки |
+| `T5OpenTimer6` | Integer |  | Таймер алгоритма открытия заслонки |
+| `T5CloseTimer6` | Integer |  | Таймер алгоритма закрытия заслонки |
+| `T5CalTimer6` | Integer |  | Таймер алгоритма калибровки заслонки |
+| `T5OpenTimer7` | Integer |  | Таймер алгоритма открытия заслонки |
+| `T5CloseTimer7` | Integer |  | Таймер алгоритма закрытия заслонки |
+| `T5CalTimer7` | Integer |  | Таймер алгоритма калибровки заслонки |
+| `T5OpenTimer8` | Integer |  | Таймер алгоритма открытия заслонки |
+| `T5CloseTimer8` | Integer |  | Таймер алгоритма закрытия заслонки |
+| `T5CalTimer8` | Integer |  | Таймер алгоритма калибровки заслонки |
+| `T5ClapOpenTimer1` | Integer |  | Таймер алгоритма открытия заслонки |
+| `T5ClapCloseTimer1` | Integer |  | Таймер алгоритма закрытия заслонки |
+| `T5ClapCalTimer1` | Integer |  | Таймер алгоритма калибровки заслонки |
+| `T5ClapOpenTimer2` | Integer |  | Таймер алгоритма открытия заслонки |
+| `T5ClapCloseTimer2` | Integer |  | Таймер алгоритма закрытия заслонки |
+| `T5ClapCalTimer2` | Integer |  | Таймер алгоритма калибровки заслонки |
+| `T5ClapOpenTimer3` | Integer |  | Таймер алгоритма открытия заслонки |
+| `T5ClapCloseTimer3` | Integer |  | Таймер алгоритма закрытия заслонки |
+| `T5ClapCalTimer3` | Integer |  | Таймер алгоритма калибровки заслонки |
+| `T5ClapOpenTimer4` | Integer |  | Таймер алгоритма открытия заслонки |
+| `T5ClapCloseTimer4` | Integer |  | Таймер алгоритма закрытия заслонки |
+| `T5ClapCalTimer4` | Integer |  | Таймер алгоритма калибровки заслонки |
+| `T5ClapOpenTimer5` | Integer |  | Таймер алгоритма открытия заслонки |
+| `T5ClapCloseTimer5` | Integer |  | Таймер алгоритма закрытия заслонки |
+| `T5ClapCalTimer5` | Integer |  | Таймер алгоритма калибровки заслонки |
+| `T5ClapOpenTimer6` | Integer |  | Таймер алгоритма открытия заслонки |
+| `T5ClapCloseTimer6` | Integer |  | Таймер алгоритма закрытия заслонки |
+| `T5ClapCalTimer6` | Integer |  | Таймер алгоритма калибровки заслонки |
+| `T5ClapOpenTimer7` | Integer |  | Таймер алгоритма открытия заслонки |
+| `T5ClapCloseTimer7` | Integer |  | Таймер алгоритма закрытия заслонки |
+| `T5ClapCalTimer7` | Integer |  | Таймер алгоритма калибровки заслонки |
+| `T5ClapOpenTimer8` | Integer |  | Таймер алгоритма открытия заслонки |
+| `T5ClapCloseTimer8` | Integer |  | Таймер алгоритма закрытия заслонки |
+| `T5ClapCalTimer8` | Integer |  | Таймер алгоритма калибровки заслонки |
+
+## СилКорпус / Таймеры / Заслонки транспортера номер 1-3
+
+| Тег | Тип | Привязка | Описание |
+|---|---|---|---|
+| `T1OpenTimer1` | Integer |  | Таймер алгоритма открытия заслонки |
+| `T1CloseTimer1` | Integer |  | Таймер алгоритма закрытия заслонки |
+| `T1CalTimer1` | Integer |  | Таймер алгоритма калибровки заслонки |
+| `T1OpenTimer2` | Integer |  | Таймер алгоритма открытия заслонки |
+| `T1CloseTimer2` | Integer |  | Таймер алгоритма закрытия заслонки |
+| `T1CalTimer2` | Integer |  | Таймер алгоритма калибровки заслонки |
+| `T1OpenTimer3` | Integer |  | Таймер алгоритма открытия заслонки |
+| `T1CloseTimer3` | Integer |  | Таймер алгоритма закрытия заслонки |
+| `T1CalTimer3` | Integer |  | Таймер алгоритма калибровки заслонки |
+| `T1OpenTimer4` | Integer |  | Таймер алгоритма открытия заслонки |
+| `T1CloseTimer4` | Integer |  | Таймер алгоритма закрытия заслонки |
+| `T1CalTimer4` | Integer |  | Таймер алгоритма калибровки заслонки |
+| `T1OpenTimer5` | Integer |  | Таймер алгоритма открытия заслонки |
+| `T1CloseTimer5` | Integer |  | Таймер алгоритма закрытия заслонки |
+| `T1CalTimer5` | Integer |  | Таймер алгоритма калибровки заслонки |
+| `T1OpenTimer6` | Integer |  | Таймер алгоритма открытия заслонки |
+| `T1CloseTimer6` | Integer |  | Таймер алгоритма закрытия заслонки |
+| `T1CalTimer6` | Integer |  | Таймер алгоритма калибровки заслонки |
+| `T1OpenTimer7` | Integer |  | Таймер алгоритма открытия заслонки |
+| `T1CloseTimer7` | Integer |  | Таймер алгоритма закрытия заслонки |
+| `T1CalTimer7` | Integer |  | Таймер алгоритма калибровки заслонки |
+| `T1OpenTimer8` | Integer |  | Таймер алгоритма открытия заслонки |
+| `T1CloseTimer8` | Integer |  | Таймер алгоритма закрытия заслонки |
+| `T1CalTimer8` | Integer |  | Таймер алгоритма калибровки заслонки |
+| `T1OpenTimer9` | Integer |  | Таймер алгоритма открытия заслонки |
+| `T1CloseTimer9` | Integer |  | Таймер алгоритма закрытия заслонки |
+| `T1CalTimer9` | Integer |  | Таймер алгоритма калибровки заслонки |
+
+## СилКорпус / Калибровки хода заслонок / Заслонки транспортера номер 6
+
+| Тег | Тип | Привязка | Описание |
+|---|---|---|---|
+| `T6LatchCalOpenTime1` | Integer |  | Время хода задвижки от закрытого состояния к открытому |
+| `T6LatchCalOpenTime2` | Integer |  | Время хода задвижки от закрытого состояния к открытому |
+| `T6LatchCalOpenTime3` | Integer |  | Время хода задвижки от закрытого состояния к открытому |
+| `T6LatchCalOpenTime4` | Integer |  | Время хода задвижки от закрытого состояния к открытому |
+| `T6LatchCalOpenTime5` | Integer |  | Время хода задвижки от закрытого состояния к открытому |
+| `T6LatchCalOpenTime6` | Integer |  | Время хода задвижки от закрытого состояния к открытому |
+| `T6LatchCalOpenTime7` | Integer |  | Время хода задвижки от закрытого состояния к открытому |
+| `T6LatchCalOpenTime8` | Integer |  | Время хода задвижки от закрытого состояния к открытому |
+| `T6LatchCalOpenTime9` | Integer |  | Время хода задвижки от закрытого состояния к открытому |
+| `T6LatchCalOpenTime10` | Integer |  | Время хода задвижки от закрытого состояния к открытому |
+| `T6LatchCalCloseTime1` | Integer |  | Время хода задвижки от открытого состояния к закрытому |
+| `T6LatchCalCloseTime2` | Integer |  | Время хода задвижки от открытого состояния к закрытому |
+| `T6LatchCalCloseTime3` | Integer |  | Время хода задвижки от открытого состояния к закрытому |
+| `T6LatchCalCloseTime4` | Integer |  | Время хода задвижки от открытого состояния к закрытому |
+| `T6LatchCalCloseTime5` | Integer |  | Время хода задвижки от открытого состояния к закрытому |
+| `T6LatchCalCloseTime6` | Integer |  | Время хода задвижки от открытого состояния к закрытому |
+| `T6LatchCalCloseTime7` | Integer |  | Время хода задвижки от открытого состояния к закрытому |
+| `T6LatchCalCloseTime8` | Integer |  | Время хода задвижки от открытого состояния к закрытому |
+| `T6LatchCalCloseTime9` | Integer |  | Время хода задвижки от открытого состояния к закрытому |
+| `T6LatchCalCloseTime10` | Integer |  | Время хода задвижки от открытого состояния к закрытому |
+
+## СилКорпус / Калибровки хода заслонок / Заслонки транспортера номер 7
+
+| Тег | Тип | Привязка | Описание |
+|---|---|---|---|
+| `T7LatchCalOpenTime1` | Integer |  | Время хода задвижки от закрытого состояния к открытому |
+| `T7LatchCalOpenTime2` | Integer |  | Время хода задвижки от закрытого состояния к открытому |
+| `T7LatchCalOpenTime3` | Integer |  | Время хода задвижки от закрытого состояния к открытому |
+| `T7LatchCalOpenTime4` | Integer |  | Время хода задвижки от закрытого состояния к открытому |
+| `T7LatchCalOpenTime5` | Integer |  | Время хода задвижки от закрытого состояния к открытому |
+| `T7LatchCalOpenTime6` | Integer |  | Время хода задвижки от закрытого состояния к открытому |
+| `T7LatchCalOpenTime7` | Integer |  | Время хода задвижки от закрытого состояния к открытому |
+| `T7LatchCalOpenTime8` | Integer |  | Время хода задвижки от закрытого состояния к открытому |
+| `T7LatchCalOpenTime9` | Integer |  | Время хода задвижки от закрытого состояния к открытому |
+| `T7LatchCalOpenTime10` | Integer |  | Время хода задвижки от закрытого состояния к открытому |
+| `T7LatchCalCloseTime1` | Integer |  | Время хода задвижки от открытого состояния к закрытому |
+| `T7LatchCalCloseTime2` | Integer |  | Время хода задвижки от открытого состояния к закрытому |
+| `T7LatchCalCloseTime3` | Integer |  | Время хода задвижки от открытого состояния к закрытому |
+| `T7LatchCalCloseTime4` | Integer |  | Время хода задвижки от открытого состояния к закрытому |
+| `T7LatchCalCloseTime5` | Integer |  | Время хода задвижки от открытого состояния к закрытому |
+| `T7LatchCalCloseTime6` | Integer |  | Время хода задвижки от открытого состояния к закрытому |
+| `T7LatchCalCloseTime7` | Integer |  | Время хода задвижки от открытого состояния к закрытому |
+| `T7LatchCalCloseTime8` | Integer |  | Время хода задвижки от открытого состояния к закрытому |
+| `T7LatchCalCloseTime9` | Integer |  | Время хода задвижки от открытого состояния к закрытому |
+| `T7LatchCalCloseTime10` | Integer |  | Время хода задвижки от открытого состояния к закрытому |
+
+## СилКорпус / Калибровки хода заслонок / Заслонки транспортера номер 4
+
+| Тег | Тип | Привязка | Описание |
+|---|---|---|---|
+| `T4LatchCalOpenTime1` | Integer |  | Время хода задвижки от закрытого состояния к открытому |
+| `T4LatchCalOpenTime2` | Integer |  | Время хода задвижки от закрытого состояния к открытому |
+| `T4LatchCalOpenTime3` | Integer |  | Время хода задвижки от закрытого состояния к открытому |
+| `T4LatchCalOpenTime4` | Integer |  | Время хода задвижки от закрытого состояния к открытому |
+| `T4LatchCalOpenTime5` | Integer |  | Время хода задвижки от закрытого состояния к открытому |
+| `T4LatchCalOpenTime6` | Integer |  | Время хода задвижки от закрытого состояния к открытому |
+| `T4LatchCalOpenTime7` | Integer |  | Время хода задвижки от закрытого состояния к открытому |
+| `T4LatchCalOpenTime8` | Integer |  | Время хода задвижки от закрытого состояния к открытому |
+| `T4LatchCalOpenTime9` | Integer |  | Время хода задвижки от закрытого состояния к открытому |
+| `T4LatchCalOpenTime10` | Integer |  | Время хода задвижки от закрытого состояния к открытому |
+| `T4LatchCalCloseTime1` | Integer |  | Время хода задвижки от открытого состояния к закрытому |
+| `T4LatchCalCloseTime2` | Integer |  | Время хода задвижки от открытого состояния к закрытому |
+| `T4LatchCalCloseTime3` | Integer |  | Время хода задвижки от открытого состояния к закрытому |
+| `T4LatchCalCloseTime4` | Integer |  | Время хода задвижки от открытого состояния к закрытому |
+| `T4LatchCalCloseTime5` | Integer |  | Время хода задвижки от открытого состояния к закрытому |
+| `T4LatchCalCloseTime6` | Integer |  | Время хода задвижки от открытого состояния к закрытому |
+| `T4LatchCalCloseTime7` | Integer |  | Время хода задвижки от открытого состояния к закрытому |
+| `T4LatchCalCloseTime8` | Integer |  | Время хода задвижки от открытого состояния к закрытому |
+| `T4LatchCalCloseTime9` | Integer |  | Время хода задвижки от открытого состояния к закрытому |
+| `T4LatchCalCloseTime10` | Integer |  | Время хода задвижки от открытого состояния к закрытому |
+| `T4ClapLatchCalOpenTime1` | Integer |  | Время хода задвижки от закрытого состояния к открытому |
+| `T4ClapLatchCalOpenTime2` | Integer |  | Время хода задвижки от закрытого состояния к открытому |
+| `T4ClapLatchCalOpenTime3` | Integer |  | Время хода задвижки от закрытого состояния к открытому |
+| `T4ClapLatchCalOpenTime4` | Integer |  | Время хода задвижки от закрытого состояния к открытому |
+| `T4ClapLatchCalOpenTime5` | Integer |  | Время хода задвижки от закрытого состояния к открытому |
+| `T4ClapLatchCalOpenTime6` | Integer |  | Время хода задвижки от закрытого состояния к открытому |
+| `T4ClapLatchCalOpenTime7` | Integer |  | Время хода задвижки от закрытого состояния к открытому |
+| `T4ClapLatchCalOpenTime8` | Integer |  | Время хода задвижки от закрытого состояния к открытому |
+| `T4ClapLatchCalOpenTime9` | Integer |  | Время хода задвижки от закрытого состояния к открытому |
+| `T4ClapLatchCalOpenTime10` | Integer |  | Время хода задвижки от закрытого состояния к открытому |
+| `T4ClapLatchCalCloseTime1` | Integer |  | Время хода задвижки от открытого состояния к закрытому |
+| `T4ClapLatchCalCloseTime2` | Integer |  | Время хода задвижки от открытого состояния к закрытому |
+| `T4ClapLatchCalCloseTime3` | Integer |  | Время хода задвижки от открытого состояния к закрытому |
+| `T4ClapLatchCalCloseTime4` | Integer |  | Время хода задвижки от открытого состояния к закрытому |
+| `T4ClapLatchCalCloseTime5` | Integer |  | Время хода задвижки от открытого состояния к закрытому |
+| `T4ClapLatchCalCloseTime6` | Integer |  | Время хода задвижки от открытого состояния к закрытому |
+| `T4ClapLatchCalCloseTime7` | Integer |  | Время хода задвижки от открытого состояния к закрытому |
+| `T4ClapLatchCalCloseTime8` | Integer |  | Время хода задвижки от открытого состояния к закрытому |
+| `T4ClapLatchCalCloseTime9` | Integer |  | Время хода задвижки от открытого состояния к закрытому |
+| `T4ClapLatchCalCloseTime10` | Integer |  | Время хода задвижки от открытого состояния к закрытому |
+
+## СилКорпус / Калибровки хода заслонок / Заслонки транспортера номер 5
+
+| Тег | Тип | Привязка | Описание |
+|---|---|---|---|
+| `T5LatchCalOpenTime1` | Integer |  | Время хода задвижки от закрытого состояния к открытому |
+| `T5LatchCalOpenTime2` | Integer |  | Время хода задвижки от закрытого состояния к открытому |
+| `T5LatchCalOpenTime3` | Integer |  | Время хода задвижки от закрытого состояния к открытому |
+| `T5LatchCalOpenTime4` | Integer |  | Время хода задвижки от закрытого состояния к открытому |
+| `T5LatchCalOpenTime5` | Integer |  | Время хода задвижки от закрытого состояния к открытому |
+| `T5LatchCalOpenTime6` | Integer |  | Время хода задвижки от закрытого состояния к открытому |
+| `T5LatchCalOpenTime7` | Integer |  | Время хода задвижки от закрытого состояния к открытому |
+| `T5LatchCalOpenTime8` | Integer |  | Время хода задвижки от закрытого состояния к открытому |
+| `T5LatchCalCloseTime1` | Integer |  | Время хода задвижки от открытого состояния к закрытому |
+| `T5LatchCalCloseTime2` | Integer |  | Время хода задвижки от открытого состояния к закрытому |
+| `T5LatchCalCloseTime3` | Integer |  | Время хода задвижки от открытого состояния к закрытому |
+| `T5LatchCalCloseTime4` | Integer |  | Время хода задвижки от открытого состояния к закрытому |
+| `T5LatchCalCloseTime5` | Integer |  | Время хода задвижки от открытого состояния к закрытому |
+| `T5LatchCalCloseTime6` | Integer |  | Время хода задвижки от открытого состояния к закрытому |
+| `T5LatchCalCloseTime7` | Integer |  | Время хода задвижки от открытого состояния к закрытому |
+| `T5LatchCalCloseTime8` | Integer |  | Время хода задвижки от открытого состояния к закрытому |
+| `T5ClapLatchCalOpenTime1` | Integer |  | Время хода задвижки от закрытого состояния к открытому |
+| `T5ClapLatchCalOpenTime2` | Integer |  | Время хода задвижки от закрытого состояния к открытому |
+| `T5ClapLatchCalOpenTime3` | Integer |  | Время хода задвижки от закрытого состояния к открытому |
+| `T5ClapLatchCalOpenTime4` | Integer |  | Время хода задвижки от закрытого состояния к открытому |
+| `T5ClapLatchCalOpenTime5` | Integer |  | Время хода задвижки от закрытого состояния к открытому |
+| `T5ClapLatchCalOpenTime6` | Integer |  | Время хода задвижки от закрытого состояния к открытому |
+| `T5ClapLatchCalOpenTime7` | Integer |  | Время хода задвижки от закрытого состояния к открытому |
+| `T5ClapLatchCalOpenTime8` | Integer |  | Время хода задвижки от закрытого состояния к открытому |
+| `T5ClapLatchCalCloseTime1` | Integer |  | Время хода задвижки от открытого состояния к закрытому |
+| `T5ClapLatchCalCloseTime2` | Integer |  | Время хода задвижки от открытого состояния к закрытому |
+| `T5ClapLatchCalCloseTime3` | Integer |  | Время хода задвижки от открытого состояния к закрытому |
+| `T5ClapLatchCalCloseTime4` | Integer |  | Время хода задвижки от открытого состояния к закрытому |
+| `T5ClapLatchCalCloseTime5` | Integer |  | Время хода задвижки от открытого состояния к закрытому |
+| `T5ClapLatchCalCloseTime6` | Integer |  | Время хода задвижки от открытого состояния к закрытому |
+| `T5ClapLatchCalCloseTime7` | Integer |  | Время хода задвижки от открытого состояния к закрытому |
+| `T5ClapLatchCalCloseTime8` | Integer |  | Время хода задвижки от открытого состояния к закрытому |
+
+## СилКорпус / Калибровки хода заслонок / Заслонки транспортера номер 1-3
+
+| Тег | Тип | Привязка | Описание |
+|---|---|---|---|
+| `T1LatchCalOpenTime1` | Integer |  | Время хода задвижки от закрытого состояния к открытому |
+| `T1LatchCalOpenTime2` | Integer |  | Время хода задвижки от закрытого состояния к открытому |
+| `T1LatchCalOpenTime3` | Integer |  | Время хода задвижки от закрытого состояния к открытому |
+| `T1LatchCalOpenTime4` | Integer |  | Время хода задвижки от закрытого состояния к открытому |
+| `T1LatchCalOpenTime5` | Integer |  | Время хода задвижки от закрытого состояния к открытому |
+| `T1LatchCalOpenTime6` | Integer |  | Время хода задвижки от закрытого состояния к открытому |
+| `T1LatchCalOpenTime7` | Integer |  | Время хода задвижки от закрытого состояния к открытому |
+| `T1LatchCalOpenTime8` | Integer |  | Время хода задвижки от закрытого состояния к открытому |
+| `T1LatchCalCloseTime1` | Integer |  | Время хода задвижки от открытого состояния к закрытому |
+| `T1LatchCalCloseTime2` | Integer |  | Время хода задвижки от открытого состояния к закрытому |
+| `T1LatchCalCloseTime3` | Integer |  | Время хода задвижки от открытого состояния к закрытому |
+| `T1LatchCalCloseTime4` | Integer |  | Время хода задвижки от открытого состояния к закрытому |
+| `T1LatchCalCloseTime5` | Integer |  | Время хода задвижки от открытого состояния к закрытому |
+| `T1LatchCalCloseTime6` | Integer |  | Время хода задвижки от открытого состояния к закрытому |
+| `T1LatchCalCloseTime7` | Integer |  | Время хода задвижки от открытого состояния к закрытому |
+| `T1LatchCalCloseTime8` | Integer |  | Время хода задвижки от открытого состояния к закрытому |
+| `T1LatchCalOpenTime9` | Integer |  | Время хода задвижки от закрытого состояния к открытому |
+| `T1LatchCalCloseTime9` | Integer |  | Время хода задвижки от открытого состояния к закрытому |
+
+## СилКорпус / Переменные управления заслонками / Заслонки транспортера номер 6
+
+| Тег | Тип | Привязка | Описание |
+|---|---|---|---|
+| `T6BlockSelectStatus` | Boolean |  | Переменная для блокировки управления заслонками транспортера |
+| `T6OpenStatus1` | Boolean |  | Переменная для пуска алгоритма открытия заслонки |
+| `T6CloseStatus1` | Boolean |  | Переменная для пуска алгоритма закрытия заслонки |
+| `T6CalStatus1` | Boolean |  | Переменная для пуска алгоритма калибровки заслонки |
+| `T6OpenStatus2` | Boolean |  | Переменная для пуска алгоритма открытия заслонки |
+| `T6CloseStatus2` | Boolean |  | Переменная для пуска алгоритма закрытия заслонки |
+| `T6CalStatus2` | Boolean |  | Переменная для пуска алгоритма калибровки заслонки |
+| `T6OpenStatus3` | Boolean |  | Переменная для пуска алгоритма открытия заслонки |
+| `T6CloseStatus3` | Boolean |  | Переменная для пуска алгоритма закрытия заслонки |
+| `T6CalStatus3` | Boolean |  | Переменная для пуска алгоритма калибровки заслонки |
+| `T6OpenStatus4` | Boolean |  | Переменная для пуска алгоритма открытия заслонки |
+| `T6CloseStatus4` | Boolean |  | Переменная для пуска алгоритма закрытия заслонки |
+| `T6CalStatus4` | Boolean |  | Переменная для пуска алгоритма калибровки заслонки |
+| `T6OpenStatus5` | Boolean |  | Переменная для пуска алгоритма открытия заслонки |
+| `T6CloseStatus5` | Boolean |  | Переменная для пуска алгоритма закрытия заслонки |
+| `T6CalStatus5` | Boolean |  | Переменная для пуска алгоритма калибровки заслонки |
+| `T6OpenStatus6` | Boolean |  | Переменная для пуска алгоритма открытия заслонки |
+| `T6CloseStatus6` | Boolean |  | Переменная для пуска алгоритма закрытия заслонки |
+| `T6CalStatus6` | Boolean |  | Переменная для пуска алгоритма калибровки заслонки |
+| `T6OpenStatus7` | Boolean |  | Переменная для пуска алгоритма открытия заслонки |
+| `T6CloseStatus7` | Boolean |  | Переменная для пуска алгоритма закрытия заслонки |
+| `T6CalStatus7` | Boolean |  | Переменная для пуска алгоритма калибровки заслонки |
+| `T6OpenStatus8` | Boolean |  | Переменная для пуска алгоритма открытия заслонки |
+| `T6CloseStatus8` | Boolean |  | Переменная для пуска алгоритма закрытия заслонки |
+| `T6CalStatus8` | Boolean |  | Переменная для пуска алгоритма калибровки заслонки |
+| `T6OpenStatus9` | Boolean |  | Переменная для пуска алгоритма открытия заслонки |
+| `T6CloseStatus9` | Boolean |  | Переменная для пуска алгоритма закрытия заслонки |
+| `T6CalStatus9` | Boolean |  | Переменная для пуска алгоритма калибровки заслонки |
+| `T6OpenStatus10` | Boolean |  | Переменная для пуска алгоритма открытия заслонки |
+| `T6CloseStatus10` | Boolean |  | Переменная для пуска алгоритма закрытия заслонки |
+| `T6CalStatus10` | Boolean |  | Переменная для пуска алгоритма калибровки заслонки |
+
+## СилКорпус / Переменные управления заслонками / Заслонки транспортера номер 7
+
+| Тег | Тип | Привязка | Описание |
+|---|---|---|---|
+| `T7BlockSelectStatus` | Boolean |  | Переменная для блокировки управления заслонками транспортера |
+| `T7OpenStatus1` | Boolean |  | Переменная для пуска алгоритма открытия заслонки |
+| `T7CloseStatus1` | Boolean |  | Переменная для пуска алгоритма закрытия заслонки |
+| `T7CalStatus1` | Boolean |  | Переменная для пуска алгоритма калибровки заслонки |
+| `T7OpenStatus2` | Boolean |  | Переменная для пуска алгоритма открытия заслонки |
+| `T7CloseStatus2` | Boolean |  | Переменная для пуска алгоритма закрытия заслонки |
+| `T7CalStatus2` | Boolean |  | Переменная для пуска алгоритма калибровки заслонки |
+| `T7OpenStatus3` | Boolean |  | Переменная для пуска алгоритма открытия заслонки |
+| `T7CloseStatus3` | Boolean |  | Переменная для пуска алгоритма закрытия заслонки |
+| `T7CalStatus3` | Boolean |  | Переменная для пуска алгоритма калибровки заслонки |
+| `T7OpenStatus4` | Boolean |  | Переменная для пуска алгоритма открытия заслонки |
+| `T7CloseStatus4` | Boolean |  | Переменная для пуска алгоритма закрытия заслонки |
+| `T7CalStatus4` | Boolean |  | Переменная для пуска алгоритма калибровки заслонки |
+| `T7OpenStatus5` | Boolean |  | Переменная для пуска алгоритма открытия заслонки |
+| `T7CloseStatus5` | Boolean |  | Переменная для пуска алгоритма закрытия заслонки |
+| `T7CalStatus5` | Boolean |  | Переменная для пуска алгоритма калибровки заслонки |
+| `T7OpenStatus6` | Boolean |  | Переменная для пуска алгоритма открытия заслонки |
+| `T7CloseStatus6` | Boolean |  | Переменная для пуска алгоритма закрытия заслонки |
+| `T7CalStatus6` | Boolean |  | Переменная для пуска алгоритма калибровки заслонки |
+| `T7OpenStatus7` | Boolean |  | Переменная для пуска алгоритма открытия заслонки |
+| `T7CloseStatus7` | Boolean |  | Переменная для пуска алгоритма закрытия заслонки |
+| `T7CalStatus7` | Boolean |  | Переменная для пуска алгоритма калибровки заслонки |
+| `T7OpenStatus8` | Boolean |  | Переменная для пуска алгоритма открытия заслонки |
+| `T7CloseStatus8` | Boolean |  | Переменная для пуска алгоритма закрытия заслонки |
+| `T7CalStatus8` | Boolean |  | Переменная для пуска алгоритма калибровки заслонки |
+| `T7OpenStatus9` | Boolean |  | Переменная для пуска алгоритма открытия заслонки |
+| `T7CloseStatus9` | Boolean |  | Переменная для пуска алгоритма закрытия заслонки |
+| `T7CalStatus9` | Boolean |  | Переменная для пуска алгоритма калибровки заслонки |
+| `T7OpenStatus10` | Boolean |  | Переменная для пуска алгоритма открытия заслонки |
+| `T7CloseStatus10` | Boolean |  | Переменная для пуска алгоритма закрытия заслонки |
+| `T7CalStatus10` | Boolean |  | Переменная для пуска алгоритма калибровки заслонки |
+
+## СилКорпус / Переменные управления заслонками / Служебные переменные заслонок
+
+| Тег | Тип | Привязка | Описание |
+|---|---|---|---|
+| `T6AlarmStatus` | Boolean |  | Включение оповещения движения задвижек |
+| `T7AlarmStatus` | Boolean |  | Включение оповещения движения задвижек |
+
+## СилКорпус / Переменные управления заслонками / Заслонки транспортера номер 4
+
+| Тег | Тип | Привязка | Описание |
+|---|---|---|---|
+| `T4BlockSelectStatus` | Boolean |  | Переменная для блокировки управления заслонками транспортера |
+| `T4ClapBlockSelectStatus` | Boolean |  | Переменная для блокировки управления заслонками транспортера |
+| `T4OpenStatus1` | Boolean |  | Переменная для пуска алгоритма открытия заслонки |
+| `T4CloseStatus1` | Boolean |  | Переменная для пуска алгоритма закрытия заслонки |
+| `T4CalStatus1` | Boolean |  | Переменная для пуска алгоритма калибровки заслонки |
+| `T4OpenStatus2` | Boolean |  | Переменная для пуска алгоритма открытия заслонки |
+| `T4CloseStatus2` | Boolean |  | Переменная для пуска алгоритма закрытия заслонки |
+| `T4CalStatus2` | Boolean |  | Переменная для пуска алгоритма калибровки заслонки |
+| `T4OpenStatus3` | Boolean |  | Переменная для пуска алгоритма открытия заслонки |
+| `T4CloseStatus3` | Boolean |  | Переменная для пуска алгоритма закрытия заслонки |
+| `T4CalStatus3` | Boolean |  | Переменная для пуска алгоритма калибровки заслонки |
+| `T4OpenStatus4` | Boolean |  | Переменная для пуска алгоритма открытия заслонки |
+| `T4CloseStatus4` | Boolean |  | Переменная для пуска алгоритма закрытия заслонки |
+| `T4CalStatus4` | Boolean |  | Переменная для пуска алгоритма калибровки заслонки |
+| `T4OpenStatus5` | Boolean |  | Переменная для пуска алгоритма открытия заслонки |
+| `T4CloseStatus5` | Boolean |  | Переменная для пуска алгоритма закрытия заслонки |
+| `T4CalStatus5` | Boolean |  | Переменная для пуска алгоритма калибровки заслонки |
+| `T4OpenStatus6` | Boolean |  | Переменная для пуска алгоритма открытия заслонки |
+| `T4CloseStatus6` | Boolean |  | Переменная для пуска алгоритма закрытия заслонки |
+| `T4CalStatus6` | Boolean |  | Переменная для пуска алгоритма калибровки заслонки |
+| `T4OpenStatus7` | Boolean |  | Переменная для пуска алгоритма открытия заслонки |
+| `T4CloseStatus7` | Boolean |  | Переменная для пуска алгоритма закрытия заслонки |
+| `T4CalStatus7` | Boolean |  | Переменная для пуска алгоритма калибровки заслонки |
+| `T4OpenStatus8` | Boolean |  | Переменная для пуска алгоритма открытия заслонки |
+| `T4CloseStatus8` | Boolean |  | Переменная для пуска алгоритма закрытия заслонки |
+| `T4CalStatus8` | Boolean |  | Переменная для пуска алгоритма калибровки заслонки |
+| `T4OpenStatus9` | Boolean |  | Переменная для пуска алгоритма открытия заслонки |
+| `T4CloseStatus9` | Boolean |  | Переменная для пуска алгоритма закрытия заслонки |
+| `T4CalStatus9` | Boolean |  | Переменная для пуска алгоритма калибровки заслонки |
+| `T4OpenStatus10` | Boolean |  | Переменная для пуска алгоритма открытия заслонки |
+| `T4CloseStatus10` | Boolean |  | Переменная для пуска алгоритма закрытия заслонки |
+| `T4CalStatus10` | Boolean |  | Переменная для пуска алгоритма калибровки заслонки |
+| `T4ClapOpenStatus1` | Boolean |  | Переменная для пуска алгоритма открытия заслонки |
+| `T4ClapCloseStatus1` | Boolean |  | Переменная для пуска алгоритма закрытия заслонки |
+| `T4ClapCalStatus1` | Boolean |  | Переменная для пуска алгоритма калибровки заслонки |
+| `T4ClapOpenStatus2` | Boolean |  | Переменная для пуска алгоритма открытия заслонки |
+| `T4ClapCloseStatus2` | Boolean |  | Переменная для пуска алгоритма закрытия заслонки |
+| `T4ClapCalStatus2` | Boolean |  | Переменная для пуска алгоритма калибровки заслонки |
+| `T4ClapOpenStatus3` | Boolean |  | Переменная для пуска алгоритма открытия заслонки |
+| `T4ClapCloseStatus3` | Boolean |  | Переменная для пуска алгоритма закрытия заслонки |
+| `T4ClapCalStatus3` | Boolean |  | Переменная для пуска алгоритма калибровки заслонки |
+| `T4ClapOpenStatus4` | Boolean |  | Переменная для пуска алгоритма открытия заслонки |
+| `T4ClapCloseStatus4` | Boolean |  | Переменная для пуска алгоритма закрытия заслонки |
+| `T4ClapCalStatus4` | Boolean |  | Переменная для пуска алгоритма калибровки заслонки |
+| `T4ClapOpenStatus5` | Boolean |  | Переменная для пуска алгоритма открытия заслонки |
+| `T4ClapCloseStatus5` | Boolean |  | Переменная для пуска алгоритма закрытия заслонки |
+| `T4ClapCalStatus5` | Boolean |  | Переменная для пуска алгоритма калибровки заслонки |
+| `T4ClapOpenStatus6` | Boolean |  | Переменная для пуска алгоритма открытия заслонки |
+| `T4ClapCloseStatus6` | Boolean |  | Переменная для пуска алгоритма закрытия заслонки |
+| `T4ClapCalStatus6` | Boolean |  | Переменная для пуска алгоритма калибровки заслонки |
+| `T4ClapOpenStatus7` | Boolean |  | Переменная для пуска алгоритма открытия заслонки |
+| `T4ClapCloseStatus7` | Boolean |  | Переменная для пуска алгоритма закрытия заслонки |
+| `T4ClapCalStatus7` | Boolean |  | Переменная для пуска алгоритма калибровки заслонки |
+| `T4ClapOpenStatus8` | Boolean |  | Переменная для пуска алгоритма открытия заслонки |
+| `T4ClapCloseStatus8` | Boolean |  | Переменная для пуска алгоритма закрытия заслонки |
+| `T4ClapCalStatus8` | Boolean |  | Переменная для пуска алгоритма калибровки заслонки |
+| `T4ClapOpenStatus9` | Boolean |  | Переменная для пуска алгоритма открытия заслонки |
+| `T4ClapCloseStatus9` | Boolean |  | Переменная для пуска алгоритма закрытия заслонки |
+| `T4ClapCalStatus9` | Boolean |  | Переменная для пуска алгоритма калибровки заслонки |
+| `T4ClapOpenStatus10` | Boolean |  | Переменная для пуска алгоритма открытия заслонки |
+| `T4ClapCloseStatus10` | Boolean |  | Переменная для пуска алгоритма закрытия заслонки |
+| `T4ClapCalStatus10` | Boolean |  | Переменная для пуска алгоритма калибровки заслонки |
+
+## СилКорпус / Переменные управления заслонками / Заслонки транспортера номер 5
+
+| Тег | Тип | Привязка | Описание |
+|---|---|---|---|
+| `T5BlockSelectStatus` | Boolean |  | Переменная для блокировки управления заслонками транспортера |
+| `T5ClapBlockSelectStatus` | Boolean |  | Переменная для блокировки управления заслонками транспортера |
+| `T5OpenStatus1` | Boolean |  | Переменная для пуска алгоритма открытия заслонки |
+| `T5CloseStatus1` | Boolean |  | Переменная для пуска алгоритма закрытия заслонки |
+| `T5CalStatus1` | Boolean |  | Переменная для пуска алгоритма калибровки заслонки |
+| `T5OpenStatus2` | Boolean |  | Переменная для пуска алгоритма открытия заслонки |
+| `T5CloseStatus2` | Boolean |  | Переменная для пуска алгоритма закрытия заслонки |
+| `T5CalStatus2` | Boolean |  | Переменная для пуска алгоритма калибровки заслонки |
+| `T5OpenStatus3` | Boolean |  | Переменная для пуска алгоритма открытия заслонки |
+| `T5CloseStatus3` | Boolean |  | Переменная для пуска алгоритма закрытия заслонки |
+| `T5CalStatus3` | Boolean |  | Переменная для пуска алгоритма калибровки заслонки |
+| `T5OpenStatus4` | Boolean |  | Переменная для пуска алгоритма открытия заслонки |
+| `T5CloseStatus4` | Boolean |  | Переменная для пуска алгоритма закрытия заслонки |
+| `T5CalStatus4` | Boolean |  | Переменная для пуска алгоритма калибровки заслонки |
+| `T5OpenStatus5` | Boolean |  | Переменная для пуска алгоритма открытия заслонки |
+| `T5CloseStatus5` | Boolean |  | Переменная для пуска алгоритма закрытия заслонки |
+| `T5CalStatus5` | Boolean |  | Переменная для пуска алгоритма калибровки заслонки |
+| `T5OpenStatus6` | Boolean |  | Переменная для пуска алгоритма открытия заслонки |
+| `T5CloseStatus6` | Boolean |  | Переменная для пуска алгоритма закрытия заслонки |
+| `T5CalStatus6` | Boolean |  | Переменная для пуска алгоритма калибровки заслонки |
+| `T5OpenStatus7` | Boolean |  | Переменная для пуска алгоритма открытия заслонки |
+| `T5CloseStatus7` | Boolean |  | Переменная для пуска алгоритма закрытия заслонки |
+| `T5CalStatus7` | Boolean |  | Переменная для пуска алгоритма калибровки заслонки |
+| `T5OpenStatus8` | Boolean |  | Переменная для пуска алгоритма открытия заслонки |
+| `T5CloseStatus8` | Boolean |  | Переменная для пуска алгоритма закрытия заслонки |
+| `T5CalStatus8` | Boolean |  | Переменная для пуска алгоритма калибровки заслонки |
+| `T5ClapOpenStatus1` | Boolean |  | Переменная для пуска алгоритма открытия заслонки |
+| `T5ClapCloseStatus1` | Boolean |  | Переменная для пуска алгоритма закрытия заслонки |
+| `T5ClapCalStatus1` | Boolean |  | Переменная для пуска алгоритма калибровки заслонки |
+| `T5ClapOpenStatus2` | Boolean |  | Переменная для пуска алгоритма открытия заслонки |
+| `T5ClapCloseStatus2` | Boolean |  | Переменная для пуска алгоритма закрытия заслонки |
+| `T5ClapCalStatus2` | Boolean |  | Переменная для пуска алгоритма калибровки заслонки |
+| `T5ClapOpenStatus3` | Boolean |  | Переменная для пуска алгоритма открытия заслонки |
+| `T5ClapCloseStatus3` | Boolean |  | Переменная для пуска алгоритма закрытия заслонки |
+| `T5ClapCalStatus3` | Boolean |  | Переменная для пуска алгоритма калибровки заслонки |
+| `T5ClapOpenStatus4` | Boolean |  | Переменная для пуска алгоритма открытия заслонки |
+| `T5ClapCloseStatus4` | Boolean |  | Переменная для пуска алгоритма закрытия заслонки |
+| `T5ClapCalStatus4` | Boolean |  | Переменная для пуска алгоритма калибровки заслонки |
+| `T5ClapOpenStatus5` | Boolean |  | Переменная для пуска алгоритма открытия заслонки |
+| `T5ClapCloseStatus5` | Boolean |  | Переменная для пуска алгоритма закрытия заслонки |
+| `T5ClapCalStatus5` | Boolean |  | Переменная для пуска алгоритма калибровки заслонки |
+| `T5ClapOpenStatus6` | Boolean |  | Переменная для пуска алгоритма открытия заслонки |
+| `T5ClapCloseStatus6` | Boolean |  | Переменная для пуска алгоритма закрытия заслонки |
+| `T5ClapCalStatus6` | Boolean |  | Переменная для пуска алгоритма калибровки заслонки |
+| `T5ClapOpenStatus7` | Boolean |  | Переменная для пуска алгоритма открытия заслонки |
+| `T5ClapCloseStatus7` | Boolean |  | Переменная для пуска алгоритма закрытия заслонки |
+| `T5ClapCalStatus7` | Boolean |  | Переменная для пуска алгоритма калибровки заслонки |
+| `T5ClapOpenStatus8` | Boolean |  | Переменная для пуска алгоритма открытия заслонки |
+| `T5ClapCloseStatus8` | Boolean |  | Переменная для пуска алгоритма закрытия заслонки |
+| `T5ClapCalStatus8` | Boolean |  | Переменная для пуска алгоритма калибровки заслонки |
+
+## СилКорпус / Переменные управления заслонками / Заслонки транспортера номер 1-3
+
+| Тег | Тип | Привязка | Описание |
+|---|---|---|---|
+| `T1BlockSelectStatus` | Boolean |  | Переменная для блокировки управления заслонками транспортера |
+| `T1OpenStatus1` | Boolean |  | Переменная для пуска алгоритма открытия заслонки |
+| `T1CloseStatus1` | Boolean |  | Переменная для пуска алгоритма закрытия заслонки |
+| `T1CalStatus1` | Boolean |  | Переменная для пуска алгоритма калибровки заслонки |
+| `T1OpenStatus2` | Boolean |  | Переменная для пуска алгоритма открытия заслонки |
+| `T1CloseStatus2` | Boolean |  | Переменная для пуска алгоритма закрытия заслонки |
+| `T1CalStatus2` | Boolean |  | Переменная для пуска алгоритма калибровки заслонки |
+| `T1OpenStatus3` | Boolean |  | Переменная для пуска алгоритма открытия заслонки |
+| `T1CloseStatus3` | Boolean |  | Переменная для пуска алгоритма закрытия заслонки |
+| `T1CalStatus3` | Boolean |  | Переменная для пуска алгоритма калибровки заслонки |
+| `T1OpenStatus4` | Boolean |  | Переменная для пуска алгоритма открытия заслонки |
+| `T1CloseStatus4` | Boolean |  | Переменная для пуска алгоритма закрытия заслонки |
+| `T1CalStatus4` | Boolean |  | Переменная для пуска алгоритма калибровки заслонки |
+| `T1OpenStatus5` | Boolean |  | Переменная для пуска алгоритма открытия заслонки |
+| `T1CloseStatus5` | Boolean |  | Переменная для пуска алгоритма закрытия заслонки |
+| `T1CalStatus5` | Boolean |  | Переменная для пуска алгоритма калибровки заслонки |
+| `T1OpenStatus6` | Boolean |  | Переменная для пуска алгоритма открытия заслонки |
+| `T1CloseStatus6` | Boolean |  | Переменная для пуска алгоритма закрытия заслонки |
+| `T1CalStatus6` | Boolean |  | Переменная для пуска алгоритма калибровки заслонки |
+| `T1OpenStatus7` | Boolean |  | Переменная для пуска алгоритма открытия заслонки |
+| `T1CloseStatus7` | Boolean |  | Переменная для пуска алгоритма закрытия заслонки |
+| `T1CalStatus7` | Boolean |  | Переменная для пуска алгоритма калибровки заслонки |
+| `T1OpenStatus8` | Boolean |  | Переменная для пуска алгоритма открытия заслонки |
+| `T1CloseStatus8` | Boolean |  | Переменная для пуска алгоритма закрытия заслонки |
+| `T1CalStatus8` | Boolean |  | Переменная для пуска алгоритма калибровки заслонки |
+| `T1OpenStatus9` | Boolean |  | Переменная для пуска алгоритма открытия заслонки |
+| `T1CloseStatus9` | Boolean |  | Переменная для пуска алгоритма закрытия заслонки |
+| `T1CalStatus9` | Boolean |  | Переменная для пуска алгоритма калибровки заслонки |
+
+## СилКорпус / Служебные переменные
+
+| Тег | Тип | Привязка | Описание |
+|---|---|---|---|
+| `ManualStartStatus` | Boolean |  | Статус запускающий алгоритм запуска оборудования |
+| `AlarmStatus` | Boolean |  | Статус запуска аварийного звукового оповещения |
+| `PingPLC16Flor` | Boolean |  | Переменная контроля состояни связи с контроллером |
+| `BlockControl` | Boolean |  |  |
+
+## СилКорпус / Переменные весового терминала
+
+| Тег | Тип | Привязка | Описание |
+|---|---|---|---|
+| `L1_D1_Weight` | Double | `L1_D1_Weight` |  |
+| `L1_D1_S_Start` | Word | `L1_D1_S_Start` |  |
+| `L1_D1_S_Stop` | Word | `L1_D1_S_Stop` |  |
+| `L1_D1_S_Dose` | Word | `L1_D1_S_Dose` |  |
+| `L1_D1_S_Pause` | Word | `L1_D1_S_Pause` |  |
+| `L1_D1_S_Load` | Word | `L1_D1_S_Load` |  |
+| `L1_D1_S_UnLoad` | Word | `L1_D1_S_UnLoad` |  |
+| `L1_D1_S_Error` | Word | `L1_D1_S_Error` |  |
+| `L1_D1_D_In1` | Word | `L1_D1_D_In1` |  |
+| `L1_D1_D_In2` | Word | `L1_D1_D_In2` |  |
+| `L1_D1_C_C` | Double | `L1_D1_C_C` |  |
+| `L1_D1_C_n` | Double | `L1_D1_C_n` |  |
+| `L1_D1_C_E` | Double | `L1_D1_C_E` |  |
+| `L1_D1_C_d` | Double | `L1_D1_C_d` |  |
+| `L1_D1_C_P` | Double | `L1_D1_C_P` |  |
+| `L1_D1_C_t` | Double | `L1_D1_C_t` |  |
+| `L1_D1_Cmd` | Word | `L1_D1_Cmd` |  |
+| `L1_D1_Par_TDel` | Double | `L1_D1_Par_TDel` |  |
+| `L1_D1_Par_TDampers` | Single | `L1_D1_Par_TDampers` |  |
+| `L1_D1_Par_WLadel` | Double | `L1_D1_Par_WLadel` |  |
+| `L1_D1_Par_Capacity` | Double | `L1_D1_Par_Capacity` |  |
+| `L1_D1_Par_OSigma` | Double | `L1_D1_Par_OSigma` |  |
+| `L1_D1_D_Out1` | Single | `L1_D1_D_Out1` |  |
+| `L1_D1_D_Out2` | Single | `L1_D1_D_Out2` |  |
+| `Timer` | Integer |  |  |
+| `Count` | Double |  |  |
+| `Capacity` | Double |  |  |
+| `LatchHighStatus` | Boolean |  |  |
+| `LatchBottomStatus` | Boolean |  |  |
+| `LocalCounter` | Double |  |  |
+| `LocalCounterTimer` | Integer |  |  |
+| `CalculateCount` | Double |  |  |
+| `ClearLocalCounter` | Boolean |  |  |
+| `L1_D1_Par_TankageLadel` | Double | `L1_D1_Par_TankageLadel` |  |
+| `VesRepFrom` | DateTime |  |  |
+| `VesRepTo` | DateTime |  |  |

@@ -10,6 +10,6 @@ else
 begin
 StatusStartN7.Value := 5; // комманда на включение механизма
 ManualStartStatus.Value := True // запуск таймера и сигнализации для подготовки включения
-end;               
+end;
 end;
 end.

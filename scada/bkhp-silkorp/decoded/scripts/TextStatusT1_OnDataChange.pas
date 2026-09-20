@@ -28,7 +28,7 @@ if StatusT1.Asint = 4 then
    begin
    TextStatusT1.Color := clRed;
    TextStatusT1.Text := 'Стоп (А)';
-   end;                                                     
+   end;
 if StatusT1.Asint = 10 then
    begin
    TextStatusT1.Color := clRed;

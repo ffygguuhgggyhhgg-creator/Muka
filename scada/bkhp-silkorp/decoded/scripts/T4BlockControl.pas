@@ -19,6 +19,7 @@ begin
 //   StatusStartReversT1.Value := 1;
 //   RelayOutReversT1.Value := False; // деактивация выхода контроллера
 //   end;
+
 //if StatusStartForwardT1.AsInt = 5 then // проверка наличия комманды на включение механизма
 //begin
 //StatusStartForwardT1.Value := 6;  // если комманда на включение активна, то производится отмена запуска
@@ -27,6 +28,7 @@ begin
 //begin
 //StatusStartReversT1.Value := 6;  // если комманда на включение активна, то производится отмена запуска
 //end;
+
 //AddMessage(Now, mkAlarm, 'T4 отключен в маршруте Т1-Т4. Нория 1 будет отключена. Проверьте конфигурацию маршрута!!', True, True);
 // команда на выключение механизма
 //if RelayOutN1.AsBool = True then // проверка механизм включен через компьютер управления
@@ -38,9 +40,13 @@ begin
 //begin
 //StatusStartN1.Value := 6;  // если комманда на включение активна, то производится отмена запуска
 //end;
+
+
 // end;
 // end;
 // end;
+
+
 // if LineForwardT1.Color = clGreen then
 // begin
 // if LineT1Latch5.Color = clGreen then
@@ -59,6 +65,7 @@ begin
 //   StatusStartReversT2.Value := 1;
 //   RelayOutReversT2.Value := False; // деактивация выхода контроллера
 //   end;
+
 //if StatusStartForwardT2.AsInt = 5 then // проверка наличия комманды на включение механизма
 //begin
 //StatusStartForwardT2.Value := 6;  // если комманда на включение активна, то производится отмена запуска
@@ -80,7 +87,7 @@ begin
 //StatusStartN2.Value := 6;  // если комманда на включение активна, то производится отмена запуска
 //end;
 // end;
-// end;           
+// end;
 // end;
 //
 //end;

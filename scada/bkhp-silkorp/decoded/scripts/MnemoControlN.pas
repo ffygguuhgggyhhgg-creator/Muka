@@ -84,7 +84,7 @@ begin
    RelayOutN2.Value := False;
    StartTimeN2.Value := 0;
    StatusStartN2.Value := 6;
-   StatusN2.Value := 3;           
+   StatusN2.Value := 3;
    end;
    end;
  if RelayOutN2.AsBool = False then
@@ -427,7 +427,7 @@ begin
    RelayOutN9.Value := False;
    StartTimeN9.Value := 0;
    StatusStartN9.Value := 6;
-   StatusN9.Value := 3; 
+   StatusN9.Value := 3;
    end;
    end;
  if RelayOutN9.AsBool = False then
@@ -444,6 +444,7 @@ else
 StatusN9.Value := 10;
 //Нория 9 конец
 //////////////////////////////////////////////////////////НОРИИ конец///////////////////////////////////////////////////////
+
 ////////////////////////////////////Контроль Аварии Норий НАЧАЛО////////////////////////////////////////////
  // Нория 1 Авария начало
   if RelayOutN1.AsBool = True then
@@ -600,7 +601,7 @@ StatusN9.Value := 10;
   // Нория 9 Авария начало
   if RelayOutN9.AsBool = True then
   if RelayAlarmN9.AsBool = True then
-  begin                                                
+  begin
  AlarmTimeN9.Value := AlarmTimeN9.Value + 1;
   if AlarmTimeN9.Value >= 10 then
   begin
@@ -617,5 +618,5 @@ StatusN9.Value := 10;
  end;
  // Нория 9 Авария конец
 ////////////////////////////////////Контроль Аварии Норий КОНЕЦ////////////////////////////////////////////
-end;   
+end;
 end.

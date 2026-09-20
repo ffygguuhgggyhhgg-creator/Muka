@@ -9,7 +9,7 @@ T5OpenStatus5.Value := True;
 T5BlockSelectStatus.Value := True;
 AddMessage(Now, mkWarning , 'Начало открытия задвижки Транспортера 5 Силос 27-37!', True, True);
 end;
-end;                                                                           
+end;
 end;
 if T5LatchCalOpenTime5.Value = 0 then
 begin

@@ -11,5 +11,5 @@ end;
 if T4BlockSelectStatus.AsBool = True then
 begin
 AddMessage(Now, mkAlarm, 'Активна блокировка пуска! Дождитесь выполнение операции или отмените блокировку!', True, True);
-end;              
+end;
 end.

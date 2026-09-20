@@ -2,6 +2,7 @@ begin
 if T7CloseStatus5.AsBool = True then //Если выполнен скрипт по нажатии на кнопку управления
 begin
 T7CloseTimer5.Value := T7CloseTimer5.Value + 1; //Запускаем счетчик выполнения алгоритма
+
 if T7CloseTimer5.Value > 2 then  // Условие пуска звукового оповещения
 if T7CloseTimer5.Value < 4 then  // Условие пуска звукового оповещения
  begin
@@ -10,11 +11,13 @@ if T7CloseTimer5.Value < 4 then  // Условие пуска звукового
  T7LatchSelect5.Value := True;  // Дискретный выход выбора задвижки для управления контроллером
  //T7AlarmStatus.Value := True; // Пуск звукового оповещения
  end;
+
 if T7CloseTimer5.Value > 5 then // Условие пуска исполнительного механизма
 if T7CloseTimer5.Value < 7 then
 begin
 T7LatchRunClose.Value := True // Дискретный выход управления задвижкой
 end;
+
 if T7LatchClose5.AsBool = True then // Условие остановки выполнения алгоритма по концевику
 begin
 T7LatchRunClose.Value := False;     // Дискретный выход управления задвижкой
@@ -25,9 +28,9 @@ T7LatchSelect5.Value := False; // Снимаем выбор задвижки
 T7CloseTimer5.Value := 0; //Останавливаем счетчик выполнения алгоритма
 AddMessage(Now, mkWarning , 'Задвижка Транспортера 7 Силос 55 успешно закрыта!', True, True);
 end;
-                            
+
 if T7CloseTimer5.Value > 9 + T7LatchCalCloseTime5.Value then // Условие остановки выполнения алгоритма по времени
-begin                                                                 
+begin
 T7LatchRunClose.Value := False;   // Дискретный выход управления задвижкой
 T7BlockSelectStatus.Value := False;  // Снимаем блокировку управления
 T7LatchStatusByte5.Value := 5;      // Устанавливаем статус задвижки в "Авария"
@@ -36,5 +39,6 @@ T7LatchSelect5.Value := False; // Снимаем выбор задвижки
 T7CloseTimer5.Value := 0; //Останавливаем счетчик выполнения алгоритма
 AddMessage(Now, mkAlarm , 'Авария задвижки Транспортера 7 Силос 55, проверьте работу концевого выключателя и произведите калибровку!', True, True);
 end;
+
 end;
 end.

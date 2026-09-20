@@ -10,7 +10,7 @@ T4BlockSelectStatus.Value := True;
 AddMessage(Now, mkWarning , 'Начало закрытия задвижки Транспортера 4 Силос 10-20!', True, True);
 end;
 end;
-end;                                                                                            
+end;
 if T4LatchCalCloseTime10.Value = 0 then
 begin
 AddMessage(Now, mkAlarm, 'Произведите калибровку закрытия задвижки Транспортера 4 Силос 10-20! Время открытия равно нулю!', True, True);

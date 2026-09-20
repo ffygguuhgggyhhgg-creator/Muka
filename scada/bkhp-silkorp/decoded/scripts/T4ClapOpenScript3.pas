@@ -2,6 +2,7 @@ begin
 if T4ClapOpenStatus3.AsBool = True then //Если выполнен скрипт по нажатии на кнопку управления
 begin
 T4ClapOpenTimer3.Value := T4ClapOpenTimer3.Value + 1; //Запускаем счетчик выполнения алгоритма
+
 if T4ClapOpenTimer3.Value > 2 then  // Условие пуска звукового оповещения
 if T4ClapOpenTimer3.Value < 4 then  // Условие пуска звукового оповещения
  begin
@@ -10,11 +11,13 @@ if T4ClapOpenTimer3.Value < 4 then  // Условие пуска звуково�
  T4ClapLatchSelect3.Value := True;  // Дискретный выход выбора задвижки для управления контроллером
  //T4ClapAlarmStatus.Value := True; // Пуск звукового оповещения
  end;
+
 if T4ClapOpenTimer3.Value > 5 then // Условие пуска исполнительного механизма
 if T4ClapOpenTimer3.Value < 7 then
 begin
 T4ClapLatchRunOpen.Value := True // Дискретный выход управления задвижкой
 end;
+
 if T4ClapLatchOpen3.AsBool = True then // Условие остановки выполнения алгоритма по концевику
 begin
 T4ClapLatchRunOpen.Value := False;     // Дискретный выход управления задвижкой
@@ -24,8 +27,8 @@ T4ClapOpenStatus3.Value := False; // Останавливаем выполнен
 T4ClapLatchSelect3.Value := False; // Снимаем выбор задвижки
 T4ClapOpenTimer3.Value := 0; //Останавливаем счетчик выполнения алгоритма
 AddMessage(Now, mkWarning , 'Клапан Транспортера 4 в Силос 3 успешно переброшен!', True, True);
-end;                                                                                 
-                            
+end;
+
 if T4ClapOpenTimer3.Value > 9 + T4ClapLatchCalOpenTime3.Value then // Условие остановки выполнения алгоритма по времени
 begin
 T4ClapLatchRunOpen.Value := False;   // Дискретный выход управления задвижкой
@@ -36,5 +39,6 @@ T4ClapLatchSelect3.Value := False; // Снимаем выбор задвижки
 T4ClapOpenTimer3.Value := 0; //Останавливаем счетчик выполнения алгоритма
 AddMessage(Now, mkAlarm , 'Авария клапана Транспортера 4 Силос 3-13, проверьте работу концевого выключателя и произведите калибровку!', True, True);
 end;
+
 end;
 end.

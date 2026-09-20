@@ -1,5 +1,6 @@
 begin
 T5ClapBlockSelectStatus.Value := False;
+
 T5ClapOpenStatus1.Value := False; // Останавливаем выполнение скрипта
 T5ClapOpenStatus2.Value := False; // Останавливаем выполнение скрипта
 T5ClapOpenStatus3.Value := False; // Останавливаем выполнение скрипта
@@ -8,8 +9,10 @@ T5ClapOpenStatus5.Value := False; // Останавливаем выполнен
 T5ClapOpenStatus6.Value := False; // Останавливаем выполнение скрипта
 T5ClapOpenStatus7.Value := False; // Останавливаем выполнение скрипта
 T5ClapOpenStatus8.Value := False; // Останавливаем выполнение скрипта
+
 T5ClapLatchRunOpen.Value := False;   // Дискретный выход управления задвижкой
-                 
+
+
 T5ClapCloseStatus1.Value := False; // Останавливаем выполнение скрипта
 T5ClapCloseStatus2.Value := False; // Останавливаем выполнение скрипта
 T5ClapCloseStatus3.Value := False; // Останавливаем выполнение скрипта
@@ -18,7 +21,9 @@ T5ClapCloseStatus5.Value := False; // Останавливаем выполне�
 T5ClapCloseStatus6.Value := False; // Останавливаем выполнение скрипта
 T5ClapCloseStatus7.Value := False; // Останавливаем выполнение скрипта
 T5ClapCloseStatus8.Value := False; // Останавливаем выполнение скрипта
+
 T5ClapLatchRunClose.Value := False;   // Дискретный выход управления задвижкой
+
 T5ClapOpenTimer1.Value := 0;
 T5ClapOpenTimer2.Value := 0;
 T5ClapOpenTimer3.Value := 0;
@@ -27,6 +32,7 @@ T5ClapOpenTimer5.Value := 0;
 T5ClapOpenTimer6.Value := 0;
 T5ClapOpenTimer7.Value := 0;
 T5ClapOpenTimer8.Value := 0;
+
 T5ClapCloseTimer1.Value := 0;
 T5ClapCloseTimer2.Value := 0;
 T5ClapCloseTimer3.Value := 0;
@@ -35,6 +41,7 @@ T5ClapCloseTimer5.Value := 0;
 T5ClapCloseTimer6.Value := 0;
 T5ClapCloseTimer7.Value := 0;
 T5ClapCloseTimer8.Value := 0;
+
 T5ClapCalStatus1.Value := False; // Останавливаем выполнение скрипта
 T5ClapCalStatus2.Value := False; // Останавливаем выполнение скрипта
 T5ClapCalStatus3.Value := False; // Останавливаем выполнение скрипта
@@ -43,14 +50,16 @@ T5ClapCalStatus5.Value := False; // Останавливаем выполнен�
 T5ClapCalStatus6.Value := False; // Останавливаем выполнение скрипта
 T5ClapCalStatus7.Value := False; // Останавливаем выполнение скрипта
 T5ClapCalStatus8.Value := False; // Останавливаем выполнение скрипта
+
 T5ClapCalTimer1.Value := 0;
 T5ClapCalTimer2.Value := 0;
-T5ClapCalTimer3.Value := 0;         
+T5ClapCalTimer3.Value := 0;
 T5ClapCalTimer4.Value := 0;
 T5ClapCalTimer5.Value := 0;
 T5ClapCalTimer6.Value := 0;
 T5ClapCalTimer7.Value := 0;
 T5ClapCalTimer8.Value := 0;
+
 T5ClapLatchSelect1.Value := False;
 T5ClapLatchSelect2.Value := False;
 T5ClapLatchSelect3.Value := False;

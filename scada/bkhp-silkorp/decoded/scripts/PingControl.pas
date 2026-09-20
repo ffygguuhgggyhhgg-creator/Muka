@@ -1,6 +1,7 @@
 begin
   { прерываем выполнение если пинг не связан с объектом }
   if PingData.Sender = nil then Exit;
+
  with PingData.Sender as TM_CheckBox do
     if PingData.Result then   // если пинг прошел удачно
     begin

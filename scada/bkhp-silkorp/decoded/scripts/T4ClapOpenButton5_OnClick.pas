@@ -9,7 +9,7 @@ T4ClapOpenStatus5.Value := True;
 T4ClapBlockSelectStatus.Value := True;
 AddMessage(Now, mkWarning , 'Начало переброса клапана Транспортера 4 в Силос 5!', True, True);
 end;
-end;                                                                           
+end;
 end;
 if T4ClapLatchCalOpenTime5.Value = 0 then
 begin

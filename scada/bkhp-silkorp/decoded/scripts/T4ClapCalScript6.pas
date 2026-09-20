@@ -2,11 +2,12 @@ begin
 if T4ClapCalStatus6.AsBool = True then //Если выполнен скрипт по нажатии на кнопку управления
 begin
 T4ClapCalTimer6.Value := T4ClapCalTimer6.Value + 1; //Запускаем счетчик выполнения алгоритма
+
 if T4ClapCalTimer6.Value > 2 then  // Условие пуска звукового оповещения
 if T4ClapCalTimer6.Value < 4 then  // Условие пуска звукового оповещения
- begin                                    
+ begin
  if T4ClapLatchStatusByte6.Value = 3 then
- begin                                        
+ begin
  T4ClapLatchCalOpenTime6.Value := 0;
  T4ClapLatchCalCloseTime6.Value := 0;
  T4ClapBlockSelectStatus.Value := True; // Блокируем управление задвижкой
@@ -22,23 +23,26 @@ T4ClapCalStatus6.Value := False; // Останавливаем алгоритм 
 T4ClapCalTimer6.Value := 0; //Останавливаем счетчик выполнения алгоритма
  end;
  end;
+
 if T4ClapCalTimer6.Value > 5 then // Условие пуска исполнительного механизма
 if T4ClapCalTimer6.Value < 7 then
 begin
 T4ClapLatchRunOpen.Value := True; // Дискретный выход управления задвижкой
 T4ClapLatchCalOpenTime6.Value := T4ClapLatchCalOpenTime6.Value + 1; // Начинаем счет времени открытия задвижки
 end;
-                                       
+
 if T4ClapCalTimer6.Value > 5 then // Условие счета времени открытия
 if T4ClapLatchRunOpen.AsBool = True then
 begin
 T4ClapLatchCalOpenTime6.Value := T4ClapLatchCalOpenTime6.Value + 1; // Начинаем счет времени открытия задвижки
 end;
+
 if T4ClapCalTimer6.Value > 5 then
 if T4ClapLatchOpen6.AsBool = True then // Условие остановки выполнения алгоритма по концевику
 begin
 T4ClapLatchRunOpen.Value := False;     // Дискретный выход управления задвижкой
-end;                               
+end;
+
 if T4ClapCalTimer6.Value > 5 + T4ClapLatchCalOpenTime6.Value then // Условие пуска исполнительного механизма
 if T4ClapCalTimer6.Value < 7 + T4ClapLatchCalOpenTime6.Value then
 begin
@@ -48,11 +52,13 @@ T4ClapLatchRunClose.Value := True;     // Дискретный выход упр
 AddMessage(Now, mkWarning , 'Клапан Транспортера 4 в Силос 6 успешно переброшен при калибровке! Переход к расчету времени закрытия', True, True);
 end;
 end;
+
 if T4ClapCalTimer6.Value > 5 + T4ClapLatchCalOpenTime6.Value then // Условие счета времени открытия
 if T4ClapLatchRunClose.AsBool = True then
 begin
 T4ClapLatchCalCloseTime6.Value := T4ClapLatchCalCloseTime6.Value + 1; // Начинаем счет времени закрытия задвижки
 end;
+
 if T4ClapCalTimer6.Value > 5 + T4ClapLatchCalOpenTime6.Value then
 if T4ClapLatchClose6.AsBool = True then // Условие остановки выполнения алгоритма по концевику
 begin
@@ -64,5 +70,7 @@ T4ClapLatchSelect6.Value := False; // Снимаем выбор задвижки
 T4ClapCalTimer6.Value := 0; //Останавливаем счетчик выполнения алгоритма
 AddMessage(Now, mkWarning , 'Клапан Транспортера 4 в Силос 16 успешно переброшен при калибровке! Калибровка выполнена!', True, True);
 end;
+
+
 end;
 end.

@@ -2,6 +2,7 @@ begin
 if T1OpenStatus5.AsBool = True then //Если выполнен скрипт по нажатии на кнопку управления
 begin
 T1OpenTimer5.Value := T1OpenTimer5.Value + 1; //Запускаем счетчик выполнения алгоритма
+
 if T1OpenTimer5.Value > 2 then  // Условие пуска звукового оповещения
 if T1OpenTimer5.Value < 4 then  // Условие пуска звукового оповещения
  begin
@@ -10,11 +11,13 @@ if T1OpenTimer5.Value < 4 then  // Условие пуска звукового 
  T1LatchSelect5.Value := True;  // Дискретный выход выбора задвижки для управления контроллером
  //T1AlarmStatus.Value := True; // Пуск звукового оповещения
  end;
+
 if T1OpenTimer5.Value > 5 then // Условие пуска исполнительного механизма
 if T1OpenTimer5.Value < 7 then
 begin
 T1LatchRunOpen.Value := True // Дискретный выход управления задвижкой
 end;
+
 if T1LatchOpen5.AsBool = True then // Условие остановки выполнения алгоритма по концевику
 begin
 T1LatchRunOpen.Value := False;     // Дискретный выход управления задвижкой
@@ -25,6 +28,7 @@ T1LatchSelect5.Value := False; // Снимаем выбор задвижки
 T1OpenTimer5.Value := 0; //Останавливаем счетчик выполнения алгоритма
 AddMessage(Now, mkWarning , 'Задвижка Транспортера 2 маршрут Т2-Т4 успешно открыта!', True, True);
 end;
+
 if T1OpenTimer5.Value > 9 + T1LatchCalOpenTime5.Value then // Условие остановки выполнения алгоритма по времени
 begin
 T1LatchRunOpen.Value := False;   // Дискретный выход управления задвижкой
@@ -35,5 +39,6 @@ T1LatchSelect5.Value := False; // Снимаем выбор задвижки
 T1OpenTimer5.Value := 0; //Останавливаем счетчик выполнения алгоритма
 AddMessage(Now, mkAlarm , 'Авария задвижки Транспортера 2 маршрут Т2-Т4, проверьте работу концевого выключателя и произведите калибровку!', True, True);
 end;
+
 end;
 end.

@@ -1,0 +1,19 @@
+скриптов с самоперекрытием условия: 263
+
+  флаг T*BlockSelectStatus := True  → затем «if T*BlockSelectStatus = True»   (194 скриптов)
+    T1CalButton1_OnClick, T1CalButton2_OnClick, T1CalButton3_OnClick, T1CalButton4_OnClick, T1CalButton5_OnClick, T1CalButton6_OnClick, T1CalButton7_OnClick, T1CalButton8_OnClick ...
+
+  флаг T*LatchRunOpen := True  → затем «if T*LatchRunOpen = True»   (65 скриптов)
+    T1CalScript1, T1CalScript2, T1CalScript3, T1CalScript4, T1CalScript5, T1CalScript6, T1CalScript7, T1CalScript8 ...
+
+  флаг BlockControl := True  → затем «if BlockControl = True»   (1 скриптов)
+    BlockControlButton_OnClick
+
+  флаг RelayOutC1 := False  → затем «if RelayOutC1 = False»   (1 скриптов)
+    MnemoControlC
+
+  флаг RelayOutN1 := False  → затем «if RelayOutN1 = False»   (1 скриптов)
+    MnemoControlN
+
+  флаг RelayOutForwardT1 := False  → затем «if RelayOutForwardT1 = False»   (1 скриптов)
+    MnemoControlT

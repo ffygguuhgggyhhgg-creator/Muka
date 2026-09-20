@@ -12,11 +12,4 @@ begin
   LocalCounterTimer.Value := 0 ;
   //end;
   end;
-end.                       
-ClearLocalCounterButton_OnClick
-begin
- if ClearLocalCounter.AsBool = True then
- begin
- LocalCounter.Value := 0;
- end;
 end.

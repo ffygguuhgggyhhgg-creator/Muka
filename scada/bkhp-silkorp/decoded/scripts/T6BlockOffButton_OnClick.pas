@@ -1,5 +1,6 @@
 begin
 T6BlockSelectStatus.Value := False;
+
 T6OpenStatus1.Value := False; // Останавливаем выполнение скрипта
 T6OpenStatus2.Value := False; // Останавливаем выполнение скрипта
 T6OpenStatus3.Value := False; // Останавливаем выполнение скрипта
@@ -10,7 +11,10 @@ T6OpenStatus7.Value := False; // Останавливаем выполнение
 T6OpenStatus8.Value := False; // Останавливаем выполнение скрипта
 T6OpenStatus9.Value := False; // Останавливаем выполнение скрипта
 T6OpenStatus10.Value := False; // Останавливаем выполнение скрипта
+
 T6LatchRunOpen.Value := False;   // Дискретный выход управления задвижкой
+
+
 T6CloseStatus1.Value := False; // Останавливаем выполнение скрипта
 T6CloseStatus2.Value := False; // Останавливаем выполнение скрипта
 T6CloseStatus3.Value := False; // Останавливаем выполнение скрипта
@@ -21,7 +25,9 @@ T6CloseStatus7.Value := False; // Останавливаем выполнени�
 T6CloseStatus8.Value := False; // Останавливаем выполнение скрипта
 T6CloseStatus9.Value := False; // Останавливаем выполнение скрипта
 T6CloseStatus10.Value := False; // Останавливаем выполнение скрипта
+
 T6LatchRunClose.Value := False;   // Дискретный выход управления задвижкой
+
 T6OpenTimer1.Value := 0;
 T6OpenTimer2.Value := 0;
 T6OpenTimer3.Value := 0;
@@ -32,6 +38,7 @@ T6OpenTimer7.Value := 0;
 T6OpenTimer8.Value := 0;
 T6OpenTimer9.Value := 0;
 T6OpenTimer10.Value := 0;
+
 T6CloseTimer1.Value := 0;
 T6CloseTimer2.Value := 0;
 T6CloseTimer3.Value := 0;
@@ -42,6 +49,7 @@ T6CloseTimer7.Value := 0;
 T6CloseTimer8.Value := 0;
 T6CloseTimer9.Value := 0;
 T6CloseTimer10.Value := 0;
+
 T6CalStatus1.Value := False; // Останавливаем выполнение скрипта
 T6CalStatus2.Value := False; // Останавливаем выполнение скрипта
 T6CalStatus3.Value := False; // Останавливаем выполнение скрипта
@@ -52,9 +60,10 @@ T6CalStatus7.Value := False; // Останавливаем выполнение 
 T6CalStatus8.Value := False; // Останавливаем выполнение скрипта
 T6CalStatus9.Value := False; // Останавливаем выполнение скрипта
 T6CalStatus10.Value := False; // Останавливаем выполнение скрипта
+
 T6CalTimer1.Value := 0;
-T6CalTimer2.Value := 0;                
-T6CalTimer3.Value := 0;                             
+T6CalTimer2.Value := 0;
+T6CalTimer3.Value := 0;
 T6CalTimer4.Value := 0;
 T6CalTimer5.Value := 0;
 T6CalTimer6.Value := 0;
@@ -62,6 +71,7 @@ T6CalTimer7.Value := 0;
 T6CalTimer8.Value := 0;
 T6CalTimer9.Value := 0;
 T6CalTimer10.Value := 0;
+
 T6LatchSelect1.Value := False;
 T6LatchSelect2.Value := False;
 T6LatchSelect3.Value := False;

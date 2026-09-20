@@ -2,6 +2,7 @@ begin
 if T6OpenStatus10.AsBool = True then //Если выполнен скрипт по нажатии на кнопку управления
 begin
 T6OpenTimer10.Value := T6OpenTimer10.Value + 1; //Запускаем счетчик выполнения алгоритма
+
 if T6OpenTimer10.Value > 2 then  // Условие пуска звукового оповещения
 if T6OpenTimer10.Value < 4 then  // Условие пуска звукового оповещения
  begin
@@ -10,11 +11,13 @@ if T6OpenTimer10.Value < 4 then  // Условие пуска звукового
  T6LatchSelect10.Value := True;  // Дискретный выход выбора задвижки для управления контроллером
  //T6AlarmStatus.Value := True; // Пуск звукового оповещения
  end;
+
 if T6OpenTimer10.Value > 5 then // Условие пуска исполнительного механизма
 if T6OpenTimer10.Value < 7 then
 begin
 T6LatchRunOpen.Value := True // Дискретный выход управления задвижкой
 end;
+
 if T6LatchOpen10.AsBool = True then // Условие остановки выполнения алгоритма по концевику
 begin
 T6LatchRunOpen.Value := False;     // Дискретный выход управления задвижкой
@@ -25,7 +28,7 @@ T6LatchSelect10.Value := False; // Снимаем выбор задвижки
 T6OpenTimer10.Value := 0; //Останавливаем счетчик выполнения алгоритма
 AddMessage(Now, mkWarning , 'Задвижка Транспортера 6 Силос 50 успешно открыта!', True, True);
 end;
-                            
+
 if T6OpenTimer10.Value > 9 + T6LatchCalOpenTime10.Value then // Условие остановки выполнения алгоритма по времени
 begin
 T6LatchRunOpen.Value := False;   // Дискретный выход управления задвижкой
@@ -36,5 +39,6 @@ T6LatchSelect10.Value := False; // Снимаем выбор задвижки
 T6OpenTimer10.Value := 0; //Останавливаем счетчик выполнения алгоритма
 AddMessage(Now, mkAlarm , 'Авария задвижки Транспортера 6 Силос 50, проверьте работу концевого выключателя и произведите калибровку!', True, True);
 end;
+
 end;
 end.

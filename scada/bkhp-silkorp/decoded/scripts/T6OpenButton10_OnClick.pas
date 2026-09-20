@@ -9,7 +9,7 @@ T6OpenStatus10.Value := True;
 T6BlockSelectStatus.Value := True;
 AddMessage(Now, mkWarning , 'Начало открытия задвижки Транспортера 6 Силос 50!', True, True);
 end;
-end;                                                                                       
+end;
 end;
 if T6LatchCalOpenTime10.Value = 0 then
 begin

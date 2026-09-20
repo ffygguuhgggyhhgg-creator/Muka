@@ -401,7 +401,7 @@ begin
 //Аспирация номер 12 начало
  if RelayOutC12.AsBool = True then
      if RelayInC12.AsBool = True then
-   begin                                                      
+   begin
    ImageC12.Color := clGreen;
    StatusC12.Value := 1;
    StartTimeC12.Value := 0;
@@ -423,7 +423,7 @@ begin
    RelayOutC12.Value := False;
    StartTimeC12.Value := 0;
    StatusStartC12.Value := 6;
-   StatusC12.Value := 3; 
+   StatusC12.Value := 3;
    end;
    end;
  if RelayOutC12.AsBool = False then

@@ -1,4 +1,3 @@
-─
 begin
 if StatusT15.Asint = 1 then
    begin

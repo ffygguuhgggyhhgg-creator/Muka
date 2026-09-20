@@ -2,11 +2,12 @@ begin
 if T1CalStatus2.AsBool = True then //Если выполнен скрипт по нажатии на кнопку управления
 begin
 T1CalTimer2.Value := T1CalTimer2.Value + 1; //Запускаем счетчик выполнения алгоритма
+
 if T1CalTimer2.Value > 2 then  // Условие пуска звукового оповещения
 if T1CalTimer2.Value < 4 then  // Условие пуска звукового оповещения
  begin
  if T1LatchStatusByte2.Value = 3 then
- begin                                        
+ begin
  T1LatchCalOpenTime2.Value := 0;
  T1LatchCalCloseTime2.Value := 0;
  T1BlockSelectStatus.Value := True; // Блокируем управление задвижкой
@@ -21,24 +22,27 @@ AddMessage(Now, mkWarning , 'Задвижка Транспортера 1 мар�
 T1CalStatus2.Value := False; // Останавливаем алгоритм калибровки
 T1CalTimer2.Value := 0; //Останавливаем счетчик выполнения алгоритма
  end;
- end;                                                             
+ end;
+
 if T1CalTimer2.Value > 5 then // Условие пуска исполнительного механизма
 if T1CalTimer2.Value < 7 then
 begin
 T1LatchRunOpen.Value := True; // Дискретный выход управления задвижкой
 T1LatchCalOpenTime2.Value := T1LatchCalOpenTime2.Value + 1; // Начинаем счет времени открытия задвижки
 end;
-                                       
+
 if T1CalTimer2.Value > 5 then // Условие счета времени открытия
 if T1LatchRunOpen.AsBool = True then
 begin
 T1LatchCalOpenTime2.Value := T1LatchCalOpenTime2.Value + 1; // Начинаем счет времени открытия задвижки
 end;
+
 if T1CalTimer2.Value > 5 then
 if T1LatchOpen2.AsBool = True then // Условие остановки выполнения алгоритма по концевику
 begin
 T1LatchRunOpen.Value := False;     // Дискретный выход управления задвижкой
-end;                    
+end;
+
 if T1CalTimer2.Value > 5 + T1LatchCalOpenTime2.Value then // Условие пуска исполнительного механизма
 if T1CalTimer2.Value < 7 + T1LatchCalOpenTime2.Value then
 begin
@@ -48,11 +52,13 @@ T1LatchRunClose.Value := True;     // Дискретный выход управ
 AddMessage(Now, mkWarning , 'Задвижка Транспортера 1 маршрут Т1-Т5 успешно открыта при калибровке! Переход к расчету времени закрытия', True, True);
 end;
 end;
+
 if T1CalTimer2.Value > 5 + T1LatchCalOpenTime2.Value then // Условие счета времени открытия
 if T1LatchRunClose.AsBool = True then
 begin
 T1LatchCalCloseTime2.Value := T1LatchCalCloseTime2.Value + 1; // Начинаем счет времени закрытия задвижки
 end;
+
 if T1CalTimer2.Value > 5 + T1LatchCalOpenTime2.Value then
 if T1LatchClose2.AsBool = True then // Условие остановки выполнения алгоритма по концевику
 begin
@@ -64,5 +70,7 @@ T1LatchSelect2.Value := False; // Снимаем выбор задвижки
 T1CalTimer2.Value := 0; //Останавливаем счетчик выполнения алгоритма
 AddMessage(Now, mkWarning , 'Задвижка Транспортера 1 маршрут Т1-Т5 успешно закрыта при калибровке! Калибровка выполнена!', True, True);
 end;
+
+
 end;
 end.

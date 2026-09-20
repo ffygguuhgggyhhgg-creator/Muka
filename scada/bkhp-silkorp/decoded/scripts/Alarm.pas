@@ -2,6 +2,7 @@ begin
 if AlarmStatus.AsBool = True then
 begin
   AlarmStartTimer.Value := AlarmStartTimer.Value + 1; // накапливаем секунды в obstartalarmTimerAlarm
+
   if AlarmStartTimer.Value = 1 then
   begin
   Alarm16Level.Value := True;
@@ -22,9 +23,9 @@ begin
   Alarm1Level.Value := True;
   AlarmBox.Color := ClRed;
   AlarmBox.Alpha := 100;
-  end;                                           
+  end;
   if AlarmStartTimer.Value = 6 then
-  begin                                          
+  begin
   Alarm16Level.Value := False;
   Alarm1Level.Value := False;
   AlarmBox.Color := ClGray;

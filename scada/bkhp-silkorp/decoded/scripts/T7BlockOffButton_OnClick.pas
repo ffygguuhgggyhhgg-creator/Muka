@@ -1,5 +1,6 @@
 begin
 T7BlockSelectStatus.Value := False;
+
 T7OpenStatus1.Value := False; // Останавливаем выполнение скрипта
 T7OpenStatus2.Value := False; // Останавливаем выполнение скрипта
 T7OpenStatus3.Value := False; // Останавливаем выполнение скрипта
@@ -10,7 +11,10 @@ T7OpenStatus7.Value := False; // Останавливаем выполнение
 T7OpenStatus8.Value := False; // Останавливаем выполнение скрипта
 T7OpenStatus9.Value := False; // Останавливаем выполнение скрипта
 T7OpenStatus10.Value := False; // Останавливаем выполнение скрипта
+
 T7LatchRunOpen.Value := False;   // Дискретный выход управления задвижкой
+
+
 T7CloseStatus1.Value := False; // Останавливаем выполнение скрипта
 T7CloseStatus2.Value := False; // Останавливаем выполнение скрипта
 T7CloseStatus3.Value := False; // Останавливаем выполнение скрипта
@@ -21,7 +25,9 @@ T7CloseStatus7.Value := False; // Останавливаем выполнени�
 T7CloseStatus8.Value := False; // Останавливаем выполнение скрипта
 T7CloseStatus9.Value := False; // Останавливаем выполнение скрипта
 T7CloseStatus10.Value := False; // Останавливаем выполнение скрипта
+
 T7LatchRunClose.Value := False;   // Дискретный выход управления задвижкой
+
 T7OpenTimer1.Value := 0;
 T7OpenTimer2.Value := 0;
 T7OpenTimer3.Value := 0;
@@ -32,6 +38,7 @@ T7OpenTimer7.Value := 0;
 T7OpenTimer8.Value := 0;
 T7OpenTimer9.Value := 0;
 T7OpenTimer10.Value := 0;
+
 T7CloseTimer1.Value := 0;
 T7CloseTimer2.Value := 0;
 T7CloseTimer3.Value := 0;
@@ -39,9 +46,10 @@ T7CloseTimer4.Value := 0;
 T7CloseTimer5.Value := 0;
 T7CloseTimer6.Value := 0;
 T7CloseTimer7.Value := 0;
-T7CloseTimer8.Value := 0;                               
+T7CloseTimer8.Value := 0;
 T7CloseTimer9.Value := 0;
 T7CloseTimer10.Value := 0;
+
 T7CalStatus1.Value := False; // Останавливаем выполнение скрипта
 T7CalStatus2.Value := False; // Останавливаем выполнение скрипта
 T7CalStatus3.Value := False; // Останавливаем выполнение скрипта
@@ -52,8 +60,9 @@ T7CalStatus7.Value := False; // Останавливаем выполнение 
 T7CalStatus8.Value := False; // Останавливаем выполнение скрипта
 T7CalStatus9.Value := False; // Останавливаем выполнение скрипта
 T7CalStatus10.Value := False; // Останавливаем выполнение скрипта
+
 T7CalTimer1.Value := 0;
-T7CalTimer2.Value := 0;                
+T7CalTimer2.Value := 0;
 T7CalTimer3.Value := 0;
 T7CalTimer4.Value := 0;
 T7CalTimer5.Value := 0;
@@ -62,6 +71,7 @@ T7CalTimer7.Value := 0;
 T7CalTimer8.Value := 0;
 T7CalTimer9.Value := 0;
 T7CalTimer10.Value := 0;
+
 T7LatchSelect1.Value := False;
 T7LatchSelect2.Value := False;
 T7LatchSelect3.Value := False;

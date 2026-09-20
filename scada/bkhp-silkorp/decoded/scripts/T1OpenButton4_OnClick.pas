@@ -12,7 +12,7 @@ end;
 end;
 end;
 if T1LatchCalOpenTime4.Value = 0 then
-begin                 
+begin
 AddMessage(Now, mkAlarm, 'Произведите калибровку открытия задвижки Транспортера 1 маршрут Т1-Т7! Время открытия равно нулю!', True, True);
 end;
 if T1BlockSelectStatus.AsBool = True then

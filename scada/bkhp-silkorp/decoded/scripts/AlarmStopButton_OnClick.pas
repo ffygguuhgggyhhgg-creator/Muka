@@ -17,7 +17,7 @@ begin
   RelayOutN8.Value := False;
   StatusStartN8.Value := 6;
   RelayOutN9.Value := False;
-  StatusStartN9.Value := 6;              
+  StatusStartN9.Value := 6;
    ///////////////////////////////////////////////////НОРИИ КОНЕЦ///////////////////////////////////////////////////////
    ///////////////////////////////////////////////////АСПИРАЦИЯ НАЧАЛО//////////////////////////////////////////////////
   RelayOutC1.Value := True;
@@ -102,10 +102,10 @@ begin
   StatusStartForwardT14.Value := 6;
   RelayOutReversT14.Value := True;
   StatusStartReversT14.Value := 6;
-  RelayOutForwardT15.Value := True;              
+  RelayOutForwardT15.Value := True;
   StatusStartForwardT15.Value := 6;
   RelayOutReversT15.Value := True;
-  StatusStartReversT15.Value := 6;                   
+  StatusStartReversT15.Value := 6;
   RelayOutForwardT16.Value := True;
   StatusStartForwardT16.Value := 6;
   RelayOutReversT16.Value := True;

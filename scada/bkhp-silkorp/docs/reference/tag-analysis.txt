@@ -1,0 +1,173 @@
+
+### Выходы в ПЛК, в которые скрипты НИЧЕГО не пишут: 0
+
+### Входы из ПЛК, которые скрипты НЕ читают: 14
+  T1Freq                         Single    СилКорпус / Входные переменные / Переменные те 
+  T1Power                        Single    СилКорпус / Входные переменные / Переменные те 
+  T2Freq                         Single    СилКорпус / Входные переменные / Переменные те 
+  T2Power                        Single    СилКорпус / Входные переменные / Переменные те 
+  T3Freq                         Single    СилКорпус / Входные переменные / Переменные те 
+  T3Power                        Single    СилКорпус / Входные переменные / Переменные те 
+  T4Freq                         Single    СилКорпус / Входные переменные / Переменные те 
+  T4Power                        Single    СилКорпус / Входные переменные / Переменные те 
+  T5Freq                         Single    СилКорпус / Входные переменные / Переменные те 
+  T5Power                        Single    СилКорпус / Входные переменные / Переменные те 
+  T6Freq                         Single    СилКорпус / Входные переменные / Переменные те 
+  T6Power                        Single    СилКорпус / Входные переменные / Переменные те 
+  T7Freq                         Single    СилКорпус / Входные переменные / Переменные те 
+  T7Power                        Single    СилКорпус / Входные переменные / Переменные те 
+
+### Теги, в которые пишут, но никто не читает: 35
+  AlarmStatusN1                  Boolean   СилКорпус / Статусы механизмов / Нории         пишут: AlarmDropButton_OnClick
+  AlarmStatusN2                  Boolean   СилКорпус / Статусы механизмов / Нории         пишут: AlarmDropButton_OnClick
+  AlarmStatusN3                  Boolean   СилКорпус / Статусы механизмов / Нории         пишут: AlarmDropButton_OnClick
+  AlarmStatusN4                  Boolean   СилКорпус / Статусы механизмов / Нории         пишут: AlarmDropButton_OnClick
+  AlarmStatusN5                  Boolean   СилКорпус / Статусы механизмов / Нории         пишут: AlarmDropButton_OnClick
+  AlarmStatusN6                  Boolean   СилКорпус / Статусы механизмов / Нории         пишут: AlarmDropButton_OnClick
+  AlarmStatusN7                  Boolean   СилКорпус / Статусы механизмов / Нории         пишут: AlarmDropButton_OnClick
+  AlarmStatusN8                  Boolean   СилКорпус / Статусы механизмов / Нории         пишут: AlarmDropButton_OnClick
+  AlarmStatusN9                  Boolean   СилКорпус / Статусы механизмов / Нории         пишут: AlarmDropButton_OnClick
+  AlarmStatusT1                  Boolean   СилКорпус / Статусы механизмов / Транспортеры  пишут: AlarmDropButton_OnClick
+  AlarmStatusT10                 Boolean   СилКорпус / Статусы механизмов / Транспортеры  пишут: AlarmDropButton_OnClick
+  AlarmStatusT11                 Boolean   СилКорпус / Статусы механизмов / Транспортеры  пишут: AlarmDropButton_OnClick
+  AlarmStatusT12                 Boolean   СилКорпус / Статусы механизмов / Транспортеры  пишут: AlarmDropButton_OnClick
+  AlarmStatusT13                 Boolean   СилКорпус / Статусы механизмов / Транспортеры  пишут: AlarmDropButton_OnClick
+  AlarmStatusT14                 Boolean   СилКорпус / Статусы механизмов / Транспортеры  пишут: AlarmDropButton_OnClick
+  AlarmStatusT15                 Boolean   СилКорпус / Статусы механизмов / Транспортеры  пишут: AlarmDropButton_OnClick
+  AlarmStatusT16                 Boolean   СилКорпус / Статусы механизмов / Транспортеры  пишут: AlarmDropButton_OnClick
+  AlarmStatusT17                 Boolean   СилКорпус / Статусы механизмов / Транспортеры  пишут: AlarmDropButton_OnClick
+  AlarmStatusT18                 Boolean   СилКорпус / Статусы механизмов / Транспортеры  пишут: AlarmDropButton_OnClick
+  AlarmStatusT2                  Boolean   СилКорпус / Статусы механизмов / Транспортеры  пишут: AlarmDropButton_OnClick
+  AlarmStatusT3                  Boolean   СилКорпус / Статусы механизмов / Транспортеры  пишут: AlarmDropButton_OnClick
+  AlarmStatusT4                  Boolean   СилКорпус / Статусы механизмов / Транспортеры  пишут: AlarmDropButton_OnClick
+  AlarmStatusT5                  Boolean   СилКорпус / Статусы механизмов / Транспортеры  пишут: AlarmDropButton_OnClick
+  AlarmStatusT6                  Boolean   СилКорпус / Статусы механизмов / Транспортеры  пишут: AlarmDropButton_OnClick
+  AlarmStatusT7                  Boolean   СилКорпус / Статусы механизмов / Транспортеры  пишут: AlarmDropButton_OnClick
+  AlarmStatusT8                  Boolean   СилКорпус / Статусы механизмов / Транспортеры  пишут: AlarmDropButton_OnClick
+  AlarmStatusT9                  Boolean   СилКорпус / Статусы механизмов / Транспортеры  пишут: AlarmDropButton_OnClick
+  L1_D1_Cmd                      Word      СилКорпус / Переменные весового терминала      пишут: VesInWork_OnClick, VesRead_OnClick, VesStopCircle_OnClick
+  T1FreqToPLC                    Single    СилКорпус / Выходные переменные / Задание част пишут: T1FreqTarget, T1toT7StartFreq
+  T2FreqToPLC                    Single    СилКорпус / Выходные переменные / Задание част пишут: T1toT7StartFreq, T2FreqTarget
+  T3FreqToPLC                    Single    СилКорпус / Выходные переменные / Задание част пишут: T1toT7StartFreq, T3FreqTarget
+  T4FreqToPLC                    Single    СилКорпус / Выходные переменные / Задание част пишут: T1toT7StartFreq, T4FreqTarget
+  T5FreqToPLC                    Single    СилКорпус / Выходные переменные / Задание част пишут: T1toT7StartFreq, T5FreqTarget
+  T6FreqToPLC                    Single    СилКорпус / Выходные переменные / Задание част пишут: T1toT7StartFreq, T6FreqTarget
+  T7FreqToPLC                    Single    СилКорпус / Выходные переменные / Задание част пишут: T1toT7StartFreq, T7FreqTarget
+
+### Теги, которые читают, но никто не пишет (и нет привязки к ПЛК): 90
+  ClearLocalCounter              Boolean   СилКорпус / Переменные весового терминала      читают: ClearLocalCounterButton_OnClick
+  LatchBottomStatus              Boolean   СилКорпус / Переменные весового терминала      читают: Indicators, StartVesIndicators
+  LatchHighStatus                Boolean   СилКорпус / Переменные весового терминала      читают: Indicators, StartVesIndicators
+  RelayAlarmN2                   Boolean   СилКорпус / Входные переменные / Нории         читают: MnemoControlN
+  RelayAlarmN3                   Boolean   СилКорпус / Входные переменные / Нории         читают: MnemoControlN
+  RelayAlarmN5                   Boolean   СилКорпус / Входные переменные / Нории         читают: MnemoControlN
+  RelayAlarmN7                   Boolean   СилКорпус / Входные переменные / Нории         читают: MnemoControlN
+  RelayAlarmN8                   Boolean   СилКорпус / Входные переменные / Нории         читают: MnemoControlN
+  RelayAlarmN9                   Boolean   СилКорпус / Входные переменные / Нории         читают: MnemoControlN
+  RelayInC1                      Boolean   СилКорпус / Входные переменные / Аспирация     читают: MnemoControlC
+  RelayInC10                     Boolean   СилКорпус / Входные переменные / Аспирация     читают: MnemoControlC
+  RelayInC11                     Boolean   СилКорпус / Входные переменные / Аспирация     читают: MnemoControlC
+  RelayInC12                     Boolean   СилКорпус / Входные переменные / Аспирация     читают: MnemoControlC
+  RelayInC2                      Boolean   СилКорпус / Входные переменные / Аспирация     читают: MnemoControlC
+  RelayInC3                      Boolean   СилКорпус / Входные переменные / Аспирация     читают: MnemoControlC
+  RelayInC4                      Boolean   СилКорпус / Входные переменные / Аспирация     читают: MnemoControlC
+  RelayInC5                      Boolean   СилКорпус / Входные переменные / Аспирация     читают: MnemoControlC
+  RelayInC6                      Boolean   СилКорпус / Входные переменные / Аспирация     читают: MnemoControlC
+  RelayInC7                      Boolean   СилКорпус / Входные переменные / Аспирация     читают: MnemoControlC
+  RelayInC8                      Boolean   СилКорпус / Входные переменные / Аспирация     читают: MnemoControlC
+  RelayInC9                      Boolean   СилКорпус / Входные переменные / Аспирация     читают: MnemoControlC
+  RelayInForwardT10              Boolean   СилКорпус / Входные переменные / Транспортеры  читают: MnemoControlT
+  RelayInForwardT11              Boolean   СилКорпус / Входные переменные / Транспортеры  читают: MnemoControlT
+  RelayInForwardT12              Boolean   СилКорпус / Входные переменные / Транспортеры  читают: MnemoControlT
+  RelayInForwardT13              Boolean   СилКорпус / Входные переменные / Транспортеры  читают: MnemoControlT
+  RelayInForwardT14              Boolean   СилКорпус / Входные переменные / Транспортеры  читают: MnemoControlT
+  RelayInForwardT15              Boolean   СилКорпус / Входные переменные / Транспортеры  читают: MnemoControlT
+  RelayInForwardT16              Boolean   СилКорпус / Входные переменные / Транспортеры  читают: MnemoControlT
+  RelayInForwardT17              Boolean   СилКорпус / Входные переменные / Транспортеры  читают: MnemoControlT
+  RelayInForwardT18              Boolean   СилКорпус / Входные переменные / Транспортеры  читают: MnemoControlT
+  RelayInForwardT8               Boolean   СилКорпус / Входные переменные / Транспортеры  читают: MnemoControlT
+  RelayInForwardT9               Boolean   СилКорпус / Входные переменные / Транспортеры  читают: MnemoControlT
+  RelayInN7                      Boolean   СилКорпус / Входные переменные / Нории         читают: MnemoControlN
+  RelayInN8                      Boolean   СилКорпус / Входные переменные / Нории         читают: MnemoControlN
+  RelayInN9                      Boolean   СилКорпус / Входные переменные / Нории         читают: MnemoControlN
+  RelayInReversT10               Boolean   СилКорпус / Входные переменные / Транспортеры  читают: MnemoControlT
+  RelayInReversT11               Boolean   СилКорпус / Входные переменные / Транспортеры  читают: MnemoControlT
+  RelayInReversT12               Boolean   СилКорпус / Входные переменные / Транспортеры  читают: MnemoControlT
+  RelayInReversT13               Boolean   СилКорпус / Входные переменные / Транспортеры  читают: MnemoControlT
+  RelayInReversT14               Boolean   СилКорпус / Входные переменные / Транспортеры  читают: MnemoControlT
+  RelayInReversT15               Boolean   СилКорпус / Входные переменные / Транспортеры  читают: MnemoControlT
+  RelayInReversT16               Boolean   СилКорпус / Входные переменные / Транспортеры  читают: MnemoControlT
+  RelayInReversT17               Boolean   СилКорпус / Входные переменные / Транспортеры  читают: MnemoControlT
+  RelayInReversT18               Boolean   СилКорпус / Входные переменные / Транспортеры  читают: MnemoControlT
+  RelayInReversT8                Boolean   СилКорпус / Входные переменные / Транспортеры  читают: MnemoControlT
+  RelayInReversT9                Boolean   СилКорпус / Входные переменные / Транспортеры  читают: MnemoControlT
+  RelayStopInC1                  Boolean   СилКорпус / Входные переменные / Аспирация     читают: StopButtonsControl
+  RelayStopInC10                 Boolean   СилКорпус / Входные переменные / Аспирация     читают: StopButtonsControl
+  RelayStopInC11                 Boolean   СилКорпус / Входные переменные / Аспирация     читают: StopButtonsControl
+  RelayStopInC12                 Boolean   СилКорпус / Входные переменные / Аспирация     читают: StopButtonsControl
+  RelayStopInC2                  Boolean   СилКорпус / Входные переменные / Аспирация     читают: StopButtonsControl
+  RelayStopInC3                  Boolean   СилКорпус / Входные переменные / Аспирация     читают: StopButtonsControl
+  RelayStopInC4                  Boolean   СилКорпус / Входные переменные / Аспирация     читают: StopButtonsControl
+  RelayStopInC5                  Boolean   СилКорпус / Входные переменные / Аспирация     читают: StopButtonsControl
+  RelayStopInC6                  Boolean   СилКорпус / Входные переменные / Аспирация     читают: StopButtonsControl
+  RelayStopInC7                  Boolean   СилКорпус / Входные переменные / Аспирация     читают: StopButtonsControl
+  RelayStopInC8                  Boolean   СилКорпус / Входные переменные / Аспирация     читают: StopButtonsControl
+  RelayStopInC9                  Boolean   СилКорпус / Входные переменные / Аспирация     читают: StopButtonsControl
+  RelayStopInN7                  Boolean   СилКорпус / Входные переменные / Нории         читают: StopButtonsControl
+  RelayStopInN8                  Boolean   СилКорпус / Входные переменные / Нории         читают: StopButtonsControl
+  RelayStopInN9                  Boolean   СилКорпус / Входные переменные / Нории         читают: StopButtonsControl
+  RelayStopInT10                 Boolean   СилКорпус / Входные переменные / Транспортеры  читают: StopButtonsControl
+  RelayStopInT11                 Boolean   СилКорпус / Входные переменные / Транспортеры  читают: StopButtonsControl
+  RelayStopInT12                 Boolean   СилКорпус / Входные переменные / Транспортеры  читают: StopButtonsControl
+  RelayStopInT13                 Boolean   СилКорпус / Входные переменные / Транспортеры  читают: StopButtonsControl
+  RelayStopInT14                 Boolean   СилКорпус / Входные переменные / Транспортеры  читают: StopButtonsControl
+  RelayStopInT15                 Boolean   СилКорпус / Входные переменные / Транспортеры  читают: StopButtonsControl
+  RelayStopInT16                 Boolean   СилКорпус / Входные переменные / Транспортеры  читают: StopButtonsControl
+  RelayStopInT17                 Boolean   СилКорпус / Входные переменные / Транспортеры  читают: StopButtonsControl
+  RelayStopInT18                 Boolean   СилКорпус / Входные переменные / Транспортеры  читают: StopButtonsControl
+  RelayStopInT8                  Boolean   СилКорпус / Входные переменные / Транспортеры  читают: StopButtonsControl
+  RelayStopInT9                  Boolean   СилКорпус / Входные переменные / Транспортеры  читают: StopButtonsControl
+  StatusAlarmT1                  Boolean   СилКорпус / Таймеры / Транспортеры / Таймеры а читают: MnemoControlT
+  StatusAlarmT10                 Boolean   СилКорпус / Таймеры / Транспортеры / Таймеры а читают: MnemoControlT
+  StatusAlarmT11                 Boolean   СилКорпус / Таймеры / Транспортеры / Таймеры а читают: MnemoControlT
+  StatusAlarmT12                 Boolean   СилКорпус / Таймеры / Транспортеры / Таймеры а читают: MnemoControlT
+  StatusAlarmT13                 Boolean   СилКорпус / Таймеры / Транспортеры / Таймеры а читают: MnemoControlT
+  StatusAlarmT14                 Boolean   СилКорпус / Таймеры / Транспортеры / Таймеры а читают: MnemoControlT
+  StatusAlarmT15                 Boolean   СилКорпус / Таймеры / Транспортеры / Таймеры а читают: MnemoControlT
+  StatusAlarmT16                 Boolean   СилКорпус / Таймеры / Транспортеры / Таймеры а читают: MnemoControlT
+  StatusAlarmT17                 Boolean   СилКорпус / Таймеры / Транспортеры / Таймеры а читают: MnemoControlT
+  StatusAlarmT18                 Boolean   СилКорпус / Таймеры / Транспортеры / Таймеры а читают: MnemoControlT
+  StatusAlarmT2                  Boolean   СилКорпус / Таймеры / Транспортеры / Таймеры а читают: MnemoControlT
+  StatusAlarmT3                  Boolean   СилКорпус / Таймеры / Транспортеры / Таймеры а читают: MnemoControlT
+  StatusAlarmT4                  Boolean   СилКорпус / Таймеры / Транспортеры / Таймеры а читают: MnemoControlT
+  StatusAlarmT5                  Boolean   СилКорпус / Таймеры / Транспортеры / Таймеры а читают: MnemoControlT
+  StatusAlarmT6                  Boolean   СилКорпус / Таймеры / Транспортеры / Таймеры а читают: MnemoControlT
+  StatusAlarmT7                  Boolean   СилКорпус / Таймеры / Транспортеры / Таймеры а читают: MnemoControlT
+  StatusAlarmT8                  Boolean   СилКорпус / Таймеры / Транспортеры / Таймеры а читают: MnemoControlT
+  StatusAlarmT9                  Boolean   СилКорпус / Таймеры / Транспортеры / Таймеры а читают: MnemoControlT
+
+### Теги, не используемые ни в одном скрипте: 187
+  ..\: 1  (mi0DI1)
+  СилКорпус / Входные переменные / Аспирация: 4  (RelayInC13, RelayInC14, RelayStopInC13, RelayStopInC14)
+  СилКорпус / Входные переменные / Нории: 3  (RelayAlarmN10, RelayInN10, RelayStopInN10)
+  СилКорпус / Входные переменные / Переменные телеметрии Частотных преобразователей: 14  (T1Freq, T1Power, T2Freq, T2Power, T3Freq, T3Power, T4Freq, T4Power ...)
+  СилКорпус / Входные переменные / Транспортеры: 9  (MembSensorBT1, MembSensorBT2, MembSensorBT3, RelayInForwardT19, RelayInForwardT20, RelayInReversT19, RelayInReversT20, RelayStopInT19 ...)
+  СилКорпус / Выходные переменные / Аспирация: 2  (RelayOutC13, RelayOutC14)
+  СилКорпус / Выходные переменные / Нории: 1  (RelayOutN10)
+  СилКорпус / Выходные переменные / Транспортеры: 4  (RelayOutForwardT19, RelayOutForwardT20, RelayOutReversT19, RelayOutReversT20)
+  СилКорпус / Переменные весового терминала: 20  (L1_D1_C_P, L1_D1_C_d, L1_D1_C_n, L1_D1_C_t, L1_D1_D_In1, L1_D1_D_In2, L1_D1_D_Out1, L1_D1_D_Out2 ...)
+  СилКорпус / Переменные управления заслонками / Служебные переменные заслонок: 2  (T6AlarmStatus, T7AlarmStatus)
+  СилКорпус / Статусы механизмов / Аспирация: 4  (StatusC13, StatusC14, StatusStartC13, StatusStartC14)
+  СилКорпус / Статусы механизмов / Заслонки транспортера номер 1-3: 9  (T1LatchStatus1, T1LatchStatus2, T1LatchStatus3, T1LatchStatus4, T1LatchStatus5, T1LatchStatus6, T1LatchStatus7, T1LatchStatus8 ...)
+  СилКорпус / Статусы механизмов / Заслонки транспортера номер 4: 20  (T4ClapLatchStatus1, T4ClapLatchStatus10, T4ClapLatchStatus2, T4ClapLatchStatus3, T4ClapLatchStatus4, T4ClapLatchStatus5, T4ClapLatchStatus6, T4ClapLatchStatus7 ...)
+  СилКорпус / Статусы механизмов / Заслонки транспортера номер 5: 16  (T5ClapLatchStatus1, T5ClapLatchStatus2, T5ClapLatchStatus3, T5ClapLatchStatus4, T5ClapLatchStatus5, T5ClapLatchStatus6, T5ClapLatchStatus7, T5ClapLatchStatus8 ...)
+  СилКорпус / Статусы механизмов / Заслонки транспортера номер 6: 10  (T6LatchStatus1, T6LatchStatus10, T6LatchStatus2, T6LatchStatus3, T6LatchStatus4, T6LatchStatus5, T6LatchStatus6, T6LatchStatus7 ...)
+  СилКорпус / Статусы механизмов / Заслонки транспортера номер 7: 10  (T7LatchStatus1, T7LatchStatus10, T7LatchStatus2, T7LatchStatus3, T7LatchStatus4, T7LatchStatus5, T7LatchStatus6, T7LatchStatus7 ...)
+  СилКорпус / Статусы механизмов / Нории: 3  (AlarmStatusN10, StatusN10, StatusStartN10)
+  СилКорпус / Статусы механизмов / Транспортеры: 8  (AlarmStatusT19, AlarmStatusT20, StatusStartForwardT19, StatusStartForwardT20, StatusStartReversT19, StatusStartReversT20, StatusT19, StatusT20)
+  СилКорпус / Таймеры / Аспирация / Таймеры старта: 2  (StartTimeC13, StartTimeC14)
+  СилКорпус / Таймеры / Нории / Таймеры аварий: 2  (AlarmTimeN10, StatusAlarmN10)
+  СилКорпус / Таймеры / Нории / Таймеры старта: 1  (StartTimeN10)
+  СилКорпус / Таймеры / Транспортеры / Таймеры аварий: 22  (AlarmTimeT1, AlarmTimeT10, AlarmTimeT11, AlarmTimeT12, AlarmTimeT13, AlarmTimeT14, AlarmTimeT15, AlarmTimeT16 ...)
+  СилКорпус / Таймеры / Транспортеры / Таймеры контроля оборотов валов: 18  (RPMTimerT1, RPMTimerT10, RPMTimerT11, RPMTimerT12, RPMTimerT13, RPMTimerT14, RPMTimerT15, RPMTimerT16 ...)
+  СилКорпус / Таймеры / Транспортеры / Таймеры старта: 2  (StartTimeT19, StartTimeT20)
