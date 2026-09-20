@@ -1,0 +1,3 @@
+begin
+  ConfirmMessage(GetClientName);
+end.

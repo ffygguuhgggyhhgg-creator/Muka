@@ -1,0 +1,40 @@
+======================================================================
+FILE: Project.spr   (37 strings)
+======================================================================
+BKHP SILKORP 30.05.26 Актуальная
+᐀
+50F0DD66-8405-4EB6-B229-EE5373300CE5
+SlicorpBD
+localhost
+PostgreSQL
+postgres
+Ā
+Āā
+01D1291014C6A29850ADFF3B7B5DB33CD3EF7FF0CA17
+Амперы
+А
+Задание частоты ЧП
+Килограммы
+%
+секунды
+%
+Статус механизма
+Счетчик
+%
+ТОННЫ
+%
+Частота ЧП
+Гц
+localhost
+TENSO_OPC_DA2.1
+TENSO_OPC_DA2.1
+{5D48D131-DE01-4EA7-8337-7D108AF03E6F}
+垌
+UAServer1
+PLC210 (Arm32bit + Linux )
+opc.tcp://192.168.40.200:4840
+http://opcfoundation.org/UA/
+urn:plc200silkorp:Owen:PLC210%20%28Arm32bit%20%2B%20Linux%20%29:OPCUA:Server
+http://opcfoundation.org/UA/DI/
+http://PLCopen.org/OpcUa/IEC61131-3/
+CODESYSSPV3/3S/IecVarAccess
