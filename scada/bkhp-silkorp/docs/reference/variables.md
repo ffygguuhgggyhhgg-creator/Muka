@@ -34,7 +34,7 @@
 
 | Тег | Тип | Привязка | Описание |
 |---|---|---|---|
-| `mi0DI1` | Boolean | `|var|PLC210 (Arm32bit + Linux ).Application.PLC_PRG.mi0DI1` |  |
+| `mi0DI1` | Boolean | `mi0DI1` |  |
 
 ## СилКорпус / Статусы механизмов / Нории
 
@@ -348,12 +348,12 @@
 
 | Тег | Тип | Привязка | Описание |
 |---|---|---|---|
-| `RelayOutN1` | Boolean | `|var|PLC210 (Arm32bit + Linux ).Application.PLC_PRG.mo1DO17` | Выходное реле управления нории |
-| `RelayOutN2` | Boolean | `|var|PLC210 (Arm32bit + Linux ).Application.PLC_PRG.mo1DO18` | Выходное реле управления нории |
-| `RelayOutN3` | Boolean | `|var|PLC210 (Arm32bit + Linux ).Application.PLC_PRG.mo1DO19` | Выходное реле управления нории |
-| `RelayOutN4` | Boolean | `|var|PLC210 (Arm32bit + Linux ).Application.PLC_PRG.mo1DO20` | Выходное реле управления нории |
-| `RelayOutN5` | Boolean | `|var|PLC210 (Arm32bit + Linux ).Application.PLC_PRG.mo1DO21` | Выходное реле управления нории |
-| `RelayOutN6` | Boolean | `|var|PLC210 (Arm32bit + Linux ).Application.PLC_PRG.mo1DO22` | Выходное реле управления нории |
+| `RelayOutN1` | Boolean | `mo1DO17` | Выходное реле управления нории |
+| `RelayOutN2` | Boolean | `mo1DO18` | Выходное реле управления нории |
+| `RelayOutN3` | Boolean | `mo1DO19` | Выходное реле управления нории |
+| `RelayOutN4` | Boolean | `mo1DO20` | Выходное реле управления нории |
+| `RelayOutN5` | Boolean | `mo1DO21` | Выходное реле управления нории |
+| `RelayOutN6` | Boolean | `mo1DO22` | Выходное реле управления нории |
 | `RelayOutN7` | Boolean |  | Выходное реле управления нории |
 | `RelayOutN8` | Boolean |  | Выходное реле управления нории |
 | `RelayOutN9` | Boolean |  | Выходное реле управления нории |
@@ -382,13 +382,13 @@
 
 | Тег | Тип | Привязка | Описание |
 |---|---|---|---|
-| `RelayOutForwardT1` | Boolean | `|var|PLC210 (Arm32bit + Linux ).Application.PLC_PRG.mo1DO1` | Выходное реле управления транспортера в прямом направлении |
-| `RelayOutForwardT2` | Boolean | `|var|PLC210 (Arm32bit + Linux ).Application.PLC_PRG.mo1DO11` | Выходное реле управления транспортера в прямом направлении |
-| `RelayOutForwardT3` | Boolean | `|var|PLC210 (Arm32bit + Linux ).Application.PLC_PRG.mo1DO12` | Выходное реле управления транспортера в прямом направлении |
-| `RelayOutForwardT4` | Boolean | `|var|PLC210 (Arm32bit + Linux ).Application.PLC_PRG.mo1DO3` | Выходное реле управления транспортера в прямом направлении |
-| `RelayOutForwardT5` | Boolean | `|var|PLC210 (Arm32bit + Linux ).Application.PLC_PRG.mo1DO5` | Выходное реле управления транспортера в прямом направлении |
-| `RelayOutForwardT6` | Boolean | `|var|PLC210 (Arm32bit + Linux ).Application.PLC_PRG.mo1DO7` | Выходное реле управления транспортера в прямом направлении |
-| `RelayOutForwardT7` | Boolean | `|var|PLC210 (Arm32bit + Linux ).Application.PLC_PRG.mo1DO9` | Выходное реле управления транспортера в прямом направлении |
+| `RelayOutForwardT1` | Boolean | `mo1DO1` | Выходное реле управления транспортера в прямом направлении |
+| `RelayOutForwardT2` | Boolean | `mo1DO11` | Выходное реле управления транспортера в прямом направлении |
+| `RelayOutForwardT3` | Boolean | `mo1DO12` | Выходное реле управления транспортера в прямом направлении |
+| `RelayOutForwardT4` | Boolean | `mo1DO3` | Выходное реле управления транспортера в прямом направлении |
+| `RelayOutForwardT5` | Boolean | `mo1DO5` | Выходное реле управления транспортера в прямом направлении |
+| `RelayOutForwardT6` | Boolean | `mo1DO7` | Выходное реле управления транспортера в прямом направлении |
+| `RelayOutForwardT7` | Boolean | `mo1DO9` | Выходное реле управления транспортера в прямом направлении |
 | `RelayOutForwardT8` | Boolean |  | Выходное реле управления транспортера в прямом направлении |
 | `RelayOutForwardT9` | Boolean |  | Выходное реле управления транспортера в прямом направлении |
 | `RelayOutForwardT10` | Boolean |  | Выходное реле управления транспортера в прямом направлении |
@@ -402,13 +402,13 @@
 | `RelayOutForwardT18` | Boolean |  | Выходное реле управления транспортера в прямом направлении |
 | `RelayOutForwardT19` | Boolean |  | Выходное реле управления транспортера в прямом направлении |
 | `RelayOutForwardT20` | Boolean |  | Выходное реле управления транспортера в прямом направлении |
-| `RelayOutReversT1` | Boolean | `|var|PLC210 (Arm32bit + Linux ).Application.PLC_PRG.mo1DO2` | Выходное реле управления транспортера в обратном направлении |
+| `RelayOutReversT1` | Boolean | `mo1DO2` | Выходное реле управления транспортера в обратном направлении |
 | `RelayOutReversT2` | Boolean |  | Выходное реле управления транспортера в обратном направлении |
 | `RelayOutReversT3` | Boolean |  | Выходное реле управления транспортера в обратном направлении |
-| `RelayOutReversT4` | Boolean | `|var|PLC210 (Arm32bit + Linux ).Application.PLC_PRG.mo1DO4` | Выходное реле управления транспортера в обратном направлении |
-| `RelayOutReversT5` | Boolean | `|var|PLC210 (Arm32bit + Linux ).Application.PLC_PRG.mo1DO6` | Выходное реле управления транспортера в обратном направлении |
-| `RelayOutReversT6` | Boolean | `|var|PLC210 (Arm32bit + Linux ).Application.PLC_PRG.mo1DO8` | Выходное реле управления транспортера в обратном направлении |
-| `RelayOutReversT7` | Boolean | `|var|PLC210 (Arm32bit + Linux ).Application.PLC_PRG.mo1DO10` | Выходное реле управления транспортера в обратном направлении |
+| `RelayOutReversT4` | Boolean | `mo1DO4` | Выходное реле управления транспортера в обратном направлении |
+| `RelayOutReversT5` | Boolean | `mo1DO6` | Выходное реле управления транспортера в обратном направлении |
+| `RelayOutReversT6` | Boolean | `mo1DO8` | Выходное реле управления транспортера в обратном направлении |
+| `RelayOutReversT7` | Boolean | `mo1DO10` | Выходное реле управления транспортера в обратном направлении |
 | `RelayOutReversT8` | Boolean |  | Выходное реле управления транспортера в обратном направлении |
 | `RelayOutReversT9` | Boolean |  | Выходное реле управления транспортера в обратном направлении |
 | `RelayOutReversT10` | Boolean |  | Выходное реле управления транспортера в обратном направлении |
@@ -427,112 +427,112 @@
 
 | Тег | Тип | Привязка | Описание |
 |---|---|---|---|
-| `T6LatchSelect1` | Boolean | `|var|PLC210 (Arm32bit + Linux ).Application.PLC_PRG.t6DO5` | Выходное реле выбора заслонки для управления |
-| `T6LatchSelect2` | Boolean | `|var|PLC210 (Arm32bit + Linux ).Application.PLC_PRG.t6DO6` | Выходное реле выбора заслонки для управления |
-| `T6LatchSelect3` | Boolean | `|var|PLC210 (Arm32bit + Linux ).Application.PLC_PRG.t6DO7` | Выходное реле выбора заслонки для управления |
-| `T6LatchSelect4` | Boolean | `|var|PLC210 (Arm32bit + Linux ).Application.PLC_PRG.t6DO8` | Выходное реле выбора заслонки для управления |
-| `T6LatchSelect5` | Boolean | `|var|PLC210 (Arm32bit + Linux ).Application.PLC_PRG.t6DO9` | Выходное реле выбора заслонки для управления |
-| `T6LatchSelect6` | Boolean | `|var|PLC210 (Arm32bit + Linux ).Application.PLC_PRG.t6DO10` | Выходное реле выбора заслонки для управления |
-| `T6LatchSelect7` | Boolean | `|var|PLC210 (Arm32bit + Linux ).Application.PLC_PRG.t6DO11` | Выходное реле выбора заслонки для управления |
-| `T6LatchSelect8` | Boolean | `|var|PLC210 (Arm32bit + Linux ).Application.PLC_PRG.t6DO12` | Выходное реле выбора заслонки для управления |
-| `T6LatchSelect9` | Boolean | `|var|PLC210 (Arm32bit + Linux ).Application.PLC_PRG.t6DO13` | Выходное реле выбора заслонки для управления |
-| `T6LatchSelect10` | Boolean | `|var|PLC210 (Arm32bit + Linux ).Application.PLC_PRG.t6DO14` | Выходное реле выбора заслонки для управления |
-| `T6LatchRunOpen` | Boolean | `|var|PLC210 (Arm32bit + Linux ).Application.PLC_PRG.t6DO15` | Выходное реле для открытия выбранной заслонки |
-| `T6LatchRunClose` | Boolean | `|var|PLC210 (Arm32bit + Linux ).Application.PLC_PRG.t6DO16` | Выходное реле для закрытия выбранной заслонки |
+| `T6LatchSelect1` | Boolean | `t6DO5` | Выходное реле выбора заслонки для управления |
+| `T6LatchSelect2` | Boolean | `t6DO6` | Выходное реле выбора заслонки для управления |
+| `T6LatchSelect3` | Boolean | `t6DO7` | Выходное реле выбора заслонки для управления |
+| `T6LatchSelect4` | Boolean | `t6DO8` | Выходное реле выбора заслонки для управления |
+| `T6LatchSelect5` | Boolean | `t6DO9` | Выходное реле выбора заслонки для управления |
+| `T6LatchSelect6` | Boolean | `t6DO10` | Выходное реле выбора заслонки для управления |
+| `T6LatchSelect7` | Boolean | `t6DO11` | Выходное реле выбора заслонки для управления |
+| `T6LatchSelect8` | Boolean | `t6DO12` | Выходное реле выбора заслонки для управления |
+| `T6LatchSelect9` | Boolean | `t6DO13` | Выходное реле выбора заслонки для управления |
+| `T6LatchSelect10` | Boolean | `t6DO14` | Выходное реле выбора заслонки для управления |
+| `T6LatchRunOpen` | Boolean | `t6DO15` | Выходное реле для открытия выбранной заслонки |
+| `T6LatchRunClose` | Boolean | `t6DO16` | Выходное реле для закрытия выбранной заслонки |
 
 ## СилКорпус / Выходные переменные / Заслонки транспортера номер 7
 
 | Тег | Тип | Привязка | Описание |
 |---|---|---|---|
-| `T7LatchRunOpen` | Boolean | `|var|PLC210 (Arm32bit + Linux ).Application.PLC_PRG.t7DO15` | Выходное реле для открытия выбранной заслонки |
-| `T7LatchRunClose` | Boolean | `|var|PLC210 (Arm32bit + Linux ).Application.PLC_PRG.t7DO16` | Выходное реле для закрытия выбранной заслонки |
-| `T7LatchSelect1` | Boolean | `|var|PLC210 (Arm32bit + Linux ).Application.PLC_PRG.t7DO5` | Выходное реле выбора заслонки для управления |
-| `T7LatchSelect2` | Boolean | `|var|PLC210 (Arm32bit + Linux ).Application.PLC_PRG.t7DO6` | Выходное реле выбора заслонки для управления |
-| `T7LatchSelect3` | Boolean | `|var|PLC210 (Arm32bit + Linux ).Application.PLC_PRG.t7DO7` | Выходное реле выбора заслонки для управления |
-| `T7LatchSelect4` | Boolean | `|var|PLC210 (Arm32bit + Linux ).Application.PLC_PRG.t7DO8` | Выходное реле выбора заслонки для управления |
-| `T7LatchSelect5` | Boolean | `|var|PLC210 (Arm32bit + Linux ).Application.PLC_PRG.t7DO9` | Выходное реле выбора заслонки для управления |
-| `T7LatchSelect6` | Boolean | `|var|PLC210 (Arm32bit + Linux ).Application.PLC_PRG.t7DO10` | Выходное реле выбора заслонки для управления |
-| `T7LatchSelect7` | Boolean | `|var|PLC210 (Arm32bit + Linux ).Application.PLC_PRG.t7DO11` | Выходное реле выбора заслонки для управления |
-| `T7LatchSelect8` | Boolean | `|var|PLC210 (Arm32bit + Linux ).Application.PLC_PRG.t7DO12` | Выходное реле выбора заслонки для управления |
-| `T7LatchSelect9` | Boolean | `|var|PLC210 (Arm32bit + Linux ).Application.PLC_PRG.t7DO13` | Выходное реле выбора заслонки для управления |
-| `T7LatchSelect10` | Boolean | `|var|PLC210 (Arm32bit + Linux ).Application.PLC_PRG.t7DO14` | Выходное реле выбора заслонки для управления |
+| `T7LatchRunOpen` | Boolean | `t7DO15` | Выходное реле для открытия выбранной заслонки |
+| `T7LatchRunClose` | Boolean | `t7DO16` | Выходное реле для закрытия выбранной заслонки |
+| `T7LatchSelect1` | Boolean | `t7DO5` | Выходное реле выбора заслонки для управления |
+| `T7LatchSelect2` | Boolean | `t7DO6` | Выходное реле выбора заслонки для управления |
+| `T7LatchSelect3` | Boolean | `t7DO7` | Выходное реле выбора заслонки для управления |
+| `T7LatchSelect4` | Boolean | `t7DO8` | Выходное реле выбора заслонки для управления |
+| `T7LatchSelect5` | Boolean | `t7DO9` | Выходное реле выбора заслонки для управления |
+| `T7LatchSelect6` | Boolean | `t7DO10` | Выходное реле выбора заслонки для управления |
+| `T7LatchSelect7` | Boolean | `t7DO11` | Выходное реле выбора заслонки для управления |
+| `T7LatchSelect8` | Boolean | `t7DO12` | Выходное реле выбора заслонки для управления |
+| `T7LatchSelect9` | Boolean | `t7DO13` | Выходное реле выбора заслонки для управления |
+| `T7LatchSelect10` | Boolean | `t7DO14` | Выходное реле выбора заслонки для управления |
 
 ## СилКорпус / Выходные переменные / Служебные
 
 | Тег | Тип | Привязка | Описание |
 |---|---|---|---|
-| `Alarm16Level` | Boolean | `|var|PLC210 (Arm32bit + Linux ).Application.PLC_PRG.mo1DO32` | Выходное реле запуска звукового оповещения 16 этажа |
-| `Alarm1Level` | Integer | `|var|PLC210 (Arm32bit + Linux ).Application.PLC_PRG.mo1DO32` | Выходное реле запуска звукового оповещения первого этажа |
+| `Alarm16Level` | Boolean | `mo1DO32` | Выходное реле запуска звукового оповещения 16 этажа |
+| `Alarm1Level` | Integer | `mo1DO32` | Выходное реле запуска звукового оповещения первого этажа |
 
 ## СилКорпус / Выходные переменные / Заслонки транспортера номер 4
 
 | Тег | Тип | Привязка | Описание |
 |---|---|---|---|
-| `T4LatchSelect1` | Boolean | `|var|PLC210 (Arm32bit + Linux ).Application.PLC_PRG.t4DO1` | Выходное реле выбора заслонки для управления |
-| `T4LatchSelect2` | Boolean | `|var|PLC210 (Arm32bit + Linux ).Application.PLC_PRG.t4DO2` | Выходное реле выбора заслонки для управления |
-| `T4LatchSelect3` | Boolean | `|var|PLC210 (Arm32bit + Linux ).Application.PLC_PRG.t4DO3` | Выходное реле выбора заслонки для управления |
-| `T4LatchSelect4` | Boolean | `|var|PLC210 (Arm32bit + Linux ).Application.PLC_PRG.t4DO4` | Выходное реле выбора заслонки для управления |
-| `T4LatchSelect5` | Boolean | `|var|PLC210 (Arm32bit + Linux ).Application.PLC_PRG.t4DO5` | Выходное реле выбора заслонки для управления |
-| `T4LatchSelect6` | Boolean | `|var|PLC210 (Arm32bit + Linux ).Application.PLC_PRG.t4DO6` | Выходное реле выбора заслонки для управления |
-| `T4LatchSelect7` | Boolean | `|var|PLC210 (Arm32bit + Linux ).Application.PLC_PRG.t4DO7` | Выходное реле выбора заслонки для управления |
-| `T4LatchSelect8` | Boolean | `|var|PLC210 (Arm32bit + Linux ).Application.PLC_PRG.t4DO8` | Выходное реле выбора заслонки для управления |
-| `T4LatchSelect9` | Boolean | `|var|PLC210 (Arm32bit + Linux ).Application.PLC_PRG.t4DO9` | Выходное реле выбора заслонки для управления |
-| `T4LatchSelect10` | Boolean | `|var|PLC210 (Arm32bit + Linux ).Application.PLC_PRG.t4DO10` | Выходное реле выбора заслонки для управления |
-| `T4LatchRunOpen` | Boolean | `|var|PLC210 (Arm32bit + Linux ).Application.PLC_PRG.t4DO11` | Выходное реле для открытия выбранной заслонки |
-| `T4LatchRunClose` | Boolean | `|var|PLC210 (Arm32bit + Linux ).Application.PLC_PRG.t4DO12` | Выходное реле для закрытия выбранной заслонки |
-| `T4ClapLatchSelect1` | Boolean | `|var|PLC210 (Arm32bit + Linux ).Application.PLC_PRG.t41DO1` | Выходное реле выбора заслонки для управления |
-| `T4ClapLatchSelect2` | Boolean | `|var|PLC210 (Arm32bit + Linux ).Application.PLC_PRG.t41DO2` | Выходное реле выбора заслонки для управления |
-| `T4ClapLatchSelect3` | Boolean | `|var|PLC210 (Arm32bit + Linux ).Application.PLC_PRG.t41DO3` | Выходное реле выбора заслонки для управления |
-| `T4ClapLatchSelect4` | Boolean | `|var|PLC210 (Arm32bit + Linux ).Application.PLC_PRG.t41DO4` | Выходное реле выбора заслонки для управления |
-| `T4ClapLatchSelect5` | Boolean | `|var|PLC210 (Arm32bit + Linux ).Application.PLC_PRG.t41DO5` | Выходное реле выбора заслонки для управления |
-| `T4ClapLatchSelect6` | Boolean | `|var|PLC210 (Arm32bit + Linux ).Application.PLC_PRG.t41DO6` | Выходное реле выбора заслонки для управления |
-| `T4ClapLatchSelect7` | Boolean | `|var|PLC210 (Arm32bit + Linux ).Application.PLC_PRG.t41DO7` | Выходное реле выбора заслонки для управления |
-| `T4ClapLatchSelect8` | Boolean | `|var|PLC210 (Arm32bit + Linux ).Application.PLC_PRG.t41DO8` | Выходное реле выбора заслонки для управления |
-| `T4ClapLatchSelect9` | Boolean | `|var|PLC210 (Arm32bit + Linux ).Application.PLC_PRG.t41DO9` | Выходное реле выбора заслонки для управления |
-| `T4ClapLatchSelect10` | Boolean | `|var|PLC210 (Arm32bit + Linux ).Application.PLC_PRG.t41DO10` | Выходное реле выбора заслонки для управления |
-| `T4ClapLatchRunOpen` | Boolean | `|var|PLC210 (Arm32bit + Linux ).Application.PLC_PRG.t41DO11` | Выходное реле для открытия выбранной заслонки |
-| `T4ClapLatchRunClose` | Boolean | `|var|PLC210 (Arm32bit + Linux ).Application.PLC_PRG.t41DO12` | Выходное реле для закрытия выбранной заслонки |
+| `T4LatchSelect1` | Boolean | `t4DO1` | Выходное реле выбора заслонки для управления |
+| `T4LatchSelect2` | Boolean | `t4DO2` | Выходное реле выбора заслонки для управления |
+| `T4LatchSelect3` | Boolean | `t4DO3` | Выходное реле выбора заслонки для управления |
+| `T4LatchSelect4` | Boolean | `t4DO4` | Выходное реле выбора заслонки для управления |
+| `T4LatchSelect5` | Boolean | `t4DO5` | Выходное реле выбора заслонки для управления |
+| `T4LatchSelect6` | Boolean | `t4DO6` | Выходное реле выбора заслонки для управления |
+| `T4LatchSelect7` | Boolean | `t4DO7` | Выходное реле выбора заслонки для управления |
+| `T4LatchSelect8` | Boolean | `t4DO8` | Выходное реле выбора заслонки для управления |
+| `T4LatchSelect9` | Boolean | `t4DO9` | Выходное реле выбора заслонки для управления |
+| `T4LatchSelect10` | Boolean | `t4DO10` | Выходное реле выбора заслонки для управления |
+| `T4LatchRunOpen` | Boolean | `t4DO11` | Выходное реле для открытия выбранной заслонки |
+| `T4LatchRunClose` | Boolean | `t4DO12` | Выходное реле для закрытия выбранной заслонки |
+| `T4ClapLatchSelect1` | Boolean | `t41DO1` | Выходное реле выбора заслонки для управления |
+| `T4ClapLatchSelect2` | Boolean | `t41DO2` | Выходное реле выбора заслонки для управления |
+| `T4ClapLatchSelect3` | Boolean | `t41DO3` | Выходное реле выбора заслонки для управления |
+| `T4ClapLatchSelect4` | Boolean | `t41DO4` | Выходное реле выбора заслонки для управления |
+| `T4ClapLatchSelect5` | Boolean | `t41DO5` | Выходное реле выбора заслонки для управления |
+| `T4ClapLatchSelect6` | Boolean | `t41DO6` | Выходное реле выбора заслонки для управления |
+| `T4ClapLatchSelect7` | Boolean | `t41DO7` | Выходное реле выбора заслонки для управления |
+| `T4ClapLatchSelect8` | Boolean | `t41DO8` | Выходное реле выбора заслонки для управления |
+| `T4ClapLatchSelect9` | Boolean | `t41DO9` | Выходное реле выбора заслонки для управления |
+| `T4ClapLatchSelect10` | Boolean | `t41DO10` | Выходное реле выбора заслонки для управления |
+| `T4ClapLatchRunOpen` | Boolean | `t41DO11` | Выходное реле для открытия выбранной заслонки |
+| `T4ClapLatchRunClose` | Boolean | `t41DO12` | Выходное реле для закрытия выбранной заслонки |
 
 ## СилКорпус / Выходные переменные / Заслонки транспортера номер 5
 
 | Тег | Тип | Привязка | Описание |
 |---|---|---|---|
-| `T5LatchSelect1` | Boolean | `|var|PLC210 (Arm32bit + Linux ).Application.PLC_PRG.t5DO1` | Выходное реле выбора заслонки для управления |
-| `T5LatchSelect2` | Boolean | `|var|PLC210 (Arm32bit + Linux ).Application.PLC_PRG.t5DO2` | Выходное реле выбора заслонки для управления |
-| `T5LatchSelect3` | Boolean | `|var|PLC210 (Arm32bit + Linux ).Application.PLC_PRG.t5DO3` | Выходное реле выбора заслонки для управления |
-| `T5LatchSelect4` | Boolean | `|var|PLC210 (Arm32bit + Linux ).Application.PLC_PRG.t5DO4` | Выходное реле выбора заслонки для управления |
-| `T5LatchSelect5` | Boolean | `|var|PLC210 (Arm32bit + Linux ).Application.PLC_PRG.t5DO5` | Выходное реле выбора заслонки для управления |
-| `T5LatchSelect6` | Boolean | `|var|PLC210 (Arm32bit + Linux ).Application.PLC_PRG.t5DO6` | Выходное реле выбора заслонки для управления |
-| `T5LatchSelect7` | Boolean | `|var|PLC210 (Arm32bit + Linux ).Application.PLC_PRG.t5DO7` | Выходное реле выбора заслонки для управления |
-| `T5LatchSelect8` | Boolean | `|var|PLC210 (Arm32bit + Linux ).Application.PLC_PRG.t5DO8` | Выходное реле выбора заслонки для управления |
-| `T5LatchRunOpen` | Boolean | `|var|PLC210 (Arm32bit + Linux ).Application.PLC_PRG.t5DO11` | Выходное реле для открытия выбранной заслонки |
-| `T5LatchRunClose` | Boolean | `|var|PLC210 (Arm32bit + Linux ).Application.PLC_PRG.t5DO12` | Выходное реле для закрытия выбранной заслонки |
-| `T5ClapLatchSelect1` | Boolean | `|var|PLC210 (Arm32bit + Linux ).Application.PLC_PRG.t51DO1` | Выходное реле выбора заслонки для управления |
-| `T5ClapLatchSelect2` | Boolean | `|var|PLC210 (Arm32bit + Linux ).Application.PLC_PRG.t51DO2` | Выходное реле выбора заслонки для управления |
-| `T5ClapLatchSelect3` | Boolean | `|var|PLC210 (Arm32bit + Linux ).Application.PLC_PRG.t51DO3` | Выходное реле выбора заслонки для управления |
-| `T5ClapLatchSelect4` | Boolean | `|var|PLC210 (Arm32bit + Linux ).Application.PLC_PRG.t51DO4` | Выходное реле выбора заслонки для управления |
-| `T5ClapLatchSelect5` | Boolean | `|var|PLC210 (Arm32bit + Linux ).Application.PLC_PRG.t51DO5` | Выходное реле выбора заслонки для управления |
-| `T5ClapLatchSelect6` | Boolean | `|var|PLC210 (Arm32bit + Linux ).Application.PLC_PRG.t51DO6` | Выходное реле выбора заслонки для управления |
-| `T5ClapLatchSelect7` | Boolean | `|var|PLC210 (Arm32bit + Linux ).Application.PLC_PRG.t51DO7` | Выходное реле выбора заслонки для управления |
-| `T5ClapLatchSelect8` | Boolean | `|var|PLC210 (Arm32bit + Linux ).Application.PLC_PRG.t51DO8` | Выходное реле выбора заслонки для управления |
-| `T5ClapLatchRunOpen` | Boolean | `|var|PLC210 (Arm32bit + Linux ).Application.PLC_PRG.t51DO11` | Выходное реле для открытия выбранной заслонки |
-| `T5ClapLatchRunClose` | Boolean | `|var|PLC210 (Arm32bit + Linux ).Application.PLC_PRG.t51DO12` | Выходное реле для закрытия выбранной заслонки |
+| `T5LatchSelect1` | Boolean | `t5DO1` | Выходное реле выбора заслонки для управления |
+| `T5LatchSelect2` | Boolean | `t5DO2` | Выходное реле выбора заслонки для управления |
+| `T5LatchSelect3` | Boolean | `t5DO3` | Выходное реле выбора заслонки для управления |
+| `T5LatchSelect4` | Boolean | `t5DO4` | Выходное реле выбора заслонки для управления |
+| `T5LatchSelect5` | Boolean | `t5DO5` | Выходное реле выбора заслонки для управления |
+| `T5LatchSelect6` | Boolean | `t5DO6` | Выходное реле выбора заслонки для управления |
+| `T5LatchSelect7` | Boolean | `t5DO7` | Выходное реле выбора заслонки для управления |
+| `T5LatchSelect8` | Boolean | `t5DO8` | Выходное реле выбора заслонки для управления |
+| `T5LatchRunOpen` | Boolean | `t5DO11` | Выходное реле для открытия выбранной заслонки |
+| `T5LatchRunClose` | Boolean | `t5DO12` | Выходное реле для закрытия выбранной заслонки |
+| `T5ClapLatchSelect1` | Boolean | `t51DO1` | Выходное реле выбора заслонки для управления |
+| `T5ClapLatchSelect2` | Boolean | `t51DO2` | Выходное реле выбора заслонки для управления |
+| `T5ClapLatchSelect3` | Boolean | `t51DO3` | Выходное реле выбора заслонки для управления |
+| `T5ClapLatchSelect4` | Boolean | `t51DO4` | Выходное реле выбора заслонки для управления |
+| `T5ClapLatchSelect5` | Boolean | `t51DO5` | Выходное реле выбора заслонки для управления |
+| `T5ClapLatchSelect6` | Boolean | `t51DO6` | Выходное реле выбора заслонки для управления |
+| `T5ClapLatchSelect7` | Boolean | `t51DO7` | Выходное реле выбора заслонки для управления |
+| `T5ClapLatchSelect8` | Boolean | `t51DO8` | Выходное реле выбора заслонки для управления |
+| `T5ClapLatchRunOpen` | Boolean | `t51DO11` | Выходное реле для открытия выбранной заслонки |
+| `T5ClapLatchRunClose` | Boolean | `t51DO12` | Выходное реле для закрытия выбранной заслонки |
 
 ## СилКорпус / Выходные переменные / Заслонки транспортера номер 1-3
 
 | Тег | Тип | Привязка | Описание |
 |---|---|---|---|
-| `T1LatchSelect1` | Boolean | `|var|PLC210 (Arm32bit + Linux ).Application.PLC_PRG.t1DO1` | Выходное реле выбора заслонки для управления |
-| `T1LatchSelect2` | Boolean | `|var|PLC210 (Arm32bit + Linux ).Application.PLC_PRG.t1DO2` | Выходное реле выбора заслонки для управления |
-| `T1LatchSelect3` | Boolean | `|var|PLC210 (Arm32bit + Linux ).Application.PLC_PRG.t1DO3` | Выходное реле выбора заслонки для управления |
-| `T1LatchSelect4` | Boolean | `|var|PLC210 (Arm32bit + Linux ).Application.PLC_PRG.t1DO4` | Выходное реле выбора заслонки для управления |
-| `T1LatchSelect5` | Boolean | `|var|PLC210 (Arm32bit + Linux ).Application.PLC_PRG.t1DO5` | Выходное реле выбора заслонки для управления |
-| `T1LatchSelect6` | Boolean | `|var|PLC210 (Arm32bit + Linux ).Application.PLC_PRG.t1DO6` | Выходное реле выбора заслонки для управления |
-| `T1LatchSelect7` | Boolean | `|var|PLC210 (Arm32bit + Linux ).Application.PLC_PRG.t1DO7` | Выходное реле выбора заслонки для управления |
-| `T1LatchSelect8` | Boolean | `|var|PLC210 (Arm32bit + Linux ).Application.PLC_PRG.t1DO8` | Выходное реле выбора заслонки для управления |
-| `T1LatchRunOpen` | Boolean | `|var|PLC210 (Arm32bit + Linux ).Application.PLC_PRG.t1DO11` | Выходное реле для открытия выбранной заслонки |
-| `T1LatchRunClose` | Boolean | `|var|PLC210 (Arm32bit + Linux ).Application.PLC_PRG.t1DO12` | Выходное реле для закрытия выбранной заслонки |
-| `T1LatchSelect9` | Boolean | `|var|PLC210 (Arm32bit + Linux ).Application.PLC_PRG.t1DO9` | Выходное реле выбора заслонки для управления |
+| `T1LatchSelect1` | Boolean | `t1DO1` | Выходное реле выбора заслонки для управления |
+| `T1LatchSelect2` | Boolean | `t1DO2` | Выходное реле выбора заслонки для управления |
+| `T1LatchSelect3` | Boolean | `t1DO3` | Выходное реле выбора заслонки для управления |
+| `T1LatchSelect4` | Boolean | `t1DO4` | Выходное реле выбора заслонки для управления |
+| `T1LatchSelect5` | Boolean | `t1DO5` | Выходное реле выбора заслонки для управления |
+| `T1LatchSelect6` | Boolean | `t1DO6` | Выходное реле выбора заслонки для управления |
+| `T1LatchSelect7` | Boolean | `t1DO7` | Выходное реле выбора заслонки для управления |
+| `T1LatchSelect8` | Boolean | `t1DO8` | Выходное реле выбора заслонки для управления |
+| `T1LatchRunOpen` | Boolean | `t1DO11` | Выходное реле для открытия выбранной заслонки |
+| `T1LatchRunClose` | Boolean | `t1DO12` | Выходное реле для закрытия выбранной заслонки |
+| `T1LatchSelect9` | Boolean | `t1DO9` | Выходное реле выбора заслонки для управления |
 
 ## СилКорпус / Выходные переменные / Задание частоты ЧП транспортеров
 
@@ -545,44 +545,44 @@
 | `T5TargerFreq` | Single |  |  |
 | `T6TargerFreq` | Single |  |  |
 | `T7TargerFreq` | Single |  |  |
-| `T1FreqToPLC` | Single | `|var|PLC210 (Arm32bit + Linux ).Application.PLC_PRG.t1Freq` |  |
-| `T2FreqToPLC` | Single | `|var|PLC210 (Arm32bit + Linux ).Application.PLC_PRG.t2Freq` |  |
-| `T3FreqToPLC` | Single | `|var|PLC210 (Arm32bit + Linux ).Application.PLC_PRG.t3Freq` |  |
-| `T4FreqToPLC` | Single | `|var|PLC210 (Arm32bit + Linux ).Application.PLC_PRG.t4Freq` |  |
-| `T5FreqToPLC` | Single | `|var|PLC210 (Arm32bit + Linux ).Application.PLC_PRG.t5Freq` |  |
-| `T6FreqToPLC` | Single | `|var|PLC210 (Arm32bit + Linux ).Application.PLC_PRG.t6Freq` |  |
-| `T7FreqToPLC` | Single | `|var|PLC210 (Arm32bit + Linux ).Application.PLC_PRG.t7Freq` |  |
+| `T1FreqToPLC` | Single | `t1Freq` |  |
+| `T2FreqToPLC` | Single | `t2Freq` |  |
+| `T3FreqToPLC` | Single | `t3Freq` |  |
+| `T4FreqToPLC` | Single | `t4Freq` |  |
+| `T5FreqToPLC` | Single | `t5Freq` |  |
+| `T6FreqToPLC` | Single | `t6Freq` |  |
+| `T7FreqToPLC` | Single | `t7Freq` |  |
 
 ## СилКорпус / Входные переменные / Нории
 
 | Тег | Тип | Привязка | Описание |
 |---|---|---|---|
-| `RelayInN1` | Boolean | `|var|PLC210 (Arm32bit + Linux ).Application.PLC_PRG.mi1DI17` | Входное реле ответа пускателя нории |
-| `RelayInN2` | Boolean | `|var|PLC210 (Arm32bit + Linux ).Application.PLC_PRG.mi1DI18` | Входное реле ответа пускателя нории |
-| `RelayInN3` | Boolean | `|var|PLC210 (Arm32bit + Linux ).Application.PLC_PRG.mi1DI19` | Входное реле ответа пускателя нории |
-| `RelayInN4` | Boolean | `|var|PLC210 (Arm32bit + Linux ).Application.PLC_PRG.mi1DI20` | Входное реле ответа пускателя нории |
-| `RelayInN5` | Boolean | `|var|PLC210 (Arm32bit + Linux ).Application.PLC_PRG.mi1DI21` | Входное реле ответа пускателя нории |
-| `RelayInN6` | Boolean | `|var|PLC210 (Arm32bit + Linux ).Application.PLC_PRG.mi1DI22` | Входное реле ответа пускателя нории |
+| `RelayInN1` | Boolean | `mi1DI17` | Входное реле ответа пускателя нории |
+| `RelayInN2` | Boolean | `mi1DI18` | Входное реле ответа пускателя нории |
+| `RelayInN3` | Boolean | `mi1DI19` | Входное реле ответа пускателя нории |
+| `RelayInN4` | Boolean | `mi1DI20` | Входное реле ответа пускателя нории |
+| `RelayInN5` | Boolean | `mi1DI21` | Входное реле ответа пускателя нории |
+| `RelayInN6` | Boolean | `mi1DI22` | Входное реле ответа пускателя нории |
 | `RelayInN7` | Boolean |  | Входное реле ответа пускателя нории |
 | `RelayInN8` | Boolean |  | Входное реле ответа пускателя нории |
 | `RelayInN9` | Boolean |  | Входное реле ответа пускателя нории |
 | `RelayInN10` | Boolean |  | Входное реле ответа пускателя нории |
-| `RelayAlarmN1` | Boolean | `|var|PLC210 (Arm32bit + Linux ).Application.PLC_PRG.mi3DI14` | Входное реле аварии нории |
+| `RelayAlarmN1` | Boolean | `mi3DI14` | Входное реле аварии нории |
 | `RelayAlarmN2` | Boolean |  | Входное реле аварии нории |
 | `RelayAlarmN3` | Boolean |  | Входное реле аварии нории |
-| `RelayAlarmN4` | Boolean | `|var|PLC210 (Arm32bit + Linux ).Application.PLC_PRG.mi3DI13` | Входное реле аварии нории |
+| `RelayAlarmN4` | Boolean | `mi3DI13` | Входное реле аварии нории |
 | `RelayAlarmN5` | Boolean |  | Входное реле аварии нории |
-| `RelayAlarmN6` | Boolean | `|var|PLC210 (Arm32bit + Linux ).Application.PLC_PRG.mi3DI15` | Входное реле аварии нории |
+| `RelayAlarmN6` | Boolean | `mi3DI15` | Входное реле аварии нории |
 | `RelayAlarmN7` | Boolean |  | Входное реле аварии нории |
 | `RelayAlarmN8` | Boolean |  | Входное реле аварии нории |
 | `RelayAlarmN9` | Boolean |  | Входное реле аварии нории |
 | `RelayAlarmN10` | Boolean |  | Входное реле аварии нории |
-| `RelayStopInN1` | Boolean | `|var|PLC210 (Arm32bit + Linux ).Application.PLC_PRG.mi1DI30` | Входное реле стоповой кнопки пускателя |
-| `RelayStopInN2` | Boolean | `|var|PLC210 (Arm32bit + Linux ).Application.PLC_PRG.mi1DI31` | Входное реле стоповой кнопки пускателя |
-| `RelayStopInN3` | Boolean | `|var|PLC210 (Arm32bit + Linux ).Application.PLC_PRG.mi1DI32` | Входное реле стоповой кнопки пускателя |
-| `RelayStopInN4` | Boolean | `|var|PLC210 (Arm32bit + Linux ).Application.PLC_PRG.mi3DI2` | Входное реле стоповой кнопки пускателя |
-| `RelayStopInN5` | Boolean | `|var|PLC210 (Arm32bit + Linux ).Application.PLC_PRG.mi3DI3` | Входное реле стоповой кнопки пускателя |
-| `RelayStopInN6` | Boolean | `|var|PLC210 (Arm32bit + Linux ).Application.PLC_PRG.mi3DI1` | Входное реле стоповой кнопки пускателя |
+| `RelayStopInN1` | Boolean | `mi1DI30` | Входное реле стоповой кнопки пускателя |
+| `RelayStopInN2` | Boolean | `mi1DI31` | Входное реле стоповой кнопки пускателя |
+| `RelayStopInN3` | Boolean | `mi1DI32` | Входное реле стоповой кнопки пускателя |
+| `RelayStopInN4` | Boolean | `mi3DI2` | Входное реле стоповой кнопки пускателя |
+| `RelayStopInN5` | Boolean | `mi3DI3` | Входное реле стоповой кнопки пускателя |
+| `RelayStopInN6` | Boolean | `mi3DI1` | Входное реле стоповой кнопки пускателя |
 | `RelayStopInN7` | Boolean |  | Входное реле стоповой кнопки пускателя |
 | `RelayStopInN8` | Boolean |  | Входное реле стоповой кнопки пускателя |
 | `RelayStopInN9` | Boolean |  | Входное реле стоповой кнопки пускателя |
@@ -625,13 +625,13 @@
 
 | Тег | Тип | Привязка | Описание |
 |---|---|---|---|
-| `RelayInForwardT1` | Boolean | `|var|PLC210 (Arm32bit + Linux ).Application.PLC_PRG.mi1DI1` | Входное реле ответа пускателя транспортера в прямом направлении |
-| `RelayInForwardT2` | Boolean | `|var|PLC210 (Arm32bit + Linux ).Application.PLC_PRG.mi1DI11` | Входное реле ответа пускателя транспортера в прямом направлении |
-| `RelayInForwardT3` | Boolean | `|var|PLC210 (Arm32bit + Linux ).Application.PLC_PRG.mi1DI12` | Входное реле ответа пускателя транспортера в прямом направлении |
-| `RelayInForwardT4` | Boolean | `|var|PLC210 (Arm32bit + Linux ).Application.PLC_PRG.mi1DI3` | Входное реле ответа пускателя транспортера в прямом направлении |
-| `RelayInForwardT5` | Boolean | `|var|PLC210 (Arm32bit + Linux ).Application.PLC_PRG.mi1DI5` | Входное реле ответа пускателя транспортера в прямом направлении |
-| `RelayInForwardT6` | Boolean | `|var|PLC210 (Arm32bit + Linux ).Application.PLC_PRG.mi1DI7` | Входное реле ответа пускателя транспортера в прямом направлении |
-| `RelayInForwardT7` | Boolean | `|var|PLC210 (Arm32bit + Linux ).Application.PLC_PRG.mi1DI9` | Входное реле ответа пускателя транспортера в прямом направлении |
+| `RelayInForwardT1` | Boolean | `mi1DI1` | Входное реле ответа пускателя транспортера в прямом направлении |
+| `RelayInForwardT2` | Boolean | `mi1DI11` | Входное реле ответа пускателя транспортера в прямом направлении |
+| `RelayInForwardT3` | Boolean | `mi1DI12` | Входное реле ответа пускателя транспортера в прямом направлении |
+| `RelayInForwardT4` | Boolean | `mi1DI3` | Входное реле ответа пускателя транспортера в прямом направлении |
+| `RelayInForwardT5` | Boolean | `mi1DI5` | Входное реле ответа пускателя транспортера в прямом направлении |
+| `RelayInForwardT6` | Boolean | `mi1DI7` | Входное реле ответа пускателя транспортера в прямом направлении |
+| `RelayInForwardT7` | Boolean | `mi1DI9` | Входное реле ответа пускателя транспортера в прямом направлении |
 | `RelayInForwardT8` | Boolean |  | Входное реле ответа пускателя транспортера в прямом направлении |
 | `RelayInForwardT9` | Boolean |  | Входное реле ответа пускателя транспортера в прямом направлении |
 | `RelayInForwardT10` | Boolean |  | Входное реле ответа пускателя транспортера в прямом направлении |
@@ -645,13 +645,13 @@
 | `RelayInForwardT18` | Boolean |  | Входное реле ответа пускателя транспортера в прямом направлении |
 | `RelayInForwardT19` | Boolean |  | Входное реле ответа пускателя транспортера в прямом направлении |
 | `RelayInForwardT20` | Boolean |  | Входное реле ответа пускателя транспортера в прямом направлении |
-| `RelayInReversT1` | Boolean | `|var|PLC210 (Arm32bit + Linux ).Application.PLC_PRG.mi1DI2` | Входное реле ответа пускателя транспортера в обратном направлении |
-| `RelayInReversT2` | Boolean | `|var|PLC210 (Arm32bit + Linux ).Application.PLC_PRG.mi1DI4` | Входное реле ответа пускателя транспортера в обратном направлении |
-| `RelayInReversT3` | Boolean | `|var|PLC210 (Arm32bit + Linux ).Application.PLC_PRG.mi1DI6` | Входное реле ответа пускателя транспортера в обратном направлении |
-| `RelayInReversT4` | Boolean | `|var|PLC210 (Arm32bit + Linux ).Application.PLC_PRG.mi3DI4` | Входное реле ответа пускателя транспортера в обратном направлении |
-| `RelayInReversT5` | Boolean | `|var|PLC210 (Arm32bit + Linux ).Application.PLC_PRG.mi1DI6` | Входное реле ответа пускателя транспортера в обратном направлении |
-| `RelayInReversT6` | Boolean | `|var|PLC210 (Arm32bit + Linux ).Application.PLC_PRG.mi1DI8` | Входное реле ответа пускателя транспортера в обратном направлении |
-| `RelayInReversT7` | Boolean | `|var|PLC210 (Arm32bit + Linux ).Application.PLC_PRG.mi1DI10` | Входное реле ответа пускателя транспортера в обратном направлении |
+| `RelayInReversT1` | Boolean | `mi1DI2` | Входное реле ответа пускателя транспортера в обратном направлении |
+| `RelayInReversT2` | Boolean | `mi1DI4` | Входное реле ответа пускателя транспортера в обратном направлении |
+| `RelayInReversT3` | Boolean | `mi1DI6` | Входное реле ответа пускателя транспортера в обратном направлении |
+| `RelayInReversT4` | Boolean | `mi3DI4` | Входное реле ответа пускателя транспортера в обратном направлении |
+| `RelayInReversT5` | Boolean | `mi1DI6` | Входное реле ответа пускателя транспортера в обратном направлении |
+| `RelayInReversT6` | Boolean | `mi1DI8` | Входное реле ответа пускателя транспортера в обратном направлении |
+| `RelayInReversT7` | Boolean | `mi1DI10` | Входное реле ответа пускателя транспортера в обратном направлении |
 | `RelayInReversT8` | Boolean |  | Входное реле ответа пускателя транспортера в обратном направлении |
 | `RelayInReversT9` | Boolean |  | Входное реле ответа пускателя транспортера в обратном направлении |
 | `RelayInReversT10` | Boolean |  | Входное реле ответа пускателя транспортера в обратном направлении |
@@ -665,13 +665,13 @@
 | `RelayInReversT18` | Boolean |  | Входное реле ответа пускателя транспортера в обратном направлении |
 | `RelayInReversT19` | Boolean |  | Входное реле ответа пускателя транспортера в обратном направлении |
 | `RelayInReversT20` | Boolean |  | Входное реле ответа пускателя транспортера в обратном направлении |
-| `RelayStopInT1` | Boolean | `|var|PLC210 (Arm32bit + Linux ).Application.PLC_PRG.mi1DI23` | Входное реле стоповой кнопки пускателя |
-| `RelayStopInT2` | Boolean | `|var|PLC210 (Arm32bit + Linux ).Application.PLC_PRG.mi1DI28` | Входное реле стоповой кнопки пускателя |
-| `RelayStopInT3` | Boolean | `|var|PLC210 (Arm32bit + Linux ).Application.PLC_PRG.mi1DI29` | Входное реле стоповой кнопки пускателя |
-| `RelayStopInT4` | Boolean | `|var|PLC210 (Arm32bit + Linux ).Application.PLC_PRG.mi1DI24` | Входное реле стоповой кнопки пускателя |
-| `RelayStopInT5` | Boolean | `|var|PLC210 (Arm32bit + Linux ).Application.PLC_PRG.mi1DI25` | Входное реле стоповой кнопки пускателя |
-| `RelayStopInT6` | Boolean | `|var|PLC210 (Arm32bit + Linux ).Application.PLC_PRG.mi1DI26` | Входное реле стоповой кнопки пускателя |
-| `RelayStopInT7` | Boolean | `|var|PLC210 (Arm32bit + Linux ).Application.PLC_PRG.mi1DI27` | Входное реле стоповой кнопки пускателя |
+| `RelayStopInT1` | Boolean | `mi1DI23` | Входное реле стоповой кнопки пускателя |
+| `RelayStopInT2` | Boolean | `mi1DI28` | Входное реле стоповой кнопки пускателя |
+| `RelayStopInT3` | Boolean | `mi1DI29` | Входное реле стоповой кнопки пускателя |
+| `RelayStopInT4` | Boolean | `mi1DI24` | Входное реле стоповой кнопки пускателя |
+| `RelayStopInT5` | Boolean | `mi1DI25` | Входное реле стоповой кнопки пускателя |
+| `RelayStopInT6` | Boolean | `mi1DI26` | Входное реле стоповой кнопки пускателя |
+| `RelayStopInT7` | Boolean | `mi1DI27` | Входное реле стоповой кнопки пускателя |
 | `RelayStopInT8` | Boolean |  | Входное реле стоповой кнопки пускателя |
 | `RelayStopInT9` | Boolean |  | Входное реле стоповой кнопки пускателя |
 | `RelayStopInT10` | Boolean |  | Входное реле стоповой кнопки пускателя |
@@ -685,194 +685,194 @@
 | `RelayStopInT18` | Boolean |  | Входное реле стоповой кнопки пускателя |
 | `RelayStopInT19` | Boolean |  | Входное реле стоповой кнопки пускателя |
 | `RelayStopInT20` | Boolean |  | Входное реле стоповой кнопки пускателя |
-| `MembSensorAT1` | Boolean | `|var|PLC210 (Arm32bit + Linux ).Application.PLC_PRG.t1DI21` | Сигнал мембранного датчика транспортера |
-| `MembSensorAT2` | Boolean | `|var|PLC210 (Arm32bit + Linux ).Application.PLC_PRG.t1DI22` | Сигнал мембранного датчика транспортера |
-| `MembSensorAT3` | Boolean | `|var|PLC210 (Arm32bit + Linux ).Application.PLC_PRG.t1DI22` | Сигнал мембранного датчика транспортера |
-| `MembSensorAT4` | Boolean | `|var|PLC210 (Arm32bit + Linux ).Application.PLC_PRG.t4DI21` | Сигнал мембранного датчика транспортера |
-| `MembSensorAT5` | Boolean | `|var|PLC210 (Arm32bit + Linux ).Application.PLC_PRG.t5DI21` | Сигнал мембранного датчика транспортера |
-| `MembSensorAT6` | Boolean | `|var|PLC210 (Arm32bit + Linux ).Application.PLC_PRG.t6DI32` | Сигнал мембранного датчика транспортера |
-| `MembSensorAT7` | Boolean | `|var|PLC210 (Arm32bit + Linux ).Application.PLC_PRG.t7DI32` | Сигнал мембранного датчика транспортера |
+| `MembSensorAT1` | Boolean | `t1DI21` | Сигнал мембранного датчика транспортера |
+| `MembSensorAT2` | Boolean | `t1DI22` | Сигнал мембранного датчика транспортера |
+| `MembSensorAT3` | Boolean | `t1DI22` | Сигнал мембранного датчика транспортера |
+| `MembSensorAT4` | Boolean | `t4DI21` | Сигнал мембранного датчика транспортера |
+| `MembSensorAT5` | Boolean | `t5DI21` | Сигнал мембранного датчика транспортера |
+| `MembSensorAT6` | Boolean | `t6DI32` | Сигнал мембранного датчика транспортера |
+| `MembSensorAT7` | Boolean | `t7DI32` | Сигнал мембранного датчика транспортера |
 | `MembSensorBT1` | Boolean |  | Сигнал мембранного датчика транспортера |
 | `MembSensorBT2` | Boolean |  | Сигнал мембранного датчика транспортера |
 | `MembSensorBT3` | Boolean |  | Сигнал мембранного датчика транспортера |
-| `MembSensorBT4` | Boolean | `|var|PLC210 (Arm32bit + Linux ).Application.PLC_PRG.t4DI22` | Сигнал мембранного датчика транспортера |
-| `MembSensorBT5` | Boolean | `|var|PLC210 (Arm32bit + Linux ).Application.PLC_PRG.t5DI22` | Сигнал мембранного датчика транспортера |
-| `MembSensorBT6` | Boolean | `|var|PLC210 (Arm32bit + Linux ).Application.PLC_PRG.t6DI1` | Сигнал мембранного датчика транспортера |
-| `MembSensorBT7` | Boolean | `|var|PLC210 (Arm32bit + Linux ).Application.PLC_PRG.t7DI1` | Сигнал мембранного датчика транспортера |
+| `MembSensorBT4` | Boolean | `t4DI22` | Сигнал мембранного датчика транспортера |
+| `MembSensorBT5` | Boolean | `t5DI22` | Сигнал мембранного датчика транспортера |
+| `MembSensorBT6` | Boolean | `t6DI1` | Сигнал мембранного датчика транспортера |
+| `MembSensorBT7` | Boolean | `t7DI1` | Сигнал мембранного датчика транспортера |
 
 ## СилКорпус / Входные переменные / Заслонки транспортера номер 6
 
 | Тег | Тип | Привязка | Описание |
 |---|---|---|---|
-| `T6LatchOpen1` | Boolean | `|var|PLC210 (Arm32bit + Linux ).Application.PLC_PRG.t6DI11` | Входое реле концевика открытого состояния задвижки |
-| `T6LatchOpen2` | Boolean | `|var|PLC210 (Arm32bit + Linux ).Application.PLC_PRG.t6DI13` | Входое реле концевика открытого состояния задвижки |
-| `T6LatchOpen3` | Boolean | `|var|PLC210 (Arm32bit + Linux ).Application.PLC_PRG.t6DI15` | Входое реле концевика открытого состояния задвижки |
-| `T6LatchOpen4` | Boolean | `|var|PLC210 (Arm32bit + Linux ).Application.PLC_PRG.t6DI17` | Входое реле концевика открытого состояния задвижки |
-| `T6LatchOpen5` | Boolean | `|var|PLC210 (Arm32bit + Linux ).Application.PLC_PRG.t6DI19` | Входое реле концевика открытого состояния задвижки |
-| `T6LatchOpen6` | Boolean | `|var|PLC210 (Arm32bit + Linux ).Application.PLC_PRG.t6DI21` | Входое реле концевика открытого состояния задвижки |
-| `T6LatchOpen7` | Boolean | `|var|PLC210 (Arm32bit + Linux ).Application.PLC_PRG.t6DI23` | Входое реле концевика открытого состояния задвижки |
-| `T6LatchOpen8` | Boolean | `|var|PLC210 (Arm32bit + Linux ).Application.PLC_PRG.t6DI25` | Входое реле концевика открытого состояния задвижки |
-| `T6LatchOpen9` | Boolean | `|var|PLC210 (Arm32bit + Linux ).Application.PLC_PRG.t6DI27` | Входое реле концевика открытого состояния задвижки |
-| `T6LatchOpen10` | Boolean | `|var|PLC210 (Arm32bit + Linux ).Application.PLC_PRG.t6DI29` | Входое реле концевика открытого состояния задвижки |
-| `T6LatchClose1` | Boolean | `|var|PLC210 (Arm32bit + Linux ).Application.PLC_PRG.t6DI12` | Входое реле концевика закрытого состояния задвижки |
-| `T6LatchClose2` | Boolean | `|var|PLC210 (Arm32bit + Linux ).Application.PLC_PRG.t6DI14` | Входое реле концевика закрытого состояния задвижки |
-| `T6LatchClose3` | Boolean | `|var|PLC210 (Arm32bit + Linux ).Application.PLC_PRG.t6DI16` | Входое реле концевика закрытого состояния задвижки |
-| `T6LatchClose4` | Boolean | `|var|PLC210 (Arm32bit + Linux ).Application.PLC_PRG.t6DI18` | Входое реле концевика закрытого состояния задвижки |
-| `T6LatchClose5` | Boolean | `|var|PLC210 (Arm32bit + Linux ).Application.PLC_PRG.t6DI20` | Входое реле концевика закрытого состояния задвижки |
-| `T6LatchClose6` | Boolean | `|var|PLC210 (Arm32bit + Linux ).Application.PLC_PRG.t6DI22` | Входое реле концевика закрытого состояния задвижки |
-| `T6LatchClose7` | Boolean | `|var|PLC210 (Arm32bit + Linux ).Application.PLC_PRG.t6DI24` | Входое реле концевика закрытого состояния задвижки |
-| `T6LatchClose8` | Boolean | `|var|PLC210 (Arm32bit + Linux ).Application.PLC_PRG.t6DI26` | Входое реле концевика закрытого состояния задвижки |
-| `T6LatchClose9` | Boolean | `|var|PLC210 (Arm32bit + Linux ).Application.PLC_PRG.t6DI28` | Входое реле концевика закрытого состояния задвижки |
-| `T6LatchClose10` | Boolean | `|var|PLC210 (Arm32bit + Linux ).Application.PLC_PRG.t6DI30` | Входое реле концевика закрытого состояния задвижки |
+| `T6LatchOpen1` | Boolean | `t6DI11` | Входое реле концевика открытого состояния задвижки |
+| `T6LatchOpen2` | Boolean | `t6DI13` | Входое реле концевика открытого состояния задвижки |
+| `T6LatchOpen3` | Boolean | `t6DI15` | Входое реле концевика открытого состояния задвижки |
+| `T6LatchOpen4` | Boolean | `t6DI17` | Входое реле концевика открытого состояния задвижки |
+| `T6LatchOpen5` | Boolean | `t6DI19` | Входое реле концевика открытого состояния задвижки |
+| `T6LatchOpen6` | Boolean | `t6DI21` | Входое реле концевика открытого состояния задвижки |
+| `T6LatchOpen7` | Boolean | `t6DI23` | Входое реле концевика открытого состояния задвижки |
+| `T6LatchOpen8` | Boolean | `t6DI25` | Входое реле концевика открытого состояния задвижки |
+| `T6LatchOpen9` | Boolean | `t6DI27` | Входое реле концевика открытого состояния задвижки |
+| `T6LatchOpen10` | Boolean | `t6DI29` | Входое реле концевика открытого состояния задвижки |
+| `T6LatchClose1` | Boolean | `t6DI12` | Входое реле концевика закрытого состояния задвижки |
+| `T6LatchClose2` | Boolean | `t6DI14` | Входое реле концевика закрытого состояния задвижки |
+| `T6LatchClose3` | Boolean | `t6DI16` | Входое реле концевика закрытого состояния задвижки |
+| `T6LatchClose4` | Boolean | `t6DI18` | Входое реле концевика закрытого состояния задвижки |
+| `T6LatchClose5` | Boolean | `t6DI20` | Входое реле концевика закрытого состояния задвижки |
+| `T6LatchClose6` | Boolean | `t6DI22` | Входое реле концевика закрытого состояния задвижки |
+| `T6LatchClose7` | Boolean | `t6DI24` | Входое реле концевика закрытого состояния задвижки |
+| `T6LatchClose8` | Boolean | `t6DI26` | Входое реле концевика закрытого состояния задвижки |
+| `T6LatchClose9` | Boolean | `t6DI28` | Входое реле концевика закрытого состояния задвижки |
+| `T6LatchClose10` | Boolean | `t6DI30` | Входое реле концевика закрытого состояния задвижки |
 
 ## СилКорпус / Входные переменные / Заслонки транспортера номер 7
 
 | Тег | Тип | Привязка | Описание |
 |---|---|---|---|
-| `T7LatchOpen1` | Boolean | `|var|PLC210 (Arm32bit + Linux ).Application.PLC_PRG.t7DI11` | Входое реле концевика открытого состояния задвижки |
-| `T7LatchOpen2` | Boolean | `|var|PLC210 (Arm32bit + Linux ).Application.PLC_PRG.t7DI13` | Входое реле концевика открытого состояния задвижки |
-| `T7LatchOpen3` | Boolean | `|var|PLC210 (Arm32bit + Linux ).Application.PLC_PRG.t7DI15` | Входое реле концевика открытого состояния задвижки |
-| `T7LatchOpen4` | Boolean | `|var|PLC210 (Arm32bit + Linux ).Application.PLC_PRG.t7DI17` | Входое реле концевика открытого состояния задвижки |
-| `T7LatchOpen5` | Boolean | `|var|PLC210 (Arm32bit + Linux ).Application.PLC_PRG.t7DI19` | Входое реле концевика открытого состояния задвижки |
-| `T7LatchOpen6` | Boolean | `|var|PLC210 (Arm32bit + Linux ).Application.PLC_PRG.t7DI21` | Входое реле концевика открытого состояния задвижки |
-| `T7LatchOpen7` | Boolean | `|var|PLC210 (Arm32bit + Linux ).Application.PLC_PRG.t7DI23` | Входое реле концевика открытого состояния задвижки |
-| `T7LatchOpen8` | Boolean | `|var|PLC210 (Arm32bit + Linux ).Application.PLC_PRG.t7DI25` | Входое реле концевика открытого состояния задвижки |
-| `T7LatchOpen9` | Boolean | `|var|PLC210 (Arm32bit + Linux ).Application.PLC_PRG.t7DI27` | Входое реле концевика открытого состояния задвижки |
-| `T7LatchOpen10` | Boolean | `|var|PLC210 (Arm32bit + Linux ).Application.PLC_PRG.t7DI29` | Входое реле концевика открытого состояния задвижки |
-| `T7LatchClose1` | Boolean | `|var|PLC210 (Arm32bit + Linux ).Application.PLC_PRG.t7DI12` | Входое реле концевика закрытого состояния задвижки |
-| `T7LatchClose2` | Boolean | `|var|PLC210 (Arm32bit + Linux ).Application.PLC_PRG.t7DI14` | Входое реле концевика закрытого состояния задвижки |
-| `T7LatchClose3` | Boolean | `|var|PLC210 (Arm32bit + Linux ).Application.PLC_PRG.t7DI16` | Входое реле концевика закрытого состояния задвижки |
-| `T7LatchClose4` | Boolean | `|var|PLC210 (Arm32bit + Linux ).Application.PLC_PRG.t7DI18` | Входое реле концевика закрытого состояния задвижки |
-| `T7LatchClose5` | Boolean | `|var|PLC210 (Arm32bit + Linux ).Application.PLC_PRG.t7DI20` | Входое реле концевика закрытого состояния задвижки |
-| `T7LatchClose6` | Boolean | `|var|PLC210 (Arm32bit + Linux ).Application.PLC_PRG.t7DI22` | Входое реле концевика закрытого состояния задвижки |
-| `T7LatchClose7` | Boolean | `|var|PLC210 (Arm32bit + Linux ).Application.PLC_PRG.t7DI24` | Входое реле концевика закрытого состояния задвижки |
-| `T7LatchClose8` | Boolean | `|var|PLC210 (Arm32bit + Linux ).Application.PLC_PRG.t7DI26` | Входое реле концевика закрытого состояния задвижки |
-| `T7LatchClose9` | Boolean | `|var|PLC210 (Arm32bit + Linux ).Application.PLC_PRG.t7DI28` | Входое реле концевика закрытого состояния задвижки |
-| `T7LatchClose10` | Boolean | `|var|PLC210 (Arm32bit + Linux ).Application.PLC_PRG.t7DI30` | Входое реле концевика закрытого состояния задвижки |
+| `T7LatchOpen1` | Boolean | `t7DI11` | Входое реле концевика открытого состояния задвижки |
+| `T7LatchOpen2` | Boolean | `t7DI13` | Входое реле концевика открытого состояния задвижки |
+| `T7LatchOpen3` | Boolean | `t7DI15` | Входое реле концевика открытого состояния задвижки |
+| `T7LatchOpen4` | Boolean | `t7DI17` | Входое реле концевика открытого состояния задвижки |
+| `T7LatchOpen5` | Boolean | `t7DI19` | Входое реле концевика открытого состояния задвижки |
+| `T7LatchOpen6` | Boolean | `t7DI21` | Входое реле концевика открытого состояния задвижки |
+| `T7LatchOpen7` | Boolean | `t7DI23` | Входое реле концевика открытого состояния задвижки |
+| `T7LatchOpen8` | Boolean | `t7DI25` | Входое реле концевика открытого состояния задвижки |
+| `T7LatchOpen9` | Boolean | `t7DI27` | Входое реле концевика открытого состояния задвижки |
+| `T7LatchOpen10` | Boolean | `t7DI29` | Входое реле концевика открытого состояния задвижки |
+| `T7LatchClose1` | Boolean | `t7DI12` | Входое реле концевика закрытого состояния задвижки |
+| `T7LatchClose2` | Boolean | `t7DI14` | Входое реле концевика закрытого состояния задвижки |
+| `T7LatchClose3` | Boolean | `t7DI16` | Входое реле концевика закрытого состояния задвижки |
+| `T7LatchClose4` | Boolean | `t7DI18` | Входое реле концевика закрытого состояния задвижки |
+| `T7LatchClose5` | Boolean | `t7DI20` | Входое реле концевика закрытого состояния задвижки |
+| `T7LatchClose6` | Boolean | `t7DI22` | Входое реле концевика закрытого состояния задвижки |
+| `T7LatchClose7` | Boolean | `t7DI24` | Входое реле концевика закрытого состояния задвижки |
+| `T7LatchClose8` | Boolean | `t7DI26` | Входое реле концевика закрытого состояния задвижки |
+| `T7LatchClose9` | Boolean | `t7DI28` | Входое реле концевика закрытого состояния задвижки |
+| `T7LatchClose10` | Boolean | `t7DI30` | Входое реле концевика закрытого состояния задвижки |
 
 ## СилКорпус / Входные переменные / Заслонки транспортера номер 4
 
 | Тег | Тип | Привязка | Описание |
 |---|---|---|---|
-| `T4LatchOpen1` | Boolean | `|var|PLC210 (Arm32bit + Linux ).Application.PLC_PRG.t4DI1` | Входое реле концевика открытого состояния задвижки |
-| `T4LatchOpen2` | Boolean | `|var|PLC210 (Arm32bit + Linux ).Application.PLC_PRG.t4DI3` | Входое реле концевика открытого состояния задвижки |
-| `T4LatchOpen3` | Boolean | `|var|PLC210 (Arm32bit + Linux ).Application.PLC_PRG.t4DI5` | Входое реле концевика открытого состояния задвижки |
-| `T4LatchOpen4` | Boolean | `|var|PLC210 (Arm32bit + Linux ).Application.PLC_PRG.t4DI7` | Входое реле концевика открытого состояния задвижки |
-| `T4LatchOpen5` | Boolean | `|var|PLC210 (Arm32bit + Linux ).Application.PLC_PRG.t4DI9` | Входое реле концевика открытого состояния задвижки |
-| `T4LatchOpen6` | Boolean | `|var|PLC210 (Arm32bit + Linux ).Application.PLC_PRG.t4DI11` | Входое реле концевика открытого состояния задвижки |
-| `T4LatchOpen7` | Boolean | `|var|PLC210 (Arm32bit + Linux ).Application.PLC_PRG.t4DI13` | Входое реле концевика открытого состояния задвижки |
-| `T4LatchOpen8` | Boolean | `|var|PLC210 (Arm32bit + Linux ).Application.PLC_PRG.t4DI15` | Входое реле концевика открытого состояния задвижки |
-| `T4LatchOpen9` | Boolean | `|var|PLC210 (Arm32bit + Linux ).Application.PLC_PRG.t4DI17` | Входое реле концевика открытого состояния задвижки |
-| `T4LatchOpen10` | Boolean | `|var|PLC210 (Arm32bit + Linux ).Application.PLC_PRG.t4DI19` | Входое реле концевика открытого состояния задвижки |
-| `T4LatchClose1` | Boolean | `|var|PLC210 (Arm32bit + Linux ).Application.PLC_PRG.t4DI2` | Входое реле концевика закрытого состояния задвижки |
-| `T4LatchClose2` | Boolean | `|var|PLC210 (Arm32bit + Linux ).Application.PLC_PRG.t4DI4` | Входое реле концевика закрытого состояния задвижки |
-| `T4LatchClose3` | Boolean | `|var|PLC210 (Arm32bit + Linux ).Application.PLC_PRG.t4DI6` | Входое реле концевика закрытого состояния задвижки |
-| `T4LatchClose4` | Boolean | `|var|PLC210 (Arm32bit + Linux ).Application.PLC_PRG.t4DI8` | Входое реле концевика закрытого состояния задвижки |
-| `T4LatchClose5` | Boolean | `|var|PLC210 (Arm32bit + Linux ).Application.PLC_PRG.t4DI10` | Входое реле концевика закрытого состояния задвижки |
-| `T4LatchClose6` | Boolean | `|var|PLC210 (Arm32bit + Linux ).Application.PLC_PRG.t4DI12` | Входое реле концевика закрытого состояния задвижки |
-| `T4LatchClose7` | Boolean | `|var|PLC210 (Arm32bit + Linux ).Application.PLC_PRG.t4DI14` | Входое реле концевика закрытого состояния задвижки |
-| `T4LatchClose8` | Boolean | `|var|PLC210 (Arm32bit + Linux ).Application.PLC_PRG.t4DI16` | Входое реле концевика закрытого состояния задвижки |
-| `T4LatchClose9` | Boolean | `|var|PLC210 (Arm32bit + Linux ).Application.PLC_PRG.t4DI18` | Входое реле концевика закрытого состояния задвижки |
-| `T4LatchClose10` | Boolean | `|var|PLC210 (Arm32bit + Linux ).Application.PLC_PRG.t4DI20` | Входое реле концевика закрытого состояния задвижки |
-| `T4ClapLatchOpen1` | Boolean | `|var|PLC210 (Arm32bit + Linux ).Application.PLC_PRG.t41DI1` | Входое реле концевика открытого состояния задвижки |
-| `T4ClapLatchOpen2` | Boolean | `|var|PLC210 (Arm32bit + Linux ).Application.PLC_PRG.t41DI3` | Входое реле концевика открытого состояния задвижки |
-| `T4ClapLatchOpen3` | Boolean | `|var|PLC210 (Arm32bit + Linux ).Application.PLC_PRG.t41DI5` | Входое реле концевика открытого состояния задвижки |
-| `T4ClapLatchOpen4` | Boolean | `|var|PLC210 (Arm32bit + Linux ).Application.PLC_PRG.t41DI7` | Входое реле концевика открытого состояния задвижки |
-| `T4ClapLatchOpen5` | Boolean | `|var|PLC210 (Arm32bit + Linux ).Application.PLC_PRG.t41DI9` | Входое реле концевика открытого состояния задвижки |
-| `T4ClapLatchOpen6` | Boolean | `|var|PLC210 (Arm32bit + Linux ).Application.PLC_PRG.t41DI11` | Входое реле концевика открытого состояния задвижки |
-| `T4ClapLatchOpen7` | Boolean | `|var|PLC210 (Arm32bit + Linux ).Application.PLC_PRG.t41DI13` | Входое реле концевика открытого состояния задвижки |
-| `T4ClapLatchOpen8` | Boolean | `|var|PLC210 (Arm32bit + Linux ).Application.PLC_PRG.t41DI15` | Входое реле концевика открытого состояния задвижки |
-| `T4ClapLatchOpen9` | Boolean | `|var|PLC210 (Arm32bit + Linux ).Application.PLC_PRG.t41DI17` | Входое реле концевика открытого состояния задвижки |
-| `T4ClapLatchOpen10` | Boolean | `|var|PLC210 (Arm32bit + Linux ).Application.PLC_PRG.t41DI19` | Входое реле концевика открытого состояния задвижки |
-| `T4ClapLatchClose1` | Boolean | `|var|PLC210 (Arm32bit + Linux ).Application.PLC_PRG.t41DI2` | Входое реле концевика закрытого состояния задвижки |
-| `T4ClapLatchClose2` | Boolean | `|var|PLC210 (Arm32bit + Linux ).Application.PLC_PRG.t41DI4` | Входое реле концевика закрытого состояния задвижки |
-| `T4ClapLatchClose3` | Boolean | `|var|PLC210 (Arm32bit + Linux ).Application.PLC_PRG.t41DI6` | Входое реле концевика закрытого состояния задвижки |
-| `T4ClapLatchClose4` | Boolean | `|var|PLC210 (Arm32bit + Linux ).Application.PLC_PRG.t41DI8` | Входое реле концевика закрытого состояния задвижки |
-| `T4ClapLatchClose5` | Boolean | `|var|PLC210 (Arm32bit + Linux ).Application.PLC_PRG.t41DI10` | Входое реле концевика закрытого состояния задвижки |
-| `T4ClapLatchClose6` | Boolean | `|var|PLC210 (Arm32bit + Linux ).Application.PLC_PRG.t41DI12` | Входое реле концевика закрытого состояния задвижки |
-| `T4ClapLatchClose7` | Boolean | `|var|PLC210 (Arm32bit + Linux ).Application.PLC_PRG.t41DI14` | Входое реле концевика закрытого состояния задвижки |
-| `T4ClapLatchClose8` | Boolean | `|var|PLC210 (Arm32bit + Linux ).Application.PLC_PRG.t41DI16` | Входое реле концевика закрытого состояния задвижки |
-| `T4ClapLatchClose9` | Boolean | `|var|PLC210 (Arm32bit + Linux ).Application.PLC_PRG.t41DI18` | Входое реле концевика закрытого состояния задвижки |
-| `T4ClapLatchClose10` | Boolean | `|var|PLC210 (Arm32bit + Linux ).Application.PLC_PRG.t41DI20` | Входое реле концевика закрытого состояния задвижки |
+| `T4LatchOpen1` | Boolean | `t4DI1` | Входое реле концевика открытого состояния задвижки |
+| `T4LatchOpen2` | Boolean | `t4DI3` | Входое реле концевика открытого состояния задвижки |
+| `T4LatchOpen3` | Boolean | `t4DI5` | Входое реле концевика открытого состояния задвижки |
+| `T4LatchOpen4` | Boolean | `t4DI7` | Входое реле концевика открытого состояния задвижки |
+| `T4LatchOpen5` | Boolean | `t4DI9` | Входое реле концевика открытого состояния задвижки |
+| `T4LatchOpen6` | Boolean | `t4DI11` | Входое реле концевика открытого состояния задвижки |
+| `T4LatchOpen7` | Boolean | `t4DI13` | Входое реле концевика открытого состояния задвижки |
+| `T4LatchOpen8` | Boolean | `t4DI15` | Входое реле концевика открытого состояния задвижки |
+| `T4LatchOpen9` | Boolean | `t4DI17` | Входое реле концевика открытого состояния задвижки |
+| `T4LatchOpen10` | Boolean | `t4DI19` | Входое реле концевика открытого состояния задвижки |
+| `T4LatchClose1` | Boolean | `t4DI2` | Входое реле концевика закрытого состояния задвижки |
+| `T4LatchClose2` | Boolean | `t4DI4` | Входое реле концевика закрытого состояния задвижки |
+| `T4LatchClose3` | Boolean | `t4DI6` | Входое реле концевика закрытого состояния задвижки |
+| `T4LatchClose4` | Boolean | `t4DI8` | Входое реле концевика закрытого состояния задвижки |
+| `T4LatchClose5` | Boolean | `t4DI10` | Входое реле концевика закрытого состояния задвижки |
+| `T4LatchClose6` | Boolean | `t4DI12` | Входое реле концевика закрытого состояния задвижки |
+| `T4LatchClose7` | Boolean | `t4DI14` | Входое реле концевика закрытого состояния задвижки |
+| `T4LatchClose8` | Boolean | `t4DI16` | Входое реле концевика закрытого состояния задвижки |
+| `T4LatchClose9` | Boolean | `t4DI18` | Входое реле концевика закрытого состояния задвижки |
+| `T4LatchClose10` | Boolean | `t4DI20` | Входое реле концевика закрытого состояния задвижки |
+| `T4ClapLatchOpen1` | Boolean | `t41DI1` | Входое реле концевика открытого состояния задвижки |
+| `T4ClapLatchOpen2` | Boolean | `t41DI3` | Входое реле концевика открытого состояния задвижки |
+| `T4ClapLatchOpen3` | Boolean | `t41DI5` | Входое реле концевика открытого состояния задвижки |
+| `T4ClapLatchOpen4` | Boolean | `t41DI7` | Входое реле концевика открытого состояния задвижки |
+| `T4ClapLatchOpen5` | Boolean | `t41DI9` | Входое реле концевика открытого состояния задвижки |
+| `T4ClapLatchOpen6` | Boolean | `t41DI11` | Входое реле концевика открытого состояния задвижки |
+| `T4ClapLatchOpen7` | Boolean | `t41DI13` | Входое реле концевика открытого состояния задвижки |
+| `T4ClapLatchOpen8` | Boolean | `t41DI15` | Входое реле концевика открытого состояния задвижки |
+| `T4ClapLatchOpen9` | Boolean | `t41DI17` | Входое реле концевика открытого состояния задвижки |
+| `T4ClapLatchOpen10` | Boolean | `t41DI19` | Входое реле концевика открытого состояния задвижки |
+| `T4ClapLatchClose1` | Boolean | `t41DI2` | Входое реле концевика закрытого состояния задвижки |
+| `T4ClapLatchClose2` | Boolean | `t41DI4` | Входое реле концевика закрытого состояния задвижки |
+| `T4ClapLatchClose3` | Boolean | `t41DI6` | Входое реле концевика закрытого состояния задвижки |
+| `T4ClapLatchClose4` | Boolean | `t41DI8` | Входое реле концевика закрытого состояния задвижки |
+| `T4ClapLatchClose5` | Boolean | `t41DI10` | Входое реле концевика закрытого состояния задвижки |
+| `T4ClapLatchClose6` | Boolean | `t41DI12` | Входое реле концевика закрытого состояния задвижки |
+| `T4ClapLatchClose7` | Boolean | `t41DI14` | Входое реле концевика закрытого состояния задвижки |
+| `T4ClapLatchClose8` | Boolean | `t41DI16` | Входое реле концевика закрытого состояния задвижки |
+| `T4ClapLatchClose9` | Boolean | `t41DI18` | Входое реле концевика закрытого состояния задвижки |
+| `T4ClapLatchClose10` | Boolean | `t41DI20` | Входое реле концевика закрытого состояния задвижки |
 
 ## СилКорпус / Входные переменные / Заслонки транспортера номер 5
 
 | Тег | Тип | Привязка | Описание |
 |---|---|---|---|
-| `T5LatchOpen1` | Boolean | `|var|PLC210 (Arm32bit + Linux ).Application.PLC_PRG.t5DI1` | Входое реле концевика открытого состояния задвижки |
-| `T5LatchOpen2` | Boolean | `|var|PLC210 (Arm32bit + Linux ).Application.PLC_PRG.t5DI3` | Входое реле концевика открытого состояния задвижки |
-| `T5LatchOpen3` | Boolean | `|var|PLC210 (Arm32bit + Linux ).Application.PLC_PRG.t5DI5` | Входое реле концевика открытого состояния задвижки |
-| `T5LatchOpen4` | Boolean | `|var|PLC210 (Arm32bit + Linux ).Application.PLC_PRG.t5DI7` | Входое реле концевика открытого состояния задвижки |
-| `T5LatchOpen5` | Boolean | `|var|PLC210 (Arm32bit + Linux ).Application.PLC_PRG.t5DI9` | Входое реле концевика открытого состояния задвижки |
-| `T5LatchOpen6` | Boolean | `|var|PLC210 (Arm32bit + Linux ).Application.PLC_PRG.t5DI11` | Входое реле концевика открытого состояния задвижки |
-| `T5LatchOpen7` | Boolean | `|var|PLC210 (Arm32bit + Linux ).Application.PLC_PRG.t5DI13` | Входое реле концевика открытого состояния задвижки |
-| `T5LatchOpen8` | Boolean | `|var|PLC210 (Arm32bit + Linux ).Application.PLC_PRG.t5DI15` | Входое реле концевика открытого состояния задвижки |
-| `T5LatchClose1` | Boolean | `|var|PLC210 (Arm32bit + Linux ).Application.PLC_PRG.t5DI2` | Входое реле концевика закрытого состояния задвижки |
-| `T5LatchClose2` | Boolean | `|var|PLC210 (Arm32bit + Linux ).Application.PLC_PRG.t5DI4` | Входое реле концевика закрытого состояния задвижки |
-| `T5LatchClose3` | Boolean | `|var|PLC210 (Arm32bit + Linux ).Application.PLC_PRG.t5DI6` | Входое реле концевика закрытого состояния задвижки |
-| `T5LatchClose4` | Boolean | `|var|PLC210 (Arm32bit + Linux ).Application.PLC_PRG.t5DI8` | Входое реле концевика закрытого состояния задвижки |
-| `T5LatchClose5` | Boolean | `|var|PLC210 (Arm32bit + Linux ).Application.PLC_PRG.t5DI10` | Входое реле концевика закрытого состояния задвижки |
-| `T5LatchClose6` | Boolean | `|var|PLC210 (Arm32bit + Linux ).Application.PLC_PRG.t5DI12` | Входое реле концевика закрытого состояния задвижки |
-| `T5LatchClose7` | Boolean | `|var|PLC210 (Arm32bit + Linux ).Application.PLC_PRG.t5DI14` | Входое реле концевика закрытого состояния задвижки |
-| `T5LatchClose8` | Boolean | `|var|PLC210 (Arm32bit + Linux ).Application.PLC_PRG.t5DI16` | Входое реле концевика закрытого состояния задвижки |
-| `T5ClapLatchOpen1` | Boolean | `|var|PLC210 (Arm32bit + Linux ).Application.PLC_PRG.t51DI1` | Входое реле концевика открытого состояния задвижки |
-| `T5ClapLatchOpen2` | Boolean | `|var|PLC210 (Arm32bit + Linux ).Application.PLC_PRG.t51DI3` | Входое реле концевика открытого состояния задвижки |
-| `T5ClapLatchOpen3` | Boolean | `|var|PLC210 (Arm32bit + Linux ).Application.PLC_PRG.t51DI5` | Входое реле концевика открытого состояния задвижки |
-| `T5ClapLatchOpen4` | Boolean | `|var|PLC210 (Arm32bit + Linux ).Application.PLC_PRG.t51DI7` | Входое реле концевика открытого состояния задвижки |
-| `T5ClapLatchOpen5` | Boolean | `|var|PLC210 (Arm32bit + Linux ).Application.PLC_PRG.t51DI9` | Входое реле концевика открытого состояния задвижки |
-| `T5ClapLatchOpen6` | Boolean | `|var|PLC210 (Arm32bit + Linux ).Application.PLC_PRG.t51DI11` | Входое реле концевика открытого состояния задвижки |
-| `T5ClapLatchOpen7` | Boolean | `|var|PLC210 (Arm32bit + Linux ).Application.PLC_PRG.t51DI13` | Входое реле концевика открытого состояния задвижки |
-| `T5ClapLatchOpen8` | Boolean | `|var|PLC210 (Arm32bit + Linux ).Application.PLC_PRG.t51DI15` | Входое реле концевика открытого состояния задвижки |
-| `T5ClapLatchClose1` | Boolean | `|var|PLC210 (Arm32bit + Linux ).Application.PLC_PRG.t51DI2` | Входое реле концевика закрытого состояния задвижки |
-| `T5ClapLatchClose2` | Boolean | `|var|PLC210 (Arm32bit + Linux ).Application.PLC_PRG.t51DI4` | Входое реле концевика закрытого состояния задвижки |
-| `T5ClapLatchClose3` | Boolean | `|var|PLC210 (Arm32bit + Linux ).Application.PLC_PRG.t51DI6` | Входое реле концевика закрытого состояния задвижки |
-| `T5ClapLatchClose4` | Boolean | `|var|PLC210 (Arm32bit + Linux ).Application.PLC_PRG.t51DI8` | Входое реле концевика закрытого состояния задвижки |
-| `T5ClapLatchClose5` | Boolean | `|var|PLC210 (Arm32bit + Linux ).Application.PLC_PRG.t51DI10` | Входое реле концевика закрытого состояния задвижки |
-| `T5ClapLatchClose6` | Boolean | `|var|PLC210 (Arm32bit + Linux ).Application.PLC_PRG.t51DI12` | Входое реле концевика закрытого состояния задвижки |
-| `T5ClapLatchClose7` | Boolean | `|var|PLC210 (Arm32bit + Linux ).Application.PLC_PRG.t51DI14` | Входое реле концевика закрытого состояния задвижки |
-| `T5ClapLatchClose8` | Boolean | `|var|PLC210 (Arm32bit + Linux ).Application.PLC_PRG.t51DI16` | Входое реле концевика закрытого состояния задвижки |
+| `T5LatchOpen1` | Boolean | `t5DI1` | Входое реле концевика открытого состояния задвижки |
+| `T5LatchOpen2` | Boolean | `t5DI3` | Входое реле концевика открытого состояния задвижки |
+| `T5LatchOpen3` | Boolean | `t5DI5` | Входое реле концевика открытого состояния задвижки |
+| `T5LatchOpen4` | Boolean | `t5DI7` | Входое реле концевика открытого состояния задвижки |
+| `T5LatchOpen5` | Boolean | `t5DI9` | Входое реле концевика открытого состояния задвижки |
+| `T5LatchOpen6` | Boolean | `t5DI11` | Входое реле концевика открытого состояния задвижки |
+| `T5LatchOpen7` | Boolean | `t5DI13` | Входое реле концевика открытого состояния задвижки |
+| `T5LatchOpen8` | Boolean | `t5DI15` | Входое реле концевика открытого состояния задвижки |
+| `T5LatchClose1` | Boolean | `t5DI2` | Входое реле концевика закрытого состояния задвижки |
+| `T5LatchClose2` | Boolean | `t5DI4` | Входое реле концевика закрытого состояния задвижки |
+| `T5LatchClose3` | Boolean | `t5DI6` | Входое реле концевика закрытого состояния задвижки |
+| `T5LatchClose4` | Boolean | `t5DI8` | Входое реле концевика закрытого состояния задвижки |
+| `T5LatchClose5` | Boolean | `t5DI10` | Входое реле концевика закрытого состояния задвижки |
+| `T5LatchClose6` | Boolean | `t5DI12` | Входое реле концевика закрытого состояния задвижки |
+| `T5LatchClose7` | Boolean | `t5DI14` | Входое реле концевика закрытого состояния задвижки |
+| `T5LatchClose8` | Boolean | `t5DI16` | Входое реле концевика закрытого состояния задвижки |
+| `T5ClapLatchOpen1` | Boolean | `t51DI1` | Входое реле концевика открытого состояния задвижки |
+| `T5ClapLatchOpen2` | Boolean | `t51DI3` | Входое реле концевика открытого состояния задвижки |
+| `T5ClapLatchOpen3` | Boolean | `t51DI5` | Входое реле концевика открытого состояния задвижки |
+| `T5ClapLatchOpen4` | Boolean | `t51DI7` | Входое реле концевика открытого состояния задвижки |
+| `T5ClapLatchOpen5` | Boolean | `t51DI9` | Входое реле концевика открытого состояния задвижки |
+| `T5ClapLatchOpen6` | Boolean | `t51DI11` | Входое реле концевика открытого состояния задвижки |
+| `T5ClapLatchOpen7` | Boolean | `t51DI13` | Входое реле концевика открытого состояния задвижки |
+| `T5ClapLatchOpen8` | Boolean | `t51DI15` | Входое реле концевика открытого состояния задвижки |
+| `T5ClapLatchClose1` | Boolean | `t51DI2` | Входое реле концевика закрытого состояния задвижки |
+| `T5ClapLatchClose2` | Boolean | `t51DI4` | Входое реле концевика закрытого состояния задвижки |
+| `T5ClapLatchClose3` | Boolean | `t51DI6` | Входое реле концевика закрытого состояния задвижки |
+| `T5ClapLatchClose4` | Boolean | `t51DI8` | Входое реле концевика закрытого состояния задвижки |
+| `T5ClapLatchClose5` | Boolean | `t51DI10` | Входое реле концевика закрытого состояния задвижки |
+| `T5ClapLatchClose6` | Boolean | `t51DI12` | Входое реле концевика закрытого состояния задвижки |
+| `T5ClapLatchClose7` | Boolean | `t51DI14` | Входое реле концевика закрытого состояния задвижки |
+| `T5ClapLatchClose8` | Boolean | `t51DI16` | Входое реле концевика закрытого состояния задвижки |
 
 ## СилКорпус / Входные переменные / Заслонки транспортера номер 1-3
 
 | Тег | Тип | Привязка | Описание |
 |---|---|---|---|
-| `T1LatchOpen1` | Boolean | `|var|PLC210 (Arm32bit + Linux ).Application.PLC_PRG.t1DI1` | Входое реле концевика открытого состояния задвижки |
-| `T1LatchOpen2` | Boolean | `|var|PLC210 (Arm32bit + Linux ).Application.PLC_PRG.t1DI3` | Входое реле концевика открытого состояния задвижки |
-| `T1LatchOpen3` | Boolean | `|var|PLC210 (Arm32bit + Linux ).Application.PLC_PRG.t1DI5` | Входое реле концевика открытого состояния задвижки |
-| `T1LatchOpen4` | Boolean | `|var|PLC210 (Arm32bit + Linux ).Application.PLC_PRG.t1DI7` | Входое реле концевика открытого состояния задвижки |
-| `T1LatchOpen5` | Boolean | `|var|PLC210 (Arm32bit + Linux ).Application.PLC_PRG.t1DI9` | Входое реле концевика открытого состояния задвижки |
-| `T1LatchOpen6` | Boolean | `|var|PLC210 (Arm32bit + Linux ).Application.PLC_PRG.t1DI11` | Входое реле концевика открытого состояния задвижки |
-| `T1LatchOpen7` | Boolean | `|var|PLC210 (Arm32bit + Linux ).Application.PLC_PRG.t1DI13` | Входое реле концевика открытого состояния задвижки |
-| `T1LatchOpen8` | Boolean | `|var|PLC210 (Arm32bit + Linux ).Application.PLC_PRG.t1DI15` | Входое реле концевика открытого состояния задвижки |
-| `T1LatchClose1` | Boolean | `|var|PLC210 (Arm32bit + Linux ).Application.PLC_PRG.t1DI2` | Входое реле концевика закрытого состояния задвижки |
-| `T1LatchClose2` | Boolean | `|var|PLC210 (Arm32bit + Linux ).Application.PLC_PRG.t1DI4` | Входое реле концевика закрытого состояния задвижки |
-| `T1LatchClose3` | Boolean | `|var|PLC210 (Arm32bit + Linux ).Application.PLC_PRG.t1DI6` | Входое реле концевика закрытого состояния задвижки |
-| `T1LatchClose4` | Boolean | `|var|PLC210 (Arm32bit + Linux ).Application.PLC_PRG.t1DI8` | Входое реле концевика закрытого состояния задвижки |
-| `T1LatchClose5` | Boolean | `|var|PLC210 (Arm32bit + Linux ).Application.PLC_PRG.t1DI10` | Входое реле концевика закрытого состояния задвижки |
-| `T1LatchClose6` | Boolean | `|var|PLC210 (Arm32bit + Linux ).Application.PLC_PRG.t1DI12` | Входое реле концевика закрытого состояния задвижки |
-| `T1LatchClose7` | Boolean | `|var|PLC210 (Arm32bit + Linux ).Application.PLC_PRG.t1DI14` | Входое реле концевика закрытого состояния задвижки |
-| `T1LatchClose8` | Boolean | `|var|PLC210 (Arm32bit + Linux ).Application.PLC_PRG.t1DI16` | Входое реле концевика закрытого состояния задвижки |
-| `T1LatchOpen9` | Boolean | `|var|PLC210 (Arm32bit + Linux ).Application.PLC_PRG.t1DI17` | Входое реле концевика открытого состояния задвижки |
-| `T1LatchClose9` | Boolean | `|var|PLC210 (Arm32bit + Linux ).Application.PLC_PRG.t1DI18` | Входое реле концевика закрытого состояния задвижки |
+| `T1LatchOpen1` | Boolean | `t1DI1` | Входое реле концевика открытого состояния задвижки |
+| `T1LatchOpen2` | Boolean | `t1DI3` | Входое реле концевика открытого состояния задвижки |
+| `T1LatchOpen3` | Boolean | `t1DI5` | Входое реле концевика открытого состояния задвижки |
+| `T1LatchOpen4` | Boolean | `t1DI7` | Входое реле концевика открытого состояния задвижки |
+| `T1LatchOpen5` | Boolean | `t1DI9` | Входое реле концевика открытого состояния задвижки |
+| `T1LatchOpen6` | Boolean | `t1DI11` | Входое реле концевика открытого состояния задвижки |
+| `T1LatchOpen7` | Boolean | `t1DI13` | Входое реле концевика открытого состояния задвижки |
+| `T1LatchOpen8` | Boolean | `t1DI15` | Входое реле концевика открытого состояния задвижки |
+| `T1LatchClose1` | Boolean | `t1DI2` | Входое реле концевика закрытого состояния задвижки |
+| `T1LatchClose2` | Boolean | `t1DI4` | Входое реле концевика закрытого состояния задвижки |
+| `T1LatchClose3` | Boolean | `t1DI6` | Входое реле концевика закрытого состояния задвижки |
+| `T1LatchClose4` | Boolean | `t1DI8` | Входое реле концевика закрытого состояния задвижки |
+| `T1LatchClose5` | Boolean | `t1DI10` | Входое реле концевика закрытого состояния задвижки |
+| `T1LatchClose6` | Boolean | `t1DI12` | Входое реле концевика закрытого состояния задвижки |
+| `T1LatchClose7` | Boolean | `t1DI14` | Входое реле концевика закрытого состояния задвижки |
+| `T1LatchClose8` | Boolean | `t1DI16` | Входое реле концевика закрытого состояния задвижки |
+| `T1LatchOpen9` | Boolean | `t1DI17` | Входое реле концевика открытого состояния задвижки |
+| `T1LatchClose9` | Boolean | `t1DI18` | Входое реле концевика закрытого состояния задвижки |
 
 ## СилКорпус / Входные переменные / Переменные телеметрии Частотных преобразователей
 
 | Тег | Тип | Привязка | Описание |
 |---|---|---|---|
-| `T1Power` | Single | `|var|PLC210 (Arm32bit + Linux ).Application.PLC_PRG.t1Power` | Значение потребляемой мощности транспортера |
-| `T2Power` | Single | `|var|PLC210 (Arm32bit + Linux ).Application.PLC_PRG.t2Power` | Значение потребляемой мощности транспортера |
-| `T3Power` | Single | `|var|PLC210 (Arm32bit + Linux ).Application.PLC_PRG.t3Power` | Значение потребляемой мощности транспортера |
-| `T4Power` | Single | `|var|PLC210 (Arm32bit + Linux ).Application.PLC_PRG.t4Power` | Значение потребляемой мощности транспортера |
-| `T5Power` | Single | `|var|PLC210 (Arm32bit + Linux ).Application.PLC_PRG.t5Power` | Значение потребляемой мощности транспортера |
-| `T6Power` | Single | `|var|PLC210 (Arm32bit + Linux ).Application.PLC_PRG.t6Power` | Значение потребляемой мощности транспортера |
-| `T7Power` | Single | `|var|PLC210 (Arm32bit + Linux ).Application.PLC_PRG.t7Power` | Значение потребляемой мощности транспортера |
-| `T1Freq` | Single | `|var|PLC210 (Arm32bit + Linux ).Application.PLC_PRG.t1FreqMonitoring` | Задание частоты для частотного преобразователя транспортера |
-| `T2Freq` | Single | `|var|PLC210 (Arm32bit + Linux ).Application.PLC_PRG.t2FreqMonitoring` | Задание частоты для частотного преобразователя транспортера |
-| `T3Freq` | Single | `|var|PLC210 (Arm32bit + Linux ).Application.PLC_PRG.t3FreqMonitoring` | Задание частоты для частотного преобразователя транспортера |
-| `T4Freq` | Single | `|var|PLC210 (Arm32bit + Linux ).Application.PLC_PRG.t4FreqMonitoring` | Задание частоты для частотного преобразователя транспортера |
-| `T5Freq` | Single | `|var|PLC210 (Arm32bit + Linux ).Application.PLC_PRG.t5FreqMonitoring` | Задание частоты для частотного преобразователя транспортера |
-| `T6Freq` | Single | `|var|PLC210 (Arm32bit + Linux ).Application.PLC_PRG.t6FreqMonitoring` | Задание частоты для частотного преобразователя транспортера |
-| `T7Freq` | Single | `|var|PLC210 (Arm32bit + Linux ).Application.PLC_PRG.t7FreqMonitoring` | Задание частоты для частотного преобразователя транспортера |
+| `T1Power` | Single | `t1Power` | Значение потребляемой мощности транспортера |
+| `T2Power` | Single | `t2Power` | Значение потребляемой мощности транспортера |
+| `T3Power` | Single | `t3Power` | Значение потребляемой мощности транспортера |
+| `T4Power` | Single | `t4Power` | Значение потребляемой мощности транспортера |
+| `T5Power` | Single | `t5Power` | Значение потребляемой мощности транспортера |
+| `T6Power` | Single | `t6Power` | Значение потребляемой мощности транспортера |
+| `T7Power` | Single | `t7Power` | Значение потребляемой мощности транспортера |
+| `T1Freq` | Single | `t1FreqMonitoring` | Задание частоты для частотного преобразователя транспортера |
+| `T2Freq` | Single | `t2FreqMonitoring` | Задание частоты для частотного преобразователя транспортера |
+| `T3Freq` | Single | `t3FreqMonitoring` | Задание частоты для частотного преобразователя транспортера |
+| `T4Freq` | Single | `t4FreqMonitoring` | Задание частоты для частотного преобразователя транспортера |
+| `T5Freq` | Single | `t5FreqMonitoring` | Задание частоты для частотного преобразователя транспортера |
+| `T6Freq` | Single | `t6FreqMonitoring` | Задание частоты для частотного преобразователя транспортера |
+| `T7Freq` | Single | `t7FreqMonitoring` | Задание частоты для частотного преобразователя транспортера |
 
 ## СилКорпус / Таймеры / Нории / Таймеры старта
 

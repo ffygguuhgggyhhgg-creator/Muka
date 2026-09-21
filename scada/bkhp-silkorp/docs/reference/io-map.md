@@ -2,7 +2,7 @@
 
 Привязано 323 тегов из 1419.
 
-* OPC UA `opc.tcp://192.168.40.200:4840` — ОВЕН ПЛК210 (CODESYS, `Application.PLC_PRG.<символ>`)
+* OPC UA `opc.tcp://192.168.40.200:4840` — ОВЕН ПЛК210; полный путь элемента — `|var|PLC210 (Arm32bit + Linux ).Application.PLC_PRG.<символ>`, ниже указан только символ
 * OPC DA `TENSO_OPC_DA2.1` на `localhost` — весовой терминал Тензо-М
 
 | Символ в ПЛК / позиция | Тег SCADA | Тип | Группа |
@@ -32,301 +32,301 @@
 | `L1_D1_S_Stop` | `L1_D1_S_Stop` | Word | СилКорпус / Переменные весового терминала |
 | `L1_D1_S_UnLoad` | `L1_D1_S_UnLoad` | Word | СилКорпус / Переменные весового терминала |
 | `L1_D1_Weight` | `L1_D1_Weight` | Double | СилКорпус / Переменные весового терминала |
-| `|var|PLC210 (Arm32bit + Linux ).Application.PLC_PRG.mi0DI1` | `mi0DI1` | Boolean | ..\ |
-| `|var|PLC210 (Arm32bit + Linux ).Application.PLC_PRG.mi1DI1` | `RelayInForwardT1` | Boolean | СилКорпус / Входные переменные / Транспортеры |
-| `|var|PLC210 (Arm32bit + Linux ).Application.PLC_PRG.mi1DI10` | `RelayInReversT7` | Boolean | СилКорпус / Входные переменные / Транспортеры |
-| `|var|PLC210 (Arm32bit + Linux ).Application.PLC_PRG.mi1DI11` | `RelayInForwardT2` | Boolean | СилКорпус / Входные переменные / Транспортеры |
-| `|var|PLC210 (Arm32bit + Linux ).Application.PLC_PRG.mi1DI12` | `RelayInForwardT3` | Boolean | СилКорпус / Входные переменные / Транспортеры |
-| `|var|PLC210 (Arm32bit + Linux ).Application.PLC_PRG.mi1DI17` | `RelayInN1` | Boolean | СилКорпус / Входные переменные / Нории |
-| `|var|PLC210 (Arm32bit + Linux ).Application.PLC_PRG.mi1DI18` | `RelayInN2` | Boolean | СилКорпус / Входные переменные / Нории |
-| `|var|PLC210 (Arm32bit + Linux ).Application.PLC_PRG.mi1DI19` | `RelayInN3` | Boolean | СилКорпус / Входные переменные / Нории |
-| `|var|PLC210 (Arm32bit + Linux ).Application.PLC_PRG.mi1DI2` | `RelayInReversT1` | Boolean | СилКорпус / Входные переменные / Транспортеры |
-| `|var|PLC210 (Arm32bit + Linux ).Application.PLC_PRG.mi1DI20` | `RelayInN4` | Boolean | СилКорпус / Входные переменные / Нории |
-| `|var|PLC210 (Arm32bit + Linux ).Application.PLC_PRG.mi1DI21` | `RelayInN5` | Boolean | СилКорпус / Входные переменные / Нории |
-| `|var|PLC210 (Arm32bit + Linux ).Application.PLC_PRG.mi1DI22` | `RelayInN6` | Boolean | СилКорпус / Входные переменные / Нории |
-| `|var|PLC210 (Arm32bit + Linux ).Application.PLC_PRG.mi1DI23` | `RelayStopInT1` | Boolean | СилКорпус / Входные переменные / Транспортеры |
-| `|var|PLC210 (Arm32bit + Linux ).Application.PLC_PRG.mi1DI24` | `RelayStopInT4` | Boolean | СилКорпус / Входные переменные / Транспортеры |
-| `|var|PLC210 (Arm32bit + Linux ).Application.PLC_PRG.mi1DI25` | `RelayStopInT5` | Boolean | СилКорпус / Входные переменные / Транспортеры |
-| `|var|PLC210 (Arm32bit + Linux ).Application.PLC_PRG.mi1DI26` | `RelayStopInT6` | Boolean | СилКорпус / Входные переменные / Транспортеры |
-| `|var|PLC210 (Arm32bit + Linux ).Application.PLC_PRG.mi1DI27` | `RelayStopInT7` | Boolean | СилКорпус / Входные переменные / Транспортеры |
-| `|var|PLC210 (Arm32bit + Linux ).Application.PLC_PRG.mi1DI28` | `RelayStopInT2` | Boolean | СилКорпус / Входные переменные / Транспортеры |
-| `|var|PLC210 (Arm32bit + Linux ).Application.PLC_PRG.mi1DI29` | `RelayStopInT3` | Boolean | СилКорпус / Входные переменные / Транспортеры |
-| `|var|PLC210 (Arm32bit + Linux ).Application.PLC_PRG.mi1DI3` | `RelayInForwardT4` | Boolean | СилКорпус / Входные переменные / Транспортеры |
-| `|var|PLC210 (Arm32bit + Linux ).Application.PLC_PRG.mi1DI30` | `RelayStopInN1` | Boolean | СилКорпус / Входные переменные / Нории |
-| `|var|PLC210 (Arm32bit + Linux ).Application.PLC_PRG.mi1DI31` | `RelayStopInN2` | Boolean | СилКорпус / Входные переменные / Нории |
-| `|var|PLC210 (Arm32bit + Linux ).Application.PLC_PRG.mi1DI32` | `RelayStopInN3` | Boolean | СилКорпус / Входные переменные / Нории |
-| `|var|PLC210 (Arm32bit + Linux ).Application.PLC_PRG.mi1DI4` | `RelayInReversT2` | Boolean | СилКорпус / Входные переменные / Транспортеры |
-| `|var|PLC210 (Arm32bit + Linux ).Application.PLC_PRG.mi1DI5` | `RelayInForwardT5` | Boolean | СилКорпус / Входные переменные / Транспортеры |
-| `|var|PLC210 (Arm32bit + Linux ).Application.PLC_PRG.mi1DI6` | `RelayInReversT3` | Boolean | СилКорпус / Входные переменные / Транспортеры |
-| `|var|PLC210 (Arm32bit + Linux ).Application.PLC_PRG.mi1DI6` | `RelayInReversT5` | Boolean | СилКорпус / Входные переменные / Транспортеры |
-| `|var|PLC210 (Arm32bit + Linux ).Application.PLC_PRG.mi1DI7` | `RelayInForwardT6` | Boolean | СилКорпус / Входные переменные / Транспортеры |
-| `|var|PLC210 (Arm32bit + Linux ).Application.PLC_PRG.mi1DI8` | `RelayInReversT6` | Boolean | СилКорпус / Входные переменные / Транспортеры |
-| `|var|PLC210 (Arm32bit + Linux ).Application.PLC_PRG.mi1DI9` | `RelayInForwardT7` | Boolean | СилКорпус / Входные переменные / Транспортеры |
-| `|var|PLC210 (Arm32bit + Linux ).Application.PLC_PRG.mi3DI1` | `RelayStopInN6` | Boolean | СилКорпус / Входные переменные / Нории |
-| `|var|PLC210 (Arm32bit + Linux ).Application.PLC_PRG.mi3DI13` | `RelayAlarmN4` | Boolean | СилКорпус / Входные переменные / Нории |
-| `|var|PLC210 (Arm32bit + Linux ).Application.PLC_PRG.mi3DI14` | `RelayAlarmN1` | Boolean | СилКорпус / Входные переменные / Нории |
-| `|var|PLC210 (Arm32bit + Linux ).Application.PLC_PRG.mi3DI15` | `RelayAlarmN6` | Boolean | СилКорпус / Входные переменные / Нории |
-| `|var|PLC210 (Arm32bit + Linux ).Application.PLC_PRG.mi3DI2` | `RelayStopInN4` | Boolean | СилКорпус / Входные переменные / Нории |
-| `|var|PLC210 (Arm32bit + Linux ).Application.PLC_PRG.mi3DI3` | `RelayStopInN5` | Boolean | СилКорпус / Входные переменные / Нории |
-| `|var|PLC210 (Arm32bit + Linux ).Application.PLC_PRG.mi3DI4` | `RelayInReversT4` | Boolean | СилКорпус / Входные переменные / Транспортеры |
-| `|var|PLC210 (Arm32bit + Linux ).Application.PLC_PRG.mo1DO1` | `RelayOutForwardT1` | Boolean | СилКорпус / Выходные переменные / Транспортеры |
-| `|var|PLC210 (Arm32bit + Linux ).Application.PLC_PRG.mo1DO10` | `RelayOutReversT7` | Boolean | СилКорпус / Выходные переменные / Транспортеры |
-| `|var|PLC210 (Arm32bit + Linux ).Application.PLC_PRG.mo1DO11` | `RelayOutForwardT2` | Boolean | СилКорпус / Выходные переменные / Транспортеры |
-| `|var|PLC210 (Arm32bit + Linux ).Application.PLC_PRG.mo1DO12` | `RelayOutForwardT3` | Boolean | СилКорпус / Выходные переменные / Транспортеры |
-| `|var|PLC210 (Arm32bit + Linux ).Application.PLC_PRG.mo1DO17` | `RelayOutN1` | Boolean | СилКорпус / Выходные переменные / Нории |
-| `|var|PLC210 (Arm32bit + Linux ).Application.PLC_PRG.mo1DO18` | `RelayOutN2` | Boolean | СилКорпус / Выходные переменные / Нории |
-| `|var|PLC210 (Arm32bit + Linux ).Application.PLC_PRG.mo1DO19` | `RelayOutN3` | Boolean | СилКорпус / Выходные переменные / Нории |
-| `|var|PLC210 (Arm32bit + Linux ).Application.PLC_PRG.mo1DO2` | `RelayOutReversT1` | Boolean | СилКорпус / Выходные переменные / Транспортеры |
-| `|var|PLC210 (Arm32bit + Linux ).Application.PLC_PRG.mo1DO20` | `RelayOutN4` | Boolean | СилКорпус / Выходные переменные / Нории |
-| `|var|PLC210 (Arm32bit + Linux ).Application.PLC_PRG.mo1DO21` | `RelayOutN5` | Boolean | СилКорпус / Выходные переменные / Нории |
-| `|var|PLC210 (Arm32bit + Linux ).Application.PLC_PRG.mo1DO22` | `RelayOutN6` | Boolean | СилКорпус / Выходные переменные / Нории |
-| `|var|PLC210 (Arm32bit + Linux ).Application.PLC_PRG.mo1DO3` | `RelayOutForwardT4` | Boolean | СилКорпус / Выходные переменные / Транспортеры |
-| `|var|PLC210 (Arm32bit + Linux ).Application.PLC_PRG.mo1DO32` | `Alarm16Level` | Boolean | СилКорпус / Выходные переменные / Служебные |
-| `|var|PLC210 (Arm32bit + Linux ).Application.PLC_PRG.mo1DO32` | `Alarm1Level` | Integer | СилКорпус / Выходные переменные / Служебные |
-| `|var|PLC210 (Arm32bit + Linux ).Application.PLC_PRG.mo1DO4` | `RelayOutReversT4` | Boolean | СилКорпус / Выходные переменные / Транспортеры |
-| `|var|PLC210 (Arm32bit + Linux ).Application.PLC_PRG.mo1DO5` | `RelayOutForwardT5` | Boolean | СилКорпус / Выходные переменные / Транспортеры |
-| `|var|PLC210 (Arm32bit + Linux ).Application.PLC_PRG.mo1DO6` | `RelayOutReversT5` | Boolean | СилКорпус / Выходные переменные / Транспортеры |
-| `|var|PLC210 (Arm32bit + Linux ).Application.PLC_PRG.mo1DO7` | `RelayOutForwardT6` | Boolean | СилКорпус / Выходные переменные / Транспортеры |
-| `|var|PLC210 (Arm32bit + Linux ).Application.PLC_PRG.mo1DO8` | `RelayOutReversT6` | Boolean | СилКорпус / Выходные переменные / Транспортеры |
-| `|var|PLC210 (Arm32bit + Linux ).Application.PLC_PRG.mo1DO9` | `RelayOutForwardT7` | Boolean | СилКорпус / Выходные переменные / Транспортеры |
-| `|var|PLC210 (Arm32bit + Linux ).Application.PLC_PRG.t1DI1` | `T1LatchOpen1` | Boolean | СилКорпус / Входные переменные / Заслонки транспортера номер 1-3 |
-| `|var|PLC210 (Arm32bit + Linux ).Application.PLC_PRG.t1DI10` | `T1LatchClose5` | Boolean | СилКорпус / Входные переменные / Заслонки транспортера номер 1-3 |
-| `|var|PLC210 (Arm32bit + Linux ).Application.PLC_PRG.t1DI11` | `T1LatchOpen6` | Boolean | СилКорпус / Входные переменные / Заслонки транспортера номер 1-3 |
-| `|var|PLC210 (Arm32bit + Linux ).Application.PLC_PRG.t1DI12` | `T1LatchClose6` | Boolean | СилКорпус / Входные переменные / Заслонки транспортера номер 1-3 |
-| `|var|PLC210 (Arm32bit + Linux ).Application.PLC_PRG.t1DI13` | `T1LatchOpen7` | Boolean | СилКорпус / Входные переменные / Заслонки транспортера номер 1-3 |
-| `|var|PLC210 (Arm32bit + Linux ).Application.PLC_PRG.t1DI14` | `T1LatchClose7` | Boolean | СилКорпус / Входные переменные / Заслонки транспортера номер 1-3 |
-| `|var|PLC210 (Arm32bit + Linux ).Application.PLC_PRG.t1DI15` | `T1LatchOpen8` | Boolean | СилКорпус / Входные переменные / Заслонки транспортера номер 1-3 |
-| `|var|PLC210 (Arm32bit + Linux ).Application.PLC_PRG.t1DI16` | `T1LatchClose8` | Boolean | СилКорпус / Входные переменные / Заслонки транспортера номер 1-3 |
-| `|var|PLC210 (Arm32bit + Linux ).Application.PLC_PRG.t1DI17` | `T1LatchOpen9` | Boolean | СилКорпус / Входные переменные / Заслонки транспортера номер 1-3 |
-| `|var|PLC210 (Arm32bit + Linux ).Application.PLC_PRG.t1DI18` | `T1LatchClose9` | Boolean | СилКорпус / Входные переменные / Заслонки транспортера номер 1-3 |
-| `|var|PLC210 (Arm32bit + Linux ).Application.PLC_PRG.t1DI2` | `T1LatchClose1` | Boolean | СилКорпус / Входные переменные / Заслонки транспортера номер 1-3 |
-| `|var|PLC210 (Arm32bit + Linux ).Application.PLC_PRG.t1DI21` | `MembSensorAT1` | Boolean | СилКорпус / Входные переменные / Транспортеры |
-| `|var|PLC210 (Arm32bit + Linux ).Application.PLC_PRG.t1DI22` | `MembSensorAT2` | Boolean | СилКорпус / Входные переменные / Транспортеры |
-| `|var|PLC210 (Arm32bit + Linux ).Application.PLC_PRG.t1DI22` | `MembSensorAT3` | Boolean | СилКорпус / Входные переменные / Транспортеры |
-| `|var|PLC210 (Arm32bit + Linux ).Application.PLC_PRG.t1DI3` | `T1LatchOpen2` | Boolean | СилКорпус / Входные переменные / Заслонки транспортера номер 1-3 |
-| `|var|PLC210 (Arm32bit + Linux ).Application.PLC_PRG.t1DI4` | `T1LatchClose2` | Boolean | СилКорпус / Входные переменные / Заслонки транспортера номер 1-3 |
-| `|var|PLC210 (Arm32bit + Linux ).Application.PLC_PRG.t1DI5` | `T1LatchOpen3` | Boolean | СилКорпус / Входные переменные / Заслонки транспортера номер 1-3 |
-| `|var|PLC210 (Arm32bit + Linux ).Application.PLC_PRG.t1DI6` | `T1LatchClose3` | Boolean | СилКорпус / Входные переменные / Заслонки транспортера номер 1-3 |
-| `|var|PLC210 (Arm32bit + Linux ).Application.PLC_PRG.t1DI7` | `T1LatchOpen4` | Boolean | СилКорпус / Входные переменные / Заслонки транспортера номер 1-3 |
-| `|var|PLC210 (Arm32bit + Linux ).Application.PLC_PRG.t1DI8` | `T1LatchClose4` | Boolean | СилКорпус / Входные переменные / Заслонки транспортера номер 1-3 |
-| `|var|PLC210 (Arm32bit + Linux ).Application.PLC_PRG.t1DI9` | `T1LatchOpen5` | Boolean | СилКорпус / Входные переменные / Заслонки транспортера номер 1-3 |
-| `|var|PLC210 (Arm32bit + Linux ).Application.PLC_PRG.t1DO1` | `T1LatchSelect1` | Boolean | СилКорпус / Выходные переменные / Заслонки транспортера номер 1-3 |
-| `|var|PLC210 (Arm32bit + Linux ).Application.PLC_PRG.t1DO11` | `T1LatchRunOpen` | Boolean | СилКорпус / Выходные переменные / Заслонки транспортера номер 1-3 |
-| `|var|PLC210 (Arm32bit + Linux ).Application.PLC_PRG.t1DO12` | `T1LatchRunClose` | Boolean | СилКорпус / Выходные переменные / Заслонки транспортера номер 1-3 |
-| `|var|PLC210 (Arm32bit + Linux ).Application.PLC_PRG.t1DO2` | `T1LatchSelect2` | Boolean | СилКорпус / Выходные переменные / Заслонки транспортера номер 1-3 |
-| `|var|PLC210 (Arm32bit + Linux ).Application.PLC_PRG.t1DO3` | `T1LatchSelect3` | Boolean | СилКорпус / Выходные переменные / Заслонки транспортера номер 1-3 |
-| `|var|PLC210 (Arm32bit + Linux ).Application.PLC_PRG.t1DO4` | `T1LatchSelect4` | Boolean | СилКорпус / Выходные переменные / Заслонки транспортера номер 1-3 |
-| `|var|PLC210 (Arm32bit + Linux ).Application.PLC_PRG.t1DO5` | `T1LatchSelect5` | Boolean | СилКорпус / Выходные переменные / Заслонки транспортера номер 1-3 |
-| `|var|PLC210 (Arm32bit + Linux ).Application.PLC_PRG.t1DO6` | `T1LatchSelect6` | Boolean | СилКорпус / Выходные переменные / Заслонки транспортера номер 1-3 |
-| `|var|PLC210 (Arm32bit + Linux ).Application.PLC_PRG.t1DO7` | `T1LatchSelect7` | Boolean | СилКорпус / Выходные переменные / Заслонки транспортера номер 1-3 |
-| `|var|PLC210 (Arm32bit + Linux ).Application.PLC_PRG.t1DO8` | `T1LatchSelect8` | Boolean | СилКорпус / Выходные переменные / Заслонки транспортера номер 1-3 |
-| `|var|PLC210 (Arm32bit + Linux ).Application.PLC_PRG.t1DO9` | `T1LatchSelect9` | Boolean | СилКорпус / Выходные переменные / Заслонки транспортера номер 1-3 |
-| `|var|PLC210 (Arm32bit + Linux ).Application.PLC_PRG.t1Freq` | `T1FreqToPLC` | Single | СилКорпус / Выходные переменные / Задание частоты ЧП транспортеров |
-| `|var|PLC210 (Arm32bit + Linux ).Application.PLC_PRG.t1FreqMonitoring` | `T1Freq` | Single | СилКорпус / Входные переменные / Переменные телеметрии Частотных преобразователей |
-| `|var|PLC210 (Arm32bit + Linux ).Application.PLC_PRG.t1Power` | `T1Power` | Single | СилКорпус / Входные переменные / Переменные телеметрии Частотных преобразователей |
-| `|var|PLC210 (Arm32bit + Linux ).Application.PLC_PRG.t2Freq` | `T2FreqToPLC` | Single | СилКорпус / Выходные переменные / Задание частоты ЧП транспортеров |
-| `|var|PLC210 (Arm32bit + Linux ).Application.PLC_PRG.t2FreqMonitoring` | `T2Freq` | Single | СилКорпус / Входные переменные / Переменные телеметрии Частотных преобразователей |
-| `|var|PLC210 (Arm32bit + Linux ).Application.PLC_PRG.t2Power` | `T2Power` | Single | СилКорпус / Входные переменные / Переменные телеметрии Частотных преобразователей |
-| `|var|PLC210 (Arm32bit + Linux ).Application.PLC_PRG.t3Freq` | `T3FreqToPLC` | Single | СилКорпус / Выходные переменные / Задание частоты ЧП транспортеров |
-| `|var|PLC210 (Arm32bit + Linux ).Application.PLC_PRG.t3FreqMonitoring` | `T3Freq` | Single | СилКорпус / Входные переменные / Переменные телеметрии Частотных преобразователей |
-| `|var|PLC210 (Arm32bit + Linux ).Application.PLC_PRG.t3Power` | `T3Power` | Single | СилКорпус / Входные переменные / Переменные телеметрии Частотных преобразователей |
-| `|var|PLC210 (Arm32bit + Linux ).Application.PLC_PRG.t41DI1` | `T4ClapLatchOpen1` | Boolean | СилКорпус / Входные переменные / Заслонки транспортера номер 4 |
-| `|var|PLC210 (Arm32bit + Linux ).Application.PLC_PRG.t41DI10` | `T4ClapLatchClose5` | Boolean | СилКорпус / Входные переменные / Заслонки транспортера номер 4 |
-| `|var|PLC210 (Arm32bit + Linux ).Application.PLC_PRG.t41DI11` | `T4ClapLatchOpen6` | Boolean | СилКорпус / Входные переменные / Заслонки транспортера номер 4 |
-| `|var|PLC210 (Arm32bit + Linux ).Application.PLC_PRG.t41DI12` | `T4ClapLatchClose6` | Boolean | СилКорпус / Входные переменные / Заслонки транспортера номер 4 |
-| `|var|PLC210 (Arm32bit + Linux ).Application.PLC_PRG.t41DI13` | `T4ClapLatchOpen7` | Boolean | СилКорпус / Входные переменные / Заслонки транспортера номер 4 |
-| `|var|PLC210 (Arm32bit + Linux ).Application.PLC_PRG.t41DI14` | `T4ClapLatchClose7` | Boolean | СилКорпус / Входные переменные / Заслонки транспортера номер 4 |
-| `|var|PLC210 (Arm32bit + Linux ).Application.PLC_PRG.t41DI15` | `T4ClapLatchOpen8` | Boolean | СилКорпус / Входные переменные / Заслонки транспортера номер 4 |
-| `|var|PLC210 (Arm32bit + Linux ).Application.PLC_PRG.t41DI16` | `T4ClapLatchClose8` | Boolean | СилКорпус / Входные переменные / Заслонки транспортера номер 4 |
-| `|var|PLC210 (Arm32bit + Linux ).Application.PLC_PRG.t41DI17` | `T4ClapLatchOpen9` | Boolean | СилКорпус / Входные переменные / Заслонки транспортера номер 4 |
-| `|var|PLC210 (Arm32bit + Linux ).Application.PLC_PRG.t41DI18` | `T4ClapLatchClose9` | Boolean | СилКорпус / Входные переменные / Заслонки транспортера номер 4 |
-| `|var|PLC210 (Arm32bit + Linux ).Application.PLC_PRG.t41DI19` | `T4ClapLatchOpen10` | Boolean | СилКорпус / Входные переменные / Заслонки транспортера номер 4 |
-| `|var|PLC210 (Arm32bit + Linux ).Application.PLC_PRG.t41DI2` | `T4ClapLatchClose1` | Boolean | СилКорпус / Входные переменные / Заслонки транспортера номер 4 |
-| `|var|PLC210 (Arm32bit + Linux ).Application.PLC_PRG.t41DI20` | `T4ClapLatchClose10` | Boolean | СилКорпус / Входные переменные / Заслонки транспортера номер 4 |
-| `|var|PLC210 (Arm32bit + Linux ).Application.PLC_PRG.t41DI3` | `T4ClapLatchOpen2` | Boolean | СилКорпус / Входные переменные / Заслонки транспортера номер 4 |
-| `|var|PLC210 (Arm32bit + Linux ).Application.PLC_PRG.t41DI4` | `T4ClapLatchClose2` | Boolean | СилКорпус / Входные переменные / Заслонки транспортера номер 4 |
-| `|var|PLC210 (Arm32bit + Linux ).Application.PLC_PRG.t41DI5` | `T4ClapLatchOpen3` | Boolean | СилКорпус / Входные переменные / Заслонки транспортера номер 4 |
-| `|var|PLC210 (Arm32bit + Linux ).Application.PLC_PRG.t41DI6` | `T4ClapLatchClose3` | Boolean | СилКорпус / Входные переменные / Заслонки транспортера номер 4 |
-| `|var|PLC210 (Arm32bit + Linux ).Application.PLC_PRG.t41DI7` | `T4ClapLatchOpen4` | Boolean | СилКорпус / Входные переменные / Заслонки транспортера номер 4 |
-| `|var|PLC210 (Arm32bit + Linux ).Application.PLC_PRG.t41DI8` | `T4ClapLatchClose4` | Boolean | СилКорпус / Входные переменные / Заслонки транспортера номер 4 |
-| `|var|PLC210 (Arm32bit + Linux ).Application.PLC_PRG.t41DI9` | `T4ClapLatchOpen5` | Boolean | СилКорпус / Входные переменные / Заслонки транспортера номер 4 |
-| `|var|PLC210 (Arm32bit + Linux ).Application.PLC_PRG.t41DO1` | `T4ClapLatchSelect1` | Boolean | СилКорпус / Выходные переменные / Заслонки транспортера номер 4 |
-| `|var|PLC210 (Arm32bit + Linux ).Application.PLC_PRG.t41DO10` | `T4ClapLatchSelect10` | Boolean | СилКорпус / Выходные переменные / Заслонки транспортера номер 4 |
-| `|var|PLC210 (Arm32bit + Linux ).Application.PLC_PRG.t41DO11` | `T4ClapLatchRunOpen` | Boolean | СилКорпус / Выходные переменные / Заслонки транспортера номер 4 |
-| `|var|PLC210 (Arm32bit + Linux ).Application.PLC_PRG.t41DO12` | `T4ClapLatchRunClose` | Boolean | СилКорпус / Выходные переменные / Заслонки транспортера номер 4 |
-| `|var|PLC210 (Arm32bit + Linux ).Application.PLC_PRG.t41DO2` | `T4ClapLatchSelect2` | Boolean | СилКорпус / Выходные переменные / Заслонки транспортера номер 4 |
-| `|var|PLC210 (Arm32bit + Linux ).Application.PLC_PRG.t41DO3` | `T4ClapLatchSelect3` | Boolean | СилКорпус / Выходные переменные / Заслонки транспортера номер 4 |
-| `|var|PLC210 (Arm32bit + Linux ).Application.PLC_PRG.t41DO4` | `T4ClapLatchSelect4` | Boolean | СилКорпус / Выходные переменные / Заслонки транспортера номер 4 |
-| `|var|PLC210 (Arm32bit + Linux ).Application.PLC_PRG.t41DO5` | `T4ClapLatchSelect5` | Boolean | СилКорпус / Выходные переменные / Заслонки транспортера номер 4 |
-| `|var|PLC210 (Arm32bit + Linux ).Application.PLC_PRG.t41DO6` | `T4ClapLatchSelect6` | Boolean | СилКорпус / Выходные переменные / Заслонки транспортера номер 4 |
-| `|var|PLC210 (Arm32bit + Linux ).Application.PLC_PRG.t41DO7` | `T4ClapLatchSelect7` | Boolean | СилКорпус / Выходные переменные / Заслонки транспортера номер 4 |
-| `|var|PLC210 (Arm32bit + Linux ).Application.PLC_PRG.t41DO8` | `T4ClapLatchSelect8` | Boolean | СилКорпус / Выходные переменные / Заслонки транспортера номер 4 |
-| `|var|PLC210 (Arm32bit + Linux ).Application.PLC_PRG.t41DO9` | `T4ClapLatchSelect9` | Boolean | СилКорпус / Выходные переменные / Заслонки транспортера номер 4 |
-| `|var|PLC210 (Arm32bit + Linux ).Application.PLC_PRG.t4DI1` | `T4LatchOpen1` | Boolean | СилКорпус / Входные переменные / Заслонки транспортера номер 4 |
-| `|var|PLC210 (Arm32bit + Linux ).Application.PLC_PRG.t4DI10` | `T4LatchClose5` | Boolean | СилКорпус / Входные переменные / Заслонки транспортера номер 4 |
-| `|var|PLC210 (Arm32bit + Linux ).Application.PLC_PRG.t4DI11` | `T4LatchOpen6` | Boolean | СилКорпус / Входные переменные / Заслонки транспортера номер 4 |
-| `|var|PLC210 (Arm32bit + Linux ).Application.PLC_PRG.t4DI12` | `T4LatchClose6` | Boolean | СилКорпус / Входные переменные / Заслонки транспортера номер 4 |
-| `|var|PLC210 (Arm32bit + Linux ).Application.PLC_PRG.t4DI13` | `T4LatchOpen7` | Boolean | СилКорпус / Входные переменные / Заслонки транспортера номер 4 |
-| `|var|PLC210 (Arm32bit + Linux ).Application.PLC_PRG.t4DI14` | `T4LatchClose7` | Boolean | СилКорпус / Входные переменные / Заслонки транспортера номер 4 |
-| `|var|PLC210 (Arm32bit + Linux ).Application.PLC_PRG.t4DI15` | `T4LatchOpen8` | Boolean | СилКорпус / Входные переменные / Заслонки транспортера номер 4 |
-| `|var|PLC210 (Arm32bit + Linux ).Application.PLC_PRG.t4DI16` | `T4LatchClose8` | Boolean | СилКорпус / Входные переменные / Заслонки транспортера номер 4 |
-| `|var|PLC210 (Arm32bit + Linux ).Application.PLC_PRG.t4DI17` | `T4LatchOpen9` | Boolean | СилКорпус / Входные переменные / Заслонки транспортера номер 4 |
-| `|var|PLC210 (Arm32bit + Linux ).Application.PLC_PRG.t4DI18` | `T4LatchClose9` | Boolean | СилКорпус / Входные переменные / Заслонки транспортера номер 4 |
-| `|var|PLC210 (Arm32bit + Linux ).Application.PLC_PRG.t4DI19` | `T4LatchOpen10` | Boolean | СилКорпус / Входные переменные / Заслонки транспортера номер 4 |
-| `|var|PLC210 (Arm32bit + Linux ).Application.PLC_PRG.t4DI2` | `T4LatchClose1` | Boolean | СилКорпус / Входные переменные / Заслонки транспортера номер 4 |
-| `|var|PLC210 (Arm32bit + Linux ).Application.PLC_PRG.t4DI20` | `T4LatchClose10` | Boolean | СилКорпус / Входные переменные / Заслонки транспортера номер 4 |
-| `|var|PLC210 (Arm32bit + Linux ).Application.PLC_PRG.t4DI21` | `MembSensorAT4` | Boolean | СилКорпус / Входные переменные / Транспортеры |
-| `|var|PLC210 (Arm32bit + Linux ).Application.PLC_PRG.t4DI22` | `MembSensorBT4` | Boolean | СилКорпус / Входные переменные / Транспортеры |
-| `|var|PLC210 (Arm32bit + Linux ).Application.PLC_PRG.t4DI3` | `T4LatchOpen2` | Boolean | СилКорпус / Входные переменные / Заслонки транспортера номер 4 |
-| `|var|PLC210 (Arm32bit + Linux ).Application.PLC_PRG.t4DI4` | `T4LatchClose2` | Boolean | СилКорпус / Входные переменные / Заслонки транспортера номер 4 |
-| `|var|PLC210 (Arm32bit + Linux ).Application.PLC_PRG.t4DI5` | `T4LatchOpen3` | Boolean | СилКорпус / Входные переменные / Заслонки транспортера номер 4 |
-| `|var|PLC210 (Arm32bit + Linux ).Application.PLC_PRG.t4DI6` | `T4LatchClose3` | Boolean | СилКорпус / Входные переменные / Заслонки транспортера номер 4 |
-| `|var|PLC210 (Arm32bit + Linux ).Application.PLC_PRG.t4DI7` | `T4LatchOpen4` | Boolean | СилКорпус / Входные переменные / Заслонки транспортера номер 4 |
-| `|var|PLC210 (Arm32bit + Linux ).Application.PLC_PRG.t4DI8` | `T4LatchClose4` | Boolean | СилКорпус / Входные переменные / Заслонки транспортера номер 4 |
-| `|var|PLC210 (Arm32bit + Linux ).Application.PLC_PRG.t4DI9` | `T4LatchOpen5` | Boolean | СилКорпус / Входные переменные / Заслонки транспортера номер 4 |
-| `|var|PLC210 (Arm32bit + Linux ).Application.PLC_PRG.t4DO1` | `T4LatchSelect1` | Boolean | СилКорпус / Выходные переменные / Заслонки транспортера номер 4 |
-| `|var|PLC210 (Arm32bit + Linux ).Application.PLC_PRG.t4DO10` | `T4LatchSelect10` | Boolean | СилКорпус / Выходные переменные / Заслонки транспортера номер 4 |
-| `|var|PLC210 (Arm32bit + Linux ).Application.PLC_PRG.t4DO11` | `T4LatchRunOpen` | Boolean | СилКорпус / Выходные переменные / Заслонки транспортера номер 4 |
-| `|var|PLC210 (Arm32bit + Linux ).Application.PLC_PRG.t4DO12` | `T4LatchRunClose` | Boolean | СилКорпус / Выходные переменные / Заслонки транспортера номер 4 |
-| `|var|PLC210 (Arm32bit + Linux ).Application.PLC_PRG.t4DO2` | `T4LatchSelect2` | Boolean | СилКорпус / Выходные переменные / Заслонки транспортера номер 4 |
-| `|var|PLC210 (Arm32bit + Linux ).Application.PLC_PRG.t4DO3` | `T4LatchSelect3` | Boolean | СилКорпус / Выходные переменные / Заслонки транспортера номер 4 |
-| `|var|PLC210 (Arm32bit + Linux ).Application.PLC_PRG.t4DO4` | `T4LatchSelect4` | Boolean | СилКорпус / Выходные переменные / Заслонки транспортера номер 4 |
-| `|var|PLC210 (Arm32bit + Linux ).Application.PLC_PRG.t4DO5` | `T4LatchSelect5` | Boolean | СилКорпус / Выходные переменные / Заслонки транспортера номер 4 |
-| `|var|PLC210 (Arm32bit + Linux ).Application.PLC_PRG.t4DO6` | `T4LatchSelect6` | Boolean | СилКорпус / Выходные переменные / Заслонки транспортера номер 4 |
-| `|var|PLC210 (Arm32bit + Linux ).Application.PLC_PRG.t4DO7` | `T4LatchSelect7` | Boolean | СилКорпус / Выходные переменные / Заслонки транспортера номер 4 |
-| `|var|PLC210 (Arm32bit + Linux ).Application.PLC_PRG.t4DO8` | `T4LatchSelect8` | Boolean | СилКорпус / Выходные переменные / Заслонки транспортера номер 4 |
-| `|var|PLC210 (Arm32bit + Linux ).Application.PLC_PRG.t4DO9` | `T4LatchSelect9` | Boolean | СилКорпус / Выходные переменные / Заслонки транспортера номер 4 |
-| `|var|PLC210 (Arm32bit + Linux ).Application.PLC_PRG.t4Freq` | `T4FreqToPLC` | Single | СилКорпус / Выходные переменные / Задание частоты ЧП транспортеров |
-| `|var|PLC210 (Arm32bit + Linux ).Application.PLC_PRG.t4FreqMonitoring` | `T4Freq` | Single | СилКорпус / Входные переменные / Переменные телеметрии Частотных преобразователей |
-| `|var|PLC210 (Arm32bit + Linux ).Application.PLC_PRG.t4Power` | `T4Power` | Single | СилКорпус / Входные переменные / Переменные телеметрии Частотных преобразователей |
-| `|var|PLC210 (Arm32bit + Linux ).Application.PLC_PRG.t51DI1` | `T5ClapLatchOpen1` | Boolean | СилКорпус / Входные переменные / Заслонки транспортера номер 5 |
-| `|var|PLC210 (Arm32bit + Linux ).Application.PLC_PRG.t51DI10` | `T5ClapLatchClose5` | Boolean | СилКорпус / Входные переменные / Заслонки транспортера номер 5 |
-| `|var|PLC210 (Arm32bit + Linux ).Application.PLC_PRG.t51DI11` | `T5ClapLatchOpen6` | Boolean | СилКорпус / Входные переменные / Заслонки транспортера номер 5 |
-| `|var|PLC210 (Arm32bit + Linux ).Application.PLC_PRG.t51DI12` | `T5ClapLatchClose6` | Boolean | СилКорпус / Входные переменные / Заслонки транспортера номер 5 |
-| `|var|PLC210 (Arm32bit + Linux ).Application.PLC_PRG.t51DI13` | `T5ClapLatchOpen7` | Boolean | СилКорпус / Входные переменные / Заслонки транспортера номер 5 |
-| `|var|PLC210 (Arm32bit + Linux ).Application.PLC_PRG.t51DI14` | `T5ClapLatchClose7` | Boolean | СилКорпус / Входные переменные / Заслонки транспортера номер 5 |
-| `|var|PLC210 (Arm32bit + Linux ).Application.PLC_PRG.t51DI15` | `T5ClapLatchOpen8` | Boolean | СилКорпус / Входные переменные / Заслонки транспортера номер 5 |
-| `|var|PLC210 (Arm32bit + Linux ).Application.PLC_PRG.t51DI16` | `T5ClapLatchClose8` | Boolean | СилКорпус / Входные переменные / Заслонки транспортера номер 5 |
-| `|var|PLC210 (Arm32bit + Linux ).Application.PLC_PRG.t51DI2` | `T5ClapLatchClose1` | Boolean | СилКорпус / Входные переменные / Заслонки транспортера номер 5 |
-| `|var|PLC210 (Arm32bit + Linux ).Application.PLC_PRG.t51DI3` | `T5ClapLatchOpen2` | Boolean | СилКорпус / Входные переменные / Заслонки транспортера номер 5 |
-| `|var|PLC210 (Arm32bit + Linux ).Application.PLC_PRG.t51DI4` | `T5ClapLatchClose2` | Boolean | СилКорпус / Входные переменные / Заслонки транспортера номер 5 |
-| `|var|PLC210 (Arm32bit + Linux ).Application.PLC_PRG.t51DI5` | `T5ClapLatchOpen3` | Boolean | СилКорпус / Входные переменные / Заслонки транспортера номер 5 |
-| `|var|PLC210 (Arm32bit + Linux ).Application.PLC_PRG.t51DI6` | `T5ClapLatchClose3` | Boolean | СилКорпус / Входные переменные / Заслонки транспортера номер 5 |
-| `|var|PLC210 (Arm32bit + Linux ).Application.PLC_PRG.t51DI7` | `T5ClapLatchOpen4` | Boolean | СилКорпус / Входные переменные / Заслонки транспортера номер 5 |
-| `|var|PLC210 (Arm32bit + Linux ).Application.PLC_PRG.t51DI8` | `T5ClapLatchClose4` | Boolean | СилКорпус / Входные переменные / Заслонки транспортера номер 5 |
-| `|var|PLC210 (Arm32bit + Linux ).Application.PLC_PRG.t51DI9` | `T5ClapLatchOpen5` | Boolean | СилКорпус / Входные переменные / Заслонки транспортера номер 5 |
-| `|var|PLC210 (Arm32bit + Linux ).Application.PLC_PRG.t51DO1` | `T5ClapLatchSelect1` | Boolean | СилКорпус / Выходные переменные / Заслонки транспортера номер 5 |
-| `|var|PLC210 (Arm32bit + Linux ).Application.PLC_PRG.t51DO11` | `T5ClapLatchRunOpen` | Boolean | СилКорпус / Выходные переменные / Заслонки транспортера номер 5 |
-| `|var|PLC210 (Arm32bit + Linux ).Application.PLC_PRG.t51DO12` | `T5ClapLatchRunClose` | Boolean | СилКорпус / Выходные переменные / Заслонки транспортера номер 5 |
-| `|var|PLC210 (Arm32bit + Linux ).Application.PLC_PRG.t51DO2` | `T5ClapLatchSelect2` | Boolean | СилКорпус / Выходные переменные / Заслонки транспортера номер 5 |
-| `|var|PLC210 (Arm32bit + Linux ).Application.PLC_PRG.t51DO3` | `T5ClapLatchSelect3` | Boolean | СилКорпус / Выходные переменные / Заслонки транспортера номер 5 |
-| `|var|PLC210 (Arm32bit + Linux ).Application.PLC_PRG.t51DO4` | `T5ClapLatchSelect4` | Boolean | СилКорпус / Выходные переменные / Заслонки транспортера номер 5 |
-| `|var|PLC210 (Arm32bit + Linux ).Application.PLC_PRG.t51DO5` | `T5ClapLatchSelect5` | Boolean | СилКорпус / Выходные переменные / Заслонки транспортера номер 5 |
-| `|var|PLC210 (Arm32bit + Linux ).Application.PLC_PRG.t51DO6` | `T5ClapLatchSelect6` | Boolean | СилКорпус / Выходные переменные / Заслонки транспортера номер 5 |
-| `|var|PLC210 (Arm32bit + Linux ).Application.PLC_PRG.t51DO7` | `T5ClapLatchSelect7` | Boolean | СилКорпус / Выходные переменные / Заслонки транспортера номер 5 |
-| `|var|PLC210 (Arm32bit + Linux ).Application.PLC_PRG.t51DO8` | `T5ClapLatchSelect8` | Boolean | СилКорпус / Выходные переменные / Заслонки транспортера номер 5 |
-| `|var|PLC210 (Arm32bit + Linux ).Application.PLC_PRG.t5DI1` | `T5LatchOpen1` | Boolean | СилКорпус / Входные переменные / Заслонки транспортера номер 5 |
-| `|var|PLC210 (Arm32bit + Linux ).Application.PLC_PRG.t5DI10` | `T5LatchClose5` | Boolean | СилКорпус / Входные переменные / Заслонки транспортера номер 5 |
-| `|var|PLC210 (Arm32bit + Linux ).Application.PLC_PRG.t5DI11` | `T5LatchOpen6` | Boolean | СилКорпус / Входные переменные / Заслонки транспортера номер 5 |
-| `|var|PLC210 (Arm32bit + Linux ).Application.PLC_PRG.t5DI12` | `T5LatchClose6` | Boolean | СилКорпус / Входные переменные / Заслонки транспортера номер 5 |
-| `|var|PLC210 (Arm32bit + Linux ).Application.PLC_PRG.t5DI13` | `T5LatchOpen7` | Boolean | СилКорпус / Входные переменные / Заслонки транспортера номер 5 |
-| `|var|PLC210 (Arm32bit + Linux ).Application.PLC_PRG.t5DI14` | `T5LatchClose7` | Boolean | СилКорпус / Входные переменные / Заслонки транспортера номер 5 |
-| `|var|PLC210 (Arm32bit + Linux ).Application.PLC_PRG.t5DI15` | `T5LatchOpen8` | Boolean | СилКорпус / Входные переменные / Заслонки транспортера номер 5 |
-| `|var|PLC210 (Arm32bit + Linux ).Application.PLC_PRG.t5DI16` | `T5LatchClose8` | Boolean | СилКорпус / Входные переменные / Заслонки транспортера номер 5 |
-| `|var|PLC210 (Arm32bit + Linux ).Application.PLC_PRG.t5DI2` | `T5LatchClose1` | Boolean | СилКорпус / Входные переменные / Заслонки транспортера номер 5 |
-| `|var|PLC210 (Arm32bit + Linux ).Application.PLC_PRG.t5DI21` | `MembSensorAT5` | Boolean | СилКорпус / Входные переменные / Транспортеры |
-| `|var|PLC210 (Arm32bit + Linux ).Application.PLC_PRG.t5DI22` | `MembSensorBT5` | Boolean | СилКорпус / Входные переменные / Транспортеры |
-| `|var|PLC210 (Arm32bit + Linux ).Application.PLC_PRG.t5DI3` | `T5LatchOpen2` | Boolean | СилКорпус / Входные переменные / Заслонки транспортера номер 5 |
-| `|var|PLC210 (Arm32bit + Linux ).Application.PLC_PRG.t5DI4` | `T5LatchClose2` | Boolean | СилКорпус / Входные переменные / Заслонки транспортера номер 5 |
-| `|var|PLC210 (Arm32bit + Linux ).Application.PLC_PRG.t5DI5` | `T5LatchOpen3` | Boolean | СилКорпус / Входные переменные / Заслонки транспортера номер 5 |
-| `|var|PLC210 (Arm32bit + Linux ).Application.PLC_PRG.t5DI6` | `T5LatchClose3` | Boolean | СилКорпус / Входные переменные / Заслонки транспортера номер 5 |
-| `|var|PLC210 (Arm32bit + Linux ).Application.PLC_PRG.t5DI7` | `T5LatchOpen4` | Boolean | СилКорпус / Входные переменные / Заслонки транспортера номер 5 |
-| `|var|PLC210 (Arm32bit + Linux ).Application.PLC_PRG.t5DI8` | `T5LatchClose4` | Boolean | СилКорпус / Входные переменные / Заслонки транспортера номер 5 |
-| `|var|PLC210 (Arm32bit + Linux ).Application.PLC_PRG.t5DI9` | `T5LatchOpen5` | Boolean | СилКорпус / Входные переменные / Заслонки транспортера номер 5 |
-| `|var|PLC210 (Arm32bit + Linux ).Application.PLC_PRG.t5DO1` | `T5LatchSelect1` | Boolean | СилКорпус / Выходные переменные / Заслонки транспортера номер 5 |
-| `|var|PLC210 (Arm32bit + Linux ).Application.PLC_PRG.t5DO11` | `T5LatchRunOpen` | Boolean | СилКорпус / Выходные переменные / Заслонки транспортера номер 5 |
-| `|var|PLC210 (Arm32bit + Linux ).Application.PLC_PRG.t5DO12` | `T5LatchRunClose` | Boolean | СилКорпус / Выходные переменные / Заслонки транспортера номер 5 |
-| `|var|PLC210 (Arm32bit + Linux ).Application.PLC_PRG.t5DO2` | `T5LatchSelect2` | Boolean | СилКорпус / Выходные переменные / Заслонки транспортера номер 5 |
-| `|var|PLC210 (Arm32bit + Linux ).Application.PLC_PRG.t5DO3` | `T5LatchSelect3` | Boolean | СилКорпус / Выходные переменные / Заслонки транспортера номер 5 |
-| `|var|PLC210 (Arm32bit + Linux ).Application.PLC_PRG.t5DO4` | `T5LatchSelect4` | Boolean | СилКорпус / Выходные переменные / Заслонки транспортера номер 5 |
-| `|var|PLC210 (Arm32bit + Linux ).Application.PLC_PRG.t5DO5` | `T5LatchSelect5` | Boolean | СилКорпус / Выходные переменные / Заслонки транспортера номер 5 |
-| `|var|PLC210 (Arm32bit + Linux ).Application.PLC_PRG.t5DO6` | `T5LatchSelect6` | Boolean | СилКорпус / Выходные переменные / Заслонки транспортера номер 5 |
-| `|var|PLC210 (Arm32bit + Linux ).Application.PLC_PRG.t5DO7` | `T5LatchSelect7` | Boolean | СилКорпус / Выходные переменные / Заслонки транспортера номер 5 |
-| `|var|PLC210 (Arm32bit + Linux ).Application.PLC_PRG.t5DO8` | `T5LatchSelect8` | Boolean | СилКорпус / Выходные переменные / Заслонки транспортера номер 5 |
-| `|var|PLC210 (Arm32bit + Linux ).Application.PLC_PRG.t5Freq` | `T5FreqToPLC` | Single | СилКорпус / Выходные переменные / Задание частоты ЧП транспортеров |
-| `|var|PLC210 (Arm32bit + Linux ).Application.PLC_PRG.t5FreqMonitoring` | `T5Freq` | Single | СилКорпус / Входные переменные / Переменные телеметрии Частотных преобразователей |
-| `|var|PLC210 (Arm32bit + Linux ).Application.PLC_PRG.t5Power` | `T5Power` | Single | СилКорпус / Входные переменные / Переменные телеметрии Частотных преобразователей |
-| `|var|PLC210 (Arm32bit + Linux ).Application.PLC_PRG.t6DI1` | `MembSensorBT6` | Boolean | СилКорпус / Входные переменные / Транспортеры |
-| `|var|PLC210 (Arm32bit + Linux ).Application.PLC_PRG.t6DI11` | `T6LatchOpen1` | Boolean | СилКорпус / Входные переменные / Заслонки транспортера номер 6 |
-| `|var|PLC210 (Arm32bit + Linux ).Application.PLC_PRG.t6DI12` | `T6LatchClose1` | Boolean | СилКорпус / Входные переменные / Заслонки транспортера номер 6 |
-| `|var|PLC210 (Arm32bit + Linux ).Application.PLC_PRG.t6DI13` | `T6LatchOpen2` | Boolean | СилКорпус / Входные переменные / Заслонки транспортера номер 6 |
-| `|var|PLC210 (Arm32bit + Linux ).Application.PLC_PRG.t6DI14` | `T6LatchClose2` | Boolean | СилКорпус / Входные переменные / Заслонки транспортера номер 6 |
-| `|var|PLC210 (Arm32bit + Linux ).Application.PLC_PRG.t6DI15` | `T6LatchOpen3` | Boolean | СилКорпус / Входные переменные / Заслонки транспортера номер 6 |
-| `|var|PLC210 (Arm32bit + Linux ).Application.PLC_PRG.t6DI16` | `T6LatchClose3` | Boolean | СилКорпус / Входные переменные / Заслонки транспортера номер 6 |
-| `|var|PLC210 (Arm32bit + Linux ).Application.PLC_PRG.t6DI17` | `T6LatchOpen4` | Boolean | СилКорпус / Входные переменные / Заслонки транспортера номер 6 |
-| `|var|PLC210 (Arm32bit + Linux ).Application.PLC_PRG.t6DI18` | `T6LatchClose4` | Boolean | СилКорпус / Входные переменные / Заслонки транспортера номер 6 |
-| `|var|PLC210 (Arm32bit + Linux ).Application.PLC_PRG.t6DI19` | `T6LatchOpen5` | Boolean | СилКорпус / Входные переменные / Заслонки транспортера номер 6 |
-| `|var|PLC210 (Arm32bit + Linux ).Application.PLC_PRG.t6DI20` | `T6LatchClose5` | Boolean | СилКорпус / Входные переменные / Заслонки транспортера номер 6 |
-| `|var|PLC210 (Arm32bit + Linux ).Application.PLC_PRG.t6DI21` | `T6LatchOpen6` | Boolean | СилКорпус / Входные переменные / Заслонки транспортера номер 6 |
-| `|var|PLC210 (Arm32bit + Linux ).Application.PLC_PRG.t6DI22` | `T6LatchClose6` | Boolean | СилКорпус / Входные переменные / Заслонки транспортера номер 6 |
-| `|var|PLC210 (Arm32bit + Linux ).Application.PLC_PRG.t6DI23` | `T6LatchOpen7` | Boolean | СилКорпус / Входные переменные / Заслонки транспортера номер 6 |
-| `|var|PLC210 (Arm32bit + Linux ).Application.PLC_PRG.t6DI24` | `T6LatchClose7` | Boolean | СилКорпус / Входные переменные / Заслонки транспортера номер 6 |
-| `|var|PLC210 (Arm32bit + Linux ).Application.PLC_PRG.t6DI25` | `T6LatchOpen8` | Boolean | СилКорпус / Входные переменные / Заслонки транспортера номер 6 |
-| `|var|PLC210 (Arm32bit + Linux ).Application.PLC_PRG.t6DI26` | `T6LatchClose8` | Boolean | СилКорпус / Входные переменные / Заслонки транспортера номер 6 |
-| `|var|PLC210 (Arm32bit + Linux ).Application.PLC_PRG.t6DI27` | `T6LatchOpen9` | Boolean | СилКорпус / Входные переменные / Заслонки транспортера номер 6 |
-| `|var|PLC210 (Arm32bit + Linux ).Application.PLC_PRG.t6DI28` | `T6LatchClose9` | Boolean | СилКорпус / Входные переменные / Заслонки транспортера номер 6 |
-| `|var|PLC210 (Arm32bit + Linux ).Application.PLC_PRG.t6DI29` | `T6LatchOpen10` | Boolean | СилКорпус / Входные переменные / Заслонки транспортера номер 6 |
-| `|var|PLC210 (Arm32bit + Linux ).Application.PLC_PRG.t6DI30` | `T6LatchClose10` | Boolean | СилКорпус / Входные переменные / Заслонки транспортера номер 6 |
-| `|var|PLC210 (Arm32bit + Linux ).Application.PLC_PRG.t6DI32` | `MembSensorAT6` | Boolean | СилКорпус / Входные переменные / Транспортеры |
-| `|var|PLC210 (Arm32bit + Linux ).Application.PLC_PRG.t6DO10` | `T6LatchSelect6` | Boolean | СилКорпус / Выходные переменные / Заслонки транспортера номер 6 |
-| `|var|PLC210 (Arm32bit + Linux ).Application.PLC_PRG.t6DO11` | `T6LatchSelect7` | Boolean | СилКорпус / Выходные переменные / Заслонки транспортера номер 6 |
-| `|var|PLC210 (Arm32bit + Linux ).Application.PLC_PRG.t6DO12` | `T6LatchSelect8` | Boolean | СилКорпус / Выходные переменные / Заслонки транспортера номер 6 |
-| `|var|PLC210 (Arm32bit + Linux ).Application.PLC_PRG.t6DO13` | `T6LatchSelect9` | Boolean | СилКорпус / Выходные переменные / Заслонки транспортера номер 6 |
-| `|var|PLC210 (Arm32bit + Linux ).Application.PLC_PRG.t6DO14` | `T6LatchSelect10` | Boolean | СилКорпус / Выходные переменные / Заслонки транспортера номер 6 |
-| `|var|PLC210 (Arm32bit + Linux ).Application.PLC_PRG.t6DO15` | `T6LatchRunOpen` | Boolean | СилКорпус / Выходные переменные / Заслонки транспортера номер 6 |
-| `|var|PLC210 (Arm32bit + Linux ).Application.PLC_PRG.t6DO16` | `T6LatchRunClose` | Boolean | СилКорпус / Выходные переменные / Заслонки транспортера номер 6 |
-| `|var|PLC210 (Arm32bit + Linux ).Application.PLC_PRG.t6DO5` | `T6LatchSelect1` | Boolean | СилКорпус / Выходные переменные / Заслонки транспортера номер 6 |
-| `|var|PLC210 (Arm32bit + Linux ).Application.PLC_PRG.t6DO6` | `T6LatchSelect2` | Boolean | СилКорпус / Выходные переменные / Заслонки транспортера номер 6 |
-| `|var|PLC210 (Arm32bit + Linux ).Application.PLC_PRG.t6DO7` | `T6LatchSelect3` | Boolean | СилКорпус / Выходные переменные / Заслонки транспортера номер 6 |
-| `|var|PLC210 (Arm32bit + Linux ).Application.PLC_PRG.t6DO8` | `T6LatchSelect4` | Boolean | СилКорпус / Выходные переменные / Заслонки транспортера номер 6 |
-| `|var|PLC210 (Arm32bit + Linux ).Application.PLC_PRG.t6DO9` | `T6LatchSelect5` | Boolean | СилКорпус / Выходные переменные / Заслонки транспортера номер 6 |
-| `|var|PLC210 (Arm32bit + Linux ).Application.PLC_PRG.t6Freq` | `T6FreqToPLC` | Single | СилКорпус / Выходные переменные / Задание частоты ЧП транспортеров |
-| `|var|PLC210 (Arm32bit + Linux ).Application.PLC_PRG.t6FreqMonitoring` | `T6Freq` | Single | СилКорпус / Входные переменные / Переменные телеметрии Частотных преобразователей |
-| `|var|PLC210 (Arm32bit + Linux ).Application.PLC_PRG.t6Power` | `T6Power` | Single | СилКорпус / Входные переменные / Переменные телеметрии Частотных преобразователей |
-| `|var|PLC210 (Arm32bit + Linux ).Application.PLC_PRG.t7DI1` | `MembSensorBT7` | Boolean | СилКорпус / Входные переменные / Транспортеры |
-| `|var|PLC210 (Arm32bit + Linux ).Application.PLC_PRG.t7DI11` | `T7LatchOpen1` | Boolean | СилКорпус / Входные переменные / Заслонки транспортера номер 7 |
-| `|var|PLC210 (Arm32bit + Linux ).Application.PLC_PRG.t7DI12` | `T7LatchClose1` | Boolean | СилКорпус / Входные переменные / Заслонки транспортера номер 7 |
-| `|var|PLC210 (Arm32bit + Linux ).Application.PLC_PRG.t7DI13` | `T7LatchOpen2` | Boolean | СилКорпус / Входные переменные / Заслонки транспортера номер 7 |
-| `|var|PLC210 (Arm32bit + Linux ).Application.PLC_PRG.t7DI14` | `T7LatchClose2` | Boolean | СилКорпус / Входные переменные / Заслонки транспортера номер 7 |
-| `|var|PLC210 (Arm32bit + Linux ).Application.PLC_PRG.t7DI15` | `T7LatchOpen3` | Boolean | СилКорпус / Входные переменные / Заслонки транспортера номер 7 |
-| `|var|PLC210 (Arm32bit + Linux ).Application.PLC_PRG.t7DI16` | `T7LatchClose3` | Boolean | СилКорпус / Входные переменные / Заслонки транспортера номер 7 |
-| `|var|PLC210 (Arm32bit + Linux ).Application.PLC_PRG.t7DI17` | `T7LatchOpen4` | Boolean | СилКорпус / Входные переменные / Заслонки транспортера номер 7 |
-| `|var|PLC210 (Arm32bit + Linux ).Application.PLC_PRG.t7DI18` | `T7LatchClose4` | Boolean | СилКорпус / Входные переменные / Заслонки транспортера номер 7 |
-| `|var|PLC210 (Arm32bit + Linux ).Application.PLC_PRG.t7DI19` | `T7LatchOpen5` | Boolean | СилКорпус / Входные переменные / Заслонки транспортера номер 7 |
-| `|var|PLC210 (Arm32bit + Linux ).Application.PLC_PRG.t7DI20` | `T7LatchClose5` | Boolean | СилКорпус / Входные переменные / Заслонки транспортера номер 7 |
-| `|var|PLC210 (Arm32bit + Linux ).Application.PLC_PRG.t7DI21` | `T7LatchOpen6` | Boolean | СилКорпус / Входные переменные / Заслонки транспортера номер 7 |
-| `|var|PLC210 (Arm32bit + Linux ).Application.PLC_PRG.t7DI22` | `T7LatchClose6` | Boolean | СилКорпус / Входные переменные / Заслонки транспортера номер 7 |
-| `|var|PLC210 (Arm32bit + Linux ).Application.PLC_PRG.t7DI23` | `T7LatchOpen7` | Boolean | СилКорпус / Входные переменные / Заслонки транспортера номер 7 |
-| `|var|PLC210 (Arm32bit + Linux ).Application.PLC_PRG.t7DI24` | `T7LatchClose7` | Boolean | СилКорпус / Входные переменные / Заслонки транспортера номер 7 |
-| `|var|PLC210 (Arm32bit + Linux ).Application.PLC_PRG.t7DI25` | `T7LatchOpen8` | Boolean | СилКорпус / Входные переменные / Заслонки транспортера номер 7 |
-| `|var|PLC210 (Arm32bit + Linux ).Application.PLC_PRG.t7DI26` | `T7LatchClose8` | Boolean | СилКорпус / Входные переменные / Заслонки транспортера номер 7 |
-| `|var|PLC210 (Arm32bit + Linux ).Application.PLC_PRG.t7DI27` | `T7LatchOpen9` | Boolean | СилКорпус / Входные переменные / Заслонки транспортера номер 7 |
-| `|var|PLC210 (Arm32bit + Linux ).Application.PLC_PRG.t7DI28` | `T7LatchClose9` | Boolean | СилКорпус / Входные переменные / Заслонки транспортера номер 7 |
-| `|var|PLC210 (Arm32bit + Linux ).Application.PLC_PRG.t7DI29` | `T7LatchOpen10` | Boolean | СилКорпус / Входные переменные / Заслонки транспортера номер 7 |
-| `|var|PLC210 (Arm32bit + Linux ).Application.PLC_PRG.t7DI30` | `T7LatchClose10` | Boolean | СилКорпус / Входные переменные / Заслонки транспортера номер 7 |
-| `|var|PLC210 (Arm32bit + Linux ).Application.PLC_PRG.t7DI32` | `MembSensorAT7` | Boolean | СилКорпус / Входные переменные / Транспортеры |
-| `|var|PLC210 (Arm32bit + Linux ).Application.PLC_PRG.t7DO10` | `T7LatchSelect6` | Boolean | СилКорпус / Выходные переменные / Заслонки транспортера номер 7 |
-| `|var|PLC210 (Arm32bit + Linux ).Application.PLC_PRG.t7DO11` | `T7LatchSelect7` | Boolean | СилКорпус / Выходные переменные / Заслонки транспортера номер 7 |
-| `|var|PLC210 (Arm32bit + Linux ).Application.PLC_PRG.t7DO12` | `T7LatchSelect8` | Boolean | СилКорпус / Выходные переменные / Заслонки транспортера номер 7 |
-| `|var|PLC210 (Arm32bit + Linux ).Application.PLC_PRG.t7DO13` | `T7LatchSelect9` | Boolean | СилКорпус / Выходные переменные / Заслонки транспортера номер 7 |
-| `|var|PLC210 (Arm32bit + Linux ).Application.PLC_PRG.t7DO14` | `T7LatchSelect10` | Boolean | СилКорпус / Выходные переменные / Заслонки транспортера номер 7 |
-| `|var|PLC210 (Arm32bit + Linux ).Application.PLC_PRG.t7DO15` | `T7LatchRunOpen` | Boolean | СилКорпус / Выходные переменные / Заслонки транспортера номер 7 |
-| `|var|PLC210 (Arm32bit + Linux ).Application.PLC_PRG.t7DO16` | `T7LatchRunClose` | Boolean | СилКорпус / Выходные переменные / Заслонки транспортера номер 7 |
-| `|var|PLC210 (Arm32bit + Linux ).Application.PLC_PRG.t7DO5` | `T7LatchSelect1` | Boolean | СилКорпус / Выходные переменные / Заслонки транспортера номер 7 |
-| `|var|PLC210 (Arm32bit + Linux ).Application.PLC_PRG.t7DO6` | `T7LatchSelect2` | Boolean | СилКорпус / Выходные переменные / Заслонки транспортера номер 7 |
-| `|var|PLC210 (Arm32bit + Linux ).Application.PLC_PRG.t7DO7` | `T7LatchSelect3` | Boolean | СилКорпус / Выходные переменные / Заслонки транспортера номер 7 |
-| `|var|PLC210 (Arm32bit + Linux ).Application.PLC_PRG.t7DO8` | `T7LatchSelect4` | Boolean | СилКорпус / Выходные переменные / Заслонки транспортера номер 7 |
-| `|var|PLC210 (Arm32bit + Linux ).Application.PLC_PRG.t7DO9` | `T7LatchSelect5` | Boolean | СилКорпус / Выходные переменные / Заслонки транспортера номер 7 |
-| `|var|PLC210 (Arm32bit + Linux ).Application.PLC_PRG.t7Freq` | `T7FreqToPLC` | Single | СилКорпус / Выходные переменные / Задание частоты ЧП транспортеров |
-| `|var|PLC210 (Arm32bit + Linux ).Application.PLC_PRG.t7FreqMonitoring` | `T7Freq` | Single | СилКорпус / Входные переменные / Переменные телеметрии Частотных преобразователей |
-| `|var|PLC210 (Arm32bit + Linux ).Application.PLC_PRG.t7Power` | `T7Power` | Single | СилКорпус / Входные переменные / Переменные телеметрии Частотных преобразователей |
+| `mi0DI1` | `mi0DI1` | Boolean | ..\ |
+| `mi1DI1` | `RelayInForwardT1` | Boolean | СилКорпус / Входные переменные / Транспортеры |
+| `mi1DI10` | `RelayInReversT7` | Boolean | СилКорпус / Входные переменные / Транспортеры |
+| `mi1DI11` | `RelayInForwardT2` | Boolean | СилКорпус / Входные переменные / Транспортеры |
+| `mi1DI12` | `RelayInForwardT3` | Boolean | СилКорпус / Входные переменные / Транспортеры |
+| `mi1DI17` | `RelayInN1` | Boolean | СилКорпус / Входные переменные / Нории |
+| `mi1DI18` | `RelayInN2` | Boolean | СилКорпус / Входные переменные / Нории |
+| `mi1DI19` | `RelayInN3` | Boolean | СилКорпус / Входные переменные / Нории |
+| `mi1DI2` | `RelayInReversT1` | Boolean | СилКорпус / Входные переменные / Транспортеры |
+| `mi1DI20` | `RelayInN4` | Boolean | СилКорпус / Входные переменные / Нории |
+| `mi1DI21` | `RelayInN5` | Boolean | СилКорпус / Входные переменные / Нории |
+| `mi1DI22` | `RelayInN6` | Boolean | СилКорпус / Входные переменные / Нории |
+| `mi1DI23` | `RelayStopInT1` | Boolean | СилКорпус / Входные переменные / Транспортеры |
+| `mi1DI24` | `RelayStopInT4` | Boolean | СилКорпус / Входные переменные / Транспортеры |
+| `mi1DI25` | `RelayStopInT5` | Boolean | СилКорпус / Входные переменные / Транспортеры |
+| `mi1DI26` | `RelayStopInT6` | Boolean | СилКорпус / Входные переменные / Транспортеры |
+| `mi1DI27` | `RelayStopInT7` | Boolean | СилКорпус / Входные переменные / Транспортеры |
+| `mi1DI28` | `RelayStopInT2` | Boolean | СилКорпус / Входные переменные / Транспортеры |
+| `mi1DI29` | `RelayStopInT3` | Boolean | СилКорпус / Входные переменные / Транспортеры |
+| `mi1DI3` | `RelayInForwardT4` | Boolean | СилКорпус / Входные переменные / Транспортеры |
+| `mi1DI30` | `RelayStopInN1` | Boolean | СилКорпус / Входные переменные / Нории |
+| `mi1DI31` | `RelayStopInN2` | Boolean | СилКорпус / Входные переменные / Нории |
+| `mi1DI32` | `RelayStopInN3` | Boolean | СилКорпус / Входные переменные / Нории |
+| `mi1DI4` | `RelayInReversT2` | Boolean | СилКорпус / Входные переменные / Транспортеры |
+| `mi1DI5` | `RelayInForwardT5` | Boolean | СилКорпус / Входные переменные / Транспортеры |
+| `mi1DI6` | `RelayInReversT3` | Boolean | СилКорпус / Входные переменные / Транспортеры |
+| `mi1DI6` | `RelayInReversT5` | Boolean | СилКорпус / Входные переменные / Транспортеры |
+| `mi1DI7` | `RelayInForwardT6` | Boolean | СилКорпус / Входные переменные / Транспортеры |
+| `mi1DI8` | `RelayInReversT6` | Boolean | СилКорпус / Входные переменные / Транспортеры |
+| `mi1DI9` | `RelayInForwardT7` | Boolean | СилКорпус / Входные переменные / Транспортеры |
+| `mi3DI1` | `RelayStopInN6` | Boolean | СилКорпус / Входные переменные / Нории |
+| `mi3DI13` | `RelayAlarmN4` | Boolean | СилКорпус / Входные переменные / Нории |
+| `mi3DI14` | `RelayAlarmN1` | Boolean | СилКорпус / Входные переменные / Нории |
+| `mi3DI15` | `RelayAlarmN6` | Boolean | СилКорпус / Входные переменные / Нории |
+| `mi3DI2` | `RelayStopInN4` | Boolean | СилКорпус / Входные переменные / Нории |
+| `mi3DI3` | `RelayStopInN5` | Boolean | СилКорпус / Входные переменные / Нории |
+| `mi3DI4` | `RelayInReversT4` | Boolean | СилКорпус / Входные переменные / Транспортеры |
+| `mo1DO1` | `RelayOutForwardT1` | Boolean | СилКорпус / Выходные переменные / Транспортеры |
+| `mo1DO10` | `RelayOutReversT7` | Boolean | СилКорпус / Выходные переменные / Транспортеры |
+| `mo1DO11` | `RelayOutForwardT2` | Boolean | СилКорпус / Выходные переменные / Транспортеры |
+| `mo1DO12` | `RelayOutForwardT3` | Boolean | СилКорпус / Выходные переменные / Транспортеры |
+| `mo1DO17` | `RelayOutN1` | Boolean | СилКорпус / Выходные переменные / Нории |
+| `mo1DO18` | `RelayOutN2` | Boolean | СилКорпус / Выходные переменные / Нории |
+| `mo1DO19` | `RelayOutN3` | Boolean | СилКорпус / Выходные переменные / Нории |
+| `mo1DO2` | `RelayOutReversT1` | Boolean | СилКорпус / Выходные переменные / Транспортеры |
+| `mo1DO20` | `RelayOutN4` | Boolean | СилКорпус / Выходные переменные / Нории |
+| `mo1DO21` | `RelayOutN5` | Boolean | СилКорпус / Выходные переменные / Нории |
+| `mo1DO22` | `RelayOutN6` | Boolean | СилКорпус / Выходные переменные / Нории |
+| `mo1DO3` | `RelayOutForwardT4` | Boolean | СилКорпус / Выходные переменные / Транспортеры |
+| `mo1DO32` | `Alarm16Level` | Boolean | СилКорпус / Выходные переменные / Служебные |
+| `mo1DO32` | `Alarm1Level` | Integer | СилКорпус / Выходные переменные / Служебные |
+| `mo1DO4` | `RelayOutReversT4` | Boolean | СилКорпус / Выходные переменные / Транспортеры |
+| `mo1DO5` | `RelayOutForwardT5` | Boolean | СилКорпус / Выходные переменные / Транспортеры |
+| `mo1DO6` | `RelayOutReversT5` | Boolean | СилКорпус / Выходные переменные / Транспортеры |
+| `mo1DO7` | `RelayOutForwardT6` | Boolean | СилКорпус / Выходные переменные / Транспортеры |
+| `mo1DO8` | `RelayOutReversT6` | Boolean | СилКорпус / Выходные переменные / Транспортеры |
+| `mo1DO9` | `RelayOutForwardT7` | Boolean | СилКорпус / Выходные переменные / Транспортеры |
+| `t1DI1` | `T1LatchOpen1` | Boolean | СилКорпус / Входные переменные / Заслонки транспортера номер 1-3 |
+| `t1DI10` | `T1LatchClose5` | Boolean | СилКорпус / Входные переменные / Заслонки транспортера номер 1-3 |
+| `t1DI11` | `T1LatchOpen6` | Boolean | СилКорпус / Входные переменные / Заслонки транспортера номер 1-3 |
+| `t1DI12` | `T1LatchClose6` | Boolean | СилКорпус / Входные переменные / Заслонки транспортера номер 1-3 |
+| `t1DI13` | `T1LatchOpen7` | Boolean | СилКорпус / Входные переменные / Заслонки транспортера номер 1-3 |
+| `t1DI14` | `T1LatchClose7` | Boolean | СилКорпус / Входные переменные / Заслонки транспортера номер 1-3 |
+| `t1DI15` | `T1LatchOpen8` | Boolean | СилКорпус / Входные переменные / Заслонки транспортера номер 1-3 |
+| `t1DI16` | `T1LatchClose8` | Boolean | СилКорпус / Входные переменные / Заслонки транспортера номер 1-3 |
+| `t1DI17` | `T1LatchOpen9` | Boolean | СилКорпус / Входные переменные / Заслонки транспортера номер 1-3 |
+| `t1DI18` | `T1LatchClose9` | Boolean | СилКорпус / Входные переменные / Заслонки транспортера номер 1-3 |
+| `t1DI2` | `T1LatchClose1` | Boolean | СилКорпус / Входные переменные / Заслонки транспортера номер 1-3 |
+| `t1DI21` | `MembSensorAT1` | Boolean | СилКорпус / Входные переменные / Транспортеры |
+| `t1DI22` | `MembSensorAT2` | Boolean | СилКорпус / Входные переменные / Транспортеры |
+| `t1DI22` | `MembSensorAT3` | Boolean | СилКорпус / Входные переменные / Транспортеры |
+| `t1DI3` | `T1LatchOpen2` | Boolean | СилКорпус / Входные переменные / Заслонки транспортера номер 1-3 |
+| `t1DI4` | `T1LatchClose2` | Boolean | СилКорпус / Входные переменные / Заслонки транспортера номер 1-3 |
+| `t1DI5` | `T1LatchOpen3` | Boolean | СилКорпус / Входные переменные / Заслонки транспортера номер 1-3 |
+| `t1DI6` | `T1LatchClose3` | Boolean | СилКорпус / Входные переменные / Заслонки транспортера номер 1-3 |
+| `t1DI7` | `T1LatchOpen4` | Boolean | СилКорпус / Входные переменные / Заслонки транспортера номер 1-3 |
+| `t1DI8` | `T1LatchClose4` | Boolean | СилКорпус / Входные переменные / Заслонки транспортера номер 1-3 |
+| `t1DI9` | `T1LatchOpen5` | Boolean | СилКорпус / Входные переменные / Заслонки транспортера номер 1-3 |
+| `t1DO1` | `T1LatchSelect1` | Boolean | СилКорпус / Выходные переменные / Заслонки транспортера номер 1-3 |
+| `t1DO11` | `T1LatchRunOpen` | Boolean | СилКорпус / Выходные переменные / Заслонки транспортера номер 1-3 |
+| `t1DO12` | `T1LatchRunClose` | Boolean | СилКорпус / Выходные переменные / Заслонки транспортера номер 1-3 |
+| `t1DO2` | `T1LatchSelect2` | Boolean | СилКорпус / Выходные переменные / Заслонки транспортера номер 1-3 |
+| `t1DO3` | `T1LatchSelect3` | Boolean | СилКорпус / Выходные переменные / Заслонки транспортера номер 1-3 |
+| `t1DO4` | `T1LatchSelect4` | Boolean | СилКорпус / Выходные переменные / Заслонки транспортера номер 1-3 |
+| `t1DO5` | `T1LatchSelect5` | Boolean | СилКорпус / Выходные переменные / Заслонки транспортера номер 1-3 |
+| `t1DO6` | `T1LatchSelect6` | Boolean | СилКорпус / Выходные переменные / Заслонки транспортера номер 1-3 |
+| `t1DO7` | `T1LatchSelect7` | Boolean | СилКорпус / Выходные переменные / Заслонки транспортера номер 1-3 |
+| `t1DO8` | `T1LatchSelect8` | Boolean | СилКорпус / Выходные переменные / Заслонки транспортера номер 1-3 |
+| `t1DO9` | `T1LatchSelect9` | Boolean | СилКорпус / Выходные переменные / Заслонки транспортера номер 1-3 |
+| `t1Freq` | `T1FreqToPLC` | Single | СилКорпус / Выходные переменные / Задание частоты ЧП транспортеров |
+| `t1FreqMonitoring` | `T1Freq` | Single | СилКорпус / Входные переменные / Переменные телеметрии Частотных преобразователей |
+| `t1Power` | `T1Power` | Single | СилКорпус / Входные переменные / Переменные телеметрии Частотных преобразователей |
+| `t2Freq` | `T2FreqToPLC` | Single | СилКорпус / Выходные переменные / Задание частоты ЧП транспортеров |
+| `t2FreqMonitoring` | `T2Freq` | Single | СилКорпус / Входные переменные / Переменные телеметрии Частотных преобразователей |
+| `t2Power` | `T2Power` | Single | СилКорпус / Входные переменные / Переменные телеметрии Частотных преобразователей |
+| `t3Freq` | `T3FreqToPLC` | Single | СилКорпус / Выходные переменные / Задание частоты ЧП транспортеров |
+| `t3FreqMonitoring` | `T3Freq` | Single | СилКорпус / Входные переменные / Переменные телеметрии Частотных преобразователей |
+| `t3Power` | `T3Power` | Single | СилКорпус / Входные переменные / Переменные телеметрии Частотных преобразователей |
+| `t41DI1` | `T4ClapLatchOpen1` | Boolean | СилКорпус / Входные переменные / Заслонки транспортера номер 4 |
+| `t41DI10` | `T4ClapLatchClose5` | Boolean | СилКорпус / Входные переменные / Заслонки транспортера номер 4 |
+| `t41DI11` | `T4ClapLatchOpen6` | Boolean | СилКорпус / Входные переменные / Заслонки транспортера номер 4 |
+| `t41DI12` | `T4ClapLatchClose6` | Boolean | СилКорпус / Входные переменные / Заслонки транспортера номер 4 |
+| `t41DI13` | `T4ClapLatchOpen7` | Boolean | СилКорпус / Входные переменные / Заслонки транспортера номер 4 |
+| `t41DI14` | `T4ClapLatchClose7` | Boolean | СилКорпус / Входные переменные / Заслонки транспортера номер 4 |
+| `t41DI15` | `T4ClapLatchOpen8` | Boolean | СилКорпус / Входные переменные / Заслонки транспортера номер 4 |
+| `t41DI16` | `T4ClapLatchClose8` | Boolean | СилКорпус / Входные переменные / Заслонки транспортера номер 4 |
+| `t41DI17` | `T4ClapLatchOpen9` | Boolean | СилКорпус / Входные переменные / Заслонки транспортера номер 4 |
+| `t41DI18` | `T4ClapLatchClose9` | Boolean | СилКорпус / Входные переменные / Заслонки транспортера номер 4 |
+| `t41DI19` | `T4ClapLatchOpen10` | Boolean | СилКорпус / Входные переменные / Заслонки транспортера номер 4 |
+| `t41DI2` | `T4ClapLatchClose1` | Boolean | СилКорпус / Входные переменные / Заслонки транспортера номер 4 |
+| `t41DI20` | `T4ClapLatchClose10` | Boolean | СилКорпус / Входные переменные / Заслонки транспортера номер 4 |
+| `t41DI3` | `T4ClapLatchOpen2` | Boolean | СилКорпус / Входные переменные / Заслонки транспортера номер 4 |
+| `t41DI4` | `T4ClapLatchClose2` | Boolean | СилКорпус / Входные переменные / Заслонки транспортера номер 4 |
+| `t41DI5` | `T4ClapLatchOpen3` | Boolean | СилКорпус / Входные переменные / Заслонки транспортера номер 4 |
+| `t41DI6` | `T4ClapLatchClose3` | Boolean | СилКорпус / Входные переменные / Заслонки транспортера номер 4 |
+| `t41DI7` | `T4ClapLatchOpen4` | Boolean | СилКорпус / Входные переменные / Заслонки транспортера номер 4 |
+| `t41DI8` | `T4ClapLatchClose4` | Boolean | СилКорпус / Входные переменные / Заслонки транспортера номер 4 |
+| `t41DI9` | `T4ClapLatchOpen5` | Boolean | СилКорпус / Входные переменные / Заслонки транспортера номер 4 |
+| `t41DO1` | `T4ClapLatchSelect1` | Boolean | СилКорпус / Выходные переменные / Заслонки транспортера номер 4 |
+| `t41DO10` | `T4ClapLatchSelect10` | Boolean | СилКорпус / Выходные переменные / Заслонки транспортера номер 4 |
+| `t41DO11` | `T4ClapLatchRunOpen` | Boolean | СилКорпус / Выходные переменные / Заслонки транспортера номер 4 |
+| `t41DO12` | `T4ClapLatchRunClose` | Boolean | СилКорпус / Выходные переменные / Заслонки транспортера номер 4 |
+| `t41DO2` | `T4ClapLatchSelect2` | Boolean | СилКорпус / Выходные переменные / Заслонки транспортера номер 4 |
+| `t41DO3` | `T4ClapLatchSelect3` | Boolean | СилКорпус / Выходные переменные / Заслонки транспортера номер 4 |
+| `t41DO4` | `T4ClapLatchSelect4` | Boolean | СилКорпус / Выходные переменные / Заслонки транспортера номер 4 |
+| `t41DO5` | `T4ClapLatchSelect5` | Boolean | СилКорпус / Выходные переменные / Заслонки транспортера номер 4 |
+| `t41DO6` | `T4ClapLatchSelect6` | Boolean | СилКорпус / Выходные переменные / Заслонки транспортера номер 4 |
+| `t41DO7` | `T4ClapLatchSelect7` | Boolean | СилКорпус / Выходные переменные / Заслонки транспортера номер 4 |
+| `t41DO8` | `T4ClapLatchSelect8` | Boolean | СилКорпус / Выходные переменные / Заслонки транспортера номер 4 |
+| `t41DO9` | `T4ClapLatchSelect9` | Boolean | СилКорпус / Выходные переменные / Заслонки транспортера номер 4 |
+| `t4DI1` | `T4LatchOpen1` | Boolean | СилКорпус / Входные переменные / Заслонки транспортера номер 4 |
+| `t4DI10` | `T4LatchClose5` | Boolean | СилКорпус / Входные переменные / Заслонки транспортера номер 4 |
+| `t4DI11` | `T4LatchOpen6` | Boolean | СилКорпус / Входные переменные / Заслонки транспортера номер 4 |
+| `t4DI12` | `T4LatchClose6` | Boolean | СилКорпус / Входные переменные / Заслонки транспортера номер 4 |
+| `t4DI13` | `T4LatchOpen7` | Boolean | СилКорпус / Входные переменные / Заслонки транспортера номер 4 |
+| `t4DI14` | `T4LatchClose7` | Boolean | СилКорпус / Входные переменные / Заслонки транспортера номер 4 |
+| `t4DI15` | `T4LatchOpen8` | Boolean | СилКорпус / Входные переменные / Заслонки транспортера номер 4 |
+| `t4DI16` | `T4LatchClose8` | Boolean | СилКорпус / Входные переменные / Заслонки транспортера номер 4 |
+| `t4DI17` | `T4LatchOpen9` | Boolean | СилКорпус / Входные переменные / Заслонки транспортера номер 4 |
+| `t4DI18` | `T4LatchClose9` | Boolean | СилКорпус / Входные переменные / Заслонки транспортера номер 4 |
+| `t4DI19` | `T4LatchOpen10` | Boolean | СилКорпус / Входные переменные / Заслонки транспортера номер 4 |
+| `t4DI2` | `T4LatchClose1` | Boolean | СилКорпус / Входные переменные / Заслонки транспортера номер 4 |
+| `t4DI20` | `T4LatchClose10` | Boolean | СилКорпус / Входные переменные / Заслонки транспортера номер 4 |
+| `t4DI21` | `MembSensorAT4` | Boolean | СилКорпус / Входные переменные / Транспортеры |
+| `t4DI22` | `MembSensorBT4` | Boolean | СилКорпус / Входные переменные / Транспортеры |
+| `t4DI3` | `T4LatchOpen2` | Boolean | СилКорпус / Входные переменные / Заслонки транспортера номер 4 |
+| `t4DI4` | `T4LatchClose2` | Boolean | СилКорпус / Входные переменные / Заслонки транспортера номер 4 |
+| `t4DI5` | `T4LatchOpen3` | Boolean | СилКорпус / Входные переменные / Заслонки транспортера номер 4 |
+| `t4DI6` | `T4LatchClose3` | Boolean | СилКорпус / Входные переменные / Заслонки транспортера номер 4 |
+| `t4DI7` | `T4LatchOpen4` | Boolean | СилКорпус / Входные переменные / Заслонки транспортера номер 4 |
+| `t4DI8` | `T4LatchClose4` | Boolean | СилКорпус / Входные переменные / Заслонки транспортера номер 4 |
+| `t4DI9` | `T4LatchOpen5` | Boolean | СилКорпус / Входные переменные / Заслонки транспортера номер 4 |
+| `t4DO1` | `T4LatchSelect1` | Boolean | СилКорпус / Выходные переменные / Заслонки транспортера номер 4 |
+| `t4DO10` | `T4LatchSelect10` | Boolean | СилКорпус / Выходные переменные / Заслонки транспортера номер 4 |
+| `t4DO11` | `T4LatchRunOpen` | Boolean | СилКорпус / Выходные переменные / Заслонки транспортера номер 4 |
+| `t4DO12` | `T4LatchRunClose` | Boolean | СилКорпус / Выходные переменные / Заслонки транспортера номер 4 |
+| `t4DO2` | `T4LatchSelect2` | Boolean | СилКорпус / Выходные переменные / Заслонки транспортера номер 4 |
+| `t4DO3` | `T4LatchSelect3` | Boolean | СилКорпус / Выходные переменные / Заслонки транспортера номер 4 |
+| `t4DO4` | `T4LatchSelect4` | Boolean | СилКорпус / Выходные переменные / Заслонки транспортера номер 4 |
+| `t4DO5` | `T4LatchSelect5` | Boolean | СилКорпус / Выходные переменные / Заслонки транспортера номер 4 |
+| `t4DO6` | `T4LatchSelect6` | Boolean | СилКорпус / Выходные переменные / Заслонки транспортера номер 4 |
+| `t4DO7` | `T4LatchSelect7` | Boolean | СилКорпус / Выходные переменные / Заслонки транспортера номер 4 |
+| `t4DO8` | `T4LatchSelect8` | Boolean | СилКорпус / Выходные переменные / Заслонки транспортера номер 4 |
+| `t4DO9` | `T4LatchSelect9` | Boolean | СилКорпус / Выходные переменные / Заслонки транспортера номер 4 |
+| `t4Freq` | `T4FreqToPLC` | Single | СилКорпус / Выходные переменные / Задание частоты ЧП транспортеров |
+| `t4FreqMonitoring` | `T4Freq` | Single | СилКорпус / Входные переменные / Переменные телеметрии Частотных преобразователей |
+| `t4Power` | `T4Power` | Single | СилКорпус / Входные переменные / Переменные телеметрии Частотных преобразователей |
+| `t51DI1` | `T5ClapLatchOpen1` | Boolean | СилКорпус / Входные переменные / Заслонки транспортера номер 5 |
+| `t51DI10` | `T5ClapLatchClose5` | Boolean | СилКорпус / Входные переменные / Заслонки транспортера номер 5 |
+| `t51DI11` | `T5ClapLatchOpen6` | Boolean | СилКорпус / Входные переменные / Заслонки транспортера номер 5 |
+| `t51DI12` | `T5ClapLatchClose6` | Boolean | СилКорпус / Входные переменные / Заслонки транспортера номер 5 |
+| `t51DI13` | `T5ClapLatchOpen7` | Boolean | СилКорпус / Входные переменные / Заслонки транспортера номер 5 |
+| `t51DI14` | `T5ClapLatchClose7` | Boolean | СилКорпус / Входные переменные / Заслонки транспортера номер 5 |
+| `t51DI15` | `T5ClapLatchOpen8` | Boolean | СилКорпус / Входные переменные / Заслонки транспортера номер 5 |
+| `t51DI16` | `T5ClapLatchClose8` | Boolean | СилКорпус / Входные переменные / Заслонки транспортера номер 5 |
+| `t51DI2` | `T5ClapLatchClose1` | Boolean | СилКорпус / Входные переменные / Заслонки транспортера номер 5 |
+| `t51DI3` | `T5ClapLatchOpen2` | Boolean | СилКорпус / Входные переменные / Заслонки транспортера номер 5 |
+| `t51DI4` | `T5ClapLatchClose2` | Boolean | СилКорпус / Входные переменные / Заслонки транспортера номер 5 |
+| `t51DI5` | `T5ClapLatchOpen3` | Boolean | СилКорпус / Входные переменные / Заслонки транспортера номер 5 |
+| `t51DI6` | `T5ClapLatchClose3` | Boolean | СилКорпус / Входные переменные / Заслонки транспортера номер 5 |
+| `t51DI7` | `T5ClapLatchOpen4` | Boolean | СилКорпус / Входные переменные / Заслонки транспортера номер 5 |
+| `t51DI8` | `T5ClapLatchClose4` | Boolean | СилКорпус / Входные переменные / Заслонки транспортера номер 5 |
+| `t51DI9` | `T5ClapLatchOpen5` | Boolean | СилКорпус / Входные переменные / Заслонки транспортера номер 5 |
+| `t51DO1` | `T5ClapLatchSelect1` | Boolean | СилКорпус / Выходные переменные / Заслонки транспортера номер 5 |
+| `t51DO11` | `T5ClapLatchRunOpen` | Boolean | СилКорпус / Выходные переменные / Заслонки транспортера номер 5 |
+| `t51DO12` | `T5ClapLatchRunClose` | Boolean | СилКорпус / Выходные переменные / Заслонки транспортера номер 5 |
+| `t51DO2` | `T5ClapLatchSelect2` | Boolean | СилКорпус / Выходные переменные / Заслонки транспортера номер 5 |
+| `t51DO3` | `T5ClapLatchSelect3` | Boolean | СилКорпус / Выходные переменные / Заслонки транспортера номер 5 |
+| `t51DO4` | `T5ClapLatchSelect4` | Boolean | СилКорпус / Выходные переменные / Заслонки транспортера номер 5 |
+| `t51DO5` | `T5ClapLatchSelect5` | Boolean | СилКорпус / Выходные переменные / Заслонки транспортера номер 5 |
+| `t51DO6` | `T5ClapLatchSelect6` | Boolean | СилКорпус / Выходные переменные / Заслонки транспортера номер 5 |
+| `t51DO7` | `T5ClapLatchSelect7` | Boolean | СилКорпус / Выходные переменные / Заслонки транспортера номер 5 |
+| `t51DO8` | `T5ClapLatchSelect8` | Boolean | СилКорпус / Выходные переменные / Заслонки транспортера номер 5 |
+| `t5DI1` | `T5LatchOpen1` | Boolean | СилКорпус / Входные переменные / Заслонки транспортера номер 5 |
+| `t5DI10` | `T5LatchClose5` | Boolean | СилКорпус / Входные переменные / Заслонки транспортера номер 5 |
+| `t5DI11` | `T5LatchOpen6` | Boolean | СилКорпус / Входные переменные / Заслонки транспортера номер 5 |
+| `t5DI12` | `T5LatchClose6` | Boolean | СилКорпус / Входные переменные / Заслонки транспортера номер 5 |
+| `t5DI13` | `T5LatchOpen7` | Boolean | СилКорпус / Входные переменные / Заслонки транспортера номер 5 |
+| `t5DI14` | `T5LatchClose7` | Boolean | СилКорпус / Входные переменные / Заслонки транспортера номер 5 |
+| `t5DI15` | `T5LatchOpen8` | Boolean | СилКорпус / Входные переменные / Заслонки транспортера номер 5 |
+| `t5DI16` | `T5LatchClose8` | Boolean | СилКорпус / Входные переменные / Заслонки транспортера номер 5 |
+| `t5DI2` | `T5LatchClose1` | Boolean | СилКорпус / Входные переменные / Заслонки транспортера номер 5 |
+| `t5DI21` | `MembSensorAT5` | Boolean | СилКорпус / Входные переменные / Транспортеры |
+| `t5DI22` | `MembSensorBT5` | Boolean | СилКорпус / Входные переменные / Транспортеры |
+| `t5DI3` | `T5LatchOpen2` | Boolean | СилКорпус / Входные переменные / Заслонки транспортера номер 5 |
+| `t5DI4` | `T5LatchClose2` | Boolean | СилКорпус / Входные переменные / Заслонки транспортера номер 5 |
+| `t5DI5` | `T5LatchOpen3` | Boolean | СилКорпус / Входные переменные / Заслонки транспортера номер 5 |
+| `t5DI6` | `T5LatchClose3` | Boolean | СилКорпус / Входные переменные / Заслонки транспортера номер 5 |
+| `t5DI7` | `T5LatchOpen4` | Boolean | СилКорпус / Входные переменные / Заслонки транспортера номер 5 |
+| `t5DI8` | `T5LatchClose4` | Boolean | СилКорпус / Входные переменные / Заслонки транспортера номер 5 |
+| `t5DI9` | `T5LatchOpen5` | Boolean | СилКорпус / Входные переменные / Заслонки транспортера номер 5 |
+| `t5DO1` | `T5LatchSelect1` | Boolean | СилКорпус / Выходные переменные / Заслонки транспортера номер 5 |
+| `t5DO11` | `T5LatchRunOpen` | Boolean | СилКорпус / Выходные переменные / Заслонки транспортера номер 5 |
+| `t5DO12` | `T5LatchRunClose` | Boolean | СилКорпус / Выходные переменные / Заслонки транспортера номер 5 |
+| `t5DO2` | `T5LatchSelect2` | Boolean | СилКорпус / Выходные переменные / Заслонки транспортера номер 5 |
+| `t5DO3` | `T5LatchSelect3` | Boolean | СилКорпус / Выходные переменные / Заслонки транспортера номер 5 |
+| `t5DO4` | `T5LatchSelect4` | Boolean | СилКорпус / Выходные переменные / Заслонки транспортера номер 5 |
+| `t5DO5` | `T5LatchSelect5` | Boolean | СилКорпус / Выходные переменные / Заслонки транспортера номер 5 |
+| `t5DO6` | `T5LatchSelect6` | Boolean | СилКорпус / Выходные переменные / Заслонки транспортера номер 5 |
+| `t5DO7` | `T5LatchSelect7` | Boolean | СилКорпус / Выходные переменные / Заслонки транспортера номер 5 |
+| `t5DO8` | `T5LatchSelect8` | Boolean | СилКорпус / Выходные переменные / Заслонки транспортера номер 5 |
+| `t5Freq` | `T5FreqToPLC` | Single | СилКорпус / Выходные переменные / Задание частоты ЧП транспортеров |
+| `t5FreqMonitoring` | `T5Freq` | Single | СилКорпус / Входные переменные / Переменные телеметрии Частотных преобразователей |
+| `t5Power` | `T5Power` | Single | СилКорпус / Входные переменные / Переменные телеметрии Частотных преобразователей |
+| `t6DI1` | `MembSensorBT6` | Boolean | СилКорпус / Входные переменные / Транспортеры |
+| `t6DI11` | `T6LatchOpen1` | Boolean | СилКорпус / Входные переменные / Заслонки транспортера номер 6 |
+| `t6DI12` | `T6LatchClose1` | Boolean | СилКорпус / Входные переменные / Заслонки транспортера номер 6 |
+| `t6DI13` | `T6LatchOpen2` | Boolean | СилКорпус / Входные переменные / Заслонки транспортера номер 6 |
+| `t6DI14` | `T6LatchClose2` | Boolean | СилКорпус / Входные переменные / Заслонки транспортера номер 6 |
+| `t6DI15` | `T6LatchOpen3` | Boolean | СилКорпус / Входные переменные / Заслонки транспортера номер 6 |
+| `t6DI16` | `T6LatchClose3` | Boolean | СилКорпус / Входные переменные / Заслонки транспортера номер 6 |
+| `t6DI17` | `T6LatchOpen4` | Boolean | СилКорпус / Входные переменные / Заслонки транспортера номер 6 |
+| `t6DI18` | `T6LatchClose4` | Boolean | СилКорпус / Входные переменные / Заслонки транспортера номер 6 |
+| `t6DI19` | `T6LatchOpen5` | Boolean | СилКорпус / Входные переменные / Заслонки транспортера номер 6 |
+| `t6DI20` | `T6LatchClose5` | Boolean | СилКорпус / Входные переменные / Заслонки транспортера номер 6 |
+| `t6DI21` | `T6LatchOpen6` | Boolean | СилКорпус / Входные переменные / Заслонки транспортера номер 6 |
+| `t6DI22` | `T6LatchClose6` | Boolean | СилКорпус / Входные переменные / Заслонки транспортера номер 6 |
+| `t6DI23` | `T6LatchOpen7` | Boolean | СилКорпус / Входные переменные / Заслонки транспортера номер 6 |
+| `t6DI24` | `T6LatchClose7` | Boolean | СилКорпус / Входные переменные / Заслонки транспортера номер 6 |
+| `t6DI25` | `T6LatchOpen8` | Boolean | СилКорпус / Входные переменные / Заслонки транспортера номер 6 |
+| `t6DI26` | `T6LatchClose8` | Boolean | СилКорпус / Входные переменные / Заслонки транспортера номер 6 |
+| `t6DI27` | `T6LatchOpen9` | Boolean | СилКорпус / Входные переменные / Заслонки транспортера номер 6 |
+| `t6DI28` | `T6LatchClose9` | Boolean | СилКорпус / Входные переменные / Заслонки транспортера номер 6 |
+| `t6DI29` | `T6LatchOpen10` | Boolean | СилКорпус / Входные переменные / Заслонки транспортера номер 6 |
+| `t6DI30` | `T6LatchClose10` | Boolean | СилКорпус / Входные переменные / Заслонки транспортера номер 6 |
+| `t6DI32` | `MembSensorAT6` | Boolean | СилКорпус / Входные переменные / Транспортеры |
+| `t6DO10` | `T6LatchSelect6` | Boolean | СилКорпус / Выходные переменные / Заслонки транспортера номер 6 |
+| `t6DO11` | `T6LatchSelect7` | Boolean | СилКорпус / Выходные переменные / Заслонки транспортера номер 6 |
+| `t6DO12` | `T6LatchSelect8` | Boolean | СилКорпус / Выходные переменные / Заслонки транспортера номер 6 |
+| `t6DO13` | `T6LatchSelect9` | Boolean | СилКорпус / Выходные переменные / Заслонки транспортера номер 6 |
+| `t6DO14` | `T6LatchSelect10` | Boolean | СилКорпус / Выходные переменные / Заслонки транспортера номер 6 |
+| `t6DO15` | `T6LatchRunOpen` | Boolean | СилКорпус / Выходные переменные / Заслонки транспортера номер 6 |
+| `t6DO16` | `T6LatchRunClose` | Boolean | СилКорпус / Выходные переменные / Заслонки транспортера номер 6 |
+| `t6DO5` | `T6LatchSelect1` | Boolean | СилКорпус / Выходные переменные / Заслонки транспортера номер 6 |
+| `t6DO6` | `T6LatchSelect2` | Boolean | СилКорпус / Выходные переменные / Заслонки транспортера номер 6 |
+| `t6DO7` | `T6LatchSelect3` | Boolean | СилКорпус / Выходные переменные / Заслонки транспортера номер 6 |
+| `t6DO8` | `T6LatchSelect4` | Boolean | СилКорпус / Выходные переменные / Заслонки транспортера номер 6 |
+| `t6DO9` | `T6LatchSelect5` | Boolean | СилКорпус / Выходные переменные / Заслонки транспортера номер 6 |
+| `t6Freq` | `T6FreqToPLC` | Single | СилКорпус / Выходные переменные / Задание частоты ЧП транспортеров |
+| `t6FreqMonitoring` | `T6Freq` | Single | СилКорпус / Входные переменные / Переменные телеметрии Частотных преобразователей |
+| `t6Power` | `T6Power` | Single | СилКорпус / Входные переменные / Переменные телеметрии Частотных преобразователей |
+| `t7DI1` | `MembSensorBT7` | Boolean | СилКорпус / Входные переменные / Транспортеры |
+| `t7DI11` | `T7LatchOpen1` | Boolean | СилКорпус / Входные переменные / Заслонки транспортера номер 7 |
+| `t7DI12` | `T7LatchClose1` | Boolean | СилКорпус / Входные переменные / Заслонки транспортера номер 7 |
+| `t7DI13` | `T7LatchOpen2` | Boolean | СилКорпус / Входные переменные / Заслонки транспортера номер 7 |
+| `t7DI14` | `T7LatchClose2` | Boolean | СилКорпус / Входные переменные / Заслонки транспортера номер 7 |
+| `t7DI15` | `T7LatchOpen3` | Boolean | СилКорпус / Входные переменные / Заслонки транспортера номер 7 |
+| `t7DI16` | `T7LatchClose3` | Boolean | СилКорпус / Входные переменные / Заслонки транспортера номер 7 |
+| `t7DI17` | `T7LatchOpen4` | Boolean | СилКорпус / Входные переменные / Заслонки транспортера номер 7 |
+| `t7DI18` | `T7LatchClose4` | Boolean | СилКорпус / Входные переменные / Заслонки транспортера номер 7 |
+| `t7DI19` | `T7LatchOpen5` | Boolean | СилКорпус / Входные переменные / Заслонки транспортера номер 7 |
+| `t7DI20` | `T7LatchClose5` | Boolean | СилКорпус / Входные переменные / Заслонки транспортера номер 7 |
+| `t7DI21` | `T7LatchOpen6` | Boolean | СилКорпус / Входные переменные / Заслонки транспортера номер 7 |
+| `t7DI22` | `T7LatchClose6` | Boolean | СилКорпус / Входные переменные / Заслонки транспортера номер 7 |
+| `t7DI23` | `T7LatchOpen7` | Boolean | СилКорпус / Входные переменные / Заслонки транспортера номер 7 |
+| `t7DI24` | `T7LatchClose7` | Boolean | СилКорпус / Входные переменные / Заслонки транспортера номер 7 |
+| `t7DI25` | `T7LatchOpen8` | Boolean | СилКорпус / Входные переменные / Заслонки транспортера номер 7 |
+| `t7DI26` | `T7LatchClose8` | Boolean | СилКорпус / Входные переменные / Заслонки транспортера номер 7 |
+| `t7DI27` | `T7LatchOpen9` | Boolean | СилКорпус / Входные переменные / Заслонки транспортера номер 7 |
+| `t7DI28` | `T7LatchClose9` | Boolean | СилКорпус / Входные переменные / Заслонки транспортера номер 7 |
+| `t7DI29` | `T7LatchOpen10` | Boolean | СилКорпус / Входные переменные / Заслонки транспортера номер 7 |
+| `t7DI30` | `T7LatchClose10` | Boolean | СилКорпус / Входные переменные / Заслонки транспортера номер 7 |
+| `t7DI32` | `MembSensorAT7` | Boolean | СилКорпус / Входные переменные / Транспортеры |
+| `t7DO10` | `T7LatchSelect6` | Boolean | СилКорпус / Выходные переменные / Заслонки транспортера номер 7 |
+| `t7DO11` | `T7LatchSelect7` | Boolean | СилКорпус / Выходные переменные / Заслонки транспортера номер 7 |
+| `t7DO12` | `T7LatchSelect8` | Boolean | СилКорпус / Выходные переменные / Заслонки транспортера номер 7 |
+| `t7DO13` | `T7LatchSelect9` | Boolean | СилКорпус / Выходные переменные / Заслонки транспортера номер 7 |
+| `t7DO14` | `T7LatchSelect10` | Boolean | СилКорпус / Выходные переменные / Заслонки транспортера номер 7 |
+| `t7DO15` | `T7LatchRunOpen` | Boolean | СилКорпус / Выходные переменные / Заслонки транспортера номер 7 |
+| `t7DO16` | `T7LatchRunClose` | Boolean | СилКорпус / Выходные переменные / Заслонки транспортера номер 7 |
+| `t7DO5` | `T7LatchSelect1` | Boolean | СилКорпус / Выходные переменные / Заслонки транспортера номер 7 |
+| `t7DO6` | `T7LatchSelect2` | Boolean | СилКорпус / Выходные переменные / Заслонки транспортера номер 7 |
+| `t7DO7` | `T7LatchSelect3` | Boolean | СилКорпус / Выходные переменные / Заслонки транспортера номер 7 |
+| `t7DO8` | `T7LatchSelect4` | Boolean | СилКорпус / Выходные переменные / Заслонки транспортера номер 7 |
+| `t7DO9` | `T7LatchSelect5` | Boolean | СилКорпус / Выходные переменные / Заслонки транспортера номер 7 |
+| `t7Freq` | `T7FreqToPLC` | Single | СилКорпус / Выходные переменные / Задание частоты ЧП транспортеров |
+| `t7FreqMonitoring` | `T7Freq` | Single | СилКорпус / Входные переменные / Переменные телеметрии Частотных преобразователей |
+| `t7Power` | `T7Power` | Single | СилКорпус / Входные переменные / Переменные телеметрии Частотных преобразователей |

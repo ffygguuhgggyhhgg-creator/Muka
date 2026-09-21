@@ -12,6 +12,14 @@ import parse_svr
 import parse_svrr
 
 OUT = 'docs/reference'
+PLC_PREFIX = '|var|PLC210 (Arm32bit + Linux ).Application.PLC_PRG.'
+
+
+def short_item(item):
+    """Strip the constant PLC path and escape pipes so markdown tables hold."""
+    if item.startswith(PLC_PREFIX):
+        item = item[len(PLC_PREFIX):]
+    return item.replace('|', r'\|')
 KIND = {0x00: 'событие объекта', 0x05: 'периодический',
         0x08: 'по изменению переменной', 0x01: 'при запуске проекта',
         0x0e: 'callback пинга'}
@@ -52,12 +60,14 @@ def gen_io_map(tags):
     with open(f'{OUT}/io-map.md', 'w', encoding='utf-8') as f:
         f.write('# Карта привязки к ПЛК и весовому терминалу\n\n'
                 f'Привязано {len(rows)} тегов из {len(tags)}.\n\n'
-                '* OPC UA `opc.tcp://192.168.40.200:4840` — ОВЕН ПЛК210 '
-                '(CODESYS, `Application.PLC_PRG.<символ>`)\n'
+                '* OPC UA `opc.tcp://192.168.40.200:4840` — ОВЕН ПЛК210; '
+                'полный путь элемента — `|var|PLC210 (Arm32bit + Linux )'
+                '.Application.PLC_PRG.<символ>`, ниже указан только символ\n'
                 '* OPC DA `TENSO_OPC_DA2.1` на `localhost` — весовой терминал Тензо-М\n\n'
                 '| Символ в ПЛК / позиция | Тег SCADA | Тип | Группа |\n|---|---|---|---|\n')
         for n, t in rows:
-            f.write(f'| `{t["item"]}` | `{n}` | {t["type"]} | {t["group"]} |\n')
+            f.write(f'| `{short_item(t["item"])}` | `{n}` | {t["type"]} | '
+                    f'{t["group"]} |\n')
 
 
 def gen_tag_usage(tags, reads, writes):
@@ -85,8 +95,9 @@ def gen_variables(tags):
             f.write('| Тег | Тип | Привязка | Описание |\n|---|---|---|---|\n')
             for v in node['vars']:
                 t = tags.get(v['name'], {})
+                item = short_item(t['item']) if t.get('item') else ''
                 f.write(f'| `{v["name"]}` | {parse_svrr.TYPES.get(v["type"], "?")} | '
-                        f'{"`" + t["item"] + "`" if t.get("item") else ""} | '
+                        f'{"`" + item + "`" if item else ""} | '
                         f'{v["desc"] or ""} |\n')
 
 
